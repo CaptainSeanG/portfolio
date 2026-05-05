@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sean Gallagher | Technical Project Portfolio</title>
+  <meta name="description" content="Technical project portfolio for Sean Gallagher: aviation apps, data analysis tools, automation projects, and GitHub Pages prototypes." />
+  <style>
+    :root {
+      --bg: #07111f;
+      --bg2: #0c1b2d;
+      --card: rgba(255, 255, 255, 0.075);
+      --card2: rgba(255, 255, 255, 0.12);
+      --text: #f6f8fc;
+      --muted: #aab8ca;
+      --line: rgba(255, 255, 255, 0.14);
+      --blue: #5edcff;
+      --amber: #ffc15c;
+      --green: #78e3a2;
+      --red: #ff6678;
+      --shadow: 0 26px 80px rgba(0, 0, 0, 0.35);
+      --radius: 24px;
+      --max: 1180px;
+      --font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% 0%, rgba(94, 220, 255, 0.24), transparent 32rem),
+        radial-gradient(circle at 85% 12%, rgba(255, 193, 92, 0.18), transparent 30rem),
+        linear-gradient(145deg, #040914 0%, var(--bg) 48%, #0b1524 100%);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; }
+    .wrap { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(7, 17, 31, 0.76);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-weight: 850;
+      letter-spacing: -0.035em;
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      color: #06111e;
+      background: linear-gradient(135deg, var(--blue), var(--amber));
+      box-shadow: 0 16px 40px rgba(94, 220, 255, 0.18);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      padding: 9px 12px;
+      border-radius: 999px;
+      font-size: 0.94rem;
+    }
+
+    .nav-links a:hover { background: rgba(255,255,255,.08); color: var(--text); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 38px;
+      align-items: center;
+      padding: 78px 0 44px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--blue);
+      background: rgba(94, 220, 255, 0.10);
+      border: 1px solid rgba(94, 220, 255, 0.23);
+      padding: 8px 13px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: .92rem;
+    }
+
+    h1 {
+      margin: 24px 0 20px;
+      font-size: clamp(2.55rem, 6vw, 5.25rem);
+      line-height: .95;
+      letter-spacing: -.075em;
+    }
+
+    .lead {
+      max-width: 68ch;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1.06rem, 1.75vw, 1.26rem);
+      line-height: 1.65;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 820;
+      border: 1px solid rgba(255,255,255,.16);
+      transition: transform .16s ease, background .16s ease;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: #06111e; border: 0; background: linear-gradient(135deg, var(--blue), var(--amber)); box-shadow: 0 18px 52px rgba(94, 220, 255, .22); }
+    .btn-ghost { background: rgba(255,255,255,.06); color: var(--text); }
+    .btn-ghost:hover { background: rgba(255,255,255,.10); }
+
+    .hero-panel {
+      position: relative;
+      min-height: 470px;
+      padding: 24px;
+      border-radius: 34px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: linear-gradient(160deg, rgba(255,255,255,.12), rgba(255,255,255,.045));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-panel:before {
+      content: "";
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      right: -120px;
+      top: -150px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(94, 220, 255, .30), transparent 68%);
+    }
+
+    .screen {
+      position: relative;
+      border-radius: 24px;
+      background: rgba(3, 11, 22, .78);
+      border: 1px solid rgba(94, 220, 255, .22);
+      padding: 18px;
+      overflow: hidden;
+    }
+
+    .screen-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+      color: var(--muted);
+      font-size: .84rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .map {
+      position: relative;
+      height: 230px;
+      border-radius: 18px;
+      background:
+        linear-gradient(rgba(94,220,255,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(94,220,255,.04) 1px, transparent 1px),
+        radial-gradient(circle at 48% 48%, rgba(94,220,255,.18), transparent 25%),
+        rgba(1, 8, 17, .92);
+      background-size: 22px 22px, 22px 22px, auto, auto;
+      border: 1px solid rgba(255,255,255,.08);
+      overflow: hidden;
+    }
+
+    .state {
+      position: absolute;
+      inset: 25px 70px 30px 88px;
+      border: 2px solid rgba(94, 220, 255, .72);
+      clip-path: polygon(17% 0%, 74% 0%, 90% 39%, 72% 100%, 22% 100%, 4% 49%);
+      filter: drop-shadow(0 0 18px rgba(94, 220, 255, .34));
+    }
+
+    .dot {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 999px;
+      border: 2px solid rgba(255,255,255,.82);
+      box-shadow: 0 0 22px currentColor;
+    }
+    .vfr { color: var(--green); background: var(--green); }
+    .mvfr { color: #58a6ff; background: #58a6ff; }
+    .ifr { color: var(--red); background: var(--red); }
+    .d1 { left: 46%; top: 46%; } .d2 { left: 52%; top: 49%; } .d3 { left: 59%; top: 55%; } .d4 { left: 34%; top: 36%; } .d5 { left: 70%; top: 72%; }
+
+    .metrics {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .metric {
+      border-radius: 18px;
+      padding: 14px;
+      background: rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.10);
+    }
+    .metric strong { display: block; font-size: 1.45rem; letter-spacing: -.045em; margin-bottom: 4px; }
+    .metric span { color: var(--muted); font-size: .84rem; }
+
+    section { padding: 46px 0; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
+    .section-head h2 { margin: 0; font-size: clamp(1.9rem, 3vw, 3rem); line-height: 1; letter-spacing: -.055em; }
+    .section-head p { max-width: 60ch; margin: 0; color: var(--muted); line-height: 1.6; }
+
+    .filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0 26px; }
+    .filter {
+      cursor: pointer;
+      font: inherit;
+      color: var(--muted);
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 780;
+    }
+    .filter.active, .filter:hover { color: #06111e; background: linear-gradient(135deg, var(--blue), var(--amber)); border-color: transparent; }
+
+    .projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .project {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 14px 44px rgba(0,0,0,.18);
+      transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    }
+    .project:hover { transform: translateY(-5px); background: var(--card2); border-color: rgba(94, 220, 255, .34); }
+
+    .art {
+      min-height: 158px;
+      padding: 18px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      background:
+        radial-gradient(circle at top right, rgba(255,255,255,.18), transparent 14rem),
+        linear-gradient(135deg, rgba(94,220,255,.24), rgba(255,193,92,.14));
+      border-bottom: 1px solid rgba(255,255,255,.10);
+    }
+    .icon { font-size: 3.1rem; line-height: 1; filter: drop-shadow(0 16px 22px rgba(0,0,0,.25)); }
+    .status { align-self: flex-start; color: #06111e; background: rgba(255,255,255,.80); border-radius: 999px; padding: 6px 10px; font-size: .76rem; font-weight: 900; }
+
+    .body { display: flex; flex-direction: column; flex: 1; padding: 18px; }
+    .body h3 { margin: 0 0 10px; font-size: 1.22rem; letter-spacing: -.035em; }
+    .body p { margin: 0 0 16px; color: var(--muted); line-height: 1.58; }
+    .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 10px; }
+    .tag { color: #dce8f7; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.10); border-radius: 999px; padding: 6px 9px; font-size: .78rem; font-weight: 750; }
+    .links { display: flex; gap: 12px; flex-wrap: wrap; padding-top: 16px; }
+    .links a { text-decoration: none; color: var(--text); font-weight: 850; font-size: .92rem; border-bottom: 1px solid rgba(94,220,255,.65); }
+
+    .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .proof {
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.065);
+      border: 1px solid rgba(255,255,255,.11);
+      padding: 18px;
+    }
+    .proof strong { display: block; font-size: 1.06rem; margin-bottom: 8px; }
+    .proof span { color: var(--muted); line-height: 1.5; font-size: .95rem; }
+
+    .about {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 22px;
+      align-items: stretch;
+      border-radius: 32px;
+      padding: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.12), rgba(255,255,255,.045));
+      border: 1px solid rgba(255,255,255,.13);
+      box-shadow: var(--shadow);
+    }
+    .about h2 { margin: 0 0 16px; font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1; letter-spacing: -.055em; }
+    .about p { color: var(--muted); line-height: 1.68; margin: 0 0 14px; }
+    .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 16px; }
+    .skill { padding: 12px; border-radius: 16px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.09); color: #dbe8f8; font-weight: 760; }
+    .timeline { display: grid; gap: 12px; }
+    .item { padding: 16px; border-radius: 20px; background: rgba(4,12,24,.48); border: 1px solid rgba(255,255,255,.10); }
+    .item small { display: block; color: var(--blue); font-weight: 900; margin-bottom: 6px; }
+    .item strong { display: block; margin-bottom: 5px; }
+    .item span { color: var(--muted); line-height: 1.5; }
+
+    .contact {
+      text-align: center;
+      border-radius: 32px;
+      padding: 46px 24px;
+      background: radial-gradient(circle at 50% 0%, rgba(94,220,255,.20), transparent 28rem), rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .contact h2 { margin: 0 0 14px; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.06em; }
+    .contact p { max-width: 68ch; margin: 0 auto 24px; color: var(--muted); line-height: 1.6; }
+    footer { color: var(--muted); text-align: center; padding: 38px 0 46px; font-size: .92rem; }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 940px) {
+      .hero, .about { grid-template-columns: 1fr; }
+      .hero { padding-top: 54px; }
+      .projects { grid-template-columns: repeat(2, 1fr); }
+      .proof-grid { grid-template-columns: repeat(2, 1fr); }
+      .section-head { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (max-width: 620px) {
+      .wrap { width: min(100% - 24px, var(--max)); }
+      .nav-inner { align-items: flex-start; flex-direction: column; }
+      .nav-links { justify-content: flex-start; }
+      .metrics, .projects, .proof-grid, .skills { grid-template-columns: 1fr; }
+      .hero-panel { min-height: auto; }
+      h1 { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Sean Gallagher portfolio home">
+        <span class="brand-mark">SG</span>
+        <span>Sean Gallagher</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#proof">Proof Points</a>
+        <a href="#about">Background</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <div class="wrap hero">
+      <div>
+        <span class="eyebrow">IT leader · commercial pilot · product-minded builder</span>
+        <h1>I build practical tools that solve real operational problems.</h1>
+        <p class="lead">This portfolio collects browser-based apps, aviation utilities, data analyzers, automation experiments, and GitHub Pages prototypes I built to turn messy workflows into usable tools.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/captainseang" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Portfolio visual summary">
+        <div class="screen">
+          <div class="screen-top">
+            <span>AZ METAR Display</span>
+            <span>Live / Kiosk</span>
+          </div>
+          <div class="map" aria-hidden="true">
+            <div class="state"></div>
+            <span class="dot vfr d1"></span>
+            <span class="dot mvfr d2"></span>
+            <span class="dot vfr d3"></span>
+            <span class="dot ifr d4"></span>
+            <span class="dot vfr d5"></span>
+          </div>
+        </div>
+        <div class="metrics">
+          <div class="metric"><strong>24+</strong><span>Years IT leadership</span></div>
+          <div class="metric"><strong>1,260+</strong><span>Flight hours</span></div>
+          <div class="metric"><strong>100%</strong><span>GitHub Pages friendly</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+          <p>Each project is framed the way an employer actually cares about it: the problem, the build, the technologies, and the operational thinking behind it.</p>
+        </div>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="aviation">Aviation</button>
+          <button class="filter" data-filter="data">Data</button>
+          <button class="filter" data-filter="automation">Automation</button>
+          <button class="filter" data-filter="product">Product</button>
+        </div>
+
+        <div class="projects">
+          <article class="project" data-tags="data product">
+            <div class="art"><span class="icon">☀️</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Solar Efficiency Analyzer</h3>
+              <p>A browser-based CSV analyzer that estimates solar production, temperature-corrected yield, performance ratio, battery efficiency, health status, charts, and exportable processed results.</p>
+              <div class="tags"><span class="tag">JavaScript</span><span class="tag">CSV Parsing</span><span class="tag">Data Visualization</span></div>
+              <div class="links"><a href="https://captainseang.github.io/solar/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product data">
+            <div class="art"><span class="icon">🧰</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Aircraft & Pilot Compliance Tracker</h3>
+              <p>An offline-ready aircraft and pilot compliance planner for tracking pilot currency, medical details, aircraft inspections, custom items, backup/restore, and due-status dashboards.</p>
+              <div class="tags"><span class="tag">Aviation MX</span><span class="tag">Local Storage</span><span class="tag">Date Logic</span></div>
+              <div class="links"><a href="https://captainseang.github.io/mx" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">🛫</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Corporate Jet ID Trainer</h3>
+              <p>An adaptive 10-question aviation learning app for recognizing corporate jets by silhouette, window patterns, engines, tails, winglets, and other aircraft profile clues.</p>
+              <div class="tags"><span class="tag">Training App</span><span class="tag">Aircraft ID</span><span class="tag">Adaptive UX</span></div>
+              <div class="links"><a href="https://captainseang.github.io/CorpJet" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product data">
+            <div class="art"><span class="icon">🛩️</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Arizona METAR LED Map</h3>
+              <p>A web-based aviation weather display designed for a wall-mounted kiosk, showing airport flight category, METAR status, local/Zulu time, and home-airport wind.</p>
+              <div class="tags"><span class="tag">Aviation Weather</span><span class="tag">Kiosk UI</span><span class="tag">GitHub Pages</span></div>
+              <div class="links"><a href="https://captainseang.github.io/arizona/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation automation data">
+            <div class="art"><span class="icon">📡</span><span class="status">Prototype</span></div>
+            <div class="body">
+              <h3>Phoenix Pilot Jobs Tracker</h3>
+              <p>A local aviation job tracker concept using scheduled data collection, deduplication, historical storage, and a filterable front-end for Phoenix-area pilot opportunities.</p>
+              <div class="tags"><span class="tag">GitHub Actions</span><span class="tag">Python</span><span class="tag">Job Search Automation</span></div>
+              <div class="links"><a href="https://captainseang.github.io/PhxPilotJobs/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">✅</span><span class="status">Concept</span></div>
+            <div class="body">
+              <h3>Pilot Compliance Timeline</h3>
+              <p>An aviation currency and aircraft inspection planner concept that turns FAA-style due dates into cards, timeline bubbles, status colors, and clean action prompts.</p>
+              <div class="tags"><span class="tag">UX Design</span><span class="tag">Aviation Rules</span><span class="tag">Date Logic</span></div>
+              <div class="links"><a href="#contact">Case study available →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">🍔</span><span class="status">Print + web</span></div>
+            <div class="body">
+              <h3>Deer Valley Lunch Flights</h3>
+              <p>A pilot-facing airport lunch guide built as a leave-behind marketing piece to create conversations, show initiative, and connect with local turbine operators.</p>
+              <div class="tags"><span class="tag">PDF Design</span><span class="tag">Aviation Networking</span><span class="tag">Content Strategy</span></div>
+              <div class="links"><a href="#contact">Preview available →</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proof">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What these projects demonstrate</h2>
+          <p>Not just code. These are proof points for product thinking, technical judgment, systems troubleshooting, and shipping usable tools with limited resources.</p>
+        </div>
+        <div class="proof-grid">
+          <div class="proof"><strong>End-to-end ownership</strong><span>Idea, requirements, UI, logic, deployment, troubleshooting, and iteration.</span></div>
+          <div class="proof"><strong>Operational mindset</strong><span>Built around real workflows: aviation weather, compliance dates, job hunting, and data analysis.</span></div>
+          <div class="proof"><strong>Automation instinct</strong><span>Uses scripts, scheduled jobs, data cleanup, and repeatable processes instead of manual busywork.</span></div>
+          <div class="proof"><strong>Clear communication</strong><span>Turns technical complexity into simple dashboards, explainable outputs, and employer-friendly demos.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about">
+        <div>
+          <h2>Builder with executive IT depth and aviation-grade attention to detail.</h2>
+          <p>I bring more than two decades of IT leadership, network infrastructure, server administration, cybersecurity, vendor management, and hands-on troubleshooting experience.</p>
+          <p>My personal projects combine that background with aviation, data, and product design: practical tools that can be tested, deployed, explained, and improved.</p>
+          <div class="skills">
+            <div class="skill">Network Infrastructure</div>
+            <div class="skill">Systems Administration</div>
+            <div class="skill">Automation + Scripting</div>
+            <div class="skill">GitHub Pages</div>
+            <div class="skill">Aviation Operations</div>
+            <div class="skill">Product Prototyping</div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="item"><small>IT Leadership</small><strong>VP / Director-level technical leadership</strong><span>Long-term ownership of infrastructure, systems, support teams, vendors, reliability, and practical business technology.</span></div>
+          <div class="item"><small>Builder Mindset</small><strong>Rapid prototypes with working demos</strong><span>Uses static hosting, browser-side logic, automation, and clean interfaces to make ideas testable without heavy infrastructure.</span></div>
+          <div class="item"><small>Aviation Perspective</small><strong>Commercial pilot and aircraft owner</strong><span>Brings checklist discipline, risk management, operational detail, and real-world aviation context into software projects.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap contact">
+        <h2>Want the deeper walkthrough?</h2>
+        <p>I can discuss the design choices, code structure, product thinking, deployment approach, and next-step roadmap behind any of these builds.</p>
+        <div class="hero-actions" style="justify-content:center; margin-top:0;">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/captainseang" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Sean Gallagher · Built for GitHub Pages</div>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.filter');
+    const cards = document.querySelectorAll('.project');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        buttons.forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+
+        cards.forEach(card => {
+          const tags = card.dataset.tags || '';
+          card.classList.toggle('hidden', filter !== 'all' && !tags.includes(filter));
+        });
+      });
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
