@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sean Gallagher | Technical Project Portfolio</title>
-  <meta name="description" content="Technical project portfolio for Sean Gallagher: aviation apps, data analysis tools, automation projects, and GitHub Pages prototypes." />
+  <meta name="description" content="Technical project portfolio for Sean Gallagher: aviation apps, data tools, Raspberry Pi kiosk projects, automation prototypes, and GitHub Pages builds." />
   <style>
     :root {
       --bg: #07111f;
@@ -18,6 +18,7 @@
       --amber: #ffc15c;
       --green: #78e3a2;
       --red: #ff6678;
+      --purple: #d95cff;
       --shadow: 0 26px 80px rgba(0, 0, 0, 0.35);
       --radius: 24px;
       --max: 1180px;
@@ -233,6 +234,7 @@
     .vfr { color: var(--green); background: var(--green); }
     .mvfr { color: #58a6ff; background: #58a6ff; }
     .ifr { color: var(--red); background: var(--red); }
+    .lifr { color: var(--purple); background: var(--purple); }
     .d1 { left: 46%; top: 46%; } .d2 { left: 52%; top: 49%; } .d3 { left: 59%; top: 55%; } .d4 { left: 34%; top: 36%; } .d5 { left: 70%; top: 72%; }
 
     .metrics {
@@ -256,6 +258,130 @@
     .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
     .section-head h2 { margin: 0; font-size: clamp(1.9rem, 3vw, 3rem); line-height: 1; letter-spacing: -.055em; }
     .section-head p { max-width: 60ch; margin: 0; color: var(--muted); line-height: 1.6; }
+
+    .featured-build {
+      display: grid;
+      grid-template-columns: 1.18fr .82fr;
+      gap: 22px;
+      align-items: stretch;
+      margin: 28px 0 26px;
+      padding: 20px;
+      border-radius: 34px;
+      background:
+        radial-gradient(circle at 24% 0%, rgba(94,220,255,.18), transparent 30rem),
+        radial-gradient(circle at 86% 80%, rgba(255,193,92,.13), transparent 26rem),
+        rgba(255,255,255,.075);
+      border: 1px solid rgba(94,220,255,.23);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .featured-shot {
+      position: relative;
+      min-height: 390px;
+      border-radius: 26px;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(94,220,255,.10), rgba(255,193,92,.08)),
+        rgba(0,0,0,.30);
+      border: 1px solid rgba(255,255,255,.13);
+    }
+
+    .featured-shot img {
+      width: 100%;
+      height: 100%;
+      min-height: 390px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .featured-shot .fallback-map {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 28px;
+      color: rgba(255,255,255,.85);
+      text-align: center;
+      background:
+        radial-gradient(circle at 18% 36%, rgba(120,227,162,.95) 0 5px, transparent 7px),
+        radial-gradient(circle at 28% 52%, rgba(88,166,255,.95) 0 5px, transparent 7px),
+        radial-gradient(circle at 46% 42%, rgba(120,227,162,.95) 0 5px, transparent 7px),
+        radial-gradient(circle at 54% 62%, rgba(255,102,120,.95) 0 5px, transparent 7px),
+        radial-gradient(circle at 74% 48%, rgba(120,227,162,.95) 0 5px, transparent 7px),
+        radial-gradient(circle at 85% 36%, rgba(217,92,255,.95) 0 5px, transparent 7px),
+        linear-gradient(rgba(94,220,255,.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(94,220,255,.055) 1px, transparent 1px),
+        #051120;
+      background-size: auto, auto, auto, auto, auto, auto, 34px 34px, 34px 34px, auto;
+    }
+
+    .featured-shot img + .fallback-map { display: none; }
+
+    .featured-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 16px 10px 16px 4px;
+    }
+
+    .featured-label {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: #06111e;
+      background: linear-gradient(135deg, var(--blue), var(--amber));
+      font-weight: 900;
+      font-size: .84rem;
+      letter-spacing: .01em;
+    }
+
+    .featured-copy h3 {
+      margin: 18px 0 12px;
+      font-size: clamp(1.75rem, 3vw, 3.35rem);
+      line-height: .96;
+      letter-spacing: -.06em;
+    }
+
+    .featured-copy p {
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0 0 16px;
+      font-size: 1.02rem;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 10px;
+      margin: 10px 0 18px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .feature-list li {
+      display: flex;
+      gap: 10px;
+      color: #dce8f7;
+      line-height: 1.45;
+    }
+
+    .feature-list li:before {
+      content: "✦";
+      color: var(--blue);
+      flex: 0 0 auto;
+    }
+
+    .featured-note {
+      color: var(--muted);
+      font-size: .92rem;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.065);
+      border: 1px solid rgba(255,255,255,.10);
+    }
 
     .filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0 26px; }
     .filter {
@@ -351,11 +477,12 @@
     .hidden { display: none !important; }
 
     @media (max-width: 940px) {
-      .hero, .about { grid-template-columns: 1fr; }
+      .hero, .about, .featured-build { grid-template-columns: 1fr; }
       .hero { padding-top: 54px; }
       .projects { grid-template-columns: repeat(2, 1fr); }
       .proof-grid { grid-template-columns: repeat(2, 1fr); }
       .section-head { align-items: flex-start; flex-direction: column; }
+      .featured-copy { padding: 6px 4px 8px; }
     }
 
     @media (max-width: 620px) {
@@ -365,6 +492,7 @@
       .metrics, .projects, .proof-grid, .skills { grid-template-columns: 1fr; }
       .hero-panel { min-height: auto; }
       h1 { font-size: 3rem; }
+      .featured-shot, .featured-shot img { min-height: 240px; }
     }
   </style>
 </head>
@@ -389,7 +517,7 @@
       <div>
         <span class="eyebrow">IT leader · commercial pilot · product-minded builder</span>
         <h1>I build practical tools that solve real operational problems.</h1>
-        <p class="lead">This portfolio collects browser-based apps, aviation utilities, data analyzers, automation experiments, and GitHub Pages prototypes I built to turn messy workflows into usable tools.</p>
+        <p class="lead">This portfolio collects browser-based apps, aviation utilities, data analyzers, automation experiments, and Raspberry Pi kiosk projects I built to turn messy workflows into usable tools.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projects">View projects</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">LinkedIn</a>
@@ -400,8 +528,8 @@
       <aside class="hero-panel" aria-label="Portfolio visual summary">
         <div class="screen">
           <div class="screen-top">
-            <span>AZ METAR Display</span>
-            <span>Live / Kiosk</span>
+            <span>Raspberry Pi Aviation Display</span>
+            <span>Hardware + Software</span>
           </div>
           <div class="map" aria-hidden="true">
             <div class="state"></div>
@@ -409,13 +537,13 @@
             <span class="dot mvfr d2"></span>
             <span class="dot vfr d3"></span>
             <span class="dot ifr d4"></span>
-            <span class="dot vfr d5"></span>
+            <span class="dot lifr d5"></span>
           </div>
         </div>
         <div class="metrics">
           <div class="metric"><strong>24+</strong><span>Years IT leadership</span></div>
-          <div class="metric"><strong>1,260+</strong><span>Flight hours</span></div>
-          <div class="metric"><strong>100%</strong><span>GitHub Pages friendly</span></div>
+          <div class="metric"><strong>1,300+</strong><span>Flight hours</span></div>
+          <div class="metric"><strong>Pi</strong><span>Kiosk display build</span></div>
         </div>
       </aside>
     </div>
@@ -427,12 +555,43 @@
           <p>Each project is framed the way an employer actually cares about it: the problem, the build, the technologies, and the operational thinking behind it.</p>
         </div>
 
+        <article class="featured-build" data-tags="aviation product data hardware">
+          <div class="featured-shot">
+            <img src="assets/real_time_usa_aviation_weather_dashboard.png" alt="USA Aviation Weather Map Raspberry Pi kiosk display screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="fallback-map">
+              <div>
+                <h3 style="margin:0 0 10px; font-size:2rem; letter-spacing:-.05em;">USA Aviation Weather Map</h3>
+                <p style="margin:0; color:rgba(255,255,255,.68); max-width:48ch;">Add the generated screenshot as <strong>assets/real_time_usa_aviation_weather_dashboard.png</strong> to show the finished Raspberry Pi display.</p>
+              </div>
+            </div>
+          </div>
+          <div class="featured-copy">
+            <span class="featured-label">Most complex build</span>
+            <h3>Raspberry Pi Aviation Weather Map</h3>
+            <p>A full-screen aviation weather display built for a Raspberry Pi kiosk setup, designed to boot directly into a polished wall-display interface for hangars, offices, and pilot spaces.</p>
+            <ul class="feature-list">
+              <li>USA map with LED-style airport weather indicators for VFR, MVFR, IFR, and LIFR conditions.</li>
+              <li>Real-world kiosk thinking: fullscreen display, refresh status, local/Zulu time, home-airport wind, and aviation-first layout.</li>
+              <li>Blends front-end UI design, live aviation data handling, hardware deployment, and product packaging.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Raspberry Pi</span>
+              <span class="tag">Aviation Weather</span>
+              <span class="tag">Kiosk UI</span>
+              <span class="tag">Hardware + Software</span>
+              <span class="tag">Product Prototype</span>
+            </div>
+            <p class="featured-note">Live demo intentionally not linked. This project is best shown as a hardware/software walkthrough because the Raspberry Pi kiosk behavior is part of the accomplishment.</p>
+          </div>
+        </article>
+
         <div class="filters" aria-label="Project filters">
           <button class="filter active" data-filter="all">All</button>
           <button class="filter" data-filter="aviation">Aviation</button>
           <button class="filter" data-filter="data">Data</button>
           <button class="filter" data-filter="automation">Automation</button>
           <button class="filter" data-filter="product">Product</button>
+          <button class="filter" data-filter="hardware">Hardware</button>
         </div>
 
         <div class="projects">
@@ -466,23 +625,13 @@
             </div>
           </article>
 
-          <article class="project" data-tags="aviation product data">
-            <div class="art"><span class="icon">🛩️</span><span class="status">Live demo</span></div>
-            <div class="body">
-              <h3>Arizona METAR LED Map</h3>
-              <p>A web-based aviation weather display designed for a wall-mounted kiosk, showing airport flight category, METAR status, local/Zulu time, and home-airport wind.</p>
-              <div class="tags"><span class="tag">Aviation Weather</span><span class="tag">Kiosk UI</span><span class="tag">GitHub Pages</span></div>
-              <div class="links"><a href="https://captainseang.github.io/arizona/" target="_blank" rel="noreferrer">Open app →</a></div>
-            </div>
-          </article>
-
-          <article class="project" data-tags="aviation automation data">
-            <div class="art"><span class="icon">📡</span><span class="status">Prototype</span></div>
+          <article class="project" data-tags="aviation automation data product">
+            <div class="art"><span class="icon">📡</span><span class="status">Live demo</span></div>
             <div class="body">
               <h3>Phoenix Pilot Jobs Tracker</h3>
-              <p>A local aviation job tracker concept using scheduled data collection, deduplication, historical storage, and a filterable front-end for Phoenix-area pilot opportunities.</p>
-              <div class="tags"><span class="tag">GitHub Actions</span><span class="tag">Python</span><span class="tag">Job Search Automation</span></div>
-              <div class="links"><a href="https://captainseang.github.io/PhxPilotJobs/" target="_blank" rel="noreferrer">Open app →</a></div>
+              <p>A Phoenix-focused aviation job search dashboard that filters and presents pilot opportunities with better targeting around aircraft types, local operators, and realistic fit.</p>
+              <div class="tags"><span class="tag">Search Automation</span><span class="tag">Filtering</span><span class="tag">Career Tool</span></div>
+              <div class="links"><a href="https://captainseang.github.io/phoenix-pilot-jobs/" target="_blank" rel="noreferrer">Open app →</a></div>
             </div>
           </article>
 
@@ -519,7 +668,7 @@
           <div class="proof"><strong>End-to-end ownership</strong><span>Idea, requirements, UI, logic, deployment, troubleshooting, and iteration.</span></div>
           <div class="proof"><strong>Operational mindset</strong><span>Built around real workflows: aviation weather, compliance dates, job hunting, and data analysis.</span></div>
           <div class="proof"><strong>Automation instinct</strong><span>Uses scripts, scheduled jobs, data cleanup, and repeatable processes instead of manual busywork.</span></div>
-          <div class="proof"><strong>Clear communication</strong><span>Turns technical complexity into simple dashboards, explainable outputs, and employer-friendly demos.</span></div>
+          <div class="proof"><strong>Hardware/software thinking</strong><span>Turns browser apps into deployable kiosk-style systems that can run on low-cost hardware.</span></div>
         </div>
       </div>
     </section>
@@ -565,7 +714,7 @@
 
   <script>
     const buttons = document.querySelectorAll('.filter');
-    const cards = document.querySelectorAll('.project');
+    const cards = document.querySelectorAll('.project, .featured-build');
 
     buttons.forEach(button => {
       button.addEventListener('click', () => {
