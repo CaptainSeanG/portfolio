@@ -412,4 +412,267 @@
       align-items: stretch;
       border-radius: 32px;
       padding: 24px;
-      background: linear-gradient(
+      background: linear-gradient(145deg, rgba(255,255,255,.12), rgba(255,255,255,.045));
+      border: 1px solid rgba(255,255,255,.13);
+      box-shadow: var(--shadow);
+    }
+    .about h2 { margin: 0 0 16px; font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1; letter-spacing: -.055em; }
+    .about p { color: var(--muted); line-height: 1.68; margin: 0 0 14px; }
+    .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 16px; }
+    .skill { padding: 12px; border-radius: 16px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.09); color: #dbe8f8; font-weight: 760; }
+    .timeline { display: grid; gap: 12px; }
+    .item { padding: 16px; border-radius: 20px; background: rgba(4,12,24,.48); border: 1px solid rgba(255,255,255,.10); }
+    .item small { display: block; color: var(--blue); font-weight: 900; margin-bottom: 6px; }
+    .item strong { display: block; margin-bottom: 5px; }
+    .item span { color: var(--muted); line-height: 1.5; }
+
+    .contact {
+      text-align: center;
+      border-radius: 32px;
+      padding: 46px 24px;
+      background: radial-gradient(circle at 50% 0%, rgba(94,220,255,.20), transparent 28rem), rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .contact h2 { margin: 0 0 14px; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.06em; }
+    .contact p { max-width: 68ch; margin: 0 auto 24px; color: var(--muted); line-height: 1.6; }
+    footer { color: var(--muted); text-align: center; padding: 38px 0 46px; font-size: .92rem; }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 940px) {
+      .hero, .about, .featured-build { grid-template-columns: 1fr; }
+      .hero { padding-top: 54px; }
+      .projects { grid-template-columns: repeat(2, 1fr); }
+      .proof-grid { grid-template-columns: repeat(2, 1fr); }
+      .section-head { align-items: flex-start; flex-direction: column; }
+      .featured-shot { min-height: 240px; max-height: none; }
+      .featured-shot img { max-height: 260px; }
+      .featured-copy { padding: 6px 4px 8px; }
+    }
+
+    @media (max-width: 620px) {
+      .wrap { width: min(100% - 24px, var(--max)); }
+      .nav-inner { align-items: flex-start; flex-direction: column; }
+      .nav-links { justify-content: flex-start; }
+      .metrics, .projects, .proof-grid, .skills { grid-template-columns: 1fr; }
+      h1 { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Sean Gallagher portfolio home">
+        <span class="brand-mark">SG</span>
+        <span>Sean Gallagher</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#proof">Proof Points</a>
+        <a href="#about">Background</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <div class="wrap hero">
+      <div>
+        <span class="eyebrow">IT leader · commercial pilot · product-minded builder</span>
+        <h1>I build practical tools that solve real operational problems.</h1>
+        <p class="lead">This portfolio collects browser-based apps, aviation utilities, data analyzers, automation experiments, and Raspberry Pi kiosk projects I built to turn messy workflows into usable tools.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/captainseang" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Portfolio visual summary">
+        <img src="assets/cjt.png" alt="Corporate Jet ID Trainer shown on a desktop monitor in a professional office setting" />
+        <div class="metrics">
+          <div class="metric"><strong>24+</strong><span>Years IT leadership</span></div>
+          <div class="metric"><strong>1,300+</strong><span>Flight hours</span></div>
+          <div class="metric"><strong>Live</strong><span>Project portfolio</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+          <p>Each project is framed the way an employer actually cares about it: the problem, the build, the technologies, and the operational thinking behind it.</p>
+        </div>
+
+        <article class="featured-build" data-tags="aviation product data hardware">
+          <div class="featured-shot">
+            <img src="assets/pilotlounge.png" alt="Raspberry Pi aviation weather display mounted in an FBO pilot lounge" />
+          </div>
+          <div class="featured-copy">
+            <span class="featured-label">Most complex build</span>
+            <h3>Raspberry Pi Aviation Weather Map</h3>
+            <p>A Raspberry Pi–powered aviation weather display designed for hangars, offices, and pilot lounges, combining live METAR data with a polished kiosk-style interface.</p>
+            <ul class="feature-list">
+              <li>LED-style U.S. weather map showing VFR, MVFR, IFR, and LIFR airport conditions.</li>
+              <li>Purpose-built kiosk interface with local/Zulu time, home-airport data, and clean aviation-focused layout.</li>
+              <li>Combines front-end design, live data handling, and low-cost hardware deployment.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Raspberry Pi</span>
+              <span class="tag">Aviation Weather</span>
+              <span class="tag">Kiosk UI</span>
+              <span class="tag">Hardware + Software</span>
+            </div>
+            <p class="featured-note">Best presented as a guided walkthrough rather than a public live demo.</p>
+          </div>
+        </article>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="aviation">Aviation</button>
+          <button class="filter" data-filter="data">Data</button>
+          <button class="filter" data-filter="automation">Automation</button>
+          <button class="filter" data-filter="product">Product</button>
+          <button class="filter" data-filter="hardware">Hardware</button>
+        </div>
+
+        <div class="projects">
+          <article class="project" data-tags="data product">
+            <div class="art"><span class="icon">☀️</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Solar Efficiency Analyzer</h3>
+              <p>A browser-based CSV analyzer that estimates solar production, temperature-corrected yield, performance ratio, battery efficiency, health status, charts, and exportable processed results.</p>
+              <div class="tags"><span class="tag">JavaScript</span><span class="tag">CSV Parsing</span><span class="tag">Data Visualization</span></div>
+              <div class="links"><a href="https://captainseang.github.io/solar/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product data">
+            <div class="art"><span class="icon">🧰</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Aircraft & Pilot Compliance Tracker</h3>
+              <p>An offline-ready aircraft and pilot compliance planner for tracking pilot currency, medical details, aircraft inspections, custom items, backup/restore, and due-status dashboards.</p>
+              <div class="tags"><span class="tag">Aviation MX</span><span class="tag">Local Storage</span><span class="tag">Date Logic</span></div>
+              <div class="links"><a href="https://captainseang.github.io/mx" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">🛫</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Corporate Jet ID Trainer</h3>
+              <p>An adaptive 10-question aviation learning app for recognizing corporate jets by silhouette, window patterns, engines, tails, winglets, and other aircraft profile clues.</p>
+              <div class="tags"><span class="tag">Training App</span><span class="tag">Aircraft ID</span><span class="tag">Adaptive UX</span></div>
+              <div class="links"><a href="https://captainseang.github.io/CorpJet" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation automation data product">
+            <div class="art"><span class="icon">📡</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Phoenix Pilot Jobs Tracker</h3>
+              <p>A Phoenix-focused aviation job search dashboard that filters and presents pilot opportunities with better targeting around aircraft types, local operators, and realistic fit.</p>
+              <div class="tags"><span class="tag">Search Automation</span><span class="tag">Filtering</span><span class="tag">Career Tool</span></div>
+              <div class="links"><a href="https://captainseang.github.io/phoenix-pilot-jobs/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">✅</span><span class="status">Concept</span></div>
+            <div class="body">
+              <h3>Pilot Compliance Timeline</h3>
+              <p>An aviation currency and aircraft inspection planner concept that turns FAA-style due dates into cards, timeline bubbles, status colors, and clean action prompts.</p>
+              <div class="tags"><span class="tag">UX Design</span><span class="tag">Aviation Rules</span><span class="tag">Date Logic</span></div>
+              <div class="links"><a href="#contact">Case study available →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">🍔</span><span class="status">Print + web</span></div>
+            <div class="body">
+              <h3>Deer Valley Lunch Flights</h3>
+              <p>A pilot-facing airport lunch guide built as a leave-behind marketing piece to create conversations, show initiative, and connect with local turbine operators.</p>
+              <div class="tags"><span class="tag">PDF Design</span><span class="tag">Aviation Networking</span><span class="tag">Content Strategy</span></div>
+              <div class="links"><a href="#contact">Preview available →</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proof">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What these projects demonstrate</h2>
+          <p>Not just code. These are proof points for product thinking, technical judgment, systems troubleshooting, and shipping usable tools with limited resources.</p>
+        </div>
+        <div class="proof-grid">
+          <div class="proof"><strong>End-to-end ownership</strong><span>Idea, requirements, UI, logic, deployment, troubleshooting, and iteration.</span></div>
+          <div class="proof"><strong>Operational mindset</strong><span>Built around real workflows: aviation weather, compliance dates, job hunting, and data analysis.</span></div>
+          <div class="proof"><strong>Automation instinct</strong><span>Uses scripts, scheduled jobs, data cleanup, and repeatable processes instead of manual busywork.</span></div>
+          <div class="proof"><strong>Hardware/software thinking</strong><span>Turns browser apps into deployable kiosk-style systems that can run on low-cost hardware.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about">
+        <div>
+          <h2>Builder with executive IT depth and aviation-grade attention to detail.</h2>
+          <p>I bring more than two decades of IT leadership, network infrastructure, server administration, cybersecurity, vendor management, and hands-on troubleshooting experience.</p>
+          <p>My personal projects combine that background with aviation, data, and product design: practical tools that can be tested, deployed, explained, and improved.</p>
+          <div class="skills">
+            <div class="skill">Network Infrastructure</div>
+            <div class="skill">Systems Administration</div>
+            <div class="skill">Automation + Scripting</div>
+            <div class="skill">GitHub Pages</div>
+            <div class="skill">Aviation Operations</div>
+            <div class="skill">Product Prototyping</div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="item"><small>IT Leadership</small><strong>VP / Director-level technical leadership</strong><span>Long-term ownership of infrastructure, systems, support teams, vendors, reliability, and practical business technology.</span></div>
+          <div class="item"><small>Builder Mindset</small><strong>Rapid prototypes with working demos</strong><span>Uses static hosting, browser-side logic, automation, and clean interfaces to make ideas testable without heavy infrastructure.</span></div>
+          <div class="item"><small>Aviation Perspective</small><strong>Commercial pilot and aircraft owner</strong><span>Brings checklist discipline, risk management, operational detail, and real-world aviation context into software projects.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap contact">
+        <h2>Want the deeper walkthrough?</h2>
+        <p>I can discuss the design choices, code structure, product thinking, deployment approach, and next-step roadmap behind any of these builds.</p>
+        <div class="hero-actions" style="justify-content:center; margin-top:0;">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/captainseang" target="_blank" rel="noreferrer">View GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Sean Gallagher · Built for GitHub Pages</div>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.filter');
+    const cards = document.querySelectorAll('.project, .featured-build');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        buttons.forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+
+        cards.forEach(card => {
+          const tags = card.dataset.tags || '';
+          card.classList.toggle('hidden', filter !== 'all' && !tags.includes(filter));
+        });
+      });
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
