@@ -238,8 +238,8 @@
 
     .featured-build {
       display: grid;
-      grid-template-columns: 1.28fr .72fr;
-      gap: 18px;
+      grid-template-columns: 1.18fr .82fr;
+      gap: 22px;
       align-items: center;
       margin: 24px 0 24px;
       padding: 18px;
@@ -255,28 +255,21 @@
 
     .featured-shot {
       position: relative;
-      min-height: 300px;
-      max-height: 340px;
       border-radius: 26px;
       overflow: hidden;
-      background:
-        linear-gradient(135deg, rgba(94,220,255,.10), rgba(255,193,92,.08)),
-        rgba(0,0,0,.30);
+      background: rgba(4,12,24,.55);
       border: 1px solid rgba(255,255,255,.13);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
+      padding: 0;
+      box-shadow: inset 0 0 0 14px rgba(255,255,255,.025);
     }
 
     .featured-shot img {
       width: 100%;
-      height: 100%;
-      max-height: 320px;
-      object-fit: contain;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
       object-position: center;
       display: block;
-      border-radius: 16px;
+      border-radius: 22px;
       background: rgba(4,12,24,.45);
     }
 
@@ -585,6 +578,17 @@
               <p>An aviation currency and aircraft inspection planner concept that turns FAA-style due dates into cards, timeline bubbles, status colors, and clean action prompts.</p>
               <div class="tags"><span class="tag">UX Design</span><span class="tag">Aviation Rules</span><span class="tag">Date Logic</span></div>
               <div class="links"><a href="#contact">Case study available →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation hardware product">
+            <div class="art"><span class="icon">🛩️</span><span class="status">Hardware prototype</span></div>
+            <div class="body">
+              <img src="assets/alt.png" alt="Arduino cockpit altitude reminder prototype" style="width:100%; border-radius:16px; margin-bottom:14px; border:1px solid rgba(255,255,255,.10); box-shadow:0 10px 30px rgba(0,0,0,.25);" />
+              <h3>Arduino Altitude Reminder</h3>
+              <p>A custom Arduino-powered cockpit reminder device designed to quickly capture and display assigned altitudes from ATC for easier readbacks and reduced cockpit workload.</p>
+              <div class="tags"><span class="tag">Arduino</span><span class="tag">3D Printing</span><span class="tag">Cockpit Prototype</span><span class="tag">Aviation Hardware</span></div>
+              <div class="links"><a href="#contact">Prototype walkthrough available →</a></div>
             </div>
           </article>
 
