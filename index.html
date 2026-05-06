@@ -180,6 +180,21 @@
       pointer-events: none;
     }
 
+    section {
+      animation: fadeUp .55s ease both;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     .hero-panel img {
       position: relative;
       z-index: 1;
@@ -364,7 +379,12 @@
       box-shadow: 0 14px 44px rgba(0,0,0,.18);
       transition: transform .18s ease, border-color .18s ease, background .18s ease;
     }
-    .project:hover { transform: translateY(-5px); background: var(--card2); border-color: rgba(94, 220, 255, .34); }
+    .project:hover {
+      transform: translateY(-7px) scale(1.01);
+      background: var(--card2);
+      border-color: rgba(94, 220, 255, .34);
+      box-shadow: 0 24px 60px rgba(0,0,0,.30);
+    }
 
     .art {
       min-height: 158px;
@@ -704,6 +724,82 @@
       </div>
     </section>
 
+    <section id="mindset">
+      <div class="wrap about" style="margin-bottom:46px;">
+        <div>
+          <h2>How I approach technical problems</h2>
+          <p>
+            I tend to build tools around real operational friction points:
+            cockpit workload, aviation weather awareness, compliance tracking,
+            data visualization, and automation of repetitive workflows.
+          </p>
+          <p>
+            Most of my projects follow the same pattern:
+            identify a real-world pain point, rapidly prototype a usable solution,
+            test it in the operational environment, then refine the interface until
+            it feels intuitive.
+          </p>
+          <div class="skills">
+            <div class="skill">Operational Thinking</div>
+            <div class="skill">Rapid Prototyping</div>
+            <div class="skill">Usability-Driven Design</div>
+            <div class="skill">Automation Mindset</div>
+            <div class="skill">Real-World Testing</div>
+            <div class="skill">Systems Troubleshooting</div>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="item">
+            <small>Problem Identification</small>
+            <strong>Find the operational friction</strong>
+            <span>Most ideas start from noticing repetitive workload, confusing interfaces, or inefficient processes in real environments.</span>
+          </div>
+
+          <div class="item">
+            <small>Prototype Quickly</small>
+            <strong>Build first, refine second</strong>
+            <span>I prefer rapid working prototypes over over-engineering, especially for cockpit and operations-focused tools.</span>
+          </div>
+
+          <div class="item">
+            <small>Field Testing</small>
+            <strong>Usability matters</strong>
+            <span>If something feels awkward during actual use, I redesign it until the workflow feels natural and low workload.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="techstack">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Technologies & platforms</h2>
+          <p>
+            The projects on this site combine front-end development, embedded hardware,
+            aviation operations, automation, data handling, and rapid prototyping.
+          </p>
+        </div>
+
+        <div class="tags" style="gap:12px; margin-top:18px;">
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">GitHub Pages</span>
+          <span class="tag">Python</span>
+          <span class="tag">Raspberry Pi</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">3D Printing</span>
+          <span class="tag">Automation</span>
+          <span class="tag">Data Visualization</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">Aviation Systems</span>
+          <span class="tag">Embedded Prototyping</span>
+          <span class="tag">Networking</span>
+          <span class="tag">Infrastructure</span>
+        </div>
+      </div>
+    </section>
+
     <section id="proof">
       <div class="wrap">
         <div class="section-head">
@@ -711,6 +807,7 @@
           <p>Not just code. These are proof points for product thinking, technical judgment, systems troubleshooting, and shipping usable tools with limited resources.</p>
         </div>
         <div class="proof-grid">
+          <div class="proof"><strong>Real operational use</strong><span>Several projects were designed around actual cockpit workflows, aviation operations, and real-world usability constraints.</span></div>
           <div class="proof"><strong>End-to-end ownership</strong><span>Idea, requirements, UI, logic, deployment, troubleshooting, and iteration.</span></div>
           <div class="proof"><strong>Operational mindset</strong><span>Built around real workflows: aviation weather, compliance dates, job hunting, and data analysis.</span></div>
           <div class="proof"><strong>Automation instinct</strong><span>Uses scripts, scheduled jobs, data cleanup, and repeatable processes instead of manual busywork.</span></div>
@@ -738,6 +835,24 @@
           <div class="item"><small>IT Leadership</small><strong>VP / Director-level technical leadership</strong><span>Long-term ownership of infrastructure, systems, support teams, vendors, reliability, and practical business technology.</span></div>
           <div class="item"><small>Builder Mindset</small><strong>Rapid prototypes with working demos</strong><span>Uses static hosting, browser-side logic, automation, and clean interfaces to make ideas testable without heavy infrastructure.</span></div>
           <div class="item"><small>Aviation Perspective</small><strong>Commercial pilot and aircraft owner</strong><span>Brings checklist discipline, risk management, operational detail, and real-world aviation context into software projects.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="current">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Currently exploring</h2>
+          <p>
+            Ongoing projects and product concepts currently being refined and expanded.
+          </p>
+        </div>
+
+        <div class="proof-grid">
+          <div class="proof"><strong>METAR LED wall displays</strong><span>Exploring packaged Raspberry Pi aviation weather displays for hangars and pilot lounges.</span></div>
+          <div class="proof"><strong>Pilot job filtering systems</strong><span>Improving relevance scoring and filtering for aviation hiring dashboards.</span></div>
+          <div class="proof"><strong>Cockpit hardware tools</strong><span>Experimenting with low-workload aviation reminders and embedded cockpit prototypes.</span></div>
+          <div class="proof"><strong>Interactive aviation training tools</strong><span>Building adaptive systems focused on recognition, retention, and operational awareness.</span></div>
         </div>
       </div>
     </section>
