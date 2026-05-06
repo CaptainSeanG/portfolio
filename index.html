@@ -455,6 +455,7 @@
     .alt-thumb-link {
       display:block;
       text-decoration:none;
+      cursor:pointer;
     }
 
     .alt-thumb {
@@ -472,6 +473,12 @@
       box-shadow:0 18px 40px rgba(0,0,0,.35);
     }
 
+    .modal-toggle {
+      position:absolute;
+      opacity:0;
+      pointer-events:none;
+    }
+
     .modal-overlay {
       position:fixed;
       inset:0;
@@ -487,7 +494,7 @@
       z-index:999;
     }
 
-    .modal-overlay:target {
+    .modal-toggle:checked + .modal-overlay {
       opacity:1;
       visibility:visible;
     }
@@ -604,7 +611,7 @@
       <div class="wrap">
         <div class="section-head">
           <h2>Featured projects</h2>
-          <p>Each project is framed the way an employer actually cares about it: the problem, the build, the technologies, and the operational thinking behind it.</p>
+          
         </div>
 
         <article class="featured-build" data-tags="aviation product data hardware">
@@ -693,17 +700,9 @@
           <article class="project" data-tags="aviation hardware product">
             <div class="art"><span class="icon">🛩️</span><span class="status">Hardware prototype</span></div>
             <div class="body">
-              <a href="#altitude-modal" class="alt-thumb-link">
+              <label for="altitude-modal-toggle" class="alt-thumb-link">
                 <img src="assets/alt.png" alt="Arduino cockpit altitude reminder prototype" class="alt-thumb" />
-              </a>
-
-              <div id="altitude-modal" class="modal-overlay">
-                <a href="#" class="modal-close"></a>
-                <div class="modal-content">
-                  <a href="#" class="modal-x">✕</a>
-                  <img src="assets/alt2.png" alt="Arduino altitude reminder installed in aircraft cockpit" class="modal-image" />
-                </div>
-              </div>
+              </label>
               <h3>Arduino Altitude Reminder</h3>
               <p>A custom Arduino-powered cockpit reminder device designed to quickly capture and display assigned altitudes from ATC for easier readbacks and reduced cockpit workload.</p>
               <div class="tags"><span class="tag">Arduino</span><span class="tag">3D Printing</span><span class="tag">Cockpit Prototype</span><span class="tag">Aviation Hardware</span></div>
@@ -868,6 +867,15 @@
       </div>
     </section>
   </main>
+
+  <input type="checkbox" id="altitude-modal-toggle" class="modal-toggle" />
+  <div class="modal-overlay">
+    <label for="altitude-modal-toggle" class="modal-close"></label>
+    <div class="modal-content">
+      <label for="altitude-modal-toggle" class="modal-x">✕</label>
+      <img src="assets/alt2.png" alt="Arduino altitude reminder installed in aircraft cockpit" class="modal-image" />
+    </div>
+  </div>
 
   <footer>
     <div class="wrap">© <span id="year"></span> Sean Gallagher · Built for GitHub Pages</div>
