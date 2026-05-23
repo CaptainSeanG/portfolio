@@ -4,7 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sean Gallagher | Technical Project Portfolio</title>
-  <meta name="description" content="Technical project portfolio for Sean Gallagher: aviation apps, data tools, Raspberry Pi kiosk projects, automation prototypes, and GitHub Pages builds." />
+  <meta name="description" content="Technical leadership portfolio for Sean Gallagher: IT infrastructure, automation, aviation apps, hardware prototypes, Raspberry Pi kiosk projects, and GitHub Pages builds." />
+  <meta name="theme-color" content="#07111f" />
+  <meta property="og:title" content="Sean Gallagher | Technical Project Portfolio" />
+  <meta property="og:description" content="IT leader and hands-on technical builder focused on infrastructure, automation, aviation systems, and practical product prototypes." />
+  <meta property="og:image" content="assets/cjt.png" />
   <style>
     :root {
       --bg: #07111f;
@@ -548,23 +552,206 @@
       background:rgba(255,255,255,.12);
     }
 
+    .compact-head {
+      margin-bottom: 10px;
+    }
+
+    .it-grid .proof {
+      background: linear-gradient(145deg, rgba(94,220,255,.095), rgba(255,255,255,.055));
+    }
+
+    @media (hover: none) {
+      .project:hover,
+      .btn:hover,
+      .alt-thumb:hover {
+        transform: none;
+      }
+    }
+
     @media (max-width: 940px) {
       .hero, .about, .featured-build { grid-template-columns: 1fr; }
-      .hero { padding-top: 54px; }
+      .hero { padding-top: 46px; }
       .projects { grid-template-columns: repeat(2, 1fr); }
       .proof-grid { grid-template-columns: repeat(2, 1fr); }
       .section-head { align-items: flex-start; flex-direction: column; }
-      .featured-shot { min-height: 240px; max-height: none; }
-      .featured-shot img { max-height: 260px; }
+      .featured-shot img { aspect-ratio: 16 / 10; }
       .featured-copy { padding: 6px 4px 8px; }
     }
 
-    @media (max-width: 620px) {
+    @media (max-width: 700px) {
       .wrap { width: min(100% - 24px, var(--max)); }
-      .nav-inner { align-items: flex-start; flex-direction: column; }
-      .nav-links { justify-content: flex-start; }
-      .metrics, .projects, .proof-grid, .skills { grid-template-columns: 1fr; }
-      h1 { font-size: 3rem; }
+
+      body {
+        background:
+          radial-gradient(circle at 18% 0%, rgba(94, 220, 255, 0.16), transparent 24rem),
+          linear-gradient(145deg, #040914 0%, var(--bg) 54%, #0b1524 100%);
+      }
+
+      .nav {
+        position: static;
+      }
+
+      .nav-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 12px 0;
+      }
+
+      .brand-mark {
+        width: 38px;
+        height: 38px;
+        border-radius: 13px;
+      }
+
+      .nav-links {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 6px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+      }
+
+      .nav-links::-webkit-scrollbar { display: none; }
+
+      .nav-links a {
+        flex: 0 0 auto;
+        font-size: .86rem;
+        padding: 8px 10px;
+        background: rgba(255,255,255,.045);
+      }
+
+      .hero {
+        gap: 24px;
+        padding: 36px 0 26px;
+      }
+
+      .eyebrow {
+        font-size: .78rem;
+        line-height: 1.25;
+      }
+
+      h1 {
+        font-size: clamp(2.15rem, 12vw, 3.2rem);
+        line-height: .98;
+        margin: 18px 0 14px;
+      }
+
+      .lead {
+        font-size: 1rem;
+        line-height: 1.55;
+      }
+
+      .hero-actions {
+        margin-top: 22px;
+        gap: 10px;
+      }
+
+      .btn {
+        width: 100%;
+        min-height: 48px;
+      }
+
+      .hero-panel {
+        padding: 12px;
+        border-radius: 24px;
+      }
+
+      .hero-panel img {
+        aspect-ratio: 16 / 11;
+        border-radius: 18px;
+      }
+
+      .metrics,
+      .projects,
+      .proof-grid,
+      .skills {
+        grid-template-columns: 1fr;
+      }
+
+      .metric {
+        padding: 12px;
+      }
+
+      section {
+        padding: 32px 0;
+      }
+
+      .section-head {
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .section-head h2,
+      .about h2,
+      .contact h2 {
+        font-size: clamp(1.65rem, 9vw, 2.35rem);
+        line-height: 1.03;
+      }
+
+      .section-head p,
+      .about p,
+      .contact p {
+        font-size: .96rem;
+        line-height: 1.55;
+      }
+
+      .featured-build,
+      .about,
+      .contact {
+        border-radius: 24px;
+        padding: 14px;
+      }
+
+      .featured-build {
+        gap: 16px;
+      }
+
+      .featured-shot {
+        border-radius: 20px;
+      }
+
+      .featured-shot img {
+        aspect-ratio: 16 / 10;
+        border-radius: 18px;
+      }
+
+      .featured-copy h3 {
+        font-size: clamp(1.55rem, 9vw, 2.2rem);
+      }
+
+      .feature-list li {
+        font-size: .92rem;
+      }
+
+      .project {
+        border-radius: 22px;
+      }
+
+      .art {
+        min-height: 118px;
+      }
+
+      .body {
+        padding: 16px;
+      }
+
+      .modal-overlay {
+        padding: 12px;
+      }
+
+      .modal-content {
+        border-radius: 18px;
+        max-width: 96vw;
+      }
+
+      .modal-x {
+        top: 10px;
+        right: 10px;
+        width: 38px;
+        height: 38px;
+      }
     }
   </style>
 </head>
@@ -587,9 +774,9 @@
   <main id="top">
     <div class="wrap hero">
       <div>
-        <span class="eyebrow">IT leader · commercial pilot · product-minded builder</span>
-        <h1>I build practical tools that solve real operational problems.</h1>
-        <p class="lead">This portfolio collects browser-based apps, aviation utilities, data analyzers, automation experiments, and Raspberry Pi kiosk projects I built to turn messy workflows into usable tools.</p>
+        <span class="eyebrow">IT leader · infrastructure builder · automation-minded problem solver</span>
+        <h1>I build practical technical systems that solve real operational problems.</h1>
+        <p class="lead">I bring executive-level IT leadership and hands-on technical depth across infrastructure, networking, systems, automation, and real-world product prototypes. This portfolio shows how I think, build, troubleshoot, and ship useful tools.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projects">View projects</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">LinkedIn</a>
@@ -602,16 +789,15 @@
         <div class="metrics">
           <div class="metric"><strong>24+</strong><span>Years IT leadership</span></div>
           <div class="metric"><strong>1,300+</strong><span>Flight hours</span></div>
-          <div class="metric"><strong>Live</strong><span>Project portfolio</span></div>
+          <div class="metric"><strong>Build</strong><span>Ship usable tools</span></div>
         </div>
       </aside>
     </div>
 
     <section id="projects">
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head compact-head">
           <h2>Featured projects</h2>
-          
         </div>
 
         <article class="featured-build" data-tags="aviation product data hardware">
@@ -719,6 +905,22 @@
               <div class="links"><a href="#contact">Preview available →</a></div>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="itvalue">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What I bring to an IT team</h2>
+          <p>Senior technical leadership with the ability to stay close to the work: infrastructure, troubleshooting, automation, vendor coordination, documentation, and practical systems thinking.</p>
+        </div>
+
+        <div class="proof-grid it-grid">
+          <div class="proof"><strong>Infrastructure ownership</strong><span>Long-term responsibility for business-critical systems, networks, servers, storage, virtualization, security, uptime, and support operations.</span></div>
+          <div class="proof"><strong>Hands-on troubleshooting</strong><span>Comfortable working through hardware, software, network, endpoint, cloud-adjacent, and user-impacting problems from root cause to resolution.</span></div>
+          <div class="proof"><strong>Automation mindset</strong><span>Looks for repetitive workflows that can be simplified with scripts, dashboards, scheduled jobs, cleaner UI, or better process design.</span></div>
+          <div class="proof"><strong>Leadership judgment</strong><span>Balances technical detail with business impact, risk, communication, vendor management, and practical decision-making.</span></div>
         </div>
       </div>
     </section>
