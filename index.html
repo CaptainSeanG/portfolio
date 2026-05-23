@@ -4,558 +4,486 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sean Gallagher | Technical Project Portfolio</title>
-
-  <meta name="description" content="Technical leadership portfolio for Sean Gallagher: infrastructure, automation, aviation systems, embedded prototypes, and practical product builds." />
+  <meta name="description" content="Technical leadership portfolio for Sean Gallagher: IT infrastructure, automation, aviation apps, hardware prototypes, Raspberry Pi kiosk projects, and GitHub Pages builds." />
   <meta name="theme-color" content="#07111f" />
-
   <meta property="og:title" content="Sean Gallagher | Technical Project Portfolio" />
-  <meta property="og:description" content="IT leadership, automation, infrastructure, embedded systems, and practical technical builds." />
+  <meta property="og:description" content="IT leader and hands-on technical builder focused on infrastructure, automation, aviation systems, and practical product prototypes." />
   <meta property="og:image" content="assets/cjt.png" />
-
   <style>
-    :root{
-      --bg:#07111f;
-      --bg2:#0c1b2d;
-      --card:rgba(255,255,255,.075);
-      --card2:rgba(255,255,255,.12);
-      --text:#f6f8fc;
-      --muted:#aab8ca;
-      --line:rgba(255,255,255,.14);
-      --blue:#5edcff;
-      --amber:#ffc15c;
-      --shadow:0 26px 80px rgba(0,0,0,.35);
-      --radius:24px;
-      --max:1180px;
-      --font:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    :root {
+      --bg: #07111f;
+      --bg2: #0c1b2d;
+      --card: rgba(255, 255, 255, 0.075);
+      --card2: rgba(255, 255, 255, 0.12);
+      --text: #f6f8fc;
+      --muted: #aab8ca;
+      --line: rgba(255, 255, 255, 0.14);
+      --blue: #5edcff;
+      --amber: #ffc15c;
+      --green: #78e3a2;
+      --red: #ff6678;
+      --purple: #d95cff;
+      --shadow: 0 26px 80px rgba(0, 0, 0, 0.35);
+      --radius: 24px;
+      --max: 1180px;
+      --font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    *{box-sizing:border-box;}
-    html{scroll-behavior:smooth;}
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
 
-    body{
-      margin:0;
-      font-family:var(--font);
-      color:var(--text);
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--text);
       background:
-        radial-gradient(circle at 10% 0%,rgba(94,220,255,.24),transparent 32rem),
-        radial-gradient(circle at 85% 12%,rgba(255,193,92,.18),transparent 30rem),
-        linear-gradient(145deg,#040914 0%,var(--bg) 48%,#0b1524 100%);
-      min-height:100vh;
+        radial-gradient(circle at 10% 0%, rgba(94, 220, 255, 0.24), transparent 32rem),
+        radial-gradient(circle at 85% 12%, rgba(255, 193, 92, 0.18), transparent 30rem),
+        linear-gradient(145deg, #040914 0%, var(--bg) 48%, #0b1524 100%);
+      min-height: 100vh;
     }
 
-    a{color:inherit;}
-    .wrap{width:min(var(--max),calc(100% - 36px));margin:0 auto;}
+    a { color: inherit; }
+    .wrap { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
 
-    .nav{
-      position:sticky;
-      top:0;
-      z-index:20;
-      backdrop-filter:blur(18px);
-      background:rgba(7,17,31,.76);
-      border-bottom:1px solid rgba(255,255,255,.08);
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(7, 17, 31, 0.76);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
-    .nav-inner{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:18px;
-      padding:14px 0;
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 0;
     }
 
-    .brand{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      text-decoration:none;
-      font-weight:850;
-      letter-spacing:-.035em;
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-weight: 850;
+      letter-spacing: -0.035em;
     }
 
-    .brand-mark{
-      width:42px;
-      height:42px;
-      display:grid;
-      place-items:center;
-      border-radius:15px;
-      color:#06111e;
-      background:linear-gradient(135deg,var(--blue),var(--amber));
-      box-shadow:0 16px 40px rgba(94,220,255,.18);
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      color: #06111e;
+      background: linear-gradient(135deg, var(--blue), var(--amber));
+      box-shadow: 0 16px 40px rgba(94, 220, 255, 0.18);
     }
 
-    .nav-links{
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
     }
 
-    .nav-links a{
-      text-decoration:none;
-      color:var(--muted);
-      padding:9px 12px;
-      border-radius:999px;
-      font-size:.94rem;
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      padding: 9px 12px;
+      border-radius: 999px;
+      font-size: 0.94rem;
     }
 
-    .nav-links a:hover{
-      background:rgba(255,255,255,.08);
-      color:var(--text);
+    .nav-links a:hover { background: rgba(255,255,255,.08); color: var(--text); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap: 38px;
+      align-items: center;
+      padding: 78px 0 44px;
     }
 
-    .hero{
-      display:grid;
-      grid-template-columns:1.02fr .98fr;
-      gap:38px;
-      align-items:center;
-      padding:72px 0 40px;
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--blue);
+      background: rgba(94, 220, 255, 0.10);
+      border: 1px solid rgba(94, 220, 255, 0.23);
+      padding: 8px 13px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: .92rem;
     }
 
-    .eyebrow{
-      display:inline-flex;
-      align-items:center;
-      gap:10px;
-      color:var(--blue);
-      background:rgba(94,220,255,.10);
-      border:1px solid rgba(94,220,255,.23);
-      padding:8px 13px;
-      border-radius:999px;
-      font-weight:800;
-      font-size:.92rem;
+    h1 {
+      margin: 24px 0 20px;
+      font-size: clamp(2.1rem, 5vw, 4rem);
+      line-height: .95;
+      letter-spacing: -.075em;
     }
 
-    h1{
-      margin:22px 0 18px;
-      font-size:clamp(1.9rem,4vw,3.25rem);
-      line-height:.96;
-      letter-spacing:-.07em;
+    .lead {
+      max-width: 68ch;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1.06rem, 1.75vw, 1.26rem);
+      line-height: 1.65;
     }
 
-    .lead{
-      max-width:66ch;
-      margin:0;
-      color:var(--muted);
-      font-size:1.08rem;
-      line-height:1.65;
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 30px;
     }
 
-    .hero-actions{
-      display:flex;
-      gap:12px;
-      flex-wrap:wrap;
-      margin-top:28px;
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 820;
+      border: 1px solid rgba(255,255,255,.16);
+      transition: transform .16s ease, background .16s ease;
     }
 
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      min-height:46px;
-      padding:0 18px;
-      border-radius:999px;
-      text-decoration:none;
-      font-weight:820;
-      border:1px solid rgba(255,255,255,.16);
-      transition:transform .16s ease;
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: #06111e; border: 0; background: linear-gradient(135deg, var(--blue), var(--amber)); box-shadow: 0 18px 52px rgba(94, 220, 255, .22); }
+    .btn-ghost { background: rgba(255,255,255,.06); color: var(--text); }
+    .btn-ghost:hover { background: rgba(255,255,255,.10); }
+
+    .hero-panel {
+      position: relative;
+      padding: 18px;
+      border-radius: 34px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: linear-gradient(160deg, rgba(255,255,255,.12), rgba(255,255,255,.045));
+      box-shadow: var(--shadow);
+      overflow: hidden;
     }
 
-    .btn:hover{transform:translateY(-2px);}
-
-    .btn-primary{
-      color:#06111e;
-      border:0;
-      background:linear-gradient(135deg,var(--blue),var(--amber));
-      box-shadow:0 18px 52px rgba(94,220,255,.22);
+    .hero-panel:before {
+      content: "";
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      right: -120px;
+      top: -150px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(94, 220, 255, .30), transparent 68%);
+      pointer-events: none;
     }
 
-    .btn-ghost{
-      background:rgba(255,255,255,.06);
-      color:var(--text);
+    section {
+      animation: fadeUp .55s ease both;
     }
 
-    .hero-panel{
-      position:relative;
-      padding:18px;
-      border-radius:34px;
-      border:1px solid rgba(255,255,255,.16);
-      background:linear-gradient(160deg,rgba(255,255,255,.12),rgba(255,255,255,.045));
-      box-shadow:var(--shadow);
-      overflow:hidden;
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
-    .hero-panel img{
-      width:100%;
-      aspect-ratio:4/3;
-      object-fit:cover;
-      border-radius:24px;
-      display:block;
-      border:1px solid rgba(255,255,255,.10);
+    .hero-panel img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 24px;
+      display: block;
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 16px 42px rgba(0,0,0,.28);
+      background: rgba(4,12,24,.45);
     }
 
-    .metrics{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      gap:12px;
-      margin-top:14px;
+    .metrics {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+      z-index: 1;
     }
 
-    .metric{
-      border-radius:18px;
-      padding:14px;
-      background:rgba(255,255,255,.075);
-      border:1px solid rgba(255,255,255,.10);
+    .metric {
+      border-radius: 18px;
+      padding: 14px;
+      background: rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.10);
+    }
+    .metric strong { display: block; font-size: 1.45rem; letter-spacing: -.045em; margin-bottom: 4px; }
+    .metric span { color: var(--muted); font-size: .84rem; }
+
+    section { padding: 46px 0; }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 22px;
     }
 
-    .metric strong{
-      display:block;
-      font-size:1.45rem;
-      margin-bottom:4px;
+    .section-head h2 {
+      margin: 0;
+      font-size: clamp(1.9rem, 3vw, 3rem);
+      line-height: 1;
+      letter-spacing: -.055em;
     }
 
-    .metric span{
-      color:var(--muted);
-      font-size:.84rem;
+    .section-head p {
+      max-width: 60ch;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
     }
 
-    section{padding:42px 0;}
-
-    .section-head{
-      margin-bottom:22px;
-    }
-
-    .section-head h2{
-      margin:0;
-      font-size:clamp(1.8rem,3vw,2.8rem);
-      line-height:1;
-      letter-spacing:-.05em;
-    }
-
-    .featured-build{
-      display:grid;
-      grid-template-columns:1.18fr .82fr;
-      gap:22px;
-      align-items:center;
-      margin:20px 0 24px;
-      padding:18px;
-      border-radius:34px;
+    .featured-build {
+      display: grid;
+      grid-template-columns: 1.18fr .82fr;
+      gap: 22px;
+      align-items: center;
+      margin: 24px 0 24px;
+      padding: 18px;
+      border-radius: 34px;
       background:
-        radial-gradient(circle at 24% 0%,rgba(94,220,255,.18),transparent 30rem),
-        radial-gradient(circle at 86% 80%,rgba(255,193,92,.13),transparent 26rem),
+        radial-gradient(circle at 24% 0%, rgba(94,220,255,.18), transparent 30rem),
+        radial-gradient(circle at 86% 80%, rgba(255,193,92,.13), transparent 26rem),
         rgba(255,255,255,.075);
-      border:1px solid rgba(94,220,255,.23);
-      box-shadow:var(--shadow);
+      border: 1px solid rgba(94,220,255,.23);
+      box-shadow: var(--shadow);
+      overflow: hidden;
     }
 
-    .featured-shot{
-      border-radius:26px;
-      overflow:hidden;
-      background:rgba(4,12,24,.55);
-      border:1px solid rgba(255,255,255,.13);
+    .featured-shot {
+      position: relative;
+      border-radius: 26px;
+      overflow: hidden;
+      background: rgba(4,12,24,.55);
+      border: 1px solid rgba(255,255,255,.13);
+      padding: 0;
+      box-shadow: inset 0 0 0 14px rgba(255,255,255,.025);
     }
 
-    .featured-shot img{
-      width:100%;
-      aspect-ratio:16/10;
-      object-fit:cover;
-      display:block;
+    .featured-shot img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      border-radius: 22px;
+      background: rgba(4,12,24,.45);
     }
 
-    .featured-label{
-      display:inline-flex;
-      width:fit-content;
-      padding:8px 12px;
-      border-radius:999px;
-      color:#06111e;
-      background:linear-gradient(135deg,var(--blue),var(--amber));
-      font-weight:900;
-      font-size:.84rem;
+    .featured-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4px 4px 4px 0;
     }
 
-    .featured-copy h3{
-      margin:14px 0 10px;
-      font-size:clamp(1.45rem,2.2vw,2.35rem);
-      line-height:1.02;
+    .featured-label {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: #06111e;
+      background: linear-gradient(135deg, var(--blue), var(--amber));
+      font-weight: 900;
+      font-size: .84rem;
+      letter-spacing: .01em;
     }
 
-    .featured-copy p{
-      color:var(--muted);
-      line-height:1.5;
-      font-size:.96rem;
+    .featured-copy h3 {
+      margin: 14px 0 10px;
+      font-size: clamp(1.45rem, 2.2vw, 2.35rem);
+      line-height: 1.02;
+      letter-spacing: -.05em;
     }
 
-    .feature-list{
-      display:grid;
-      gap:8px;
-      padding:0;
-      list-style:none;
-      margin:14px 0;
+    .featured-copy p {
+      color: var(--muted);
+      line-height: 1.5;
+      margin: 0 0 12px;
+      font-size: 0.96rem;
     }
 
-    .feature-list li{
-      color:#dce8f7;
-      line-height:1.4;
-      font-size:.93rem;
+    .feature-list {
+      display: grid;
+      gap: 8px;
+      margin: 8px 0 14px;
+      padding: 0;
+      list-style: none;
     }
 
-    .tags{
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
-      margin-top:auto;
-      padding-top:10px;
+    .feature-list li {
+      display: flex;
+      gap: 10px;
+      color: #dce8f7;
+      line-height: 1.38;
+      font-size: 0.93rem;
     }
 
-    .tag{
-      color:#dce8f7;
-      background:rgba(255,255,255,.08);
-      border:1px solid rgba(255,255,255,.10);
-      border-radius:999px;
-      padding:6px 9px;
-      font-size:.78rem;
-      font-weight:750;
+    .feature-list li:before {
+      content: "✦";
+      color: var(--blue);
+      flex: 0 0 auto;
     }
 
-    .featured-note{
-      color:var(--muted);
-      font-size:.88rem;
-      padding:10px 12px;
-      border-radius:14px;
-      background:rgba(255,255,255,.065);
-      border:1px solid rgba(255,255,255,.10);
-      margin-top:12px;
+    .featured-note {
+      color: var(--muted);
+      font-size: .88rem;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(255,255,255,.065);
+      border: 1px solid rgba(255,255,255,.10);
     }
 
-    .projects{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      gap:18px;
+    .filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0 26px; }
+    .filter {
+      cursor: pointer;
+      font: inherit;
+      color: var(--muted);
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 780;
+    }
+    .filter.active, .filter:hover { color: #06111e; background: linear-gradient(135deg, var(--blue), var(--amber)); border-color: transparent; }
+
+    .projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .project {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 14px 44px rgba(0,0,0,.18);
+      transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    }
+    .project:hover {
+      transform: translateY(-7px) scale(1.01);
+      background: var(--card2);
+      border-color: rgba(94, 220, 255, .34);
+      box-shadow: 0 24px 60px rgba(0,0,0,.30);
     }
 
-    .project{
-      display:flex;
-      flex-direction:column;
-      overflow:hidden;
-      border-radius:var(--radius);
-      background:var(--card);
-      border:1px solid rgba(255,255,255,.12);
-      box-shadow:0 14px 44px rgba(0,0,0,.18);
-      transition:transform .18s ease;
-    }
-
-    .project:hover{
-      transform:translateY(-6px);
-      background:var(--card2);
-    }
-
-    .art{
-      min-height:150px;
-      padding:18px;
-      display:flex;
-      align-items:flex-end;
-      justify-content:space-between;
+    .art {
+      min-height: 158px;
+      padding: 18px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
       background:
-        radial-gradient(circle at top right,rgba(255,255,255,.18),transparent 14rem),
-        linear-gradient(135deg,rgba(94,220,255,.24),rgba(255,193,92,.14));
-      border-bottom:1px solid rgba(255,255,255,.10);
+        radial-gradient(circle at top right, rgba(255,255,255,.18), transparent 14rem),
+        linear-gradient(135deg, rgba(94,220,255,.24), rgba(255,193,92,.14));
+      border-bottom: 1px solid rgba(255,255,255,.10);
     }
+    .icon { font-size: 3.1rem; line-height: 1; filter: drop-shadow(0 16px 22px rgba(0,0,0,.25)); }
+    .status { align-self: flex-start; color: #06111e; background: rgba(255,255,255,.80); border-radius: 999px; padding: 6px 10px; font-size: .76rem; font-weight: 900; }
 
-    .icon{
-      font-size:3rem;
+    .body { display: flex; flex-direction: column; flex: 1; padding: 18px; }
+    .body h3 { margin: 0 0 10px; font-size: 1.22rem; letter-spacing: -.035em; }
+    .body p { margin: 0 0 16px; color: var(--muted); line-height: 1.58; }
+    .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 10px; }
+    .tag { color: #dce8f7; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.10); border-radius: 999px; padding: 6px 9px; font-size: .78rem; font-weight: 750; }
+    .links { display: flex; gap: 12px; flex-wrap: wrap; padding-top: 16px; }
+    .links a { text-decoration: none; color: var(--text); font-weight: 850; font-size: .92rem; border-bottom: 1px solid rgba(94,220,255,.65); }
+
+    .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .proof {
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.065);
+      border: 1px solid rgba(255,255,255,.11);
+      padding: 18px;
     }
+    .proof strong { display: block; font-size: 1.06rem; margin-bottom: 8px; }
+    .proof span { color: var(--muted); line-height: 1.5; font-size: .95rem; }
 
-    .status{
-      color:#06111e;
-      background:rgba(255,255,255,.80);
-      border-radius:999px;
-      padding:6px 10px;
-      font-size:.76rem;
-      font-weight:900;
+    .about {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: 22px;
+      align-items: stretch;
+      border-radius: 32px;
+      padding: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.12), rgba(255,255,255,.045));
+      border: 1px solid rgba(255,255,255,.13);
+      box-shadow: var(--shadow);
     }
+    .about h2 { margin: 0 0 16px; font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1; letter-spacing: -.055em; }
+    .about p { color: var(--muted); line-height: 1.68; margin: 0 0 14px; }
+    .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 16px; }
+    .skill { padding: 12px; border-radius: 16px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.09); color: #dbe8f8; font-weight: 760; }
+    .timeline { display: grid; gap: 12px; }
+    .item { padding: 16px; border-radius: 20px; background: rgba(4,12,24,.48); border: 1px solid rgba(255,255,255,.10); }
+    .item small { display: block; color: var(--blue); font-weight: 900; margin-bottom: 6px; }
+    .item strong { display: block; margin-bottom: 5px; }
+    .item span { color: var(--muted); line-height: 1.5; }
 
-    .body{
-      display:flex;
-      flex-direction:column;
-      flex:1;
-      padding:18px;
+    .contact {
+      text-align: center;
+      border-radius: 32px;
+      padding: 46px 24px;
+      background: radial-gradient(circle at 50% 0%, rgba(94,220,255,.20), transparent 28rem), rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.12);
     }
+    .contact h2 { margin: 0 0 14px; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.06em; }
+    .contact p { max-width: 68ch; margin: 0 auto 24px; color: var(--muted); line-height: 1.6; }
+    footer { color: var(--muted); text-align: center; padding: 38px 0 46px; font-size: .92rem; }
 
-    .body h3{
-      margin:0 0 10px;
-      font-size:1.22rem;
-    }
+    .hidden { display: none !important; }
 
-    .body p{
-      margin:0 0 16px;
-      color:var(--muted);
-      line-height:1.58;
-    }
-
-    .links{
-      display:flex;
-      gap:12px;
-      padding-top:16px;
-    }
-
-    .links a{
+    .alt-thumb-link {
+      display:block;
       text-decoration:none;
-      font-weight:850;
-      font-size:.92rem;
-      border-bottom:1px solid rgba(94,220,255,.65);
+      cursor:pointer;
     }
 
-    .proof-grid{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:14px;
-    }
-
-    .proof{
-      border-radius:var(--radius);
-      background:rgba(255,255,255,.065);
-      border:1px solid rgba(255,255,255,.11);
-      padding:18px;
-    }
-
-    .proof strong{
-      display:block;
-      margin-bottom:8px;
-    }
-
-    .proof span{
-      color:var(--muted);
-      line-height:1.5;
-      font-size:.95rem;
-    }
-
-    .about{
-      display:grid;
-      grid-template-columns:.95fr 1.05fr;
-      gap:22px;
-      border-radius:32px;
-      padding:24px;
-      background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.045));
-      border:1px solid rgba(255,255,255,.13);
-      box-shadow:var(--shadow);
-    }
-
-    .about h2{
-      margin:0 0 16px;
-      font-size:clamp(1.8rem,3vw,2.8rem);
-    }
-
-    .about p{
-      color:var(--muted);
-      line-height:1.68;
-    }
-
-    .skills{
-      display:grid;
-      grid-template-columns:repeat(2,1fr);
-      gap:10px;
-      margin-top:16px;
-    }
-
-    .skill{
-      padding:12px;
-      border-radius:16px;
-      background:rgba(255,255,255,.07);
-      border:1px solid rgba(255,255,255,.09);
-      color:#dbe8f8;
-      font-weight:760;
-    }
-
-    .timeline{
-      display:grid;
-      gap:12px;
-    }
-
-    .item{
-      padding:16px;
-      border-radius:20px;
-      background:rgba(4,12,24,.48);
-      border:1px solid rgba(255,255,255,.10);
-    }
-
-    .item small{
-      display:block;
-      color:var(--blue);
-      font-weight:900;
-      margin-bottom:6px;
-    }
-
-    .item span{
-      color:var(--muted);
-      line-height:1.5;
-    }
-
-    .compact-contact{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:32px;
-      padding:34px 42px;
-      border-radius:32px;
-      background:
-        radial-gradient(circle at 50% 0%,rgba(94,220,255,.20),transparent 28rem),
-        rgba(255,255,255,.075);
-      border:1px solid rgba(255,255,255,.12);
-    }
-
-    .contact-copy{
-      max-width:720px;
-    }
-
-    .contact-copy h2{
-      margin:0 0 12px;
-      font-size:clamp(2rem,4vw,3.4rem);
-      letter-spacing:-.06em;
-    }
-
-    .contact-copy p{
-      color:var(--muted);
-      line-height:1.6;
-      margin-bottom:22px;
-    }
-
-    .compact-qr{
-      flex-shrink:0;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding:12px;
-      background:rgba(255,255,255,.04);
-      border:1px solid rgba(255,255,255,.08);
-      border-radius:20px;
-      box-shadow:0 10px 30px rgba(0,0,0,.18);
-    }
-
-    .compact-qr img{
-      width:160px;
-      height:160px;
-      display:block;
-    }
-
-    footer{
-      color:var(--muted);
-      text-align:center;
-      padding:38px 0 46px;
-      font-size:.92rem;
-    }
-
-    .alt-thumb{
+    .alt-thumb {
       width:100%;
       border-radius:16px;
       margin-bottom:14px;
       border:1px solid rgba(255,255,255,.10);
       box-shadow:0 10px 30px rgba(0,0,0,.25);
+      transition:transform .18s ease, box-shadow .18s ease;
+      cursor:pointer;
     }
 
-    .modal-toggle{
+    .alt-thumb:hover {
+      transform:scale(1.015);
+      box-shadow:0 18px 40px rgba(0,0,0,.35);
+    }
+
+    .modal-toggle {
       position:absolute;
       opacity:0;
       pointer-events:none;
     }
 
-    .modal-overlay{
+    .modal-overlay {
       position:fixed;
       inset:0;
       background:rgba(2,8,18,.82);
@@ -570,17 +498,18 @@
       z-index:999;
     }
 
-    .modal-toggle:checked + .modal-overlay{
+    .modal-toggle:checked + .modal-overlay {
       opacity:1;
       visibility:visible;
     }
 
-    .modal-close{
+    .modal-close {
       position:absolute;
       inset:0;
+      cursor:default;
     }
 
-    .modal-content{
+    .modal-content {
       position:relative;
       max-width:min(1400px,95vw);
       max-height:92vh;
@@ -588,18 +517,19 @@
       overflow:hidden;
       border:1px solid rgba(255,255,255,.12);
       box-shadow:0 30px 80px rgba(0,0,0,.55);
-      background:#08111d;
       z-index:2;
+      background:#08111d;
     }
 
-    .modal-image{
+    .modal-image {
       display:block;
       width:100%;
+      height:auto;
       max-height:92vh;
       object-fit:contain;
     }
 
-    .modal-x{
+    .modal-x {
       position:absolute;
       top:14px;
       right:16px;
@@ -614,158 +544,565 @@
       color:white;
       background:rgba(0,0,0,.45);
       border:1px solid rgba(255,255,255,.18);
+      backdrop-filter:blur(8px);
+      z-index:3;
     }
 
-    @media (max-width:940px){
-      .hero,
-      .about,
-      .featured-build{
-        grid-template-columns:1fr;
-      }
+    .modal-x:hover {
+      background:rgba(255,255,255,.12);
+    }
 
-      .projects{
-        grid-template-columns:repeat(2,1fr);
-      }
+    .compact-contact {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:32px;
+      padding:34px 42px;
+      min-height:auto;
+    }
 
-      .proof-grid{
-        grid-template-columns:repeat(2,1fr);
-      }
+    .contact-copy {
+      max-width:720px;
+    }
 
-      .compact-contact{
+    .contact-copy h2 {
+      margin-bottom:12px;
+    }
+
+    .contact-copy p {
+      margin-bottom:22px;
+      max-width:720px;
+    }
+
+    .compact-qr {
+      flex-shrink:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:12px;
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,.18);
+    }
+
+    .compact-qr img {
+      width:160px;
+      height:160px;
+      display:block;
+    }
+
+    .compact-head {
+      margin-bottom: 10px;
+    }
+
+    .it-grid .proof {
+      background: linear-gradient(145deg, rgba(94,220,255,.095), rgba(255,255,255,.055));
+    }
+
+    @media (hover: none) {
+      .project:hover,
+      .btn:hover,
+      .alt-thumb:hover {
+        transform: none;
+      }
+    }
+
+    @media (max-width: 940px) {
+      .hero, .about, .featured-build { grid-template-columns: 1fr; }
+      .hero { padding-top: 46px; }
+      .projects { grid-template-columns: repeat(2, 1fr); }
+      .proof-grid { grid-template-columns: repeat(2, 1fr); }
+      .section-head { align-items: flex-start; flex-direction: column; }
+      .featured-shot img { aspect-ratio: 16 / 10; }
+      .featured-copy { padding: 6px 4px 8px; }
+    }
+
+    @media (max-width: 900px) {
+      .compact-contact {
         flex-direction:column;
         align-items:flex-start;
       }
     }
 
-    @media (max-width:700px){
-      .wrap{
-        width:min(100% - 24px,var(--max));
+    @media (max-width: 700px) {
+      .wrap { width: min(100% - 24px, var(--max)); }
+
+      body {
+        background:
+          radial-gradient(circle at 18% 0%, rgba(94, 220, 255, 0.16), transparent 24rem),
+          linear-gradient(145deg, #040914 0%, var(--bg) 54%, #0b1524 100%);
       }
 
-      .nav{
-        position:static;
+      .nav {
+        position: static;
       }
 
-      .nav-inner{
-        flex-direction:column;
-        align-items:flex-start;
+      .nav-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 12px 0;
       }
 
-      .hero{
-        grid-template-columns:1fr;
-        padding:36px 0 26px;
+      .brand-mark {
+        width: 38px;
+        height: 38px;
+        border-radius: 13px;
       }
 
+      .nav-links {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 6px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+      }
+
+      .nav-links::-webkit-scrollbar { display: none; }
+
+      .nav-links a {
+        flex: 0 0 auto;
+        font-size: .86rem;
+        padding: 8px 10px;
+        background: rgba(255,255,255,.045);
+      }
+
+      .hero {
+        gap: 24px;
+        padding: 36px 0 26px;
+      }
+
+      .eyebrow {
+        font-size: .78rem;
+        line-height: 1.25;
+      }
+
+      h1 {
+        font-size: clamp(2.15rem, 12vw, 3.2rem);
+        line-height: .98;
+        margin: 18px 0 14px;
+      }
+
+      .lead {
+        font-size: 1rem;
+        line-height: 1.55;
+      }
+
+      .hero-actions {
+        margin-top: 22px;
+        gap: 10px;
+      }
+
+      .btn {
+        width: 100%;
+        min-height: 48px;
+      }
+
+      .hero-panel {
+        padding: 12px;
+        border-radius: 24px;
+      }
+
+      .hero-panel img {
+        aspect-ratio: 16 / 11;
+        border-radius: 18px;
+      }
+
+      .metrics,
       .projects,
       .proof-grid,
-      .skills,
-      .metrics{
-        grid-template-columns:1fr;
+      .skills {
+        grid-template-columns: 1fr;
+      }
+
+      .metric {
+        padding: 12px;
+      }
+
+      section {
+        padding: 32px 0;
+      }
+
+      .section-head {
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .section-head h2,
+      .about h2,
+      .contact h2 {
+        font-size: clamp(1.65rem, 9vw, 2.35rem);
+        line-height: 1.03;
+      }
+
+      .section-head p,
+      .about p,
+      .contact p {
+        font-size: .96rem;
+        line-height: 1.55;
       }
 
       .featured-build,
       .about,
-      .compact-contact{
-        padding:16px;
-        border-radius:24px;
+      .contact {
+        border-radius: 24px;
+        padding: 14px;
       }
 
-      .projects{
-        gap:16px;
+      .featured-build {
+        gap: 16px;
       }
 
-      .btn{
-        width:100%;
+      .featured-shot {
+        border-radius: 20px;
       }
 
-      .compact-qr{
-        width:100%;
+      .featured-shot img {
+        aspect-ratio: 16 / 10;
+        border-radius: 18px;
       }
 
-      .compact-qr img{
-        width:140px;
-        height:140px;
+      .featured-copy h3 {
+        font-size: clamp(1.55rem, 9vw, 2.2rem);
+      }
+
+      .feature-list li {
+        font-size: .92rem;
+      }
+
+      .project {
+        border-radius: 22px;
+      }
+
+      .art {
+        min-height: 118px;
+      }
+
+      .body {
+        padding: 16px;
+      }
+
+      .modal-overlay {
+        padding: 12px;
+      }
+
+      .modal-content {
+        border-radius: 18px;
+        max-width: 96vw;
+      }
+
+      .modal-x {
+        top: 10px;
+        right: 10px;
+        width: 38px;
+        height: 38px;
       }
     }
   </style>
 </head>
-
 <body>
-
-<nav class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="#top">
-      <span class="brand-mark">SG</span>
-      <span>Sean Gallagher</span>
-    </a>
-
-    <div class="nav-links">
-      <a href="#projects">Projects</a>
-      <a href="#proof">Proof Points</a>
-      <a href="#about">Background</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-</nav>
-
-<main id="top">
-
-  <div class="wrap hero">
-
-    <div>
-      <span class="eyebrow">
-        IT leader · infrastructure builder · automation-minded problem solver
-      </span>
-
-      <h1>I build practical technical systems that solve real operational problems.</h1>
-
-      <p class="lead">
-        I bring executive-level IT leadership and hands-on technical depth across infrastructure, networking, systems, automation, and real-world product prototypes.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#projects">View projects</a>
-
-        <a class="btn btn-ghost"
-           href="https://www.linkedin.com/in/n55960"
-           target="_blank"
-           rel="noreferrer">
-          LinkedIn
-        </a>
-
-        <a class="btn btn-ghost"
-           href="https://github.com/captainseang"
-           target="_blank"
-           rel="noreferrer">
-          GitHub
-        </a>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Sean Gallagher portfolio home">
+        <span class="brand-mark">SG</span>
+        <span>Sean Gallagher</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#proof">Proof Points</a>
+        <a href="#about">Background</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
+  </nav>
 
-    <aside class="hero-panel">
-      <img src="assets/cjt.png" alt="Corporate Jet ID Trainer shown on desktop monitor" />
-
-      <div class="metrics">
-        <div class="metric">
-          <strong>24+</strong>
-          <span>Years IT leadership</span>
-        </div>
-
-        <div class="metric">
-          <strong>1,300+</strong>
-          <span>Flight hours</span>
-        </div>
-
-        <div class="metric">
-          <strong>Build</strong>
-          <span>Ship usable tools</span>
+  <main id="top">
+    <div class="wrap hero">
+      <div>
+        <span class="eyebrow">IT leader · infrastructure builder · automation-minded problem solver</span>
+        <h1>I build practical technical systems that solve real operational problems.</h1>
+        <p class="lead">I bring executive-level IT leadership and hands-on technical depth across infrastructure, networking, systems, automation, and real-world product prototypes. This portfolio shows how I think, build, troubleshoot, and ship useful tools.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/captainseang" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
-    </aside>
 
+      <aside class="hero-panel" aria-label="Portfolio visual summary">
+        <img src="assets/cjt.png" alt="Corporate Jet ID Trainer shown on a desktop monitor in a professional office setting" />
+        <div class="metrics">
+          <div class="metric"><strong>24+</strong><span>Years IT leadership</span></div>
+          <div class="metric"><strong>1,300+</strong><span>Flight hours</span></div>
+          <div class="metric"><strong>Build</strong><span>Ship usable tools</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head compact-head">
+          <h2>Featured projects</h2>
+        </div>
+
+        <article class="featured-build" data-tags="aviation product data hardware">
+          <div class="featured-shot">
+            <img src="assets/pilotlounge.png" alt="Raspberry Pi aviation weather display mounted in an FBO pilot lounge" />
+          </div>
+          <div class="featured-copy">
+            <span class="featured-label">Most complex build</span>
+            <h3>Raspberry Pi Aviation Weather Map</h3>
+            <p>A Raspberry Pi–powered aviation weather display designed for hangars, offices, and pilot lounges, combining live METAR data with a polished kiosk-style interface.</p>
+            <ul class="feature-list">
+              <li>LED-style U.S. weather map showing VFR, MVFR, IFR, and LIFR airport conditions.</li>
+              <li>Purpose-built kiosk interface with local/Zulu time, home-airport data, and clean aviation-focused layout.</li>
+              <li>Combines front-end design, live data handling, and low-cost hardware deployment.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Raspberry Pi</span>
+              <span class="tag">Aviation Weather</span>
+              <span class="tag">Kiosk UI</span>
+              <span class="tag">Hardware + Software</span>
+            </div>
+            <p class="featured-note">Best presented as a guided walkthrough rather than a public live demo.</p>
+          </div>
+        </article>
+
+        <div class="projects">
+          <article class="project" data-tags="data product">
+            <div class="art"><span class="icon">☀️</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Solar Efficiency Analyzer</h3>
+              <p>A browser-based CSV analyzer that estimates solar production, temperature-corrected yield, performance ratio, battery efficiency, health status, charts, and exportable processed results.</p>
+              <div class="tags"><span class="tag">JavaScript</span><span class="tag">CSV Parsing</span><span class="tag">Data Visualization</span></div>
+              <div class="links"><a href="https://captainseang.github.io/solar/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product data">
+            <div class="art"><span class="icon">🧰</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Aircraft & Pilot Compliance Tracker</h3>
+              <p>An offline-ready aircraft and pilot compliance planner for tracking pilot currency, medical details, aircraft inspections, custom items, backup/restore, and due-status dashboards.</p>
+              <div class="tags"><span class="tag">Aviation MX</span><span class="tag">Local Storage</span><span class="tag">Date Logic</span></div>
+              <div class="links"><a href="https://captainseang.github.io/mx" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">🛫</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Corporate Jet ID Trainer</h3>
+              <p>An adaptive 10-question aviation learning app for recognizing corporate jets by silhouette, window patterns, engines, tails, winglets, and other aircraft profile clues.</p>
+              <div class="tags"><span class="tag">Training App</span><span class="tag">Aircraft ID</span><span class="tag">Adaptive UX</span></div>
+              <div class="links"><a href="https://captainseang.github.io/CorpJet" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="automation product data">
+            <div class="art"><span class="icon">📬</span><span class="status">Active build</span></div>
+            <div class="body">
+              <img src="assets/ai_mail_cleaner_running.gif" alt="AI-assisted email organization dashboard" style="width:100%; border-radius:16px; margin-bottom:14px; border:1px solid rgba(255,255,255,.10); box-shadow:0 10px 30px rgba(0,0,0,.25);" />
+              <h3>AI-Assisted Email Organizer</h3>
+              <p>An intelligent inbox cleanup and categorization system designed to identify marketing clutter, prioritize important communication, and automate repetitive email organization tasks.</p>
+              <div class="tags"><span class="tag">Automation</span><span class="tag">AI Workflow</span><span class="tag">Email Filtering</span><span class="tag">Dashboard UI</span></div>
+              <div class="links"><a href="#contact">Private demo available →</a></div>
+            </div>
+          </article>
+
+          
+
+          <article class="project" data-tags="aviation hardware product">
+            <div class="art"><span class="icon">🛩️</span><span class="status">Hardware prototype</span></div>
+            <div class="body">
+              <label for="altitude-modal-toggle" class="alt-thumb-link">
+                <img src="assets/alt.png" alt="Arduino cockpit altitude reminder prototype" class="alt-thumb" />
+              </label>
+              <h3>Arduino Altitude Reminder</h3>
+              <p>A custom Arduino-powered cockpit reminder device designed to quickly capture and display assigned altitudes from ATC for easier readbacks and reduced cockpit workload.</p>
+              <div class="tags"><span class="tag">Arduino</span><span class="tag">3D Printing</span><span class="tag">Cockpit Prototype</span><span class="tag">Aviation Hardware</span></div>
+              <div class="links"><a href="#contact">Prototype walkthrough available →</a></div>
+            </div>
+          </article>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="itvalue">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What I bring to an IT team</h2>
+          <p>Senior technical leadership with the ability to stay close to the work: infrastructure, troubleshooting, automation, vendor coordination, documentation, and practical systems thinking.</p>
+        </div>
+
+        <div class="proof-grid it-grid">
+          <div class="proof"><strong>Infrastructure ownership</strong><span>Long-term responsibility for business-critical systems, networks, servers, storage, virtualization, security, uptime, and support operations.</span></div>
+          <div class="proof"><strong>Hands-on troubleshooting</strong><span>Comfortable working through hardware, software, network, endpoint, cloud-adjacent, and user-impacting problems from root cause to resolution.</span></div>
+          <div class="proof"><strong>Automation mindset</strong><span>Looks for repetitive workflows that can be simplified with scripts, dashboards, scheduled jobs, cleaner UI, or better process design.</span></div>
+          <div class="proof"><strong>Leadership judgment</strong><span>Balances technical detail with business impact, risk, communication, vendor management, and practical decision-making.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mindset">
+      <div class="wrap about" style="margin-bottom:46px;">
+        <div>
+          <h2>How I approach technical problems</h2>
+          <p>
+            I tend to build tools around real operational friction points:
+            cockpit workload, aviation weather awareness, compliance tracking,
+            data visualization, and automation of repetitive workflows.
+          </p>
+          <p>
+            Most of my projects follow the same pattern:
+            identify a real-world pain point, rapidly prototype a usable solution,
+            test it in the operational environment, then refine the interface until
+            it feels intuitive.
+          </p>
+          <div class="skills">
+            <div class="skill">Operational Thinking</div>
+            <div class="skill">Rapid Prototyping</div>
+            <div class="skill">Usability-Driven Design</div>
+            <div class="skill">Automation Mindset</div>
+            <div class="skill">Real-World Testing</div>
+            <div class="skill">Systems Troubleshooting</div>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="item">
+            <small>Problem Identification</small>
+            <strong>Find the operational friction</strong>
+            <span>Most ideas start from noticing repetitive workload, confusing interfaces, or inefficient processes in real environments.</span>
+          </div>
+
+          <div class="item">
+            <small>Prototype Quickly</small>
+            <strong>Build first, refine second</strong>
+            <span>I prefer rapid working prototypes over over-engineering, especially for cockpit and operations-focused tools.</span>
+          </div>
+
+          <div class="item">
+            <small>Field Testing</small>
+            <strong>Usability matters</strong>
+            <span>If something feels awkward during actual use, I redesign it until the workflow feels natural and low workload.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="techstack">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Technologies & platforms</h2>
+          <p>
+            The projects on this site combine front-end development, embedded hardware,
+            aviation operations, automation, data handling, and rapid prototyping.
+          </p>
+        </div>
+
+        <div class="tags" style="gap:12px; margin-top:18px;">
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">GitHub Pages</span>
+          <span class="tag">Python</span>
+          <span class="tag">Raspberry Pi</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">3D Printing</span>
+          <span class="tag">Automation</span>
+          <span class="tag">Data Visualization</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">Aviation Systems</span>
+          <span class="tag">Embedded Prototyping</span>
+          <span class="tag">Networking</span>
+          <span class="tag">Infrastructure</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="proof">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What these projects demonstrate</h2>
+          <p>Not just code. These are proof points for product thinking, technical judgment, systems troubleshooting, and shipping usable tools with limited resources.</p>
+        </div>
+        <div class="proof-grid">
+          <div class="proof"><strong>Real operational use</strong><span>Several projects were designed around actual cockpit workflows, aviation operations, and real-world usability constraints.</span></div>
+          <div class="proof"><strong>End-to-end ownership</strong><span>Idea, requirements, UI, logic, deployment, troubleshooting, and iteration.</span></div>
+          <div class="proof"><strong>Operational mindset</strong><span>Built around real workflows: aviation weather, compliance dates, job hunting, and data analysis.</span></div>
+          <div class="proof"><strong>Automation instinct</strong><span>Uses scripts, scheduled jobs, data cleanup, and repeatable processes instead of manual busywork.</span></div>
+          <div class="proof"><strong>Hardware/software thinking</strong><span>Turns browser apps into deployable kiosk-style systems that can run on low-cost hardware.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about">
+        <div>
+          <h2>Builder with executive IT depth and aviation-grade attention to detail.</h2>
+          <p>I bring more than two decades of IT leadership, network infrastructure, server administration, cybersecurity, vendor management, and hands-on troubleshooting experience.</p>
+          <p>My personal projects combine that background with aviation, data, and product design: practical tools that can be tested, deployed, explained, and improved.</p>
+          <div class="skills">
+            <div class="skill">Network Infrastructure</div>
+            <div class="skill">Systems Administration</div>
+            <div class="skill">Automation + Scripting</div>
+            <div class="skill">GitHub Pages</div>
+            <div class="skill">Aviation Operations</div>
+            <div class="skill">Product Prototyping</div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="item"><small>IT Leadership</small><strong>VP / Director-level technical leadership</strong><span>Long-term ownership of infrastructure, systems, support teams, vendors, reliability, and practical business technology.</span></div>
+          <div class="item"><small>Builder Mindset</small><strong>Rapid prototypes with working demos</strong><span>Uses static hosting, browser-side logic, automation, and clean interfaces to make ideas testable without heavy infrastructure.</span></div>
+          <div class="item"><small>Aviation Perspective</small><strong>Commercial pilot and aircraft owner</strong><span>Brings checklist discipline, risk management, operational detail, and real-world aviation context into software projects.</span></div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact qr-contact compact-contact">
+          <div class="contact-copy">
+            <h2>Connect with me</h2>
+            <p>
+              LinkedIn is the best place to reach me for technical leadership,
+              infrastructure, automation, and product-focused opportunities.
+            </p>
+
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noopener noreferrer">
+              View LinkedIn
+            </a>
+          </div>
+
+          <div class="qr-panel compact-qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://www.linkedin.com/in/n55960" alt="LinkedIn QR code" class="qr-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <input type="checkbox" id="altitude-modal-toggle" class="modal-toggle" />
+  <div class="modal-overlay">
+    <label for="altitude-modal-toggle" class="modal-close"></label>
+    <div class="modal-content">
+      <label for="altitude-modal-toggle" class="modal-x">✕</label>
+      <img src="assets/alt2.png" alt="Arduino altitude reminder installed in aircraft cockpit" class="modal-image" />
+    </div>
   </div>
 
-</main>
+  <footer>
+    <div class="wrap">© <span id="year"></span> Sean Gallagher · Built for GitHub Pages</div>
+  </footer>
 
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
