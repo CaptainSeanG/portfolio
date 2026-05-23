@@ -124,7 +124,7 @@
 
     h1 {
       margin: 24px 0 20px;
-      font-size: clamp(2.55rem, 6vw, 5.25rem);
+      font-size: clamp(2.1rem, 5vw, 4rem);
       line-height: .95;
       letter-spacing: -.075em;
     }
@@ -823,15 +823,6 @@
           </div>
         </article>
 
-        <div class="filters" aria-label="Project filters">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="aviation">Aviation</button>
-          <button class="filter" data-filter="data">Data</button>
-          <button class="filter" data-filter="automation">Automation</button>
-          <button class="filter" data-filter="product">Product</button>
-          <button class="filter" data-filter="hardware">Hardware</button>
-        </div>
-
         <div class="projects">
           <article class="project" data-tags="data product">
             <div class="art"><span class="icon">☀️</span><span class="status">Live demo</span></div>
@@ -1044,12 +1035,26 @@
     </section>
 
     <section id="contact">
-      <div class="wrap contact">
-        <h2>Want the deeper walkthrough?</h2>
-        <p>I can discuss the design choices, code structure, product thinking, deployment approach, and next-step roadmap behind any of these builds.</p>
-        <div class="hero-actions" style="justify-content:center; margin-top:0;">
-          <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
-          <a class="btn btn-ghost" href="https://github.com/captainseang" target="_blank" rel="noreferrer">View GitHub</a>
+      <div class="wrap">
+        <div class="contact qr-contact">
+          <div>
+            <h2>Connect with me</h2>
+            <p>
+              LinkedIn is the best place to reach me for technical leadership,
+              infrastructure, automation, and product-focused opportunities.
+            </p>
+
+            <div class="hero-actions" style="margin-top:24px;">
+              <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noopener noreferrer">
+                View LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <div class="qr-panel">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https://www.linkedin.com/in/n55960" alt="LinkedIn QR code" class="qr-image" />
+            <span>Scan to open LinkedIn profile</span>
+          </div>
         </div>
       </div>
     </section>
@@ -1069,22 +1074,6 @@
   </footer>
 
   <script>
-    const buttons = document.querySelectorAll('.filter');
-    const cards = document.querySelectorAll('.project, .featured-build');
-
-    buttons.forEach(button => {
-      button.addEventListener('click', () => {
-        const filter = button.dataset.filter;
-        buttons.forEach(b => b.classList.remove('active'));
-        button.classList.add('active');
-
-        cards.forEach(card => {
-          const tags = card.dataset.tags || '';
-          card.classList.toggle('hidden', filter !== 'all' && !tags.includes(filter));
-        });
-      });
-    });
-
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
