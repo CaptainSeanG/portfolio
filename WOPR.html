@@ -210,6 +210,22 @@
       line-height: 1.1;
       margin: 0;
     }
+    .section-subhead {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin: 2px 0 10px;
+    }
+    .section-subhead h3 {
+      font-size: 15px;
+      margin: 0;
+    }
+    .section-subhead span {
+      color: var(--amber);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
     .count {
       color: var(--amber);
       font-size: 12px;
@@ -281,6 +297,24 @@
     }
     .order.sell { border-left-color: var(--amber); }
     .order.stop { border-left-color: var(--red); }
+    .order-summary {
+      display: grid;
+      gap: 7px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .order-summary span {
+      background: rgba(255, 255, 255, 0.045);
+      border: 1px solid rgba(141, 255, 220, 0.1);
+      border-radius: 11px;
+      color: var(--muted);
+      font-size: 12px;
+      padding: 9px;
+    }
+    .order-summary b {
+      color: var(--text);
+      display: block;
+      font-size: 18px;
+    }
     .activity {
       color: #c9dce3;
       font-size: 12px;
@@ -318,7 +352,7 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jun 6, 11:57 AM</span>
+        <span>Updated Jun 6, 12:00 PM</span>
         <span>Read-only backend snapshot. No broker connection, no real trades.</span>
       </div>
     </section>
@@ -343,9 +377,9 @@
     </section>
     
     
-    <section class="card">
-      <div class="section-head"><h2>Positions Held</h2><span class="count">4 held</span></div>
-      <div class="stack">
+    <details class="card collapsible" open>
+      <summary class="section-head"><h2>Positions Held</h2><span class="count">4 held</span></summary>
+      <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">ZIM</div><div class="muted">ZIM Integrated Shipping</div></div>
@@ -413,17 +447,21 @@
           <div class="mini">Stop<strong>$53.37</strong></div>
         </div>
       </article>
-    </div>
-    </section>
+    </div></div>
+    </details>
     
     
     <details class="card collapsible" open>
-      <summary class="section-head"><h2>Open Orders</h2><span class="count">8 waiting</span></summary>
+      <summary class="section-head"><h2>Pending Paper Orders</h2><span class="count">0 buy / 8 sell</span></summary>
       <div class="collapsible-body">
       <div class="stack">
+        <div class="order-summary">
+          <span><b>0</b> pending buy(s)</span>
+          <span><b>8</b> pending sell/exit trigger(s)</span>
+        </div>
         <div class="muted">Pending buys</div>
         <div class="empty">No pending paper buys.</div>
-        <div class="muted">Planned exits</div>
+        <div class="muted">Pending sells / exits</div>
         
       <article class="row-card order sell">
         <div class="row-top">
@@ -494,8 +532,10 @@
     </details>
     
     
-    <section class="card">
-      <div class="section-head"><h2>Recently Filled</h2><span class="count">8 recent</span></div>
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Recent Trade Activity</h2><span class="count">8 fills / 6 closed</span></summary>
+      <div class="collapsible-body">
+      <div class="section-subhead"><h3>Recently Filled</h3><span>8 recent</span></div>
       <div class="stack">
       <article class="row-card">
         <div class="row-top">
@@ -553,7 +593,7 @@
       </article>
     </div>
       <div style="height:12px"></div>
-      <div class="section-head"><h2>Recently Closed</h2><span class="count">6 resolved</span></div>
+      <div class="section-subhead"><h3>Recently Closed</h3><span>6 resolved</span></div>
       <div class="stack">
       <article class="row-card">
         <div class="row-top">
@@ -599,11 +639,13 @@
         </div>
       </article>
     </div>
-    </section>
+    </div>
+    </details>
     
     
-    <section class="card">
-      <div class="section-head"><h2>WOPR Metrics</h2><span class="count">snapshot</span></div>
+    <details class="card collapsible">
+      <summary class="section-head"><h2>WOPR Metrics</h2><span class="count">snapshot</span></summary>
+      <div class="collapsible-body">
       <div class="metric-grid">
         <span class="metric "><small>Resolved / target</small><b>14 / 25</b></span>
         <span class="metric "><small>Open trades</small><b>4</b></span>
@@ -614,7 +656,8 @@
         <span class="metric "><small>Waiting buys</small><b>0</b></span>
         <span class="metric "><small>Last scan</small><b>Jun 6, 11:01 AM</b></span>
       </div>
-    </section>
+    </div>
+    </details>
     
     
     <details class="card collapsible">
@@ -668,6 +711,13 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
+          <div><div class="ticker">REJECT</div><div class="muted">TSLA - Jun 6, 11:58 AM</div></div>
+        </div>
+        <div class="activity"><b></b><br>Confidence 29/100, required 74/100, data 20/100.</div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
           <div><div class="ticker">REJECT</div><div class="muted">MU - Jun 6, 11:51 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 43/100, required 74/100, data 24/100.</div>
@@ -713,13 +763,6 @@
           <div><div class="ticker">REJECT</div><div class="muted">LTC - Jun 6, 11:25 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 35/100, required 62/100, data 47/100.</div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jun 6, 11:21 AM</div></div>
-        </div>
-        <div class="activity"><b></b><br>Confidence 36/100, required 62/100, data 51/100.</div>
       </article>
     </div></div>
     </details>
