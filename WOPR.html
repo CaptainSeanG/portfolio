@@ -112,6 +112,33 @@
       overflow: hidden;
       padding: 16px;
     }
+    details.card {
+      padding: 0;
+    }
+    details.card summary {
+      cursor: pointer;
+      list-style: none;
+      margin: 0;
+      padding: 16px;
+      user-select: none;
+    }
+    details.card summary::-webkit-details-marker {
+      display: none;
+    }
+    details.card summary::after {
+      color: var(--green);
+      content: "+";
+      font-size: 22px;
+      font-weight: 950;
+      line-height: 1;
+      margin-left: 10px;
+    }
+    details.card[open] summary::after {
+      content: "-";
+    }
+    .collapsible-body {
+      padding: 0 16px 16px;
+    }
     .account {
       border-color: rgba(87, 255, 208, 0.28);
       margin-top: 8px;
@@ -174,6 +201,9 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 12px;
+    }
+    summary.section-head {
+      margin-bottom: 0;
     }
     h2 {
       font-size: 19px;
@@ -288,8 +318,8 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jun 6, 11:27 AM</span>
-        <span>Browser dashboard snapshot: Jun 3, 2:47 PM. Read-only; no real trades.</span>
+        <span>Updated Jun 6, 11:42 AM</span>
+        <span>Read-only backend snapshot. No broker connection, no real trades.</span>
       </div>
     </section>
 
@@ -298,252 +328,170 @@
       <div class="account-head">
         <span class="account-title">Paper account</span>
         <div class="account-main">
-          <strong class="equity">$1,004.55</strong>
-          <span class="pl gain">+$4.55 (+0.45%)</span>
+          <strong class="equity">$993.59</strong>
+          <span class="pl loss">-$6.41 (-0.64%)</span>
         </div>
       </div>
       <div class="metric-grid">
         <span class="metric "><small>Starting bankroll</small><b>$1,000.00</b></span>
-        <span class="metric "><small>Open invested</small><b>$325.00</b></span>
-        <span class="metric "><small>Waiting orders</small><b>$50.00</b></span>
-        <span class="metric "><small>Available cash</small><b>$625.00</b></span>
-        <span class="metric gain"><small>Unrealized P/L</small><b>+$8.55</b></span>
-        <span class="metric gain"><small>Total P/L</small><b>+$4.55</b></span>
+        <span class="metric "><small>Open invested</small><b>$100.00</b></span>
+        <span class="metric "><small>Waiting orders</small><b>$0.00</b></span>
+        <span class="metric "><small>Available cash</small><b>$900.00</b></span>
+        <span class="metric loss"><small>Unrealized P/L</small><b>-$1.04</b></span>
+        <span class="metric loss"><small>Total P/L</small><b>-$6.41</b></span>
       </div>
     </section>
     
     
     <section class="card">
-      <div class="section-head"><h2>Positions Held</h2><span class="count">13 held</span></div>
+      <div class="section-head"><h2>Positions Held</h2><span class="count">4 held</span></div>
       <div class="stack">
       <article class="row-card">
         <div class="row-top">
+          <div><div class="ticker">ZIM</div><div class="muted">ZIM Integrated Shipping</div></div>
+          <span class="badge ">80/100</span>
+        </div>
+        <div class="row-money">
+          <b>$24.79</b>
+          <span class="loss">-$0.21 (-0.85%)</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Entry<strong>$25.42</strong></div>
+          <div class="mini">Now<strong>$25.20</strong></div>
+          <div class="mini">Target<strong>$26.69</strong></div>
+          <div class="mini">Stop<strong>$24.40</strong></div>
+        </div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
           <div><div class="ticker">NVDA</div><div class="muted">Nvidia</div></div>
-          <span class="badge ">77/100</span>
+          <span class="badge amber">62/100</span>
         </div>
         <div class="row-money">
-          <b>$24.82</b>
-          <span class="loss">-$0.18 (-0.73%)</span>
+          <b>$24.54</b>
+          <span class="loss">-$0.46 (-1.85%)</span>
         </div>
         <div class="mini-grid">
-          <div class="mini">Entry<strong>$215.41</strong></div>
-          <div class="mini">Now<strong>$213.84</strong></div>
-          <div class="mini">Target<strong>$226.83</strong></div>
-          <div class="mini">Stop<strong>$206.79</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">VST</div><div class="muted">Vistra</div></div>
-          <span class="badge amber">56/100</span>
-        </div>
-        <div class="row-money">
-          <b>$24.43</b>
-          <span class="loss">-$0.57 (-2.28%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$156.10</strong></div>
-          <div class="mini">Now<strong>$152.54</strong></div>
-          <div class="mini">Target<strong>$165.15</strong></div>
-          <div class="mini">Stop<strong>$149.86</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">FDX</div><div class="muted">FedEx</div></div>
-          <span class="badge amber">51/100</span>
-        </div>
-        <div class="row-money">
-          <b>$26.25</b>
-          <span class="gain">+$1.25 (+5.00%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$332.00</strong></div>
-          <div class="mini">Now<strong>$348.60</strong></div>
-          <div class="mini">Target<strong>$348.60</strong></div>
-          <div class="mini">Stop<strong>$318.72</strong></div>
+          <div class="mini">Entry<strong>$207.89</strong></div>
+          <div class="mini">Now<strong>$204.04</strong></div>
+          <div class="mini">Target<strong>$219.32</strong></div>
+          <div class="mini">Stop<strong>$199.57</strong></div>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">ZIM</div><div class="muted">ZIM Integrated Shipping</div></div>
-          <span class="badge amber">52/100</span>
+          <span class="badge ">80/100</span>
         </div>
         <div class="row-money">
-          <b>$26.25</b>
-          <span class="gain">+$1.25 (+5.00%)</span>
+          <b>$24.33</b>
+          <span class="loss">-$0.67 (-2.67%)</span>
         </div>
         <div class="mini-grid">
-          <div class="mini">Entry<strong>$23.50</strong></div>
-          <div class="mini">Now<strong>$24.68</strong></div>
-          <div class="mini">Target<strong>$24.68</strong></div>
-          <div class="mini">Stop<strong>$22.56</strong></div>
+          <div class="mini">Entry<strong>$25.89</strong></div>
+          <div class="mini">Now<strong>$25.20</strong></div>
+          <div class="mini">Target<strong>$27.18</strong></div>
+          <div class="mini">Stop<strong>$24.85</strong></div>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">VST</div><div class="muted">Vistra</div></div>
-          <span class="badge amber">58/100</span>
+          <div><div class="ticker">ENB</div><div class="muted">Enbridge</div></div>
+          <span class="badge ">71/100</span>
         </div>
         <div class="row-money">
-          <b>$24.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
+          <b>$25.31</b>
+          <span class="gain">+$0.31 (+1.22%)</span>
         </div>
         <div class="mini-grid">
-          <div class="mini">Entry<strong>$159.78</strong></div>
-          <div class="mini">Now<strong>$153.39</strong></div>
-          <div class="mini">Target<strong>$168.57</strong></div>
-          <div class="mini">Stop<strong>$153.39</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">TSLA</div><div class="muted">Tesla</div></div>
-          <span class="badge amber">61/100</span>
-        </div>
-        <div class="row-money">
-          <b>$24.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$431.95</strong></div>
-          <div class="mini">Now<strong>$414.67</strong></div>
-          <div class="mini">Target<strong>$453.98</strong></div>
-          <div class="mini">Stop<strong>$414.67</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Nvidia</div></div>
-          <span class="badge amber">68/100</span>
-        </div>
-        <div class="row-money">
-          <b>$26.25</b>
-          <span class="gain">+$1.25 (+5.00%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$212.43</strong></div>
-          <div class="mini">Now<strong>$223.05</strong></div>
-          <div class="mini">Target<strong>$223.05</strong></div>
-          <div class="mini">Stop<strong>$203.93</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Nvidia</div></div>
-          <span class="badge amber">68/100</span>
-        </div>
-        <div class="row-money">
-          <b>$26.25</b>
-          <span class="gain">+$1.25 (+5.00%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$216.79</strong></div>
-          <div class="mini">Now<strong>$227.63</strong></div>
-          <div class="mini">Target<strong>$227.63</strong></div>
-          <div class="mini">Stop<strong>$208.12</strong></div>
+          <div class="mini">Entry<strong>$55.59</strong></div>
+          <div class="mini">Now<strong>$56.27</strong></div>
+          <div class="mini">Target<strong>$58.37</strong></div>
+          <div class="mini">Stop<strong>$53.37</strong></div>
         </div>
       </article>
     </div>
     </section>
     
     
-    <section class="card">
-      <div class="section-head"><h2>Open Orders</h2><span class="count">28 waiting</span></div>
+    <details class="card collapsible" open>
+      <summary class="section-head"><h2>Open Orders</h2><span class="count">8 waiting</span></summary>
+      <div class="collapsible-body">
       <div class="stack">
         <div class="muted">Pending buys</div>
-        
-      <article class="row-card order ">
-        <div class="row-top">
-          <div><div class="ticker">FDX</div><div class="muted">Limit buy @ $320.43</div></div>
-          <span class="badge amber">63/100</span>
-        </div>
-        <div class="activity">DCA tranche 2/4: wait for a pullback to $320.43 before adding another $25.</div>
-      </article>
-    
-      <article class="row-card order ">
-        <div class="row-top">
-          <div><div class="ticker">ENB</div><div class="muted">Limit buy @ $52.89</div></div>
-          <span class="badge amber">69/100</span>
-        </div>
-        <div class="activity">DCA tranche 4/4: wait for a pullback to $52.89 before adding another $25. Stock fills wait for regular-session confirmation because extended-hours paper buys are disabled.</div>
-      </article>
-    
+        <div class="empty">No pending paper buys.</div>
         <div class="muted">Planned exits</div>
         
       <article class="row-card order sell">
         <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Target sell @ $225.44</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">ENB</div><div class="muted">Target sell @ $58.37</div></div>
+          <span class="badge ">71/100</span>
         </div>
-        <div class="activity">Paper target exit for NVDA. Stop is $205.73.</div>
+        <div class="activity">Paper target exit for ENB. Stop is $53.37.</div>
       </article>
     
       <article class="row-card order stop">
         <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Stop sell @ $205.73</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">ENB</div><div class="muted">Stop sell @ $53.37</div></div>
+          <span class="badge ">71/100</span>
         </div>
-        <div class="activity">Paper stop exit for NVDA. Target is $225.44.</div>
+        <div class="activity">Paper stop exit for ENB. Target is $58.37.</div>
       </article>
     
       <article class="row-card order sell">
         <div class="row-top">
-          <div><div class="ticker">ENB</div><div class="muted">Target sell @ $59.28</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">ZIM</div><div class="muted">Target sell @ $27.18</div></div>
+          <span class="badge ">80/100</span>
         </div>
-        <div class="activity">Paper target exit for ENB. Stop is $54.20.</div>
+        <div class="activity">Paper target exit for ZIM. Stop is $24.85.</div>
       </article>
     
       <article class="row-card order stop">
         <div class="row-top">
-          <div><div class="ticker">ENB</div><div class="muted">Stop sell @ $54.20</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">ZIM</div><div class="muted">Stop sell @ $24.85</div></div>
+          <span class="badge ">80/100</span>
         </div>
-        <div class="activity">Paper stop exit for ENB. Target is $59.28.</div>
+        <div class="activity">Paper stop exit for ZIM. Target is $27.18.</div>
       </article>
     
       <article class="row-card order sell">
         <div class="row-top">
-          <div><div class="ticker">ENB</div><div class="muted">Target sell @ $58.52</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">NVDA</div><div class="muted">Target sell @ $219.32</div></div>
+          <span class="badge amber">62/100</span>
         </div>
-        <div class="activity">Paper target exit for ENB. Stop is $53.50.</div>
+        <div class="activity">Paper target exit for NVDA. Stop is $199.57.</div>
       </article>
     
       <article class="row-card order stop">
         <div class="row-top">
-          <div><div class="ticker">ENB</div><div class="muted">Stop sell @ $53.50</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">NVDA</div><div class="muted">Stop sell @ $199.57</div></div>
+          <span class="badge amber">62/100</span>
         </div>
-        <div class="activity">Paper stop exit for ENB. Target is $58.52.</div>
+        <div class="activity">Paper stop exit for NVDA. Target is $219.32.</div>
       </article>
     
       <article class="row-card order sell">
         <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Target sell @ $219.82</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">ZIM</div><div class="muted">Target sell @ $26.69</div></div>
+          <span class="badge ">80/100</span>
         </div>
-        <div class="activity">Paper target exit for NVDA. Stop is $200.98.</div>
+        <div class="activity">Paper target exit for ZIM. Stop is $24.40.</div>
       </article>
     
       <article class="row-card order stop">
         <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Stop sell @ $200.98</div></div>
-          <span class="badge red">n/a/100</span>
+          <div><div class="ticker">ZIM</div><div class="muted">Stop sell @ $24.40</div></div>
+          <span class="badge ">80/100</span>
         </div>
-        <div class="activity">Paper stop exit for NVDA. Target is $219.82.</div>
+        <div class="activity">Paper stop exit for ZIM. Target is $26.69.</div>
       </article>
     
       </div>
-    </section>
+    </div>
+    </details>
     
     
     <section class="card">
@@ -551,103 +499,103 @@
       <div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Jun 3, 7:56 AM</div></div>
+          <div><div class="ticker">ZIM</div><div class="muted">Jun 5, 11:38 AM</div></div>
           <span class="badge red">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.18 (-0.73%)</span>
+          <span class="loss">-$0.21 (-0.85%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">VST</div><div class="muted">Jun 2, 6:10 AM</div></div>
+          <div><div class="ticker">NVDA</div><div class="muted">Jun 5, 10:46 AM</div></div>
           <span class="badge red">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.57 (-2.28%)</span>
+          <span class="loss">-$0.46 (-1.85%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SOL</div><div class="muted">Jun 1, 8:20 AM</div></div>
+          <div><div class="ticker">ZIM</div><div class="muted">Jun 5, 7:46 AM</div></div>
+          <span class="badge red">OPEN</span>
+        </div>
+        <div class="row-money">
+          <b>$25.00</b>
+          <span class="loss">-$0.67 (-2.67%)</span>
+        </div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">NVDA</div><div class="muted">Jun 3, 6:36 AM</div></div>
           <span class="badge red">STOP HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
+          <span class="loss">-$1.05 (-4.18%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">LTC</div><div class="muted">Jun 1, 8:15 AM</div></div>
+          <div><div class="ticker">NVDA</div><div class="muted">Jun 2, 11:38 AM</div></div>
           <span class="badge red">STOP HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">FDX</div><div class="muted">Jun 1, 1:00 AM</div></div>
-          <span class="badge amber">OPEN</span>
-        </div>
-        <div class="row-money">
-          <b>$25.00</b>
-          <span class="gain">+$1.25 (+5.00%)</span>
+          <span class="loss">-$1.01 (-4.06%)</span>
         </div>
       </article>
     </div>
       <div style="height:12px"></div>
-      <div class="section-head"><h2>Recently Closed</h2><span class="count">4 resolved</span></div>
+      <div class="section-head"><h2>Recently Closed</h2><span class="count">6 resolved</span></div>
       <div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SOL</div><div class="muted">Jun 1, 8:20 AM</div></div>
+          <div><div class="ticker">VST</div><div class="muted">Jun 1, 6:36 AM</div></div>
           <span class="badge red">STOP HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
+          <span class="loss">-$1.09 (-4.35%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">LTC</div><div class="muted">Jun 1, 8:15 AM</div></div>
+          <div><div class="ticker">NVDA</div><div class="muted">Jun 3, 6:36 AM</div></div>
           <span class="badge red">STOP HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
+          <span class="loss">-$1.05 (-4.18%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">BTC</div><div class="muted">May 31, 12:47 AM</div></div>
+          <div><div class="ticker">TSLA</div><div class="muted">Jun 1, 7:28 AM</div></div>
           <span class="badge red">STOP HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
+          <span class="loss">-$1.08 (-4.30%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">LINK</div><div class="muted">May 30, 6:12 PM</div></div>
-          <span class="badge red">STOP HIT</span>
+          <div><div class="ticker">ZIM</div><div class="muted">Jun 2, 8:39 AM</div></div>
+          <span class="badge ">TARGET HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$1.00 (-4.00%)</span>
+          <span class="gain">+$1.29 (+5.15%)</span>
         </div>
       </article>
     </div>
@@ -655,23 +603,23 @@
     
     
     <section class="card">
-      <div class="section-head"><h2>WOPR Metrics</h2><span class="count">learning on</span></div>
+      <div class="section-head"><h2>WOPR Metrics</h2><span class="count">snapshot</span></div>
       <div class="metric-grid">
-        <span class="metric "><small>Resolved / target</small><b>4 / 25</b></span>
-        <span class="metric "><small>Open trades</small><b>13</b></span>
-        <span class="metric "><small>Win rate</small><b>0.0%</b></span>
-        <span class="metric loss"><small>Avg return</small><b>-4.00%</b></span>
+        <span class="metric "><small>Resolved / target</small><b>14 / 25</b></span>
+        <span class="metric "><small>Open trades</small><b>4</b></span>
+        <span class="metric "><small>Win rate</small><b>28.6%</b></span>
+        <span class="metric loss"><small>Avg return</small><b>-1.54%</b></span>
         <span class="metric "><small>Trade reviews</small><b>8</b></span>
         <span class="metric "><small>Upgrade queue</small><b>4</b></span>
-        <span class="metric "><small>Waiting buys</small><b>2</b></span>
-        <span class="metric "><small>Last scan</small><b>Jun 3, 2:41 PM</b></span>
+        <span class="metric "><small>Waiting buys</small><b>0</b></span>
+        <span class="metric "><small>Last scan</small><b>Jun 6, 11:01 AM</b></span>
       </div>
     </section>
     
     
-    <section class="card">
-      <div class="section-head"><h2>Learning Reviews</h2><span class="count">8 latest</span></div>
-      <div class="stack">
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Learning Reviews</h2><span class="count">8 latest</span></summary>
+      <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">VST</div><div class="muted">Overconfident Loss - Jun 5, 12:11 PM</div></div>
@@ -711,13 +659,27 @@
         </div>
         <div class="activity">ZIM win: 5.15% after 2.9 day(s). Target was reached; keep the rule as a positive sample.</div>
       </article>
-    </div>
-    </section>
+    </div></div>
+    </details>
     
     
-    <section class="card">
-      <div class="section-head"><h2>Activity</h2><span class="count">live journal</span></div>
-      <div class="stack">
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Activity</h2><span class="count">live journal</span></summary>
+      <div class="collapsible-body"><div class="stack">
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jun 6, 11:33 AM</div></div>
+        </div>
+        <div class="activity"><b></b><br>Confidence 35/100, required 62/100, data 47/100.</div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jun 6, 11:28 AM</div></div>
+        </div>
+        <div class="activity"><b></b><br>Confidence 35/100, required 62/100, data 47/100.</div>
+      </article>
+    
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">REJECT</div><div class="muted">LTC - Jun 6, 11:25 AM</div></div>
@@ -759,24 +721,12 @@
         </div>
         <div class="activity"><b></b><br>Confidence 43/100, required 74/100, data 24/100.</div>
       </article>
+    </div></div>
+    </details>
     
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">FDX - Jun 6, 11:11 AM</div></div>
-        </div>
-        <div class="activity"><b></b><br>Confidence 60/100, required 74/100, data 32/100.</div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">DELL - Jun 6, 11:08 AM</div></div>
-        </div>
-        <div class="activity"><b></b><br>Confidence 38/100, required 74/100, data 20/100.</div>
-      </article>
-    </div>
-      <div style="height:12px"></div>
-      <div class="section-head"><h2>Upgrade Queue</h2><span class="count">4 pending</span></div>
-      <div class="stack">
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Upgrade Queue</h2><span class="count">4 pending</span></summary>
+      <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">Medium</div><div class="muted">Jun 3, 6:00 PM</div></div>
@@ -808,8 +758,8 @@
         </div>
         <div class="activity"><b>Collect more backend autonomous samples</b><br>14 resolved backend paper trade(s), 4 open.</div>
       </article>
-    </div>
-    </section>
+    </div></div>
+    </details>
     
 
     <div class="footer">
