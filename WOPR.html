@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#061017">
+  <meta name="wopr-generated-at" content="2026-06-13T05:33:47.729045+00:00">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -352,8 +353,8 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jun 12, 10:27 PM</span>
-        <span>Browser dashboard snapshot: Jun 12, 10:27 PM. Read-only; no real trades.</span>
+        <span>Updated Jun 12, 10:33 PM</span>
+        <span>Browser dashboard snapshot: Jun 12, 10:33 PM. Read-only; no real trades.</span>
       </div>
     </section>
 
@@ -799,8 +800,8 @@
         <span class="metric "><small>Trade reviews</small><b>8</b></span>
         <span class="metric "><small>Upgrade queue</small><b>1</b></span>
         <span class="metric "><small>Waiting buys</small><b>0</b></span>
-        <span class="metric "><small>Live simulations run</small><b>1,301,805</b></span>
-        <span class="metric "><small>Last simulation run</small><b>Jun 12, 10:23 PM</b></span>
+        <span class="metric "><small>Live simulations run</small><b>1,302,514</b></span>
+        <span class="metric "><small>Last simulation run</small><b>Jun 12, 10:29 PM</b></span>
         <span class="metric "><small>Last scan</small><b>Jun 12, 3:40 PM</b></span>
       </div>
     </div>
@@ -930,8 +931,35 @@
 
     <div class="footer">
       Public static mirror generated from local WOPR data. Paper trading only; no broker integration and no real orders.
+      <br>This page checks for a newer W.O.P.R. export every 15 minutes.
       <br><a href="https://captainseang.github.io/portfolio/WOPR.html">https://captainseang.github.io/portfolio/WOPR.html</a>
     </div>
   </main>
+  <script>
+    (() => {
+      const refreshMs = 15 * 60 * 1000;
+      const currentGeneratedAt = "2026-06-13T05:33:47.729045+00:00";
+      const baseUrl = location.origin + location.pathname;
+
+      async function checkForUpdate() {
+        try {
+          const response = await fetch(baseUrl + "?wopr_check=" + Date.now(), { cache: "no-store" });
+          if (!response.ok) return;
+          const html = await response.text();
+          const match = html.match(/<meta name="wopr-generated-at" content="([^"]+)"/);
+          if (match && match[1] && match[1] !== currentGeneratedAt) {
+            location.replace(baseUrl + "?updated=" + Date.now());
+          }
+        } catch (error) {
+          // Static mirror only: if GitHub Pages is unreachable, keep showing the last exported data.
+        }
+      }
+
+      window.setInterval(checkForUpdate, refreshMs);
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") checkForUpdate();
+      });
+    })();
+  </script>
 </body>
 </html>
