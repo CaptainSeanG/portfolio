@@ -9,6 +9,7 @@
   <meta property="og:title" content="Sean Gallagher | Technical Project Portfolio" />
   <meta property="og:description" content="IT leader and hands-on technical builder focused on infrastructure, automation, aviation systems, and practical product prototypes." />
   <meta property="og:image" content="assets/cjt.png" />
+
   <style>
     :root {
       --bg: #07111f;
@@ -20,9 +21,6 @@
       --line: rgba(255, 255, 255, 0.14);
       --blue: #5edcff;
       --amber: #ffc15c;
-      --green: #78e3a2;
-      --red: #ff6678;
-      --purple: #d95cff;
       --shadow: 0 26px 80px rgba(0, 0, 0, 0.35);
       --radius: 24px;
       --max: 1180px;
@@ -52,7 +50,7 @@
       z-index: 20;
       backdrop-filter: blur(18px);
       background: rgba(7, 17, 31, 0.76);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255,255,255,.08);
     }
 
     .nav-inner {
@@ -185,18 +183,13 @@
     }
 
     section {
+      padding: 46px 0;
       animation: fadeUp .55s ease both;
     }
 
     @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(16px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     .hero-panel img {
@@ -228,10 +221,9 @@
       background: rgba(255,255,255,.075);
       border: 1px solid rgba(255,255,255,.10);
     }
+
     .metric strong { display: block; font-size: 1.45rem; letter-spacing: -.045em; margin-bottom: 4px; }
     .metric span { color: var(--muted); font-size: .84rem; }
-
-    section { padding: 46px 0; }
 
     .section-head {
       display: flex;
@@ -358,20 +350,8 @@
       border: 1px solid rgba(255,255,255,.10);
     }
 
-    .filters { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0 26px; }
-    .filter {
-      cursor: pointer;
-      font: inherit;
-      color: var(--muted);
-      background: rgba(255,255,255,.055);
-      border: 1px solid rgba(255,255,255,.16);
-      border-radius: 999px;
-      padding: 10px 14px;
-      font-weight: 780;
-    }
-    .filter.active, .filter:hover { color: #06111e; background: linear-gradient(135deg, var(--blue), var(--amber)); border-color: transparent; }
-
     .projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+
     .project {
       display: flex;
       flex-direction: column;
@@ -383,6 +363,7 @@
       box-shadow: 0 14px 44px rgba(0,0,0,.18);
       transition: transform .18s ease, border-color .18s ease, background .18s ease;
     }
+
     .project:hover {
       transform: translateY(-7px) scale(1.01);
       background: var(--card2);
@@ -391,22 +372,44 @@
     }
 
     .art {
-      min-height: 158px;
-      padding: 18px;
+      min-height: 72px;
+      padding: 14px 18px;
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       justify-content: space-between;
       background:
         radial-gradient(circle at top right, rgba(255,255,255,.18), transparent 14rem),
         linear-gradient(135deg, rgba(94,220,255,.24), rgba(255,193,92,.14));
       border-bottom: 1px solid rgba(255,255,255,.10);
     }
-    .icon { font-size: 3.1rem; line-height: 1; filter: drop-shadow(0 16px 22px rgba(0,0,0,.25)); }
-    .status { align-self: flex-start; color: #06111e; background: rgba(255,255,255,.80); border-radius: 999px; padding: 6px 10px; font-size: .76rem; font-weight: 900; }
+
+    .icon { font-size: 2rem; line-height: 1; filter: drop-shadow(0 16px 22px rgba(0,0,0,.25)); }
+
+    .status {
+      align-self: center;
+      color: #06111e;
+      background: rgba(255,255,255,.80);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: .76rem;
+      font-weight: 900;
+    }
 
     .body { display: flex; flex-direction: column; flex: 1; padding: 18px; }
     .body h3 { margin: 0 0 10px; font-size: 1.22rem; letter-spacing: -.035em; }
     .body p { margin: 0 0 16px; color: var(--muted); line-height: 1.58; }
+
+    .project .body > img,
+    .project .body > .alt-thumb-link img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 16px;
+      margin-bottom: 14px;
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+
     .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 10px; }
     .tag { color: #dce8f7; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.10); border-radius: 999px; padding: 6px 9px; font-size: .78rem; font-weight: 750; }
     .links { display: flex; gap: 12px; flex-wrap: wrap; padding-top: 16px; }
@@ -414,33 +417,19 @@
 
     .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 
-    .compact-proof .section-head {
-      margin-bottom: 14px;
-    }
+    .compact-proof .section-head { margin-bottom: 14px; }
+    .compact-proof .section-head p { max-width: 56ch; }
+    .compact-tags { margin: 4px 0 18px; padding-top: 0; }
+    .compact-grid .proof { padding: 16px; }
+    .compact-grid .proof span { font-size: .9rem; line-height: 1.45; }
 
-    .compact-proof .section-head p {
-      max-width: 56ch;
-    }
-
-    .compact-tags {
-      margin: 4px 0 18px;
-      padding-top: 0;
-    }
-
-    .compact-grid .proof {
-      padding: 16px;
-    }
-
-    .compact-grid .proof span {
-      font-size: .9rem;
-      line-height: 1.45;
-    }
     .proof {
       border-radius: var(--radius);
       background: rgba(255,255,255,.065);
       border: 1px solid rgba(255,255,255,.11);
       padding: 18px;
     }
+
     .proof strong { display: block; font-size: 1.06rem; margin-bottom: 8px; }
     .proof span { color: var(--muted); line-height: 1.5; font-size: .95rem; }
 
@@ -455,6 +444,7 @@
       border: 1px solid rgba(255,255,255,.13);
       box-shadow: var(--shadow);
     }
+
     .about h2 { margin: 0 0 16px; font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1; letter-spacing: -.055em; }
     .about p { color: var(--muted); line-height: 1.68; margin: 0 0 14px; }
     .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 16px; }
@@ -472,17 +462,40 @@
       background: radial-gradient(circle at 50% 0%, rgba(94,220,255,.20), transparent 28rem), rgba(255,255,255,.075);
       border: 1px solid rgba(255,255,255,.12);
     }
+
     .contact h2 { margin: 0 0 14px; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.06em; }
     .contact p { max-width: 68ch; margin: 0 auto 24px; color: var(--muted); line-height: 1.6; }
+
+    .compact-contact {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:32px;
+      padding:34px 42px;
+      min-height:auto;
+    }
+
+    .contact-copy { max-width:720px; text-align:left; }
+    .contact-copy h2 { margin-bottom:12px; }
+    .contact-copy p { margin-bottom:22px; max-width:720px; }
+
+    .compact-qr {
+      flex-shrink:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:12px;
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,.18);
+    }
+
+    .compact-qr img { width:160px; height:160px; display:block; }
+
     footer { color: var(--muted); text-align: center; padding: 38px 0 46px; font-size: .92rem; }
 
-    .hidden { display: none !important; }
-
-    .alt-thumb-link {
-      display:block;
-      text-decoration:none;
-      cursor:pointer;
-    }
+    .alt-thumb-link { display:block; text-decoration:none; cursor:pointer; }
 
     .alt-thumb {
       width:100%;
@@ -494,16 +507,9 @@
       cursor:pointer;
     }
 
-    .alt-thumb:hover {
-      transform:scale(1.015);
-      box-shadow:0 18px 40px rgba(0,0,0,.35);
-    }
+    .alt-thumb:hover { transform:scale(1.015); box-shadow:0 18px 40px rgba(0,0,0,.35); }
 
-    .modal-toggle {
-      position:absolute;
-      opacity:0;
-      pointer-events:none;
-    }
+    .modal-toggle { position:absolute; opacity:0; pointer-events:none; }
 
     .modal-overlay {
       position:fixed;
@@ -520,16 +526,8 @@
       z-index:999;
     }
 
-    .modal-toggle:checked + .modal-overlay {
-      opacity:1;
-      visibility:visible;
-    }
-
-    .modal-close {
-      position:absolute;
-      inset:0;
-      cursor:default;
-    }
+    .modal-toggle:checked + .modal-overlay { opacity:1; visibility:visible; }
+    .modal-close { position:absolute; inset:0; cursor:default; }
 
     .modal-content {
       position:relative;
@@ -570,64 +568,16 @@
       z-index:3;
     }
 
-    .modal-x:hover {
-      background:rgba(255,255,255,.12);
-    }
+    .modal-x:hover { background:rgba(255,255,255,.12); }
 
-    .compact-contact {
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:32px;
-      padding:34px 42px;
-      min-height:auto;
-    }
-
-    .contact-copy {
-      max-width:720px;
-    }
-
-    .contact-copy h2 {
-      margin-bottom:12px;
-    }
-
-    .contact-copy p {
-      margin-bottom:22px;
-      max-width:720px;
-    }
-
-    .compact-qr {
-      flex-shrink:0;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding:12px;
-      background:rgba(255,255,255,.04);
-      border:1px solid rgba(255,255,255,.08);
-      border-radius:20px;
-      box-shadow:0 10px 30px rgba(0,0,0,.18);
-    }
-
-    .compact-qr img {
-      width:160px;
-      height:160px;
-      display:block;
-    }
-
-    .compact-head {
-      margin-bottom: 10px;
-    }
+    .compact-head { margin-bottom: 10px; }
 
     .it-grid .proof {
       background: linear-gradient(145deg, rgba(94,220,255,.095), rgba(255,255,255,.055));
     }
 
     @media (hover: none) {
-      .project:hover,
-      .btn:hover,
-      .alt-thumb:hover {
-        transform: none;
-      }
+      .project:hover, .btn:hover, .alt-thumb:hover { transform: none; }
     }
 
     @media (max-width: 940px) {
@@ -638,13 +588,7 @@
       .section-head { align-items: flex-start; flex-direction: column; }
       .featured-shot img { aspect-ratio: 16 / 10; }
       .featured-copy { padding: 6px 4px 8px; }
-    }
-
-    @media (max-width: 900px) {
-      .compact-contact {
-        flex-direction:column;
-        align-items:flex-start;
-      }
+      .compact-contact { flex-direction:column; align-items:flex-start; }
     }
 
     @media (max-width: 700px) {
@@ -656,9 +600,7 @@
           linear-gradient(145deg, #040914 0%, var(--bg) 54%, #0b1524 100%);
       }
 
-      .nav {
-        position: static;
-      }
+      .nav { position: static; }
 
       .nav-inner {
         align-items: flex-start;
@@ -666,11 +608,7 @@
         padding: 12px 0;
       }
 
-      .brand-mark {
-        width: 38px;
-        height: 38px;
-        border-radius: 13px;
-      }
+      .brand-mark { width: 38px; height: 38px; border-radius: 13px; }
 
       .nav-links {
         width: 100%;
@@ -691,15 +629,9 @@
         background: rgba(255,255,255,.045);
       }
 
-      .hero {
-        gap: 24px;
-        padding: 36px 0 26px;
-      }
+      .hero { gap: 24px; padding: 36px 0 26px; }
 
-      .eyebrow {
-        font-size: .78rem;
-        line-height: 1.25;
-      }
+      .eyebrow { font-size: .78rem; line-height: 1.25; }
 
       h1 {
         font-size: clamp(2.15rem, 12vw, 3.2rem);
@@ -707,108 +639,59 @@
         margin: 18px 0 14px;
       }
 
-      .lead {
-        font-size: 1rem;
-        line-height: 1.55;
-      }
+      .lead { font-size: 1rem; line-height: 1.55; }
 
-      .hero-actions {
-        margin-top: 22px;
-        gap: 10px;
-      }
+      .hero-actions { margin-top: 22px; gap: 10px; }
 
-      .btn {
-        width: 100%;
-        min-height: 48px;
-      }
+      .btn { width: 100%; min-height: 48px; }
 
-      .hero-panel {
-        padding: 12px;
-        border-radius: 24px;
-      }
+      .hero-panel { padding: 12px; border-radius: 24px; }
 
-      .hero-panel img {
-        aspect-ratio: 16 / 11;
-        border-radius: 18px;
-      }
+      .hero-panel img { aspect-ratio: 16 / 11; border-radius: 18px; }
 
-      .metrics,
-      .projects,
-      .proof-grid,
-      .skills {
-        grid-template-columns: 1fr;
-      }
+      .metrics, .projects, .proof-grid, .skills { grid-template-columns: 1fr; }
 
-      .metric {
-        padding: 12px;
-      }
+      .metric { padding: 12px; }
 
-      section {
-        padding: 32px 0;
-      }
+      section { padding: 32px 0; }
 
-      .section-head {
-        gap: 12px;
-        margin-bottom: 18px;
-      }
+      .section-head { gap: 12px; margin-bottom: 18px; }
 
-      .section-head h2,
-      .about h2,
-      .contact h2 {
+      .section-head h2, .about h2, .contact h2 {
         font-size: clamp(1.65rem, 9vw, 2.35rem);
         line-height: 1.03;
       }
 
-      .section-head p,
-      .about p,
-      .contact p {
+      .section-head p, .about p, .contact p {
         font-size: .96rem;
         line-height: 1.55;
       }
 
-      .featured-build,
-      .about,
-      .contact {
+      .featured-build, .about, .contact {
         border-radius: 24px;
         padding: 14px;
       }
 
-      .featured-build {
-        gap: 16px;
-      }
+      .featured-build { gap: 16px; }
 
-      .featured-shot {
-        border-radius: 20px;
-      }
+      .featured-shot { border-radius: 20px; }
 
       .featured-shot img {
         aspect-ratio: 16 / 10;
         border-radius: 18px;
       }
 
-      .featured-copy h3 {
-        font-size: clamp(1.55rem, 9vw, 2.2rem);
-      }
+      .featured-copy h3 { font-size: clamp(1.55rem, 9vw, 2.2rem); }
 
-      .feature-list li {
-        font-size: .92rem;
-      }
+      .feature-list li { font-size: .92rem; }
 
-      .project {
-        border-radius: 22px;
-      }
+      .project { border-radius: 22px; }
 
-      .art {
-        min-height: 118px;
-      }
+      .art { min-height: 64px; }
 
-      .body {
-        padding: 16px;
-      }
+      .body { padding: 16px; }
 
-      .modal-overlay {
-        padding: 12px;
-      }
+      .modal-overlay { padding: 12px; }
 
       .modal-content {
         border-radius: 18px;
@@ -821,9 +704,18 @@
         width: 38px;
         height: 38px;
       }
+
+      .compact-contact {
+        padding: 20px;
+      }
+
+      .compact-qr {
+        width: 100%;
+      }
     }
   </style>
 </head>
+
 <body>
   <nav class="nav">
     <div class="wrap nav-inner">
@@ -893,40 +785,21 @@
         </article>
 
         <div class="projects">
-          <article class="project" data-tags="data product">
-            <div class="art"><span class="icon">☀️</span><span class="status">Live demo</span></div>
-            <div class="body">
-              <h3>Solar Efficiency Analyzer</h3>
-              <p>A browser-based CSV analyzer that estimates solar production, temperature-corrected yield, performance ratio, battery efficiency, health status, charts, and exportable processed results.</p>
-              <div class="tags"><span class="tag">JavaScript</span><span class="tag">CSV Parsing</span><span class="tag">Data Visualization</span></div>
-              <div class="links"><a href="https://captainseang.github.io/solar/" target="_blank" rel="noreferrer">Open app →</a></div>
-            </div>
-          </article>
-
           <article class="project" data-tags="aviation product data">
-            <div class="art"><span class="icon">🧰</span><span class="status">Live demo</span></div>
+            <div class="art"><span class="icon">📡</span><span class="status">Live build</span></div>
             <div class="body">
-              <h3>Aircraft & Pilot Compliance Tracker</h3>
-              <p>An offline-ready aircraft and pilot compliance planner for tracking pilot currency, medical details, aircraft inspections, custom items, backup/restore, and due-status dashboards.</p>
-              <div class="tags"><span class="tag">Aviation MX</span><span class="tag">Local Storage</span><span class="tag">Date Logic</span></div>
-              <div class="links"><a href="https://captainseang.github.io/mx" target="_blank" rel="noreferrer">Open app →</a></div>
-            </div>
-          </article>
-
-          <article class="project" data-tags="aviation product">
-            <div class="art"><span class="icon">🛫</span><span class="status">Live demo</span></div>
-            <div class="body">
-              <h3>Corporate Jet ID Trainer</h3>
-              <p>An adaptive 10-question aviation learning app for recognizing corporate jets by silhouette, window patterns, engines, tails, winglets, and other aircraft profile clues.</p>
-              <div class="tags"><span class="tag">Training App</span><span class="tag">Aircraft ID</span><span class="tag">Adaptive UX</span></div>
-              <div class="links"><a href="https://captainseang.github.io/CorpJet" target="_blank" rel="noreferrer">Open app →</a></div>
+              <img src="assets/adsb-radar.png" alt="ADS-B Radar aviation traffic display in an FBO operations setting" />
+              <h3>ADS-B Radar</h3>
+              <p>A mobile-friendly aviation traffic display that visualizes nearby aircraft, airspace context, range rings, airport-centered views, and radar-style situational awareness for pilots and FBO operations.</p>
+              <div class="tags"><span class="tag">ADS-B</span><span class="tag">Aviation Data</span><span class="tag">Radar UI</span><span class="tag">Mobile Web App</span></div>
+              <div class="links"><a href="https://captainseang.github.io/ADSB-Radar/" target="_blank" rel="noreferrer">Open app →</a></div>
             </div>
           </article>
 
           <article class="project" data-tags="automation product data">
             <div class="art"><span class="icon">📬</span><span class="status">Active build</span></div>
             <div class="body">
-              <img src="assets/ai_mail_cleaner_running.gif" alt="AI-assisted email organization dashboard" style="width:100%; border-radius:16px; margin-bottom:14px; border:1px solid rgba(255,255,255,.10); box-shadow:0 10px 30px rgba(0,0,0,.25);" />
+              <img src="assets/ai_mail_cleaner_running.gif" alt="AI-assisted email organization dashboard" />
               <h3>AI-Assisted Email Organizer</h3>
               <p>An intelligent inbox cleanup and categorization system designed to identify marketing clutter, prioritize important communication, and automate repetitive email organization tasks.</p>
               <div class="tags"><span class="tag">Automation</span><span class="tag">AI Workflow</span><span class="tag">Email Filtering</span><span class="tag">Dashboard UI</span></div>
@@ -934,7 +807,16 @@
             </div>
           </article>
 
-          
+          <article class="project" data-tags="data product automation">
+            <div class="art"><span class="icon">💧</span><span class="status">Live build</span></div>
+            <div class="body">
+              <img src="assets/pool-tracker.png" alt="Pool chemical tracker and advice dashboard" />
+              <h3>Pool Chemical Tracker</h3>
+              <p>A practical water-chemistry tracking and advice tool for logging pool readings, comparing ideal ranges, visualizing trends, and turning test results into clear maintenance actions.</p>
+              <div class="tags"><span class="tag">Data Tracking</span><span class="tag">Dashboard UI</span><span class="tag">Decision Support</span><span class="tag">Real-World Tool</span></div>
+              <div class="links"><a href="#contact">Project walkthrough available →</a></div>
+            </div>
+          </article>
 
           <article class="project" data-tags="aviation hardware product">
             <div class="art"><span class="icon">🛩️</span><span class="status">Hardware prototype</span></div>
@@ -949,7 +831,35 @@
             </div>
           </article>
 
-          
+          <article class="project" data-tags="aviation product">
+            <div class="art"><span class="icon">🛫</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Corporate Jet ID Trainer</h3>
+              <p>An adaptive 10-question aviation learning app for recognizing corporate jets by silhouette, window patterns, engines, tails, winglets, and other aircraft profile clues.</p>
+              <div class="tags"><span class="tag">Training App</span><span class="tag">Aircraft ID</span><span class="tag">Adaptive UX</span></div>
+              <div class="links"><a href="https://captainseang.github.io/CorpJet" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="aviation product data">
+            <div class="art"><span class="icon">🧰</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Aircraft & Pilot Compliance Tracker</h3>
+              <p>An offline-ready aircraft and pilot compliance planner for tracking pilot currency, medical details, aircraft inspections, custom items, backup/restore, and due-status dashboards.</p>
+              <div class="tags"><span class="tag">Aviation MX</span><span class="tag">Local Storage</span><span class="tag">Date Logic</span></div>
+              <div class="links"><a href="https://captainseang.github.io/mx" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="data product">
+            <div class="art"><span class="icon">☀️</span><span class="status">Live demo</span></div>
+            <div class="body">
+              <h3>Solar Efficiency Analyzer</h3>
+              <p>A browser-based CSV analyzer that estimates solar production, temperature-corrected yield, performance ratio, battery efficiency, health status, charts, and exportable processed results.</p>
+              <div class="tags"><span class="tag">JavaScript</span><span class="tag">CSV Parsing</span><span class="tag">Data Visualization</span></div>
+              <div class="links"><a href="https://captainseang.github.io/solar/" target="_blank" rel="noreferrer">Open app →</a></div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -974,17 +884,8 @@
       <div class="wrap about" style="margin-bottom:46px;">
         <div>
           <h2>How I approach technical problems</h2>
-          <p>
-            I tend to build tools around real operational friction points:
-            cockpit workload, aviation weather awareness, compliance tracking,
-            data visualization, and automation of repetitive workflows.
-          </p>
-          <p>
-            Most of my projects follow the same pattern:
-            identify a real-world pain point, rapidly prototype a usable solution,
-            test it in the operational environment, then refine the interface until
-            it feels intuitive.
-          </p>
+          <p>I tend to build tools around real operational friction points: cockpit workload, aviation weather awareness, compliance tracking, data visualization, and automation of repetitive workflows.</p>
+          <p>Most of my projects follow the same pattern: identify a real-world pain point, rapidly prototype a usable solution, test it in the operational environment, then refine the interface until it feels intuitive.</p>
           <div class="skills">
             <div class="skill">Operational Thinking</div>
             <div class="skill">Rapid Prototyping</div>
@@ -1071,21 +972,13 @@
       </div>
     </section>
 
-    
-
     <section id="contact">
       <div class="wrap">
         <div class="contact qr-contact compact-contact">
           <div class="contact-copy">
             <h2>Connect with me</h2>
-            <p>
-              LinkedIn is the best place to reach me for technical leadership,
-              infrastructure, automation, and product-focused opportunities.
-            </p>
-
-            <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noopener noreferrer">
-              View LinkedIn
-            </a>
+            <p>LinkedIn is the best place to reach me for technical leadership, infrastructure, automation, and product-focused opportunities.</p>
+            <a class="btn btn-primary" href="https://www.linkedin.com/in/n55960" target="_blank" rel="noopener noreferrer">View LinkedIn</a>
           </div>
 
           <div class="qr-panel compact-qr">
