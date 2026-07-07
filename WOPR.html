@@ -7,7 +7,7 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-07-07T23:28:13.131081+00:00">
+  <meta name="wopr-generated-at" content="2026-07-07T23:58:22.009628+00:00">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -318,48 +318,201 @@
       font-style: normal;
       font-weight: 900;
     }
-    .progress-labels {
+    .open-position-grid {
+      display: grid;
+      gap: 10px;
+    }
+    .open-position-card {
+      background: rgba(255, 255, 255, 0.045);
+      border: 1px solid rgba(141, 255, 220, 0.11);
+      border-radius: 14px;
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+    }
+    .open-position-title {
+      display: grid;
+      gap: 2px;
+    }
+    .open-position-title strong {
+      color: var(--text);
+      font-size: 23px;
+      font-weight: 950;
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+    .open-position-title span {
       color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+    .open-position-money {
+      align-items: baseline;
       display: flex;
-      font-size: 10px;
-      font-weight: 850;
+      flex-wrap: wrap;
+      gap: 8px;
       justify-content: space-between;
+    }
+    .open-position-money b {
+      color: var(--green);
+      font-size: 24px;
+    }
+    .open-position-money small {
+      align-items: baseline;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-weight: 850;
+    }
+    .open-position-money small span {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
     }
-    .progress-track {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(141, 255, 220, 0.1);
+    .open-position-money small.gain { color: var(--green); }
+    .open-position-money small.loss { color: var(--red); }
+    .open-position-meta {
+      display: grid;
+      gap: 6px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .open-position-meta span {
+      background: rgba(255, 255, 255, 0.035);
+      border-radius: 5px;
+      color: #d7f8f0;
+      font-size: 12px;
+      padding: 6px;
+    }
+    .open-position-thesis {
+      color: #c8d9df;
+      font-size: 12px;
+      line-height: 1.4;
+      margin: 0;
+    }
+    .open-position-potential {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      justify-content: center;
+      min-width: 0;
+    }
+    .open-position-potential small {
+      color: #7b919c;
+      font-size: 11px;
+      line-height: 1;
+    }
+    .open-position-potential span {
+      align-items: center;
+      background: transparent;
+      display: flex;
+      gap: 8px;
+      justify-content: space-between;
+      min-width: 0;
+      padding: 0;
+      white-space: nowrap;
+    }
+    .open-position-potential b {
+      font-size: 11px;
+      line-height: 1;
+    }
+    .open-position-potential b.loss { color: var(--red); }
+    .open-position-potential b.gain { color: var(--green); }
+    .position-status-meter {
+      display: grid;
+      gap: 7px;
+    }
+    .position-status-labels,
+    .position-status-footer {
+      align-items: center;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .position-status-labels span,
+    .position-status-footer span,
+    .position-status-footer b {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+    .position-status-labels span:nth-child(2) { text-align: center; }
+    .position-status-labels span:nth-child(3),
+    .position-status-footer b { text-align: right; }
+    .position-status-footer {
+      grid-template-columns: minmax(0, 1fr) auto;
+    }
+    .position-status-footer b { color: var(--green); }
+    .position-status-meter.loss .position-status-footer b { color: var(--red); }
+    .position-status-meter.neutral .position-status-footer b { color: var(--amber); }
+    .position-status-track {
+      background:
+        linear-gradient(90deg, rgba(255, 143, 118, 0.2), rgba(255, 255, 255, 0.06) 49.5%, rgba(87, 255, 208, 0.2));
+      border: 1px solid rgba(141, 255, 220, 0.14);
       border-radius: 999px;
-      height: 13px;
-      margin-top: 7px;
-      overflow: hidden;
+      height: 12px;
       position: relative;
     }
-    .progress-fill {
-      background: linear-gradient(90deg, var(--red), var(--amber), var(--green));
-      border-radius: inherit;
-      height: 100%;
-      left: var(--left);
-      position: absolute;
-      width: var(--width);
-    }
-    .progress-marker {
-      background: var(--text);
+    .position-status-fill {
+      background: linear-gradient(90deg, rgba(87, 255, 208, 0.18), rgba(87, 255, 208, 0.95));
       border-radius: 999px;
-      box-shadow: 0 0 10px rgba(255,255,255,0.55);
-      height: 100%;
-      left: var(--marker);
+      bottom: 2px;
+      box-shadow: 0 0 12px rgba(87, 255, 208, 0.35);
       position: absolute;
-      transform: translateX(-50%);
-      width: 4px;
+      top: 2px;
     }
-    .distance-row {
-      color: var(--muted);
+    .position-status-meter.loss .position-status-fill {
+      background: linear-gradient(90deg, rgba(255, 143, 118, 0.95), rgba(255, 143, 118, 0.18));
+      box-shadow: 0 0 12px rgba(255, 143, 118, 0.28);
+    }
+    .position-status-meter.neutral .position-status-fill {
+      background: rgba(245, 197, 81, 0.45);
+      box-shadow: none;
+    }
+    .position-status-entry {
+      background: var(--amber);
+      border-radius: 999px;
+      bottom: -3px;
+      box-shadow: 0 0 0 3px rgba(245, 197, 81, 0.16);
+      left: 50%;
+      position: absolute;
+      top: -3px;
+      transform: translateX(-50%);
+      width: 3px;
+    }
+    .position-status-marker {
+      align-items: center;
+      background: #061017;
+      border: 2px solid var(--green);
+      border-radius: 999px;
+      box-shadow: 0 0 16px rgba(87, 255, 208, 0.34);
       display: flex;
-      font-size: 12px;
-      font-weight: 800;
-      justify-content: space-between;
-      margin-top: 6px;
+      height: 20px;
+      justify-content: center;
+      left: var(--marker-left);
+      min-width: 20px;
+      padding: 0 5px;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+    .position-status-meter.loss .position-status-marker {
+      border-color: var(--red);
+      box-shadow: 0 0 16px rgba(255, 143, 118, 0.28);
+    }
+    .position-status-meter.neutral .position-status-marker {
+      border-color: var(--amber);
+      box-shadow: 0 0 16px rgba(245, 197, 81, 0.22);
+    }
+    .position-status-marker b {
+      color: #f3fffb;
+      font-size: 10px;
+      line-height: 1;
     }
     .section-head {
       align-items: center;
@@ -517,8 +670,8 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jul 7, 4:28 PM</span>
-        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 7, 4:27 PM. Read-only; no real trades.</span>
+        <span>Updated Jul 7, 4:58 PM</span>
+        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 7, 4:57 PM. Read-only; no real trades.</span>
       </div>
     </section>
 
@@ -605,127 +758,246 @@
     
     <details class="card collapsible" open>
       <summary class="section-head"><h2>Open Paper Holdings</h2><span class="count">4 open</span></summary>
-      <div class="collapsible-body"><div class="stack">
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">VST</div><div class="muted">Vistra</div></div>
-          <span class="badge ">OPEN</span>
+      <div class="collapsible-body">
+      <div class="open-position-grid">
+      <article class="open-position-card">
+        <div class="open-position-title">
+          <strong>VST</strong>
+          <span>Vistra</span>
         </div>
-        <div class="row-money">
-          <b>$25.11</b>
-          <span class="gain">+$0.11 (+0.45%)</span>
+        <div class="open-position-money">
+          <b>$25.08</b>
+          <small class="gain">
+            <span>Unrealized P/L</span>
+            +$0.08 (+0.30%)
+          </small>
         </div>
         
-      <div>
-        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
-        <div class="progress-track">
-          <span class="progress-fill" style="--left:43.7%;--width:6.4%"></span>
-          <span class="progress-marker" style="--marker:50.0%"></span>
+      <div class="position-status-meter gain">
+        <div class="position-status-labels">
+          <span>Stop $150.22</span>
+          <span>Entry $155.03</span>
+          <span>Target $161.23</span>
         </div>
-        <div class="distance-row"><span>moving toward target</span><span>$155.73</span></div>
+        <div class="position-status-track">
+          <span class="position-status-fill" style="left:50%;width:3.8%"></span>
+          <span class="position-status-entry"></span>
+          <span class="position-status-marker" style="--marker-left:53.8%">
+            <b>$155.50</b>
+          </span>
+        </div>
+        <div class="position-status-footer">
+          <span>$5.28 above stop</span>
+          <b>-3.39% to stop</b>
+        </div>
       </div>
     
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$155.03</strong></div>
-          <div class="mini">Now<strong>$155.73</strong></div>
-          <div class="mini">Target<strong>$161.23</strong></div>
-          <div class="mini">Stop<strong>$150.22</strong></div>
+        <div class="open-position-meta">
+          <span class="open-position-potential">
+            <small>Potential</small>
+            
+      <span>
+        <b class="loss">▼ -$0.78</b>
+        <b class="gain">▲ +$1.00</b>
+      </span>
+    
+          </span>
+          <span>Shares 0.1613</span>
+          <span>Invested $25.00</span>
+          <span>Current value $25.08</span>
+          <span>Entry $155.03</span>
+          <span>Stop $150.22</span>
+          <span>Target $161.23</span>
+          <span>Now $155.50</span>
+          <span>+3.69% to target</span>
+          <span>-3.39% to stop</span>
+          <span>0d held</span>
+          <span>OPEN</span>
         </div>
-        <div class="distance-row"><span>+3.53% to target</span><span>-3.54% to stop</span></div>
-        <div class="activity">DCA tranche 1/4: buy $25 at $157.22 or better.</div>
+        
+        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $157.22 or better.</p>
         <div class="muted">Opened Jul 7, 7:21 AM</div>
       </article>
     
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">TSLA</div><div class="muted">Tesla</div></div>
-          <span class="badge amber">OPEN</span>
+      <article class="open-position-card">
+        <div class="open-position-title">
+          <strong>TSLA</strong>
+          <span>Tesla</span>
         </div>
-        <div class="row-money">
-          <b>$24.24</b>
-          <span class="loss">-$0.76 (-3.04%)</span>
+        <div class="open-position-money">
+          <b>$24.25</b>
+          <small class="loss">
+            <span>Unrealized P/L</span>
+            -$0.75 (-3.01%)
+          </small>
         </div>
         
-      <div>
-        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
-        <div class="progress-track">
-          <span class="progress-fill" style="--left:3.4%;--width:40.1%"></span>
-          <span class="progress-marker" style="--marker:3.4%"></span>
+      <div class="position-status-meter loss">
+        <div class="position-status-labels">
+          <span>Stop $401.84</span>
+          <span>Entry $415.55</span>
+          <span>Target $433.42</span>
         </div>
-        <div class="distance-row"><span>closer to stop</span><span>$402.90</span></div>
+        <div class="position-status-track">
+          <span class="position-status-fill" style="left:4.4%;width:45.6%"></span>
+          <span class="position-status-entry"></span>
+          <span class="position-status-marker" style="--marker-left:4.4%">
+            <b>$403.05</b>
+          </span>
+        </div>
+        <div class="position-status-footer">
+          <span>$1.21 above stop</span>
+          <b>-0.30% to stop</b>
+        </div>
       </div>
     
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$415.55</strong></div>
-          <div class="mini">Now<strong>$402.90</strong></div>
-          <div class="mini">Target<strong>$433.42</strong></div>
-          <div class="mini">Stop<strong>$401.84</strong></div>
+        <div class="open-position-meta">
+          <span class="open-position-potential">
+            <small>Potential</small>
+            
+      <span>
+        <b class="loss">▼ -$0.82</b>
+        <b class="gain">▲ +$1.07</b>
+      </span>
+    
+          </span>
+          <span>Shares 0.0602</span>
+          <span>Invested $25.00</span>
+          <span>Current value $24.25</span>
+          <span>Entry $415.55</span>
+          <span>Stop $401.84</span>
+          <span>Target $433.42</span>
+          <span>Now $403.05</span>
+          <span>+7.53% to target</span>
+          <span>-0.30% to stop</span>
+          <span>1d held</span>
+          <span>OPEN</span>
         </div>
-        <div class="distance-row"><span>+7.57% to target</span><span>-0.26% to stop</span></div>
-        <div class="activity">DCA tranche 1/4: buy $25 at $415.55 or better.</div>
+        
+        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $415.55 or better.</p>
         <div class="muted">Opened Jul 6, 10:43 AM</div>
       </article>
     
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">FDX</div><div class="muted">FedEx</div></div>
-          <span class="badge ">OPEN</span>
+      <article class="open-position-card">
+        <div class="open-position-title">
+          <strong>FDX</strong>
+          <span>FedEx</span>
         </div>
-        <div class="row-money">
-          <b>$25.07</b>
-          <span class="gain">+$0.07 (+0.26%)</span>
+        <div class="open-position-money">
+          <b>$24.99</b>
+          <small class="loss">
+            <span>Unrealized P/L</span>
+            -$0.01 (-0.02%)
+          </small>
         </div>
         
-      <div>
-        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
-        <div class="progress-track">
-          <span class="progress-fill" style="--left:50.0%;--width:4.3%"></span>
-          <span class="progress-marker" style="--marker:54.3%"></span>
+      <div class="position-status-meter loss">
+        <div class="position-status-labels">
+          <span>Stop $302.70</span>
+          <span>Entry $312.07</span>
+          <span>Target $321.43</span>
         </div>
-        <div class="distance-row"><span>moving toward target</span><span>$312.88</span></div>
+        <div class="position-status-track">
+          <span class="position-status-fill" style="left:49.6%;width:0.4%"></span>
+          <span class="position-status-entry"></span>
+          <span class="position-status-marker" style="--marker-left:49.6%">
+            <b>$312.00</b>
+          </span>
+        </div>
+        <div class="position-status-footer">
+          <span>$9.30 above stop</span>
+          <b>-2.98% to stop</b>
+        </div>
       </div>
     
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$312.07</strong></div>
-          <div class="mini">Now<strong>$312.88</strong></div>
-          <div class="mini">Target<strong>$321.43</strong></div>
-          <div class="mini">Stop<strong>$302.70</strong></div>
+        <div class="open-position-meta">
+          <span class="open-position-potential">
+            <small>Potential</small>
+            
+      <span>
+        <b class="loss">▼ -$0.75</b>
+        <b class="gain">▲ +$0.75</b>
+      </span>
+    
+          </span>
+          <span>Shares 0.0801</span>
+          <span>Invested $25.00</span>
+          <span>Current value $24.99</span>
+          <span>Entry $312.07</span>
+          <span>Stop $302.70</span>
+          <span>Target $321.43</span>
+          <span>Now $312.00</span>
+          <span>+3.02% to target</span>
+          <span>-2.98% to stop</span>
+          <span>1d held</span>
+          <span>OPEN</span>
         </div>
-        <div class="distance-row"><span>+2.73% to target</span><span>-3.25% to stop</span></div>
-        <div class="activity">DCA tranche 1/4: buy $25 at $312.07 or better.</div>
+        
+        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $312.07 or better.</p>
         <div class="muted">Opened Jul 6, 6:49 AM</div>
       </article>
     
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">DELL</div><div class="muted">Dell Technologies</div></div>
-          <span class="badge amber">OPEN</span>
+      <article class="open-position-card">
+        <div class="open-position-title">
+          <strong>DELL</strong>
+          <span>Dell Technologies</span>
         </div>
-        <div class="row-money">
-          <b>$25.32</b>
-          <span class="gain">+$0.32 (+1.29%)</span>
+        <div class="open-position-money">
+          <b>$25.25</b>
+          <small class="gain">
+            <span>Unrealized P/L</span>
+            +$0.25 (+0.98%)
+          </small>
         </div>
         
-      <div>
-        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
-        <div class="progress-track">
-          <span class="progress-fill" style="--left:45.5%;--width:11.7%"></span>
-          <span class="progress-marker" style="--marker:57.2%"></span>
+      <div class="position-status-meter gain">
+        <div class="position-status-labels">
+          <span>Stop $391.36</span>
+          <span>Entry $411.96</span>
+          <span>Target $436.68</span>
         </div>
-        <div class="distance-row"><span>moving toward target</span><span>$417.28</span></div>
+        <div class="position-status-track">
+          <span class="position-status-fill" style="left:50%;width:8.2%"></span>
+          <span class="position-status-entry"></span>
+          <span class="position-status-marker" style="--marker-left:58.2%">
+            <b>$416.01</b>
+          </span>
+        </div>
+        <div class="position-status-footer">
+          <span>$20.67 below hopeful exit</span>
+          <b>+4.97% to target</b>
+        </div>
       </div>
     
-        <div class="mini-grid">
-          <div class="mini">Entry<strong>$411.96</strong></div>
-          <div class="mini">Now<strong>$417.28</strong></div>
-          <div class="mini">Target<strong>$436.68</strong></div>
-          <div class="mini">Stop<strong>$391.36</strong></div>
+        <div class="open-position-meta">
+          <span class="open-position-potential">
+            <small>Potential</small>
+            
+      <span>
+        <b class="loss">▼ -$1.25</b>
+        <b class="gain">▲ +$1.50</b>
+      </span>
+    
+          </span>
+          <span>Shares 0.0607</span>
+          <span>Invested $25.00</span>
+          <span>Current value $25.25</span>
+          <span>Entry $411.96</span>
+          <span>Stop $391.36</span>
+          <span>Target $436.68</span>
+          <span>Now $416.01</span>
+          <span>+4.97% to target</span>
+          <span>-5.92% to stop</span>
+          <span>1d held</span>
+          <span>OPEN</span>
         </div>
-        <div class="distance-row"><span>+4.65% to target</span><span>-6.21% to stop</span></div>
-        <div class="activity">DCA tranche 1/4: buy $25 at $411.96 or better.</div>
+        
+        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $411.96 or better.</p>
         <div class="muted">Opened Jul 6, 6:49 AM</div>
       </article>
-    </div></div>
+    </div>
+      <div class="muted">Uses the same Open Position card contract as the Cockpit; the static mirror only stacks it for phone width.</div>
+    </div>
     </details>
     
     
@@ -1042,7 +1314,7 @@
         <span class="metric "><small>Waiting buys</small><b>1</b></span>
         <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
         <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Jul 7, 4:25 PM</b></span>
+        <span class="metric "><small>Last scan</small><b>Jul 7, 4:45 PM</b></span>
       </div>
     </div>
     </details>
@@ -1099,56 +1371,56 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 55/100, required 58/100, data 52/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 7, 4:46 PM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 43/100, required 64/100, data 41/100.</div>
+        <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 48/100, required 72/100, data 30/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 41/100, required 72/100, data 26/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 44/100, required 72/100, data 20/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">MU - Jul 7, 4:25 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">MU - Jul 7, 4:46 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 40/100, required 72/100, data 20/100.</div>
       </article>
@@ -1178,7 +1450,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-07-07T23:28:13.131081+00:00";
+      const currentGeneratedAt = "2026-07-07T23:58:22.009628+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
