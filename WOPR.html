@@ -7,7 +7,7 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-07-07T22:27:53.021329+00:00">
+  <meta name="wopr-generated-at" content="2026-07-07T22:58:03.379257+00:00">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -200,25 +200,101 @@
       font-size: 21px;
       line-height: 1;
     }
-    .crystal {
+    .best-opportunities {
       border-color: rgba(87, 255, 208, 0.32);
     }
-    .crystal p {
+    .best-opportunities p {
       color: #d7f8f0;
       font-size: 14px;
       line-height: 1.42;
       margin: 9px 0 0;
     }
-    .crystal p b {
+    .best-opportunities p b {
       color: var(--green);
     }
-    .forecast-grid {
+    .opportunity-spotlight {
+      align-items: center;
+      background: rgba(87, 255, 208, 0.08);
+      border: 1px solid rgba(87, 255, 208, 0.22);
+      border-radius: 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 12px;
+      padding: 12px;
+    }
+    .opportunity-spotlight strong {
+      color: var(--text);
+      display: block;
+      font-size: 32px;
+      line-height: 0.9;
+    }
+    .opportunity-spotlight small,
+    .opportunity-spotlight em {
+      color: var(--muted);
+      display: block;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 800;
+      margin-top: 4px;
+    }
+    .opportunity-spotlight b {
+      color: var(--green);
+      display: block;
+      font-size: 15px;
+      text-align: right;
+    }
+    .opportunity-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .opportunity {
+      background: rgba(255, 255, 255, 0.045);
+      border: 1px solid rgba(141, 255, 220, 0.12);
+      border-radius: 12px;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: auto 1fr auto;
+      padding: 10px;
+    }
+    .opportunity .rank {
+      align-items: center;
+      border: 1px solid rgba(87, 255, 208, 0.35);
+      border-radius: 999px;
+      color: var(--green);
+      display: flex;
+      font-size: 12px;
+      font-weight: 950;
+      height: 24px;
+      justify-content: center;
+      width: 24px;
+    }
+    .opportunity strong { display: block; font-size: 18px; }
+    .opportunity small,
+    .opportunity em {
+      color: var(--muted);
+      display: block;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 800;
+    }
+    .opportunity b {
+      color: var(--green);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .opportunity p {
+      grid-column: 1 / -1;
+      margin: 0;
+    }
+    .evidence-grid {
       display: grid;
       gap: 8px;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       margin-top: 12px;
     }
-    .forecast-grid span {
+    .evidence-grid span {
       background: rgba(255, 255, 255, 0.045);
       border: 1px solid rgba(141, 255, 220, 0.12);
       border-radius: 11px;
@@ -226,21 +302,64 @@
       gap: 4px;
       padding: 9px;
     }
-    .forecast-grid small {
+    .evidence-grid small {
       color: var(--muted);
       font-size: 11px;
       font-weight: 850;
       text-transform: uppercase;
     }
-    .forecast-grid b {
+    .evidence-grid b {
       color: var(--text);
-      font-size: 18px;
+      font-size: 13px;
       line-height: 1;
     }
-    .forecast-grid em {
+    .evidence-grid em {
       font-size: 12px;
       font-style: normal;
       font-weight: 900;
+    }
+    .progress-labels {
+      color: var(--muted);
+      display: flex;
+      font-size: 10px;
+      font-weight: 850;
+      justify-content: space-between;
+      text-transform: uppercase;
+    }
+    .progress-track {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(141, 255, 220, 0.1);
+      border-radius: 999px;
+      height: 13px;
+      margin-top: 7px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-fill {
+      background: linear-gradient(90deg, var(--red), var(--amber), var(--green));
+      border-radius: inherit;
+      height: 100%;
+      left: var(--left);
+      position: absolute;
+      width: var(--width);
+    }
+    .progress-marker {
+      background: var(--text);
+      border-radius: 999px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.55);
+      height: 100%;
+      left: var(--marker);
+      position: absolute;
+      transform: translateX(-50%);
+      width: 4px;
+    }
+    .distance-row {
+      color: var(--muted);
+      display: flex;
+      font-size: 12px;
+      font-weight: 800;
+      justify-content: space-between;
+      margin-top: 6px;
     }
     .section-head {
       align-items: center;
@@ -398,8 +517,8 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jul 7, 3:27 PM</span>
-        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 7, 3:26 PM. Read-only; no real trades.</span>
+        <span>Updated Jul 7, 3:58 PM</span>
+        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 7, 3:57 PM. Read-only; no real trades.</span>
       </div>
     </section>
 
@@ -423,209 +542,188 @@
     </section>
     
     
-    <section class="card crystal">
-      <div class="section-head"><h2>Crystal Ball</h2><span class="count">70%</span></div>
-      <p>
-        Best paper setup: <b>paper short / avoid long</b> AVGO near <b>$368.37</b>.
-        WOPR&#x27;s best guess is DOWN 5.00% toward $392.59 by 2026-07-16. Paper-only signal, not an execution order.
-      </p>
-      <div class="forecast-grid">
-        <span>
-          <small>1 day</small>
-          <b>$370.94</b>
-          <em class="gain">+0.70%</em>
-        </span>
-        
-        <span>
-          <small>5 days</small>
-          <b>$377.67</b>
-          <em class="gain">+2.52%</em>
-        </span>
-        
-        <span>
-          <small>10 days</small>
-          <b>$386.96</b>
-          <em class="gain">+5.05%</em>
-        </span>
-        
-        <span>
-          <small>1 month</small>
-          <b>$387.47</b>
-          <em class="gain">+5.19%</em>
-        </span>
+    <section class="card best-opportunities">
+      <div class="section-head"><h2>Joshua's Best Opportunities</h2><span class="count">Top setups</span></div>
+      <p>Top setup: SPCX, confidence 70/100, expected +5.00% over 9 days.</p>
+      
+        <div class="opportunity-spotlight">
+          <div>
+            <small>Top setup</small>
+            <strong>SPCX</strong>
+            <small>Space X</small>
+          </div>
+          <div>
+            <b>Conviction 70/100</b>
+            <em>+5.00% - 9 days</em>
+          </div>
         </div>
+        
+      <div class="opportunity-list">
+      <article class="opportunity">
+        <span class="rank">1</span>
+        <div>
+          <strong>SPCX</strong>
+          <small>Space X</small>
+          <em>eligible - Medium risk</em>
+        </div>
+        <b>Conviction 70/100</b>
+        <p>SPCX has an open UP forecast with 70%.</p>
+      </article>
+    
+      <article class="opportunity">
+        <span class="rank">2</span>
+        <div>
+          <strong>DELL</strong>
+          <small>Dell Technologies</small>
+          <em>paper trade open - High risk</em>
+        </div>
+        <b>Conviction 78/100</b>
+        <p>DELL is effectively the same bet as existing portfolio exposure.</p>
+      </article>
+    
+      <article class="opportunity">
+        <span class="rank">3</span>
+        <div>
+          <strong>TSLA</strong>
+          <small>Tesla</small>
+          <em>paper trade open - Medium risk</em>
+        </div>
+        <b>Conviction 70/100</b>
+        <p>TSLA has an open UP forecast with 70%.</p>
+      </article>
+    </div>
+      
+        <div class="evidence-grid">
+          <span><small>Evidence</small><b>Forecast implies +5.00%</b><b>Sentinel online context</b></span>
+          <span><small>Concerns</small><b>No major conflict captured.</b></span>
+        </div>
+        
+      <p><b>Strongest Avoid Signal:</b> AVGO - 70% DOWN forecast; avoid long unless evidence changes.</p>
+      <p><b>Forecast Accuracy:</b> collecting samples</p>
     </section>
     
     
-    <details class="card collapsible">
-      <summary class="section-head"><h2>Actual Holdings</h2><span class="count">1 held / 4 ledger</span></summary>
-      <div class="collapsible-body">
-      <div class="order-summary">
-        <span><b>$456.55</b> market value</span>
-        <span class="loss"><b>-$8.19</b> unrealized</span>
-      </div>
-      <div class="stack">
-      <article class="row-card actual">
-        <div class="row-top">
-          <div><div class="ticker">ZIM</div><div class="muted">ZIM Integrated Shipping</div></div>
-          <span class="badge">After-hours</span>
-        </div>
-        <div class="row-money">
-          <b>$456.55</b>
-          <span class="loss">-$8.19 (-1.76%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Shares<strong>19.0000</strong></div>
-          <div class="mini">Avg fill<strong>$24.46</strong></div>
-          <div class="mini">Now<strong>$24.03</strong></div>
-          <div class="mini">Bought<strong>Jun 3</strong></div>
-        </div>
-      </article>
-    </div>
-      <div style="height:12px"></div>
-      <div class="section-subhead"><h3>Ledger Snapshot</h3><span>4 entries</span></div>
-      <div class="stack">
-      <article class="row-card actual">
-        <div class="row-top">
-          <div><div class="ticker">SPCX</div><div class="muted">Jun 16</div></div>
-          <span class="badge">SELL</span>
-        </div>
-        <div class="row-money">
-          <b>$1,980.10</b>
-          <span class="gain">+$630.10 (+46.67%)</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Shares<strong>10.0000</strong></div>
-          <div class="mini">Price<strong>$198.01</strong></div>
-          <div class="mini">Company<strong>Space X</strong></div>
-          <div class="mini">Notes<strong>Actual held shares entered manually...</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card actual">
-        <div class="row-top">
-          <div><div class="ticker">SPCX</div><div class="muted">Jun 16</div></div>
-          <span class="badge">TRAILING STOP</span>
-        </div>
-        <div class="row-money">
-          <b>$1,968.80</b>
-          <span class="">Open lot</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Shares<strong>10.0000</strong></div>
-          <div class="mini">Price<strong>$196.88</strong></div>
-          <div class="mini">Company<strong>Space X</strong></div>
-          <div class="mini">Notes<strong>Trailing stop detected. Regular-ses...</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card actual">
-        <div class="row-top">
-          <div><div class="ticker">SPCX</div><div class="muted">Jun 13</div></div>
-          <span class="badge">BUY</span>
-        </div>
-        <div class="row-money">
-          <b>$1,350.00</b>
-          <span class="">Open lot</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Shares<strong>10.0000</strong></div>
-          <div class="mini">Price<strong>$135.00</strong></div>
-          <div class="mini">Company<strong>Space X</strong></div>
-          <div class="mini">Notes<strong>This was an IPO trade with a broker</strong></div>
-        </div>
-      </article>
-    
-      <article class="row-card actual">
-        <div class="row-top">
-          <div><div class="ticker">ZIM</div><div class="muted">Jun 3</div></div>
-          <span class="badge">BUY</span>
-        </div>
-        <div class="row-money">
-          <b>$464.74</b>
-          <span class="">Open lot</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Shares<strong>19.0000</strong></div>
-          <div class="mini">Price<strong>$24.46</strong></div>
-          <div class="mini">Company<strong>ZIM Integrated Shipping</strong></div>
-          <div class="mini">Notes<strong>Actual held shares entered manually...</strong></div>
-        </div>
-      </article>
-    </div>
-    </div>
-    </details>
-    
-    
-    <details class="card collapsible">
-      <summary class="section-head"><h2>Positions Held</h2><span class="count">4 held</span></summary>
+    <details class="card collapsible" open>
+      <summary class="section-head"><h2>Open Paper Holdings</h2><span class="count">4 open</span></summary>
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">VST</div><div class="muted">Vistra</div></div>
-          <span class="badge ">73/100</span>
+          <span class="badge ">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.11</b>
           <span class="gain">+$0.11 (+0.45%)</span>
         </div>
+        
+      <div>
+        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
+        <div class="progress-track">
+          <span class="progress-fill" style="--left:43.7%;--width:6.4%"></span>
+          <span class="progress-marker" style="--marker:50.0%"></span>
+        </div>
+        <div class="distance-row"><span>moving toward target</span><span>$155.73</span></div>
+      </div>
+    
         <div class="mini-grid">
           <div class="mini">Entry<strong>$155.03</strong></div>
           <div class="mini">Now<strong>$155.73</strong></div>
           <div class="mini">Target<strong>$161.23</strong></div>
           <div class="mini">Stop<strong>$150.22</strong></div>
         </div>
+        <div class="distance-row"><span>+3.53% to target</span><span>-3.54% to stop</span></div>
+        <div class="activity">DCA tranche 1/4: buy $25 at $157.22 or better.</div>
+        <div class="muted">Opened Jul 7, 7:21 AM</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">TSLA</div><div class="muted">Tesla</div></div>
-          <span class="badge amber">64/100</span>
+          <span class="badge amber">OPEN</span>
         </div>
         <div class="row-money">
           <b>$24.24</b>
           <span class="loss">-$0.76 (-3.04%)</span>
         </div>
+        
+      <div>
+        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
+        <div class="progress-track">
+          <span class="progress-fill" style="--left:3.4%;--width:40.1%"></span>
+          <span class="progress-marker" style="--marker:3.4%"></span>
+        </div>
+        <div class="distance-row"><span>closer to stop</span><span>$402.90</span></div>
+      </div>
+    
         <div class="mini-grid">
           <div class="mini">Entry<strong>$415.55</strong></div>
           <div class="mini">Now<strong>$402.90</strong></div>
           <div class="mini">Target<strong>$433.42</strong></div>
           <div class="mini">Stop<strong>$401.84</strong></div>
         </div>
+        <div class="distance-row"><span>+7.57% to target</span><span>-0.26% to stop</span></div>
+        <div class="activity">DCA tranche 1/4: buy $25 at $415.55 or better.</div>
+        <div class="muted">Opened Jul 6, 10:43 AM</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">FDX</div><div class="muted">FedEx</div></div>
-          <span class="badge ">85/100</span>
+          <span class="badge ">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.07</b>
           <span class="gain">+$0.07 (+0.26%)</span>
         </div>
+        
+      <div>
+        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
+        <div class="progress-track">
+          <span class="progress-fill" style="--left:50.0%;--width:4.3%"></span>
+          <span class="progress-marker" style="--marker:54.3%"></span>
+        </div>
+        <div class="distance-row"><span>moving toward target</span><span>$312.88</span></div>
+      </div>
+    
         <div class="mini-grid">
           <div class="mini">Entry<strong>$312.07</strong></div>
           <div class="mini">Now<strong>$312.88</strong></div>
           <div class="mini">Target<strong>$321.43</strong></div>
           <div class="mini">Stop<strong>$302.70</strong></div>
         </div>
+        <div class="distance-row"><span>+2.73% to target</span><span>-3.25% to stop</span></div>
+        <div class="activity">DCA tranche 1/4: buy $25 at $312.07 or better.</div>
+        <div class="muted">Opened Jul 6, 6:49 AM</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">DELL</div><div class="muted">Dell Technologies</div></div>
-          <span class="badge amber">63/100</span>
+          <span class="badge amber">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.32</b>
           <span class="gain">+$0.32 (+1.29%)</span>
         </div>
+        
+      <div>
+        <div class="progress-labels"><span>Stop</span><span>Entry</span><span>Target</span></div>
+        <div class="progress-track">
+          <span class="progress-fill" style="--left:45.5%;--width:11.7%"></span>
+          <span class="progress-marker" style="--marker:57.2%"></span>
+        </div>
+        <div class="distance-row"><span>moving toward target</span><span>$417.28</span></div>
+      </div>
+    
         <div class="mini-grid">
           <div class="mini">Entry<strong>$411.96</strong></div>
           <div class="mini">Now<strong>$417.28</strong></div>
           <div class="mini">Target<strong>$436.68</strong></div>
           <div class="mini">Stop<strong>$391.36</strong></div>
         </div>
+        <div class="distance-row"><span>+4.65% to target</span><span>-6.21% to stop</span></div>
+        <div class="activity">DCA tranche 1/4: buy $25 at $411.96 or better.</div>
+        <div class="muted">Opened Jul 6, 6:49 AM</div>
       </article>
     </div></div>
     </details>
@@ -832,6 +930,106 @@
     
     
     <details class="card collapsible">
+      <summary class="section-head"><h2>Actual Holdings</h2><span class="count">1 held / 4 ledger</span></summary>
+      <div class="collapsible-body">
+      <div class="order-summary">
+        <span><b>$454.86</b> market value</span>
+        <span class="loss"><b>-$9.88</b> unrealized</span>
+      </div>
+      <div class="stack">
+      <article class="row-card actual">
+        <div class="row-top">
+          <div><div class="ticker">ZIM</div><div class="muted">ZIM Integrated Shipping</div></div>
+          <span class="badge">After-hours</span>
+        </div>
+        <div class="row-money">
+          <b>$454.86</b>
+          <span class="loss">-$9.88 (-2.13%)</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Shares<strong>19.0000</strong></div>
+          <div class="mini">Avg fill<strong>$24.46</strong></div>
+          <div class="mini">Now<strong>$23.94</strong></div>
+          <div class="mini">Bought<strong>Jun 3</strong></div>
+        </div>
+      </article>
+    </div>
+      <div style="height:12px"></div>
+      <div class="section-subhead"><h3>Ledger Snapshot</h3><span>4 entries</span></div>
+      <div class="stack">
+      <article class="row-card actual">
+        <div class="row-top">
+          <div><div class="ticker">SPCX</div><div class="muted">Jun 16</div></div>
+          <span class="badge">SELL</span>
+        </div>
+        <div class="row-money">
+          <b>$1,980.10</b>
+          <span class="gain">+$630.10 (+46.67%)</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Shares<strong>10.0000</strong></div>
+          <div class="mini">Price<strong>$198.01</strong></div>
+          <div class="mini">Company<strong>Space X</strong></div>
+          <div class="mini">Notes<strong>Actual held shares entered manually...</strong></div>
+        </div>
+      </article>
+    
+      <article class="row-card actual">
+        <div class="row-top">
+          <div><div class="ticker">SPCX</div><div class="muted">Jun 16</div></div>
+          <span class="badge">TRAILING STOP</span>
+        </div>
+        <div class="row-money">
+          <b>$1,968.80</b>
+          <span class="">Open lot</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Shares<strong>10.0000</strong></div>
+          <div class="mini">Price<strong>$196.88</strong></div>
+          <div class="mini">Company<strong>Space X</strong></div>
+          <div class="mini">Notes<strong>Trailing stop detected. Regular-ses...</strong></div>
+        </div>
+      </article>
+    
+      <article class="row-card actual">
+        <div class="row-top">
+          <div><div class="ticker">SPCX</div><div class="muted">Jun 13</div></div>
+          <span class="badge">BUY</span>
+        </div>
+        <div class="row-money">
+          <b>$1,350.00</b>
+          <span class="">Open lot</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Shares<strong>10.0000</strong></div>
+          <div class="mini">Price<strong>$135.00</strong></div>
+          <div class="mini">Company<strong>Space X</strong></div>
+          <div class="mini">Notes<strong>This was an IPO trade with a broker</strong></div>
+        </div>
+      </article>
+    
+      <article class="row-card actual">
+        <div class="row-top">
+          <div><div class="ticker">ZIM</div><div class="muted">Jun 3</div></div>
+          <span class="badge">BUY</span>
+        </div>
+        <div class="row-money">
+          <b>$464.74</b>
+          <span class="">Open lot</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Shares<strong>19.0000</strong></div>
+          <div class="mini">Price<strong>$24.46</strong></div>
+          <div class="mini">Company<strong>ZIM Integrated Shipping</strong></div>
+          <div class="mini">Notes<strong>Actual held shares entered manually...</strong></div>
+        </div>
+      </article>
+    </div>
+    </div>
+    </details>
+    
+    
+    <details class="card collapsible">
       <summary class="section-head"><h2>WOPR Metrics</h2><span class="count">learning on</span></summary>
       <div class="collapsible-body">
       <div class="metric-grid">
@@ -843,8 +1041,8 @@
         <span class="metric "><small>Upgrade queue</small><b>1</b></span>
         <span class="metric "><small>Waiting buys</small><b>1</b></span>
         <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
-        <span class="metric "><small>Last simulation run</small><b>Jul 7, 3:17 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Jul 7, 3:17 PM</b></span>
+        <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
+        <span class="metric "><small>Last scan</small><b>Jul 7, 3:44 PM</b></span>
       </div>
     </div>
     </details>
@@ -901,56 +1099,56 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 55/100, required 58/100, data 52/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 7, 3:44 PM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
+        <div class="activity"><b></b><br>Confidence 43/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 48/100, required 72/100, data 30/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 41/100, required 72/100, data 26/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 44/100, required 72/100, data 20/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">MU - Jul 7, 3:24 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">MU - Jul 7, 3:44 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 40/100, required 72/100, data 20/100.</div>
       </article>
@@ -980,7 +1178,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-07-07T22:27:53.021329+00:00";
+      const currentGeneratedAt = "2026-07-07T22:58:03.379257+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
