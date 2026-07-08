@@ -7,7 +7,7 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-07-08T15:35:18.276301+00:00">
+  <meta name="wopr-generated-at" content="2026-07-08T16:05:24.053038+00:00">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -104,6 +104,25 @@
       font-weight: 850;
       text-transform: uppercase;
     }
+    .quick-actions {
+      display: flex;
+      margin-top: 12px;
+    }
+    .action-link {
+      align-items: center;
+      background: rgba(87, 255, 208, 0.12);
+      border: 1px solid rgba(87, 255, 208, 0.3);
+      border-radius: 999px;
+      color: var(--green);
+      display: inline-flex;
+      font-size: 12px;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      min-height: 38px;
+      padding: 9px 13px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
     .card {
       backdrop-filter: blur(18px);
       background:
@@ -152,11 +171,26 @@
       gap: 10px;
     }
     .account-scan {
-      font-size: 13px;
-      font-weight: 950;
-      line-height: 1.25;
-      max-width: 180px;
+      display: grid;
+      gap: 3px;
+      justify-items: end;
+      line-height: 1;
+      max-width: 210px;
       text-align: right;
+    }
+    .account-scan b {
+      color: var(--text);
+      font-size: clamp(30px, 11vw, 46px);
+      font-weight: 950;
+      letter-spacing: -0.04em;
+      line-height: 0.92;
+    }
+    .account-scan em {
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 950;
+      letter-spacing: 0;
+      line-height: 1.15;
     }
     .account-head { display: grid; gap: 5px; }
     .account-title {
@@ -699,6 +733,51 @@
     .inner-details[open] summary::after {
       content: " -";
     }
+    .annunciator-grid {
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .annunciator-tile {
+      background: rgba(255, 255, 255, 0.045);
+      border: 1px solid rgba(141, 255, 220, 0.11);
+      border-left: 4px solid var(--green);
+      border-radius: 11px;
+      display: grid;
+      gap: 5px;
+      min-height: 84px;
+      padding: 10px;
+    }
+    .annunciator-tile h3 {
+      color: var(--text);
+      font-size: 13px;
+      margin: 0;
+    }
+    .annunciator-tile strong {
+      color: var(--green);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .annunciator-tile p {
+      color: #c9dce3;
+      font-size: 12px;
+      line-height: 1.25;
+      margin: 0;
+    }
+    .annunciator-tile small {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 850;
+    }
+    .annunciator-tile.caution { border-left-color: var(--amber); }
+    .annunciator-tile.caution strong { color: var(--amber); }
+    .annunciator-tile.warning,
+    .annunciator-tile.offline { border-left-color: var(--red); }
+    .annunciator-tile.warning strong,
+    .annunciator-tile.offline strong { color: var(--red); }
+    .annunciator-tile.disabled { border-left-color: var(--muted); opacity: 0.78; }
+    .annunciator-tile.disabled strong { color: var(--muted); }
     .activity {
       color: #c9dce3;
       font-size: 12px;
@@ -736,16 +815,22 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jul 8, 8:35 AM</span>
-        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 8, 8:34 AM. Read-only; no real trades.</span>
+        <span>Updated Jul 8, 9:05 AM</span>
+        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 8, 9:04 AM. Read-only; no real trades.</span>
+      </div>
+      <div class="quick-actions">
+        <a class="action-link" href="joshua-daily-brief.html" target="_blank" rel="noopener">Open Today's Brief</a>
       </div>
     </section>
 
-        
+    
     <details class="card collapsible account">
       <summary class="section-head account-summary">
         <h2>Paper Account</h2>
-        <span class="account-scan loss">$982.14 | -$17.86 (-1.79%)</span>
+        <span class="account-scan">
+          <b>$982.20</b>
+          <em class="loss">-$17.80 (-1.78%)</em>
+        </span>
       </summary>
       <div class="collapsible-body">
       <div class="metric-grid">
@@ -753,16 +838,16 @@
         <span class="metric "><small>Open invested</small><b>$125.00</b></span>
         <span class="metric "><small>Waiting orders</small><b>$75.00</b></span>
         <span class="metric "><small>Available cash</small><b>$800.00</b></span>
-        <span class="metric loss"><small>Unrealized P/L</small><b>-$0.30</b></span>
-        <span class="metric loss"><small>Total P/L</small><b>-$17.86</b></span>
+        <span class="metric loss"><small>Unrealized P/L</small><b>-$0.24</b></span>
+        <span class="metric loss"><small>Total P/L</small><b>-$17.80</b></span>
       </div>
-      <p class="muted">Paper account snapshot: Jul 8, 8:34 AM</p>
+      <p class="muted">Paper account snapshot: Jul 8, 9:04 AM</p>
     </div>
     </details>
     
     
     <details class="card collapsible">
-      <summary class="section-head"><h2>Joshua&#x27;s Best Opportunities</h2><span class="count">SPCX - 70/100 - +5.00% - eligible - SPCX has an open UP forecast with 70%.</span></summary>
+      <summary class="section-head"><h2>Best Opportunities</h2></summary>
       <div class="collapsible-body">
       <p>Top setup: SPCX, confidence 70/100, expected +5.00% over 9 days.</p>
       
@@ -824,7 +909,7 @@
     </details>
     
     
-    <details class="card collapsible" open>
+    <details class="card collapsible">
       <summary class="section-head"><h2>Open Paper Holdings</h2><span class="count">5 open</span></summary>
       <div class="collapsible-body">
       <div class="open-position-grid">
@@ -834,10 +919,10 @@
           <span>FedEx</span>
         </div>
         <div class="open-position-money">
-          <b>$25.08</b>
+          <b>$25.03</b>
           <small class="gain">
             <span>Unrealized P/L</span>
-            +$0.08 (+0.33%)
+            +$0.03 (+0.10%)
           </small>
         </div>
         
@@ -848,15 +933,15 @@
           <span>Target $316.10</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:50%;width:5.457919477291334%"></span>
+          <span class="position-status-fill" style="left:50%;width:1.7106961267035459%"></span>
           <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:55.5%">
-            <b>$307.90</b>
+          <span class="position-status-marker" style="--marker-left:51.7%">
+            <b>$307.21</b>
           </span>
         </div>
         <div class="position-status-footer">
-          <span>$8.20 below hopeful exit</span>
-          <b>+2.66% to target</b>
+          <span>$8.89 below hopeful exit</span>
+          <b>+2.89% to target</b>
         </div>
       </div>
     
@@ -872,13 +957,13 @@
           </span>
           <span>Shares 0.0815</span>
           <span>Invested $25.00</span>
-          <span>Current value $25.08</span>
+          <span>Current value $25.03</span>
           <span>Entry $306.89</span>
           <span>Stop $297.69</span>
           <span>Target $316.10</span>
-          <span>Now $307.90</span>
-          <span>+2.66% to target</span>
-          <span>-3.32% to stop</span>
+          <span>Now $307.21</span>
+          <span>+2.89% to target</span>
+          <span>-3.10% to stop</span>
           <span>0d held / 5d max</span>
           <span>OPEN</span>
         </div>
@@ -893,10 +978,10 @@
           <span>Broadcom</span>
         </div>
         <div class="open-position-money">
-          <b>$24.90</b>
+          <b>$24.91</b>
           <small class="loss">
             <span>Unrealized P/L</span>
-            -$0.10 (-0.40%)
+            -$0.09 (-0.38%)
           </small>
         </div>
         
@@ -907,15 +992,15 @@
           <span>Target $402.32</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:43.377845319914925%;width:6.622154680085075%"></span>
+          <span class="position-status-fill" style="left:43.72192493411113%;width:6.278075065888871%"></span>
           <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:43.4%">
-            <b>$386.05</b>
+          <span class="position-status-marker" style="--marker-left:43.7%">
+            <b>$386.13</b>
           </span>
         </div>
         <div class="position-status-footer">
-          <span>$10.09 above stop</span>
-          <b>-2.61% to stop</b>
+          <span>$10.17 above stop</span>
+          <b>-2.63% to stop</b>
         </div>
       </div>
     
@@ -931,13 +1016,13 @@
           </span>
           <span>Shares 0.0645</span>
           <span>Invested $25.00</span>
-          <span>Current value $24.90</span>
+          <span>Current value $24.91</span>
           <span>Entry $387.59</span>
           <span>Stop $375.96</span>
           <span>Target $402.32</span>
-          <span>Now $386.05</span>
-          <span>+4.21% to target</span>
-          <span>-2.61% to stop</span>
+          <span>Now $386.13</span>
+          <span>+4.19% to target</span>
+          <span>-2.63% to stop</span>
           <span>0d held / 5d max</span>
           <span>OPEN</span>
         </div>
@@ -952,10 +1037,10 @@
           <span>Vistra</span>
         </div>
         <div class="open-position-money">
-          <b>$24.42</b>
+          <b>$24.49</b>
           <small class="loss">
             <span>Unrealized P/L</span>
-            -$0.58 (-2.34%)
+            -$0.51 (-2.04%)
           </small>
         </div>
         
@@ -966,15 +1051,15 @@
           <span>Target $161.23</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:12.338245191968475%;width:37.661754808031525%"></span>
+          <span class="position-status-fill" style="left:17.12391059595987%;width:32.87608940404013%"></span>
           <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:12.3%">
-            <b>$151.41</b>
+          <span class="position-status-marker" style="--marker-left:17.1%">
+            <b>$151.87</b>
           </span>
         </div>
         <div class="position-status-footer">
-          <span>$1.19 above stop</span>
-          <b>-0.78% to stop</b>
+          <span>$1.65 above stop</span>
+          <b>-1.08% to stop</b>
         </div>
       </div>
     
@@ -990,13 +1075,13 @@
           </span>
           <span>Shares 0.1613</span>
           <span>Invested $25.00</span>
-          <span>Current value $24.42</span>
+          <span>Current value $24.49</span>
           <span>Entry $155.03</span>
           <span>Stop $150.22</span>
           <span>Target $161.23</span>
-          <span>Now $151.41</span>
-          <span>+6.49% to target</span>
-          <span>-0.78% to stop</span>
+          <span>Now $151.87</span>
+          <span>+6.16% to target</span>
+          <span>-1.08% to stop</span>
           <span>1d held / 5d max</span>
           <span>OPEN</span>
         </div>
@@ -1011,10 +1096,10 @@
           <span>FedEx</span>
         </div>
         <div class="open-position-money">
-          <b>$24.67</b>
+          <b>$24.61</b>
           <small class="loss">
             <span>Unrealized P/L</span>
-            -$0.33 (-1.33%)
+            -$0.39 (-1.56%)
           </small>
         </div>
         
@@ -1025,15 +1110,15 @@
           <span>Target $321.43</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:27.750350364505312%;width:22.249649635494688%"></span>
+          <span class="position-status-fill" style="left:24.06521954627296%;width:25.93478045372704%"></span>
           <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:27.8%">
-            <b>$307.90</b>
+          <span class="position-status-marker" style="--marker-left:24.1%">
+            <b>$307.21</b>
           </span>
         </div>
         <div class="position-status-footer">
-          <span>$5.20 above stop</span>
-          <b>-1.69% to stop</b>
+          <span>$4.51 above stop</span>
+          <b>-1.47% to stop</b>
         </div>
       </div>
     
@@ -1049,13 +1134,13 @@
           </span>
           <span>Shares 0.0801</span>
           <span>Invested $25.00</span>
-          <span>Current value $24.67</span>
+          <span>Current value $24.61</span>
           <span>Entry $312.07</span>
           <span>Stop $302.70</span>
           <span>Target $321.43</span>
-          <span>Now $307.90</span>
-          <span>+4.39% to target</span>
-          <span>-1.69% to stop</span>
+          <span>Now $307.21</span>
+          <span>+4.63% to target</span>
+          <span>-1.47% to stop</span>
           <span>2d held / 5d max</span>
           <span>OPEN</span>
         </div>
@@ -1070,10 +1155,10 @@
           <span>Dell Technologies</span>
         </div>
         <div class="open-position-money">
-          <b>$25.63</b>
+          <b>$25.72</b>
           <small class="gain">
             <span>Unrealized P/L</span>
-            +$0.63 (+2.53%)
+            +$0.72 (+2.90%)
           </small>
         </div>
         
@@ -1084,15 +1169,15 @@
           <span>Target $436.68</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:50%;width:21.10843644819414%"></span>
+          <span class="position-status-fill" style="left:50%;width:24.152835811460562%"></span>
           <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:71.1%">
-            <b>$422.39</b>
+          <span class="position-status-marker" style="--marker-left:74.2%">
+            <b>$423.90</b>
           </span>
         </div>
         <div class="position-status-footer">
-          <span>$14.28 below hopeful exit</span>
-          <b>+3.38% to target</b>
+          <span>$12.78 below hopeful exit</span>
+          <b>+3.01% to target</b>
         </div>
       </div>
     
@@ -1108,13 +1193,13 @@
           </span>
           <span>Shares 0.0607</span>
           <span>Invested $25.00</span>
-          <span>Current value $25.63</span>
+          <span>Current value $25.72</span>
           <span>Entry $411.96</span>
           <span>Stop $391.36</span>
           <span>Target $436.68</span>
-          <span>Now $422.39</span>
-          <span>+3.38% to target</span>
-          <span>-7.35% to stop</span>
+          <span>Now $423.90</span>
+          <span>+3.01% to target</span>
+          <span>-7.68% to stop</span>
           <span>2d held / 5d max</span>
           <span>OPEN</span>
         </div>
@@ -1257,11 +1342,11 @@
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">FDX</div><div class="muted">Jul 8, 8:18 AM</div></div>
-          <span class="badge amber">OPEN</span>
+          <span class="badge red">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="gain">+$0.02 (+0.09%)</span>
+          <span class="loss">-$0.02 (-0.10%)</span>
         </div>
       </article>
     
@@ -1272,7 +1357,7 @@
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.08 (-0.33%)</span>
+          <span class="loss">-$0.14 (-0.54%)</span>
         </div>
       </article>
     
@@ -1294,7 +1379,7 @@
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.52 (-2.07%)</span>
+          <span class="loss">-$0.46 (-1.86%)</span>
         </div>
       </article>
     
@@ -1438,20 +1523,18 @@
     </details>
     
     
-    <section class="card actual-compact-card">
-      <div class="section-head">
-        <h2>Actual Holdings / Ledger Snapshot</h2>
-        <span class="count">1 held / 4 ledger</span>
-      </div>
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Actual Holdings / Ledger Snapshot</h2><span class="count">1 held / 4 ledger</span></summary>
+      <div class="collapsible-body">
       <div class="order-summary">
-        <span><b>$455.91</b> market value</span>
-        <span class="loss"><b>-$8.83</b> unrealized</span>
+        <span><b>$454.57</b> market value</span>
+        <span class="loss"><b>-$10.17</b> unrealized</span>
       </div>
       <div class="compact-list">
       <div class="compact-row">
         <b>ZIM</b>
-        <span>$455.91</span>
-        <em class="loss">-$8.83</em>
+        <span>$454.57</span>
+        <em class="loss">-$10.17</em>
       </div>
     </div>
       <details class="inner-details">
@@ -1463,13 +1546,13 @@
           <span class="badge">Regular</span>
         </div>
         <div class="row-money">
-          <b>$455.91</b>
-          <span class="loss">-$8.83 (-1.90%)</span>
+          <b>$454.57</b>
+          <span class="loss">-$10.17 (-2.19%)</span>
         </div>
         <div class="mini-grid">
           <div class="mini">Shares<strong>19.0000</strong></div>
           <div class="mini">Avg fill<strong>$24.46</strong></div>
-          <div class="mini">Now<strong>$24.00</strong></div>
+          <div class="mini">Now<strong>$23.92</strong></div>
           <div class="mini">Bought<strong>Jun 3</strong></div>
         </div>
       </article>
@@ -1546,7 +1629,8 @@
       </article>
     </div>
       </details>
-    </section>
+    </div>
+    </details>
     
     
     <details class="card collapsible">
@@ -1561,8 +1645,8 @@
         <span class="metric "><small>Upgrade queue</small><b>1</b></span>
         <span class="metric "><small>Waiting buys</small><b>3</b></span>
         <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
-        <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Jul 8, 8:34 AM</b></span>
+        <span class="metric "><small>Last simulation run</small><b>Jul 8, 8:39 AM</b></span>
+        <span class="metric "><small>Last scan</small><b>Jul 8, 8:39 AM</b></span>
       </div>
     </div>
     </details>
@@ -1619,56 +1703,56 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 32/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 51/100, required 58/100, data 46/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 8, 9:00 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 38/100, required 58/100, data 45/100.</div>
+        <div class="activity"><b></b><br>Confidence 34/100, required 58/100, data 45/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 32/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 53/100, required 58/100, data 46/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">TSLA - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">TSLA - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 47/100, required 64/100, data 40/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 52/100, required 58/100, data 46/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 8, 8:34 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 8, 9:00 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 51/100, required 64/100, data 40/100.</div>
       </article>
@@ -1688,6 +1772,82 @@
     </div></div>
     </details>
     
+    
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Engine Status</h2><span class="count">7/10 normal</span></summary>
+      <div class="collapsible-body"><div class="annunciator-grid">
+      <article class="annunciator-tile caution">
+        <strong>caution</strong>
+        <h3>Market Data</h3>
+        <p>1 live, 6 delayed, 3 placeholder</p>
+        <small>updated 1m ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Sentinel</h3>
+        <p>ONLINE • health 100/100</p>
+        <small>updated just now</small>
+      </article>
+    
+      <article class="annunciator-tile caution">
+        <strong>caution</strong>
+        <h3>Scheduler</h3>
+        <p>update_intelligence_gap_backlog</p>
+        <small>updated 2h ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Simulation Engine</h3>
+        <p>2,515,528 simulations</p>
+        <small>updated 25m ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Evidence Engine</h3>
+        <p>no_trade</p>
+        <small>updated 7m ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Portfolio Engine</h3>
+        <p>MARA</p>
+        <small>updated 12m ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Paper Trader</h3>
+        <p>5 open • 3 waiting</p>
+        <small>updated 15m ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Notifications</h3>
+        <p>0 queued</p>
+        <small>updated 46m ago</small>
+      </article>
+    
+      <article class="annunciator-tile normal">
+        <strong>normal</strong>
+        <h3>Static Mirror</h3>
+        <p>Dashboard snapshot exported</p>
+        <small>updated just now</small>
+      </article>
+    
+      <article class="annunciator-tile caution">
+        <strong>caution</strong>
+        <h3>Database Health</h3>
+        <p>1206 MB • WAL present</p>
+        <small>updated just now</small>
+      </article>
+    </div></div>
+    </details>
+    
 
     <div class="footer">
       Public static mirror generated from local WOPR data. Paper trading only; no broker integration and no real orders.
@@ -1698,7 +1858,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-07-08T15:35:18.276301+00:00";
+      const currentGeneratedAt = "2026-07-08T16:05:24.053038+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
