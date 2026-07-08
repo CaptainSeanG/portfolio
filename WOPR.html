@@ -7,7 +7,7 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-07-08T01:59:12.239160+00:00">
+  <meta name="wopr-generated-at" content="2026-07-08T02:29:20.261802+00:00">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -146,6 +146,17 @@
     .account {
       border-color: rgba(87, 255, 208, 0.28);
       margin-top: 8px;
+    }
+    .account-summary {
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .account-scan {
+      font-size: 13px;
+      font-weight: 950;
+      line-height: 1.25;
+      max-width: 180px;
+      text-align: right;
     }
     .account-head { display: grid; gap: 5px; }
     .account-title {
@@ -560,6 +571,9 @@
       gap: 9px;
       padding: 12px;
     }
+    .row-card.canceled {
+      border-left: 3px solid var(--amber);
+    }
     .row-top {
       align-items: start;
       display: flex;
@@ -633,6 +647,58 @@
       display: block;
       font-size: 18px;
     }
+    .compact-list {
+      display: grid;
+      gap: 7px;
+      margin-top: 10px;
+    }
+    .compact-row {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(141, 255, 220, 0.1);
+      border-radius: 10px;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: 0.8fr 1fr 0.9fr;
+      padding: 8px 9px;
+    }
+    .compact-row b {
+      color: var(--text);
+      font-size: 15px;
+    }
+    .compact-row span,
+    .compact-row em {
+      color: var(--muted);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 850;
+      text-align: right;
+    }
+    .inner-details {
+      border-top: 1px solid rgba(141, 255, 220, 0.12);
+      margin-top: 12px;
+      padding-top: 10px;
+    }
+    .inner-details summary {
+      color: var(--green);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 950;
+      list-style: none;
+      text-transform: uppercase;
+    }
+    .inner-details summary::-webkit-details-marker {
+      display: none;
+    }
+    .inner-details summary::after {
+      content: " +";
+    }
+    .inner-details[open] summary {
+      margin-bottom: 12px;
+    }
+    .inner-details[open] summary::after {
+      content: " -";
+    }
     .activity {
       color: #c9dce3;
       font-size: 12px;
@@ -670,20 +736,18 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Jul 7, 6:59 PM</span>
-        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 7, 6:56 PM. Read-only; no real trades.</span>
+        <span>Updated Jul 7, 7:29 PM</span>
+        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Jul 7, 7:28 PM. Read-only; no real trades.</span>
       </div>
     </section>
 
         
-    <section class="card account">
-      <div class="account-head">
-        <span class="account-title">Paper account</span>
-        <div class="account-main">
-          <strong class="equity">$982.12</strong>
-          <span class="pl loss">-$17.88 (-1.79%)</span>
-        </div>
-      </div>
+    <details class="card collapsible account">
+      <summary class="section-head account-summary">
+        <h2>Paper Account</h2>
+        <span class="account-scan loss">$982.12 | -$17.88 (-1.79%)</span>
+      </summary>
+      <div class="collapsible-body">
       <div class="metric-grid">
         <span class="metric "><small>Starting bankroll</small><b>$1,000.00</b></span>
         <span class="metric "><small>Open invested</small><b>$100.00</b></span>
@@ -692,12 +756,14 @@
         <span class="metric loss"><small>Unrealized P/L</small><b>-$0.48</b></span>
         <span class="metric loss"><small>Total P/L</small><b>-$17.88</b></span>
       </div>
-      <p class="muted">Paper account snapshot: Jul 7, 6:56 PM</p>
-    </section>
+      <p class="muted">Paper account snapshot: Jul 7, 7:28 PM</p>
+    </div>
+    </details>
     
     
-    <section class="card best-opportunities">
-      <div class="section-head"><h2>Joshua's Best Opportunities</h2><span class="count">Top setups</span></div>
+    <details class="card collapsible">
+      <summary class="section-head"><h2>Joshua&#x27;s Best Opportunities</h2><span class="count">SPCX - 70/100 - +5.00% - eligible - SPCX has an open UP forecast with 70%.</span></summary>
+      <div class="collapsible-body">
       <p>Top setup: SPCX, confidence 70/100, expected +5.00% over 9 days.</p>
       
         <div class="opportunity-spotlight">
@@ -754,7 +820,8 @@
         
       <p><b>Strongest Avoid Signal:</b> AVGO - 70% DOWN forecast; avoid long unless evidence changes.</p>
       <p><b>Forecast Accuracy:</b> collecting samples</p>
-    </section>
+    </div>
+    </details>
     
     
     <details class="card collapsible" open>
@@ -815,7 +882,7 @@
           <span>0d held / 5d max</span>
           <span>OPEN</span>
         </div>
-        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $157.22 or better.</p>
+        
         <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $157.22 or better.</p>
         <div class="muted">Opened Jul 7, 7:21 AM</div>
       </article>
@@ -874,7 +941,7 @@
           <span>1d held / 5d max</span>
           <span>OPEN</span>
         </div>
-        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $415.55 or better.</p>
+        
         <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $415.55 or better.</p>
         <div class="muted">Opened Jul 6, 10:43 AM</div>
       </article>
@@ -933,7 +1000,7 @@
           <span>1d held / 5d max</span>
           <span>OPEN</span>
         </div>
-        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $312.07 or better.</p>
+        
         <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $312.07 or better.</p>
         <div class="muted">Opened Jul 6, 6:49 AM</div>
       </article>
@@ -992,7 +1059,7 @@
           <span>1d held / 5d max</span>
           <span>OPEN</span>
         </div>
-        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $411.96 or better.</p>
+        
         <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $411.96 or better.</p>
         <div class="muted">Opened Jul 6, 6:49 AM</div>
       </article>
@@ -1092,7 +1159,7 @@
     
     
     <details class="card collapsible">
-      <summary class="section-head"><h2>Recent Trade Activity</h2><span class="count">8 fills / 6 closed</span></summary>
+      <summary class="section-head"><h2>Recent Trade Activity</h2><span class="count">8 fills / 6 closed / 6 canceled</span></summary>
       <div class="collapsible-body">
       <div class="section-subhead"><h3>Recently Filled</h3><span>8 recent</span></div>
       <div class="stack">
@@ -1198,18 +1265,107 @@
         </div>
       </article>
     </div>
+      <div style="height:12px"></div>
+      <div class="section-subhead"><h3>Canceled Trades</h3><span>6 canceled</span></div>
+      <div class="stack">
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
+            <div class="ticker">FDX</div>
+            <div class="muted">Jul 7, 1:20 PM - 3.4h</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$306.58</strong></div>
+          <div class="mini">Confidence<strong>68/100</strong></div>
+        </div>
+        <div class="activity"><b>Confidence dropped below approval gate</b><br>re-scored confidence fell to 55/100 versus required 74/100</div>
+      </article>
+    
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
+            <div class="ticker">VST</div>
+            <div class="muted">Jul 7, 12:32 PM - 1.2h</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$153.33</strong></div>
+          <div class="mini">Confidence<strong>69/100</strong></div>
+        </div>
+        <div class="activity"><b>DCA spacing rule</b><br>Recent DCA tranches averaged -0.31%, so spacing was widened. Later DCA tranche blocked because the existing paper position is not underwater enough t...</div>
+      </article>
+    
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
+            <div class="ticker">VST</div>
+            <div class="muted">Jul 7, 10:14 AM - 1.9h</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$153.02</strong></div>
+          <div class="mini">Confidence<strong>69/100</strong></div>
+        </div>
+        <div class="activity"><b>DCA spacing rule</b><br>Recent DCA tranches averaged -0.31%, so spacing was widened. Later DCA tranche blocked because the existing paper position is not underwater enough t...</div>
+      </article>
+    
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
+            <div class="ticker">FDX</div>
+            <div class="muted">Jul 7, 9:43 AM - 21m</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$306.78</strong></div>
+          <div class="mini">Confidence<strong>68/100</strong></div>
+        </div>
+        <div class="activity"><b>DCA spacing rule</b><br>Recent DCA tranches averaged -1.84%, so spacing was widened. Later DCA tranche blocked because the existing paper position is not underwater enough t...</div>
+      </article>
+    
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
+            <div class="ticker">FDX</div>
+            <div class="muted">Jul 7, 8:55 AM - 2.2h</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$304.04</strong></div>
+          <div class="mini">Confidence<strong>68/100</strong></div>
+        </div>
+        <div class="activity"><b>DCA spacing rule</b><br>Recent DCA tranches averaged -1.84%, so spacing was widened. Later DCA tranche blocked because the existing paper position is not underwater enough t...</div>
+      </article>
+    </div>
     </div>
     </details>
     
     
-    <details class="card collapsible">
-      <summary class="section-head"><h2>Actual Holdings</h2><span class="count">1 held / 4 ledger</span></summary>
-      <div class="collapsible-body">
+    <section class="card actual-compact-card">
+      <div class="section-head">
+        <h2>Actual Holdings / Ledger Snapshot</h2>
+        <span class="count">1 held / 4 ledger</span>
+      </div>
       <div class="order-summary">
         <span><b>$456.00</b> market value</span>
         <span class="loss"><b>-$8.74</b> unrealized</span>
       </div>
-      <div class="stack">
+      <div class="compact-list">
+      <div class="compact-row">
+        <b>ZIM</b>
+        <span>$456.00</span>
+        <em class="loss">-$8.74</em>
+      </div>
+    </div>
+      <details class="inner-details">
+        <summary>Show full actual holdings / ledger snapshot</summary>
+        <div class="stack">
       <article class="row-card actual">
         <div class="row-top">
           <div><div class="ticker">ZIM</div><div class="muted">ZIM Integrated Shipping</div></div>
@@ -1227,9 +1383,9 @@
         </div>
       </article>
     </div>
-      <div style="height:12px"></div>
-      <div class="section-subhead"><h3>Ledger Snapshot</h3><span>4 entries</span></div>
-      <div class="stack">
+        <div style="height:12px"></div>
+        <div class="section-subhead"><h3>Ledger Snapshot</h3><span>4 entries</span></div>
+        <div class="stack">
       <article class="row-card actual">
         <div class="row-top">
           <div><div class="ticker">SPCX</div><div class="muted">Jun 16</div></div>
@@ -1298,8 +1454,8 @@
         </div>
       </article>
     </div>
-    </div>
-    </details>
+      </details>
+    </section>
     
     
     <details class="card collapsible">
@@ -1315,7 +1471,7 @@
         <span class="metric "><small>Waiting buys</small><b>1</b></span>
         <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
         <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Jul 7, 6:48 PM</b></span>
+        <span class="metric "><small>Last scan</small><b>Jul 7, 7:09 PM</b></span>
       </div>
     </div>
     </details>
@@ -1372,56 +1528,56 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 7, 6:49 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LINK - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 7, 6:49 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 55/100, required 58/100, data 52/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 7, 6:49 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LTC - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 7, 6:49 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">BTC - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 36/100, required 64/100, data 41/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 7, 6:49 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 48/100, required 72/100, data 30/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 7, 6:48 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 41/100, required 72/100, data 26/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 7, 6:48 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">NVDA - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 44/100, required 72/100, data 20/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">MU - Jul 7, 6:48 PM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">MU - Jul 7, 7:09 PM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 40/100, required 72/100, data 20/100.</div>
       </article>
@@ -1451,7 +1607,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-07-08T01:59:12.239160+00:00";
+      const currentGeneratedAt = "2026-07-08T02:29:20.261802+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
