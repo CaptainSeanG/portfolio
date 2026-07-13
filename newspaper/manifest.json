@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "editorial-safeguard-ledger",
+      "path": "/newspaper/editorial/editorial-safeguard-ledger.png",
+      "dimensions": [1448, 1086],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Editorial safeguard, policy, and observation-only ledger sections",
+      "recommended_maximum_print_width_inches": 1.35
+    },
+    {
+      "id": "newspaper-paper-texture",
+      "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
+      "tile_dimensions": [128, 128],
+      "deterministic_generation_source": "tools/export_chronicle_design_preview_2.py generate_texture; fixed seed 4071947",
+      "intended_opacity_range_percent": [2, 5],
+      "preview_8_effective_opacity_percent": [5, 7],
+      "preview_8_compositing": "same deterministic tile layered twice; source tile unchanged",
+      "seamless_repeating": true
+    }
+  ]
+}
