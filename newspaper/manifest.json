@@ -1,6 +1,14 @@
 {
-  "version": 1,
+  "version": 2,
   "assets": [
+    {
+      "id": "committee-deliberation",
+      "path": "/newspaper/operations/committee-deliberation.png",
+      "dimensions": [1482, 820],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Investment Committee deliberation, voting rounds, advisor debate, agenda review, and committee decisions",
+      "recommended_maximum_print_width_inches": 2.4
+    },
     {
       "id": "editorial-safeguard-ledger",
       "path": "/newspaper/editorial/editorial-safeguard-ledger.png",
