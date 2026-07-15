@@ -502,6 +502,86 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "data-freshness-clock",
+      "path": "/newspaper/icons/data-freshness-clock.png",
+      "category": "icons",
+      "dimensions": [937, 960],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small fresh, delayed, or stale-data marker; timestamp status, source recency, feed freshness, or snapshot timing",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "broken-telegraph",
+      "path": "/newspaper/icons/broken-telegraph.png",
+      "category": "icons",
+      "dimensions": [1198, 1005],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small unavailable-source, failed-feed, interrupted-ingest, stale-provider, or communications-outage marker",
+      "recommended_maximum_print_width_inches": 0.48,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "warning-beacon",
+      "path": "/newspaper/icons/warning-beacon.png",
+      "category": "icons",
+      "dimensions": [1074, 1090],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small elevated-warning, operational concern, unresolved risk, caution, or attention-required marker",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "liquidity-valve",
+      "path": "/newspaper/icons/liquidity-valve.png",
+      "category": "icons",
+      "dimensions": [1091, 975],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small market-liquidity, funding conditions, tightening, restriction, improving flow, or liquidity-risk marker",
+      "recommended_maximum_print_width_inches": 0.48,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "credit-bonds",
+      "path": "/newspaper/icons/credit-bonds.png",
+      "category": "icons",
+      "dimensions": [1136, 798],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small bonds, credit spreads, debt markets, fixed income, borrowing conditions, or credit-stress marker",
+      "recommended_maximum_print_width_inches": 0.5,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "economic-calendar",
+      "path": "/newspaper/icons/economic-calendar.png",
+      "category": "icons",
+      "dimensions": [1117, 865],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small macroeconomic-calendar, scheduled data release, central-bank event, policy date, or economic-catalyst marker",
+      "recommended_maximum_print_width_inches": 0.5,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "article-end-fleuron",
+      "path": "/newspaper/ornaments/article-end-fleuron.png",
+      "category": "ornaments",
+      "dimensions": [1388, 182],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Short centered end-of-article mark, column-ending ornament, brief conclusion, quotation ending, or compact section close",
+      "recommended_maximum_print_width_inches": 1.85,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "wopr-circuit-divider-vertical",
+      "path": "/newspaper/ornaments/wopr-circuit-divider-vertical.png",
+      "category": "ornaments",
+      "dimensions": [281, 1812],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Vertical divider for WOPR, Sentinel, evidence-engine, diagnostics, audit, operations, or technical newspaper columns",
+      "recommended_maximum_print_width_inches": 0.2,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "committee-deliberation",
       "path": "/newspaper/operations/committee-deliberation.png",
       "category": "operations",
