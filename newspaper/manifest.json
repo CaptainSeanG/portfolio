@@ -2,8 +2,69 @@
   "version": 2,
   "assets": [
     {
+      "id": "joshua-portrait",
+      "path": "/newspaper/people/joshua-portrait.png",
+      "category": "people",
+      "dimensions": [1021, 1411],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Joshua profile, committee-chair perspective, daily leadership note, or attributed Joshua quotation",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "warren-buffett-portrait",
+      "path": "/newspaper/people/warren-buffett-portrait.png",
+      "category": "people",
+      "dimensions": [1175, 1325],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, business-quality lens, durable-moat commentary, or attributed committee quotation",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "columbo-evidence-desk",
+      "path": "/newspaper/investigations/columbo-evidence-desk.png",
+      "category": "investigations",
+      "dimensions": [1534, 971],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Columbo investigation, unexpected finding, evidence request, source review, or unresolved case summary",
+      "recommended_maximum_print_width_inches": 2.2,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "evidence-thread-board",
+      "path": "/newspaper/investigations/evidence-thread-board.png",
+      "category": "investigations",
+      "dimensions": [1085, 987],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Intelligence gaps, contradictory evidence, source tracing, open questions, or investigation backlog",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "earnings-calendar",
+      "path": "/newspaper/sections/earnings-calendar.png",
+      "category": "sections",
+      "dimensions": [1475, 907],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Upcoming earnings date, economic calendar, scheduled catalyst, company watch, or next-week preview",
+      "recommended_maximum_print_width_inches": 2.1,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "world-news-wire",
+      "path": "/newspaper/sections/world-news-wire.png",
+      "category": "sections",
+      "dimensions": [1486, 936],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "World news affecting markets, geopolitical transmission, international trade, overnight wire, or global catalyst",
+      "recommended_maximum_print_width_inches": 2.1,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "committee-deliberation",
       "path": "/newspaper/operations/committee-deliberation.png",
+      "category": "operations",
       "dimensions": [1482, 820],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Investment Committee deliberation, voting rounds, advisor debate, agenda review, and committee decisions",
@@ -12,6 +73,7 @@
     {
       "id": "editorial-safeguard-ledger",
       "path": "/newspaper/editorial/editorial-safeguard-ledger.png",
+      "category": "editorial",
       "dimensions": [1448, 1086],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Editorial safeguard, policy, and observation-only ledger sections",
