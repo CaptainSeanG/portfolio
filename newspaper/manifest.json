@@ -582,6 +582,166 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "market-open",
+      "path": "/newspaper/icons/market-open.png",
+      "category": "icons",
+      "dimensions": [991, 1095],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small market-open, active-session, opening-bell, regular-hours, or live-market status marker",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "market-closed",
+      "path": "/newspaper/icons/market-closed.png",
+      "category": "icons",
+      "dimensions": [1047, 1185],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small market-closed, completed-session, after-hours, holiday closure, or inactive-market status marker",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "confidence-gauge",
+      "path": "/newspaper/icons/confidence-gauge.png",
+      "category": "icons",
+      "dimensions": [1139, 999],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small low, medium, or high-confidence marker; evidence strength, forecast uncertainty, model confidence, or editorial qualification",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "correction-proof",
+      "path": "/newspaper/icons/correction-proof.png",
+      "category": "icons",
+      "dimensions": [1091, 1100],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small correction, errata, revised fact, superseded information, editorial amendment, or updated-record marker",
+      "recommended_maximum_print_width_inches": 0.48,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "global-dispatch",
+      "path": "/newspaper/icons/global-dispatch.png",
+      "category": "icons",
+      "dimensions": [880, 876],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small global-news, international dispatch, geopolitical event, overseas market, sanctions, trade, or transmission marker",
+      "recommended_maximum_print_width_inches": 0.48,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "pull-quote-brackets",
+      "path": "/newspaper/ornaments/pull-quote-brackets.png",
+      "category": "ornaments",
+      "dimensions": [1920, 174],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Wide framing ornament for live typeset pull quotes, committee quotations, attributed observations, or prominent editorial excerpts",
+      "recommended_maximum_print_width_inches": 6.25,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "callout-corner-ornament",
+      "path": "/newspaper/ornaments/callout-corner-ornament.png",
+      "category": "ornaments",
+      "dimensions": [1058, 1062],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotatable corner ornament for callout boxes, sidebars, operator notes, scenario boards, committee notes, or special notices",
+      "recommended_maximum_print_width_inches": 0.72,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "continued-column-arrow",
+      "path": "/newspaper/ornaments/continued-column-arrow.png",
+      "category": "ornaments",
+      "dimensions": [1355, 392],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Column continuation, story continuation, next-column navigation, overflow marker, or serialized article transition",
+      "recommended_maximum_print_width_inches": 1.2,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-calm-micro",
+      "path": "/newspaper/weather/weather-calm-micro.png",
+      "category": "weather",
+      "dimensions": [1061, 886],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for calm, low-risk, orderly, stable-volatility, or supportive market-weather conditions",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-guarded-micro",
+      "path": "/newspaper/weather/weather-guarded-micro.png",
+      "category": "weather",
+      "dimensions": [885, 947],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for guarded, neutral, mixed-signal, crosswind, or uneven market-weather conditions",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-elevated-micro",
+      "path": "/newspaper/weather/weather-elevated-micro.png",
+      "category": "weather",
+      "dimensions": [873, 1046],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for elevated risk, worsening volatility, material event risk, or stressed market-weather conditions",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-severe-micro",
+      "path": "/newspaper/weather/weather-severe-micro.png",
+      "category": "weather",
+      "dimensions": [973, 1071],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for severe, storm-level, crisis, extreme-volatility, or urgent market-weather conditions",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-clearing-micro",
+      "path": "/newspaper/weather/weather-clearing-micro.png",
+      "category": "weather",
+      "dimensions": [928, 972],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for improving, clearing, stabilizing, falling-risk, or recovering market-weather conditions",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-deteriorating-micro",
+      "path": "/newspaper/weather/weather-deteriorating-micro.png",
+      "category": "weather",
+      "dimensions": [1107, 1134],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for deteriorating, darkening, rising-risk, weakening-breadth, or worsening market-weather direction",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-low-visibility-micro",
+      "path": "/newspaper/weather/weather-low-visibility-micro.png",
+      "category": "weather",
+      "dimensions": [777, 943],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for low visibility, incomplete evidence, obscured direction, uncertainty, or low-confidence market weather",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weather-data-unavailable-micro",
+      "path": "/newspaper/weather/weather-data-unavailable-micro.png",
+      "category": "weather",
+      "dimensions": [885, 972],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Micro-icon for unavailable storm data, failed weather feed, missing score, stale risk model, or unclassified conditions",
+      "recommended_maximum_print_width_inches": 0.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "committee-deliberation",
       "path": "/newspaper/operations/committee-deliberation.png",
       "category": "operations",
