@@ -182,6 +182,86 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "semiconductor-fabrication",
+      "path": "/newspaper/markets/semiconductor-fabrication.png",
+      "category": "markets",
+      "dimensions": [1242, 900],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Semiconductors, chip fabrication, artificial-intelligence infrastructure, technology leadership, or supply-chain commentary",
+      "recommended_maximum_print_width_inches": 1.7,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "banking-institution",
+      "path": "/newspaper/markets/banking-institution.png",
+      "category": "markets",
+      "dimensions": [1022, 907],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Banks, financial institutions, credit conditions, lending, financial-sector leadership, or systemic-risk commentary",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "industrial-factory",
+      "path": "/newspaper/markets/industrial-factory.png",
+      "category": "markets",
+      "dimensions": [1203, 1090],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Industrials, manufacturing, machinery, capital expenditure, factory activity, or economic-cycle commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "agriculture-grain",
+      "path": "/newspaper/markets/agriculture-grain.png",
+      "category": "markets",
+      "dimensions": [1161, 1063],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Agriculture, grain commodities, crop conditions, food inflation, farm equipment, or rural-economy commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "electric-utilities",
+      "path": "/newspaper/markets/electric-utilities.png",
+      "category": "markets",
+      "dimensions": [1202, 1026],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Utilities, electricity demand, power generation, grid infrastructure, defensive sectors, or data-center energy commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "healthcare-research",
+      "path": "/newspaper/markets/healthcare-research.png",
+      "category": "markets",
+      "dimensions": [1154, 1113],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Healthcare, biotechnology, pharmaceuticals, medical research, defensive-sector rotation, or clinical-catalyst commentary",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "real-estate-property",
+      "path": "/newspaper/markets/real-estate-property.png",
+      "category": "markets",
+      "dimensions": [1144, 1067],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Commercial real estate, residential property, REITs, mortgage-rate sensitivity, construction, or property-cycle commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "precious-metals-mine",
+      "path": "/newspaper/markets/precious-metals-mine.png",
+      "category": "markets",
+      "dimensions": [966, 1099],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Gold, silver, precious metals, mining equities, inflation hedges, safe-haven demand, or commodity-cycle commentary",
+      "recommended_maximum_print_width_inches": 1.55,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "committee-deliberation",
       "path": "/newspaper/operations/committee-deliberation.png",
       "category": "operations",
