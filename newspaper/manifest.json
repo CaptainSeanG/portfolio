@@ -222,6 +222,66 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "daily-security-spotlight",
+      "path": "/newspaper/sections/daily-security-spotlight.png",
+      "category": "sections",
+      "dimensions": [1138, 1085],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Daily security spotlight, single-company examination, ticker focus, company-specific evidence, or rotating watch-list profile",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "major-mover-ticker",
+      "path": "/newspaper/sections/major-mover-ticker.png",
+      "category": "sections",
+      "dimensions": [1123, 1194],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Major daily mover, unusual price change, market-tape highlight, gainers and decliners, or catalyst-driven movement",
+      "recommended_maximum_print_width_inches": 1.55,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "federal-reserve-decision",
+      "path": "/newspaper/sections/federal-reserve-decision.png",
+      "category": "sections",
+      "dimensions": [1183, 1083],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Federal Reserve decision, central-bank policy, interest-rate announcement, FOMC meeting, or monetary-policy commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "inflation-watch",
+      "path": "/newspaper/sections/inflation-watch.png",
+      "category": "sections",
+      "dimensions": [1171, 1124],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Inflation watch, CPI or PCE release, consumer prices, purchasing power, input costs, or price-pressure commentary",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "employment-report",
+      "path": "/newspaper/sections/employment-report.png",
+      "category": "sections",
+      "dimensions": [1093, 1171],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Employment report, payrolls, unemployment, hiring, labor participation, jobless claims, or wage commentary",
+      "recommended_maximum_print_width_inches": 1.55,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "volatility-desk",
+      "path": "/newspaper/sections/volatility-desk.png",
+      "category": "sections",
+      "dimensions": [1149, 1145],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Volatility desk, VIX movement, price instability, volatility expansion or contraction, or turbulent-market commentary",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "calm-market-skies",
       "path": "/newspaper/weather/calm-market-skies.png",
       "category": "weather",
@@ -258,6 +318,16 @@
       "dimensions": [1117, 1084],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Incomplete or stale data, unavailable sources, low confidence, obscured visibility, or unresolved uncertainty",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "digital-assets-ledger",
+      "path": "/newspaper/markets/digital-assets-ledger.png",
+      "category": "markets",
+      "dimensions": [1187, 1167],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Digital assets, cryptocurrency markets, blockchain infrastructure, distributed ledgers, token flows, or crypto-market commentary",
       "recommended_maximum_print_width_inches": 1.6,
       "editorial_visibility": "available_for_future_use"
     },
@@ -339,6 +409,16 @@
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Gold, silver, precious metals, mining equities, inflation hedges, safe-haven demand, or commodity-cycle commentary",
       "recommended_maximum_print_width_inches": 1.55,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "wopr-daily-audit",
+      "path": "/newspaper/operations/wopr-daily-audit.png",
+      "category": "operations",
+      "dimensions": [1164, 1013],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Yesterday's WOPR audit, decision outcomes, correct and incorrect calls, warning review, calibration, or process-improvement commentary",
+      "recommended_maximum_print_width_inches": 1.7,
       "editorial_visibility": "available_for_future_use"
     },
     {
