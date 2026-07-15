@@ -1,14 +1,38 @@
 {
   "assets": [
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0922,
       "asset_id": "agriculture-grain",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1161,
+        1063
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/agriculture-grain.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Agriculture, grain commodities, crop conditions, food inflation, farm equipment, or rural-economy commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -34,19 +58,62 @@
         "png",
         "rural"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "agriculture",
+        "commentary",
+        "commodities",
+        "conditions",
+        "crop",
+        "economy",
+        "equipment",
+        "farm",
+        "food",
+        "grain",
+        "inflation",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "rural"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 7.6264,
       "asset_id": "article-end-fleuron",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1388,
+        182
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/article-end-fleuron.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Short centered end-of-article mark, column-ending ornament, brief conclusion, quotation ending, or compact section close",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -76,19 +143,66 @@
         "section",
         "short"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "article",
+        "brief",
+        "centered",
+        "close",
+        "column",
+        "compact",
+        "conclusion",
+        "end",
+        "ending",
+        "fleuron",
+        "mark",
+        "newspaper",
+        "of",
+        "or",
+        "ornament",
+        "ornaments",
+        "png",
+        "quotation",
+        "section",
+        "short"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1268,
       "asset_id": "banking-institution",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1022,
+        907
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/banking-institution.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Banks, financial institutions, credit conditions, lending, financial-sector leadership, or systemic-risk commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -117,19 +231,65 @@
         "sector",
         "systemic"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "banking",
+        "banks",
+        "bear",
+        "bonds",
+        "commentary",
+        "conditions",
+        "credit",
+        "financial",
+        "institution",
+        "institutions",
+        "leadership",
+        "lending",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "sector",
+        "systemic"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2903,
       "asset_id": "benjamin-graham",
       "availability": "available_for_future_use",
       "category": "committee",
+      "color_mode": "RGB",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        600,
+        465
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/committee/profiles/benjamin-graham.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "benjamin graham",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -145,19 +305,52 @@
         "png",
         "profiles"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "benjamin",
+        "committee",
+        "graham",
+        "newspaper",
+        "png",
+        "profiles"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9355,
       "asset_id": "benjamin-graham-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        972,
+        1039
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/benjamin-graham-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, margin-of-safety analysis, intrinsic value, or valuation-discipline commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -187,19 +380,66 @@
         "valuation",
         "value"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "analysis",
+        "benjamin",
+        "commentary",
+        "committee",
+        "discipline",
+        "graham",
+        "intrinsic",
+        "margin",
+        "member",
+        "newspaper",
+        "of",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rotating",
+        "safety",
+        "valuation",
+        "value"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1538,
       "asset_id": "best-opportunities",
       "availability": "available_for_future_use",
       "category": "strip",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        360,
+        312
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/strip/best-opportunities.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "best opportunities",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -214,19 +454,51 @@
         "png",
         "strip"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "best",
+        "newspaper",
+        "opportunities",
+        "png",
+        "strip"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.192,
       "asset_id": "broken-telegraph",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1198,
+        1005
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/icons/broken-telegraph.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small unavailable-source, failed-feed, interrupted-ingest, stale-provider, or communications-outage marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -254,19 +526,64 @@
         "telegraph",
         "unavailable"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "broken",
+        "communications",
+        "failed",
+        "feed",
+        "icons",
+        "ingest",
+        "interrupted",
+        "marker",
+        "newspaper",
+        "or",
+        "outage",
+        "png",
+        "provider",
+        "small",
+        "source",
+        "stale",
+        "telegraph",
+        "unavailable"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5503,
       "asset_id": "bull-bear",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        231,
+        149
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/bull-bear.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "bull bear",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -281,20 +598,52 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "positive",
         "cautious"
+      ],
+      "visual_subjects": [
+        "bear",
+        "bull",
+        "markets",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5,
       "asset_id": "bull-bear-market-weather",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/weather/bull-bear-market-weather.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "bull bear market weather",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -310,21 +659,54 @@
         "png",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "positive",
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "bull",
+        "market",
+        "newspaper",
+        "png",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9962,
       "asset_id": "callout-corner-ornament",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1058,
+        1062
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/ornaments/callout-corner-ornament.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Rotatable corner ornament for callout boxes, sidebars, operator notes, scenario boards, committee notes, or special notices",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -352,19 +734,64 @@
         "sidebars",
         "special"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "boards",
+        "boxes",
+        "callout",
+        "committee",
+        "corner",
+        "for",
+        "newspaper",
+        "notes",
+        "notices",
+        "operator",
+        "or",
+        "ornament",
+        "ornaments",
+        "png",
+        "rotatable",
+        "scenario",
+        "sidebars",
+        "special"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1013,
       "asset_id": "calm-market-skies",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1196,
+        1086
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/calm-market-skies.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Calm, very-low, or low market-weather risk; stable volatility, supportive breadth, or orderly conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -391,20 +818,64 @@
         "volatility",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "breadth",
+        "calm",
+        "conditions",
+        "low",
+        "market",
+        "newspaper",
+        "or",
+        "orderly",
+        "png",
+        "risk",
+        "skies",
+        "stable",
+        "supportive",
+        "very",
+        "volatility",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.038,
       "asset_id": "charles-payne-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1203,
+        1159
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/charles-payne-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, growth leadership, momentum, individual opportunity, or upside commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -433,19 +904,65 @@
         "rotating",
         "upside"
       ],
+      "ticker_tags": [],
       "tone": [
         "positive"
+      ],
+      "visual_subjects": [
+        "bull",
+        "charles",
+        "commentary",
+        "committee",
+        "growth",
+        "individual",
+        "leadership",
+        "member",
+        "momentum",
+        "newspaper",
+        "opportunity",
+        "or",
+        "payne",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rotating",
+        "upside"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2903,
       "asset_id": "charlie-munger",
       "availability": "available_for_future_use",
       "category": "committee",
+      "color_mode": "RGB",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        600,
+        465
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/committee/profiles/charlie-munger.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "charlie munger",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -461,19 +978,52 @@
         "png",
         "profiles"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "charlie",
+        "committee",
+        "munger",
+        "newspaper",
+        "png",
+        "profiles"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.861,
       "asset_id": "charlie-munger-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1158,
+        1345
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/charlie-munger-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, mental-model analysis, probability discipline, incentives, or avoidable-error commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -503,19 +1053,66 @@
         "profile",
         "rotating"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "analysis",
+        "avoidable",
+        "charlie",
+        "commentary",
+        "committee",
+        "discipline",
+        "error",
+        "incentives",
+        "member",
+        "mental",
+        "model",
+        "munger",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "probability",
+        "profile",
+        "rotating"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 8.5282,
       "asset_id": "circuit-flourish-divider",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        2115,
+        248
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/circuit-flourish-divider.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Horizontal divider for WOPR audit, Sentinel, learning, evidence engine, diagnostics, or operations sections",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -543,19 +1140,64 @@
         "sentinel",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "audit",
+        "circuit",
+        "diagnostics",
+        "divider",
+        "engine",
+        "evidence",
+        "flourish",
+        "for",
+        "horizontal",
+        "learning",
+        "newspaper",
+        "operations",
+        "or",
+        "ornaments",
+        "png",
+        "sections",
+        "sentinel",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5798,
       "asset_id": "columbo-evidence-desk",
       "availability": "available_for_future_use",
       "category": "investigations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1534,
+        971
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/investigations/columbo-evidence-desk.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Columbo investigation, unexpected finding, evidence request, source review, or unresolved case summary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -581,19 +1223,62 @@
         "unexpected",
         "unresolved"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "case",
+        "columbo",
+        "desk",
+        "evidence",
+        "finding",
+        "investigation",
+        "investigations",
+        "newspaper",
+        "or",
+        "png",
+        "request",
+        "review",
+        "source",
+        "summary",
+        "unexpected",
+        "unresolved"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.8073,
       "asset_id": "committee-deliberation",
       "availability": "available",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        1482,
+        820
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/operations/committee-deliberation.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Investment Committee deliberation, voting rounds, advisor debate, agenda review, and committee decisions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -617,19 +1302,60 @@
         "rounds",
         "voting"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "advisor",
+        "agenda",
+        "and",
+        "committee",
+        "debate",
+        "decisions",
+        "deliberation",
+        "investment",
+        "newspaper",
+        "operations",
+        "png",
+        "review",
+        "rounds",
+        "voting"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.3132,
       "asset_id": "committee-gavel",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1111,
+        846
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/icons/committee-gavel.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small committee-decision, vote, agenda, governance, or Joshua-direction marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -653,19 +1379,60 @@
         "small",
         "vote"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "agenda",
+        "committee",
+        "decision",
+        "direction",
+        "gavel",
+        "governance",
+        "icons",
+        "joshua",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "small",
+        "vote"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.6612,
       "asset_id": "committee-minutes-header",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        201,
+        121
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/committee-minutes-header.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "committee minutes header",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -681,19 +1448,52 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "committee",
+        "editorial",
+        "header",
+        "minutes",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.3333,
       "asset_id": "committee-table-top",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/operations/committee-table-top.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "committee table top",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -709,19 +1509,52 @@
         "table",
         "top"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "committee",
+        "newspaper",
+        "operations",
+        "png",
+        "table",
+        "top"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1401,
       "asset_id": "confidence-gauge",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1139,
+        999
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/confidence-gauge.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small low, medium, or high-confidence marker; evidence strength, forecast uncertainty, model confidence, or editorial qualification",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -749,19 +1582,64 @@
         "strength",
         "uncertainty"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "confidence",
+        "editorial",
+        "evidence",
+        "forecast",
+        "gauge",
+        "high",
+        "icons",
+        "low",
+        "marker",
+        "medium",
+        "model",
+        "newspaper",
+        "or",
+        "png",
+        "qualification",
+        "small",
+        "strength",
+        "uncertainty"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.4539,
       "asset_id": "container-ship",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        221,
+        152
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/container-ship.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "container ship",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -776,19 +1654,51 @@
         "png",
         "ship"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "container",
+        "markets",
+        "newspaper",
+        "png",
+        "ship"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 3.4566,
       "asset_id": "continued-column-arrow",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1355,
+        392
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/continued-column-arrow.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Column continuation, story continuation, next-column navigation, overflow marker, or serialized article transition",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -814,19 +1724,62 @@
         "story",
         "transition"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "arrow",
+        "article",
+        "column",
+        "continuation",
+        "continued",
+        "marker",
+        "navigation",
+        "newspaper",
+        "next",
+        "or",
+        "ornaments",
+        "overflow",
+        "png",
+        "serialized",
+        "story",
+        "transition"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2857,
       "asset_id": "corner-ornament",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        153,
+        119
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/corner-ornament.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "corner ornament",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -841,19 +1794,51 @@
         "ornaments",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "corner",
+        "newspaper",
+        "ornament",
+        "ornaments",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9918,
       "asset_id": "correction-proof",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1091,
+        1100
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/correction-proof.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small correction, errata, revised fact, superseded information, editorial amendment, or updated-record marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -880,19 +1865,63 @@
         "superseded",
         "updated"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "amendment",
+        "correction",
+        "editorial",
+        "errata",
+        "fact",
+        "icons",
+        "information",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "proof",
+        "record",
+        "revised",
+        "small",
+        "superseded",
+        "updated"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.4236,
       "asset_id": "credit-bonds",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1136,
+        798
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/icons/credit-bonds.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small bonds, credit spreads, debt markets, fixed income, borrowing conditions, or credit-stress marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -919,19 +1948,63 @@
         "spreads",
         "stress"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "banks",
+        "bonds",
+        "borrowing",
+        "conditions",
+        "credit",
+        "debt",
+        "fixed",
+        "icons",
+        "income",
+        "marker",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "small",
+        "spreads",
+        "stress"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0488,
       "asset_id": "daily-security-spotlight",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1138,
+        1085
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/daily-security-spotlight.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Daily security spotlight, single-company examination, ticker focus, company-specific evidence, or rotating watch-list profile",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -959,19 +2032,64 @@
         "ticker",
         "watch"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "company",
+        "daily",
+        "evidence",
+        "examination",
+        "focus",
+        "list",
+        "newspaper",
+        "or",
+        "png",
+        "profile",
+        "rotating",
+        "sections",
+        "security",
+        "single",
+        "specific",
+        "spotlight",
+        "ticker",
+        "watch"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.761,
       "asset_id": "dan-payne-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1092,
+        1435
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/people/dan-payne-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, risk controls, position sizing, exit discipline, or downside commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1001,19 +2119,66 @@
         "rotating",
         "sizing"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "bear",
+        "commentary",
+        "committee",
+        "controls",
+        "dan",
+        "discipline",
+        "downside",
+        "exit",
+        "member",
+        "newspaper",
+        "or",
+        "payne",
+        "people",
+        "png",
+        "portrait",
+        "position",
+        "profile",
+        "risk",
+        "rotating",
+        "sizing"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.976,
       "asset_id": "data-freshness-clock",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        937,
+        960
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/data-freshness-clock.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small fresh, delayed, or stale-data marker; timestamp status, source recency, feed freshness, or snapshot timing",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1042,19 +2207,65 @@
         "timestamp",
         "timing"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "clock",
+        "data",
+        "delayed",
+        "feed",
+        "fresh",
+        "freshness",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "recency",
+        "small",
+        "snapshot",
+        "source",
+        "stale",
+        "status",
+        "timestamp",
+        "timing"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0171,
       "asset_id": "digital-assets-ledger",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1187,
+        1167
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/digital-assets-ledger.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Digital assets, cryptocurrency markets, blockchain infrastructure, distributed ledgers, token flows, or crypto-market commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1081,19 +2292,63 @@
         "png",
         "token"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "assets",
+        "blockchain",
+        "commentary",
+        "crypto",
+        "cryptocurrency",
+        "digital",
+        "distributed",
+        "flows",
+        "infrastructure",
+        "ledger",
+        "ledgers",
+        "market",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "token"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2507,
       "asset_id": "earnings-bell",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        928,
+        742
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/icons/earnings-bell.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small earnings announcement, earnings surprise, reporting-calendar, or corporate-results marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1117,19 +2372,60 @@
         "small",
         "surprise"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "announcement",
+        "bell",
+        "calendar",
+        "corporate",
+        "earnings",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "reporting",
+        "results",
+        "small",
+        "surprise"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.6262,
       "asset_id": "earnings-calendar",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1475,
+        907
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/sections/earnings-calendar.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Upcoming earnings date, economic calendar, scheduled catalyst, company watch, or next-week preview",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1155,19 +2451,62 @@
         "watch",
         "week"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "calendar",
+        "catalyst",
+        "company",
+        "date",
+        "earnings",
+        "economic",
+        "newspaper",
+        "next",
+        "or",
+        "png",
+        "preview",
+        "scheduled",
+        "sections",
+        "upcoming",
+        "watch",
+        "week"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2913,
       "asset_id": "economic-calendar",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1117,
+        865
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/icons/economic-calendar.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small macroeconomic-calendar, scheduled data release, central-bank event, policy date, or economic-catalyst marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1195,19 +2534,64 @@
         "scheduled",
         "small"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "bank",
+        "calendar",
+        "catalyst",
+        "central",
+        "data",
+        "date",
+        "economic",
+        "event",
+        "icons",
+        "macroeconomic",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "policy",
+        "release",
+        "scheduled",
+        "small"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1069,
       "asset_id": "editorial-pen",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        145,
+        131
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/editorial/editorial-pen.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "editorial pen",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1221,19 +2605,50 @@
         "pen",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "editorial",
+        "newspaper",
+        "pen",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.3333,
       "asset_id": "editorial-safeguard-ledger",
       "availability": "available",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/editorial-safeguard-ledger.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Editorial safeguard, policy, and observation-only ledger sections",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1253,19 +2668,56 @@
         "safeguard",
         "sections"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "and",
+        "editorial",
+        "ledger",
+        "newspaper",
+        "observation",
+        "only",
+        "png",
+        "policy",
+        "safeguard",
+        "sections"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1715,
       "asset_id": "electric-utilities",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1202,
+        1026
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/electric-utilities.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Utilities, electricity demand, power generation, grid infrastructure, defensive sectors, or data-center energy commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1293,19 +2745,64 @@
         "sectors",
         "utilities"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "center",
+        "commentary",
+        "data",
+        "defensive",
+        "demand",
+        "electric",
+        "electricity",
+        "energy",
+        "generation",
+        "grid",
+        "infrastructure",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "power",
+        "sectors",
+        "utilities"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9701,
       "asset_id": "elevated-storm-front",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1170,
+        1206
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/elevated-storm-front.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Elevated, high, severe, or storm market-weather risk; volatility, event risk, or deteriorating conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1331,20 +2828,63 @@
         "volatility",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "conditions",
+        "deteriorating",
+        "elevated",
+        "event",
+        "front",
+        "high",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "severe",
+        "storm",
+        "volatility",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9334,
       "asset_id": "employment-report",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1093,
+        1171
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/employment-report.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Employment report, payrolls, unemployment, hiring, labor participation, jobless claims, or wage commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1369,19 +2909,61 @@
         "unemployment",
         "wage"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "claims",
+        "commentary",
+        "employment",
+        "hiring",
+        "jobless",
+        "labor",
+        "newspaper",
+        "or",
+        "participation",
+        "payrolls",
+        "png",
+        "report",
+        "sections",
+        "unemployment",
+        "wage"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0993,
       "asset_id": "evidence-thread-board",
       "availability": "available_for_future_use",
       "category": "investigations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1085,
+        987
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/investigations/evidence-thread-board.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Intelligence gaps, contradictory evidence, source tracing, open questions, or investigation backlog",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1408,19 +2990,63 @@
         "thread",
         "tracing"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "ai",
+        "backlog",
+        "board",
+        "contradictory",
+        "evidence",
+        "gaps",
+        "intelligence",
+        "investigation",
+        "investigations",
+        "newspaper",
+        "open",
+        "or",
+        "png",
+        "questions",
+        "source",
+        "thread",
+        "tracing"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0923,
       "asset_id": "federal-reserve-decision",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1183,
+        1083
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/federal-reserve-decision.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Federal Reserve decision, central-bank policy, interest-rate announcement, FOMC meeting, or monetary-policy commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1448,19 +3074,64 @@
         "reserve",
         "sections"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "announcement",
+        "bank",
+        "central",
+        "commentary",
+        "decision",
+        "fed",
+        "federal",
+        "fomc",
+        "interest",
+        "meeting",
+        "monetary",
+        "newspaper",
+        "or",
+        "png",
+        "policy",
+        "rate",
+        "reserve",
+        "sections"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0046,
       "asset_id": "global-dispatch",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        880,
+        876
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/global-dispatch.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small global-news, international dispatch, geopolitical event, overseas market, sanctions, trade, or transmission marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1488,19 +3159,64 @@
         "trade",
         "transmission"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "dispatch",
+        "event",
+        "geopolitical",
+        "geopolitics",
+        "global",
+        "icons",
+        "international",
+        "marker",
+        "market",
+        "news",
+        "newspaper",
+        "or",
+        "overseas",
+        "png",
+        "sanctions",
+        "small",
+        "trade",
+        "transmission"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0264,
       "asset_id": "guarded-crosswinds",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1165,
+        1135
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/guarded-crosswinds.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Guarded or neutral market-weather risk, mixed signals, crosscurrents, or uneven leadership",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1525,20 +3241,62 @@
         "uneven",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "crosscurrents",
+        "crosswinds",
+        "guarded",
+        "leadership",
+        "market",
+        "mixed",
+        "neutral",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "signals",
+        "uneven",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0368,
       "asset_id": "healthcare-research",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1154,
+        1113
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/healthcare-research.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Healthcare, biotechnology, pharmaceuticals, medical research, defensive-sector rotation, or clinical-catalyst commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1563,19 +3321,61 @@
         "rotation",
         "sector"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "biotechnology",
+        "catalyst",
+        "clinical",
+        "commentary",
+        "defensive",
+        "healthcare",
+        "markets",
+        "medical",
+        "newspaper",
+        "or",
+        "pharmaceuticals",
+        "png",
+        "research",
+        "rotation",
+        "sector"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.7971,
       "asset_id": "howard-marks-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1061,
+        1331
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/people/howard-marks-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, risk psychology, market cycles, second-level thinking, or risk-compensation commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1606,20 +3406,68 @@
         "second",
         "thinking"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "commentary",
+        "committee",
+        "compensation",
+        "cycles",
+        "howard",
+        "level",
+        "market",
+        "marks",
+        "member",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "psychology",
+        "risk",
+        "rotating",
+        "second",
+        "thinking"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1037,
       "asset_id": "industrial-factory",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1203,
+        1090
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/industrial-factory.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Industrials, manufacturing, machinery, capital expenditure, factory activity, or economic-cycle commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1644,19 +3492,61 @@
         "or",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "activity",
+        "capital",
+        "commentary",
+        "cycle",
+        "economic",
+        "expenditure",
+        "factory",
+        "industrial",
+        "industrials",
+        "machinery",
+        "manufacturing",
+        "markets",
+        "newspaper",
+        "or",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0418,
       "asset_id": "inflation-watch",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1171,
+        1124
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/inflation-watch.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Inflation watch, CPI or PCE release, consumer prices, purchasing power, input costs, or price-pressure commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1684,19 +3574,64 @@
         "sections",
         "watch"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "commentary",
+        "consumer",
+        "costs",
+        "cpi",
+        "inflation",
+        "input",
+        "newspaper",
+        "or",
+        "pce",
+        "png",
+        "power",
+        "pressure",
+        "price",
+        "prices",
+        "purchasing",
+        "release",
+        "sections",
+        "watch"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0593,
       "asset_id": "ink-bottle",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        125,
+        118
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/editorial/ink-bottle.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "ink bottle",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1711,19 +3646,51 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "bottle",
+        "editorial",
+        "ink",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0233,
       "asset_id": "intelligence-gaps",
       "availability": "available_for_future_use",
       "category": "strip",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        352,
+        344
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/strip/intelligence-gaps.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "intelligence gaps",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1739,19 +3706,52 @@
         "png",
         "strip"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "ai",
+        "gaps",
+        "intelligence",
+        "newspaper",
+        "png",
+        "strip"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5,
       "asset_id": "joshua-editor-desk",
       "availability": "available_for_future_use",
       "category": "committee",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/committee/joshua-editor-desk.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "joshua editor desk",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1767,19 +3767,52 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "committee",
+        "desk",
+        "editor",
+        "joshua",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.7236,
       "asset_id": "joshua-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1021,
+        1411
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/people/joshua-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Joshua profile, committee-chair perspective, daily leadership note, or attributed Joshua quotation",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1804,19 +3837,61 @@
         "profile",
         "quotation"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "attributed",
+        "chair",
+        "committee",
+        "daily",
+        "joshua",
+        "leadership",
+        "newspaper",
+        "note",
+        "or",
+        "people",
+        "perspective",
+        "png",
+        "portrait",
+        "profile",
+        "quotation"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 14.3427,
       "asset_id": "laurel-star-divider",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        2051,
+        143
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/laurel-star-divider.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Formal horizontal divider for editorial analysis, committee profiles, quotations, closing composition, or major section transitions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1846,19 +3921,66 @@
         "star",
         "transitions"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "analysis",
+        "closing",
+        "committee",
+        "composition",
+        "divider",
+        "editorial",
+        "for",
+        "formal",
+        "horizontal",
+        "laurel",
+        "major",
+        "newspaper",
+        "or",
+        "ornaments",
+        "png",
+        "profiles",
+        "quotations",
+        "section",
+        "star",
+        "transitions"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.4247,
       "asset_id": "learning-heartbeat",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        208,
+        146
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/operations/learning-heartbeat.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "learning heartbeat",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1873,19 +3995,51 @@
         "operations",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "heartbeat",
+        "learning",
+        "newspaper",
+        "operations",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.119,
       "asset_id": "liquidity-valve",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1091,
+        975
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/liquidity-valve.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small market-liquidity, funding conditions, tightening, restriction, improving flow, or liquidity-risk marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1912,20 +4066,64 @@
         "tightening",
         "valve"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "conditions",
+        "flow",
+        "funding",
+        "icons",
+        "improving",
+        "liquidity",
+        "marker",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "restriction",
+        "risk",
+        "small",
+        "tightening",
+        "valve"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9405,
       "asset_id": "major-mover-ticker",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1123,
+        1194
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/major-mover-ticker.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Major daily mover, unusual price change, market-tape highlight, gainers and decliners, or catalyst-driven movement",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -1955,19 +4153,66 @@
         "ticker",
         "unusual"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "and",
+        "catalyst",
+        "change",
+        "daily",
+        "decliners",
+        "driven",
+        "gainers",
+        "highlight",
+        "major",
+        "market",
+        "movement",
+        "mover",
+        "newspaper",
+        "or",
+        "png",
+        "price",
+        "sections",
+        "tape",
+        "ticker",
+        "unusual"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.926,
       "asset_id": "mark-minervini-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        963,
+        1040
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/mark-minervini-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, trend quality, breakout validation, entry timing, or risk-first trade-structure commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2000,19 +4245,69 @@
         "trend",
         "validation"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "bear",
+        "breakout",
+        "commentary",
+        "committee",
+        "entry",
+        "first",
+        "mark",
+        "member",
+        "minervini",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "quality",
+        "risk",
+        "rotating",
+        "structure",
+        "timing",
+        "trade",
+        "trend",
+        "validation"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.129,
       "asset_id": "market-breadth-board",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1129,
+        1000
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/market-breadth-board.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Market breadth, participation, advancers and decliners, trend confirmation, or divergence commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2037,19 +4332,61 @@
         "sections",
         "trend"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "advancers",
+        "and",
+        "board",
+        "breadth",
+        "commentary",
+        "confirmation",
+        "decliners",
+        "divergence",
+        "market",
+        "newspaper",
+        "or",
+        "participation",
+        "png",
+        "sections",
+        "trend"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.8835,
       "asset_id": "market-closed",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1047,
+        1185
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/market-closed.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small market-closed, completed-session, after-hours, holiday closure, or inactive-market status marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2075,19 +4412,62 @@
         "small",
         "status"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "after",
+        "closed",
+        "closure",
+        "completed",
+        "holiday",
+        "hours",
+        "icons",
+        "inactive",
+        "marker",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "session",
+        "small",
+        "status"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2516,
       "asset_id": "market-floor",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        194,
+        155
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/market-floor.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "market floor",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2102,19 +4482,51 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "floor",
+        "market",
+        "markets",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2516,
       "asset_id": "market-floor-hires",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        1403,
+        1121
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/market-floor-hires.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "market floor hires",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2130,19 +4542,52 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "floor",
+        "hires",
+        "market",
+        "markets",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.905,
       "asset_id": "market-open",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        991,
+        1095
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/market-open.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small market-open, active-session, opening-bell, regular-hours, or live-market status marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2168,19 +4613,62 @@
         "small",
         "status"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "active",
+        "bell",
+        "hours",
+        "icons",
+        "live",
+        "marker",
+        "market",
+        "newspaper",
+        "open",
+        "opening",
+        "or",
+        "png",
+        "regular",
+        "session",
+        "small",
+        "status"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2353,
       "asset_id": "market-weather",
       "availability": "available_for_future_use",
       "category": "strip",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        336,
+        272
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/strip/market-weather.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "market weather",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2195,19 +4683,51 @@
         "strip",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "market",
+        "newspaper",
+        "png",
+        "strip",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.7727,
       "asset_id": "newspaper-aged-edge-leather-v3",
       "availability": "available_for_future_use",
       "category": "backgrounds",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/backgrounds/newspaper-aged-edge-leather-v3.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "newspaper aged edge leather v3",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2224,19 +4744,53 @@
         "png",
         "v3"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "aged",
+        "backgrounds",
+        "edge",
+        "leather",
+        "newspaper",
+        "png",
+        "v3"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.7727,
       "asset_id": "newspaper-aged-edge-leather-v4-strong",
       "availability": "available_for_future_use",
       "category": "backgrounds",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/backgrounds/newspaper-aged-edge-leather-v4-strong.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "newspaper aged edge leather v4 strong",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2254,19 +4808,54 @@
         "strong",
         "v4"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "aged",
+        "backgrounds",
+        "edge",
+        "leather",
+        "newspaper",
+        "png",
+        "strong",
+        "v4"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 4.0164,
       "asset_id": "newspaper-divider-horizontal",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        245,
+        61
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/newspaper-divider-horizontal.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "newspaper divider horizontal",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2281,19 +4870,51 @@
         "ornaments",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "divider",
+        "horizontal",
+        "newspaper",
+        "ornaments",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.6186,
       "asset_id": "newspaper-divider-vertical",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        73,
+        118
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/ornaments/newspaper-divider-vertical.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "newspaper divider vertical",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2308,19 +4929,51 @@
         "png",
         "vertical"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "divider",
+        "newspaper",
+        "ornaments",
+        "png",
+        "vertical"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5191,
       "asset_id": "newspaper-fold",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        199,
+        131
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/newspaper-fold.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "newspaper fold",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2334,19 +4987,50 @@
         "newspaper",
         "png"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "editorial",
+        "fold",
+        "newspaper",
+        "png"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0,
       "asset_id": "newspaper-paper-texture",
       "availability": "available",
       "category": "general",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        128,
+        128
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "unknown",
       "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2362,19 +5046,52 @@
         "png",
         "texture"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "backgrounds",
+        "general",
+        "newspaper",
+        "paper",
+        "png",
+        "texture"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0592,
       "asset_id": "oil-rig",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        161,
+        152
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/oil-rig.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "oil rig",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2390,19 +5107,52 @@
         "png",
         "rig"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "energy",
+        "markets",
+        "newspaper",
+        "oil",
+        "png",
+        "rig"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9575,
       "asset_id": "peter-lynch-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1036,
+        1082
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/peter-lynch-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, understandable business, growth-at-a-reasonable-price, or company-story commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2433,19 +5183,67 @@
         "story",
         "understandable"
       ],
+      "ticker_tags": [],
       "tone": [
         "positive"
+      ],
+      "visual_subjects": [
+        "a",
+        "at",
+        "business",
+        "commentary",
+        "committee",
+        "company",
+        "growth",
+        "lynch",
+        "member",
+        "newspaper",
+        "or",
+        "people",
+        "peter",
+        "png",
+        "portrait",
+        "price",
+        "profile",
+        "reasonable",
+        "rotating",
+        "story",
+        "understandable"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.879,
       "asset_id": "precious-metals-mine",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        966,
+        1099
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/precious-metals-mine.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Gold, silver, precious metals, mining equities, inflation hedges, safe-haven demand, or commodity-cycle commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2474,19 +5272,65 @@
         "safe",
         "silver"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "commentary",
+        "commodity",
+        "cycle",
+        "demand",
+        "equities",
+        "gold",
+        "haven",
+        "hedges",
+        "inflation",
+        "markets",
+        "metals",
+        "mine",
+        "mining",
+        "newspaper",
+        "or",
+        "png",
+        "precious",
+        "safe",
+        "silver"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2222,
       "asset_id": "publisher-mark",
       "availability": "available_for_future_use",
       "category": "strip",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        528,
+        432
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/strip/publisher-mark.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "publisher mark",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2501,19 +5345,51 @@
         "publisher",
         "strip"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "mark",
+        "newspaper",
+        "png",
+        "publisher",
+        "strip"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 11.0345,
       "asset_id": "pull-quote-brackets",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1920,
+        174
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/pull-quote-brackets.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Wide framing ornament for live typeset pull quotes, committee quotations, attributed observations, or prominent editorial excerpts",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2544,19 +5420,67 @@
         "typeset",
         "wide"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "attributed",
+        "brackets",
+        "committee",
+        "editorial",
+        "excerpts",
+        "for",
+        "framing",
+        "live",
+        "newspaper",
+        "observations",
+        "or",
+        "ornament",
+        "ornaments",
+        "png",
+        "prominent",
+        "pull",
+        "quotations",
+        "quote",
+        "quotes",
+        "typeset",
+        "wide"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5515,
       "asset_id": "question-desk",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        211,
+        136
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/question-desk.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "question desk",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2571,19 +5495,51 @@
         "png",
         "question"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "desk",
+        "editorial",
+        "newspaper",
+        "png",
+        "question"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.8627,
       "asset_id": "questions-for-joshua",
       "availability": "available_for_future_use",
       "category": "strip",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        352,
+        408
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/strip/questions-for-joshua.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "questions for joshua",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2599,19 +5555,52 @@
         "questions",
         "strip"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "for",
+        "joshua",
+        "newspaper",
+        "png",
+        "questions",
+        "strip"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1457,
       "asset_id": "radar-tower",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        173,
+        151
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/operations/radar-tower.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "radar tower",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2626,19 +5615,51 @@
         "radar",
         "tower"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "newspaper",
+        "operations",
+        "png",
+        "radar",
+        "tower"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2903,
       "asset_id": "ray-dalio",
       "availability": "available_for_future_use",
       "category": "committee",
+      "color_mode": "RGB",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        600,
+        465
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/committee/profiles/ray-dalio.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "ray dalio",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2654,19 +5675,52 @@
         "profiles",
         "ray"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "committee",
+        "dalio",
+        "newspaper",
+        "png",
+        "profiles",
+        "ray"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.6417,
       "asset_id": "ray-dalio-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        960,
+        1496
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/people/ray-dalio-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, economic cycles, rates, liquidity, diversification, or macro-balance commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2697,19 +5751,67 @@
         "ray",
         "rotating"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "balance",
+        "bonds",
+        "commentary",
+        "committee",
+        "cycles",
+        "dalio",
+        "diversification",
+        "economic",
+        "fed",
+        "liquidity",
+        "macro",
+        "member",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rates",
+        "ray",
+        "rotating"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0722,
       "asset_id": "real-estate-property",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1144,
+        1067
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/markets/real-estate-property.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Commercial real estate, residential property, REITs, mortgage-rate sensitivity, construction, or property-cycle commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2735,19 +5837,62 @@
         "residential",
         "sensitivity"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "commentary",
+        "commercial",
+        "construction",
+        "cycle",
+        "estate",
+        "markets",
+        "mortgage",
+        "newspaper",
+        "or",
+        "png",
+        "property",
+        "rate",
+        "real",
+        "reits",
+        "residential",
+        "sensitivity"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.784,
       "asset_id": "risk-shield",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        755,
+        963
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/icons/risk-shield.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small safeguard, risk-control, defensive-posture, elevated-risk, or publication-control marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2772,19 +5917,61 @@
         "shield",
         "small"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "bear",
+        "control",
+        "defensive",
+        "elevated",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "posture",
+        "publication",
+        "risk",
+        "safeguard",
+        "shield",
+        "small"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 3.3019,
       "asset_id": "section-rule",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        175,
+        53
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/section-rule.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "section rule",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2799,19 +5986,51 @@
         "rule",
         "section"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "newspaper",
+        "ornaments",
+        "png",
+        "rule",
+        "section"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9904,
       "asset_id": "sector-rotation-compass",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1137,
+        1148
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/sector-rotation-compass.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Sector leadership changes, capital rotation, improving and lagging industries, or market-flow commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2838,19 +6057,63 @@
         "sections",
         "sector"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "and",
+        "capital",
+        "changes",
+        "commentary",
+        "compass",
+        "flow",
+        "improving",
+        "industries",
+        "lagging",
+        "leadership",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "rotation",
+        "sections",
+        "sector"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.38,
       "asset_id": "semiconductor-fabrication",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1242,
+        900
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/semiconductor-fabrication.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Semiconductors, chip fabrication, artificial-intelligence infrastructure, technology leadership, or supply-chain commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2877,19 +6140,63 @@
         "supply",
         "technology"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "ai",
+        "artificial",
+        "chain",
+        "chip",
+        "commentary",
+        "fabrication",
+        "infrastructure",
+        "intelligence",
+        "leadership",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "semiconductor",
+        "semiconductors",
+        "supply",
+        "technology"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5,
       "asset_id": "sentinel-market-observer",
       "availability": "available_for_future_use",
       "category": "committee",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/committee/sentinel-market-observer.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "sentinel market observer",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2905,19 +6212,52 @@
         "png",
         "sentinel"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "committee",
+        "market",
+        "newspaper",
+        "observer",
+        "png",
+        "sentinel"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0937,
       "asset_id": "sentinel-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1214,
+        1110
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/sentinel-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Non-human committee profile, infrastructure observation, data freshness, node health, monitoring, or operational-warning commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2947,20 +6287,67 @@
         "sentinel",
         "warning"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "commentary",
+        "committee",
+        "data",
+        "freshness",
+        "health",
+        "human",
+        "infrastructure",
+        "monitoring",
+        "newspaper",
+        "node",
+        "non",
+        "observation",
+        "operational",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "sentinel",
+        "warning"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.931,
       "asset_id": "source-verified",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        810,
+        870
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/source-verified.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small provenance, verified-source, evidence-confirmed, citation, or data-quality marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -2984,19 +6371,60 @@
         "source",
         "verified"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "citation",
+        "confirmed",
+        "data",
+        "evidence",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "provenance",
+        "quality",
+        "small",
+        "source",
+        "verified"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1625,
       "asset_id": "stanley-druckenmiller-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1295,
+        1114
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/people/stanley-druckenmiller-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, macro trends, capital flows, concentrated conviction, or asymmetric-opportunity commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3027,19 +6455,67 @@
         "stanley",
         "trends"
       ],
+      "ticker_tags": [],
       "tone": [
         "positive"
+      ],
+      "visual_subjects": [
+        "asymmetric",
+        "bull",
+        "capital",
+        "commentary",
+        "committee",
+        "concentrated",
+        "conviction",
+        "druckenmiller",
+        "flows",
+        "macro",
+        "member",
+        "newspaper",
+        "opportunity",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rotating",
+        "stanley",
+        "trends"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.763,
       "asset_id": "stock-ticker",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        238,
+        135
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/operations/stock-ticker.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "stock ticker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3054,19 +6530,51 @@
         "stock",
         "ticker"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "newspaper",
+        "operations",
+        "png",
+        "stock",
+        "ticker"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        180,
+        148
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3081,19 +6589,51 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-01-calm",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-01-calm.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 01 calm",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3110,19 +6650,53 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "01",
+        "calm",
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-02-very-low",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-02-very-low.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 02 very low",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3140,19 +6714,54 @@
         "storm",
         "very"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "02",
+        "editorial",
+        "low",
+        "meter",
+        "newspaper",
+        "png",
+        "storm",
+        "very"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-03-low",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-03-low.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 03 low",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3169,19 +6778,53 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "03",
+        "editorial",
+        "low",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-04-guarded",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-04-guarded.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 04 guarded",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3198,19 +6841,53 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "04",
+        "editorial",
+        "guarded",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-05-neutral",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-05-neutral.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 05 neutral",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3227,19 +6904,53 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "05",
+        "editorial",
+        "meter",
+        "neutral",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-06-elevated",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-06-elevated.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 06 elevated",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3256,19 +6967,53 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "06",
+        "editorial",
+        "elevated",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-07-high",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-07-high.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 07 high",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3285,19 +7030,53 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "07",
+        "editorial",
+        "high",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-08-severe",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-08-severe.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 08 severe",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3314,19 +7093,53 @@
         "severe",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "08",
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "severe",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2162,
       "asset_id": "storm-meter-09-storm",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-14",
+      "dimensions": [
+        720,
+        592
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/storm-meter/storm-meter-09-storm.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "storm meter 09 storm",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3342,19 +7155,52 @@
         "png",
         "storm"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "09",
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0732,
       "asset_id": "strip-watch-board",
       "availability": "available_for_future_use",
       "category": "strip",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        352,
+        328
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/strip/watch-board.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "watch board",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3369,19 +7215,51 @@
         "strip",
         "watch"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "board",
+        "newspaper",
+        "png",
+        "strip",
+        "watch"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2803,
       "asset_id": "telegraph-wire",
       "availability": "available_for_future_use",
       "category": "editorial",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        169,
+        132
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/editorial/telegraph-wire.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "telegraph wire",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3396,19 +7274,51 @@
         "telegraph",
         "wire"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "editorial",
+        "newspaper",
+        "png",
+        "telegraph",
+        "wire"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 16.2,
       "asset_id": "telegraph-wire-divider",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        2106,
+        130
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/telegraph-wire-divider.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Horizontal divider for world news, breaking dispatches, source feeds, publication pipeline, or intelligence-wire sections",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3438,19 +7348,66 @@
         "wire",
         "world"
       ],
+      "ticker_tags": [],
       "tone": [
         "urgent"
+      ],
+      "visual_subjects": [
+        "ai",
+        "breaking",
+        "dispatches",
+        "divider",
+        "feeds",
+        "for",
+        "horizontal",
+        "intelligence",
+        "news",
+        "newspaper",
+        "or",
+        "ornaments",
+        "pipeline",
+        "png",
+        "publication",
+        "sections",
+        "source",
+        "telegraph",
+        "wire",
+        "world"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 10.2959,
       "asset_id": "ticker-tape-divider",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        2018,
+        196
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/ticker-tape-divider.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Horizontal divider for market tape, major movers, prices, earnings, securities, or opportunity sections",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3479,20 +7436,66 @@
         "tape",
         "ticker"
       ],
+      "ticker_tags": [],
       "tone": [
         "positive",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bull",
+        "divider",
+        "earnings",
+        "for",
+        "horizontal",
+        "inflation",
+        "major",
+        "market",
+        "movers",
+        "newspaper",
+        "opportunity",
+        "or",
+        "ornaments",
+        "png",
+        "prices",
+        "sections",
+        "securities",
+        "tape",
+        "ticker"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1131,
       "asset_id": "treasury-rates-desk",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1132,
+        1017
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/treasury-rates-desk.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Treasury yields, interest rates, bonds, duration, central-bank policy, or rate-sensitive market commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3521,19 +7524,65 @@
         "treasury",
         "yields"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "bank",
+        "bonds",
+        "central",
+        "commentary",
+        "desk",
+        "duration",
+        "fed",
+        "interest",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "policy",
+        "rate",
+        "rates",
+        "sections",
+        "sensitive",
+        "treasury",
+        "yields"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0304,
       "asset_id": "uncertain-market-fog",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1117,
+        1084
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/uncertain-market-fog.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Incomplete or stale data, unavailable sources, low confidence, obscured visibility, or unresolved uncertainty",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3561,19 +7610,64 @@
         "visibility",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "confidence",
+        "data",
+        "fog",
+        "incomplete",
+        "low",
+        "market",
+        "newspaper",
+        "obscured",
+        "or",
+        "png",
+        "sources",
+        "stale",
+        "unavailable",
+        "uncertain",
+        "uncertainty",
+        "unresolved",
+        "visibility",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5897,
       "asset_id": "vintage-bar-chart",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        186,
+        117
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/vintage-bar-chart.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "vintage bar chart",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3589,19 +7683,52 @@
         "png",
         "vintage"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "bar",
+        "chart",
+        "newspaper",
+        "ornaments",
+        "png",
+        "vintage"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.7759,
       "asset_id": "vintage-line-chart",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        206,
+        116
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/ornaments/vintage-line-chart.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "vintage line chart",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3617,19 +7744,52 @@
         "png",
         "vintage"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "chart",
+        "line",
+        "newspaper",
+        "ornaments",
+        "png",
+        "vintage"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0035,
       "asset_id": "volatility-desk",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1149,
+        1145
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/volatility-desk.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Volatility desk, VIX movement, price instability, volatility expansion or contraction, or turbulent-market commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3654,19 +7814,61 @@
         "vix",
         "volatility"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "commentary",
+        "contraction",
+        "desk",
+        "expansion",
+        "instability",
+        "market",
+        "movement",
+        "newspaper",
+        "or",
+        "png",
+        "price",
+        "sections",
+        "turbulent",
+        "vix",
+        "volatility"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.3636,
       "asset_id": "wall-street-silhouette",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        210,
+        154
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/wall-street-silhouette.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "wall street silhouette",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3682,19 +7884,52 @@
         "street",
         "wall"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "markets",
+        "newspaper",
+        "png",
+        "silhouette",
+        "street",
+        "wall"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9853,
       "asset_id": "warning-beacon",
       "availability": "available_for_future_use",
       "category": "icons",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1074,
+        1090
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/icons/warning-beacon.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Small elevated-warning, operational concern, unresolved risk, caution, or attention-required marker",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3721,19 +7956,63 @@
         "unresolved",
         "warning"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "attention",
+        "beacon",
+        "bear",
+        "caution",
+        "concern",
+        "elevated",
+        "icons",
+        "marker",
+        "newspaper",
+        "operational",
+        "or",
+        "png",
+        "required",
+        "risk",
+        "small",
+        "unresolved",
+        "warning"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.2903,
       "asset_id": "warren-buffett",
       "availability": "available_for_future_use",
       "category": "committee",
+      "color_mode": "RGB",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        600,
+        465
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/committee/profiles/warren-buffett.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "warren buffett",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3749,19 +8028,52 @@
         "profiles",
         "warren"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "buffett",
+        "committee",
+        "newspaper",
+        "png",
+        "profiles",
+        "warren"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.8868,
       "asset_id": "warren-buffett-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1175,
+        1325
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/people/warren-buffett-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, business-quality lens, durable-moat commentary, or attributed committee quotation",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3790,19 +8102,65 @@
         "rotating",
         "warren"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "attributed",
+        "buffett",
+        "business",
+        "commentary",
+        "committee",
+        "durable",
+        "lens",
+        "member",
+        "moat",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "quality",
+        "quotation",
+        "rotating",
+        "warren"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.3701,
       "asset_id": "watch-board",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        211,
+        154
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/operations/watch-board.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "watch board",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3817,19 +8175,51 @@
         "png",
         "watch"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "board",
+        "newspaper",
+        "operations",
+        "png",
+        "watch"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1975,
       "asset_id": "weather-calm-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1061,
+        886
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/weather/weather-calm-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for calm, low-risk, orderly, stable-volatility, or supportive market-weather conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3856,20 +8246,64 @@
         "volatility",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "calm",
+        "conditions",
+        "for",
+        "icon",
+        "low",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "orderly",
+        "png",
+        "risk",
+        "stable",
+        "supportive",
+        "volatility",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9547,
       "asset_id": "weather-clearing-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        928,
+        972
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/weather-clearing-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for improving, clearing, stabilizing, falling-risk, or recovering market-weather conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3895,20 +8329,63 @@
         "stabilizing",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "clearing",
+        "conditions",
+        "falling",
+        "for",
+        "icon",
+        "improving",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "recovering",
+        "risk",
+        "stabilizing",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9105,
       "asset_id": "weather-data-unavailable-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        885,
+        972
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/weather-data-unavailable-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for unavailable storm data, failed weather feed, missing score, stale risk model, or unclassified conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3938,20 +8415,67 @@
         "unclassified",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "conditions",
+        "data",
+        "failed",
+        "feed",
+        "for",
+        "icon",
+        "micro",
+        "missing",
+        "model",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "score",
+        "stale",
+        "storm",
+        "unavailable",
+        "unclassified",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9762,
       "asset_id": "weather-deteriorating-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1107,
+        1134
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/weather-deteriorating-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for deteriorating, darkening, rising-risk, weakening-breadth, or worsening market-weather direction",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -3978,20 +8502,64 @@
         "weather",
         "worsening"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "breadth",
+        "darkening",
+        "deteriorating",
+        "direction",
+        "for",
+        "icon",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "rising",
+        "risk",
+        "weakening",
+        "weather",
+        "worsening"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.8346,
       "asset_id": "weather-elevated-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        873,
+        1046
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/weather/weather-elevated-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for elevated risk, worsening volatility, material event risk, or stressed market-weather conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4018,20 +8586,64 @@
         "weather",
         "worsening"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "analytical"
+      ],
+      "visual_subjects": [
+        "bear",
+        "conditions",
+        "elevated",
+        "event",
+        "for",
+        "icon",
+        "market",
+        "material",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "stressed",
+        "volatility",
+        "weather",
+        "worsening"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9345,
       "asset_id": "weather-guarded-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        885,
+        947
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/weather-guarded-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for guarded, neutral, mixed-signal, crosswind, or uneven market-weather conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4056,19 +8668,61 @@
         "uneven",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "conditions",
+        "crosswind",
+        "for",
+        "guarded",
+        "icon",
+        "market",
+        "micro",
+        "mixed",
+        "neutral",
+        "newspaper",
+        "or",
+        "png",
+        "signal",
+        "uneven",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.824,
       "asset_id": "weather-low-visibility-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        777,
+        943
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/weather/weather-low-visibility-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for low visibility, incomplete evidence, obscured direction, uncertainty, or low-confidence market weather",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4094,19 +8748,62 @@
         "visibility",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "confidence",
+        "direction",
+        "evidence",
+        "for",
+        "icon",
+        "incomplete",
+        "low",
+        "market",
+        "micro",
+        "newspaper",
+        "obscured",
+        "or",
+        "png",
+        "uncertainty",
+        "visibility",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9085,
       "asset_id": "weather-severe-micro",
       "availability": "available_for_future_use",
       "category": "weather",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        973,
+        1071
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/weather/weather-severe-micro.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Micro-icon for severe, storm-level, crisis, extreme-volatility, or urgent market-weather conditions",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4132,21 +8829,64 @@
         "volatility",
         "weather"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious",
         "urgent",
         "analytical"
+      ],
+      "visual_subjects": [
+        "conditions",
+        "crisis",
+        "extreme",
+        "for",
+        "icon",
+        "level",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "severe",
+        "storm",
+        "urgent",
+        "volatility",
+        "weather"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.9726,
       "asset_id": "weekly-outlook-telescope",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        960,
+        987
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/sections/weekly-outlook-telescope.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "Upcoming-week outlook, scheduled events, expected catalysts, next dates, or forward-looking watch items",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4175,19 +8915,65 @@
         "week",
         "weekly"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "catalysts",
+        "dates",
+        "events",
+        "expected",
+        "forward",
+        "items",
+        "looking",
+        "newspaper",
+        "next",
+        "or",
+        "outlook",
+        "png",
+        "scheduled",
+        "sections",
+        "telescope",
+        "upcoming",
+        "watch",
+        "week",
+        "weekly"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.6801,
       "asset_id": "william-oneil-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        993,
+        1460
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/people/william-oneil-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Rotating committee-member profile, technical leadership, earnings strength, price-volume action, or institutional-accumulation commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4218,19 +9004,67 @@
         "volume",
         "william"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "accumulation",
+        "action",
+        "commentary",
+        "committee",
+        "earnings",
+        "institutional",
+        "leadership",
+        "member",
+        "newspaper",
+        "oneil",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "price",
+        "profile",
+        "rotating",
+        "strength",
+        "technical",
+        "volume",
+        "william"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.3333,
       "asset_id": "wopr-analysis-machine",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/operations/wopr-analysis-machine.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "wopr analysis machine",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4246,19 +9080,52 @@
         "png",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "analysis",
+        "machine",
+        "newspaper",
+        "operations",
+        "png",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 3.0,
       "asset_id": "wopr-chronicle-nameplate",
       "availability": "available_for_future_use",
       "category": "masthead",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/masthead/wopr-chronicle-nameplate.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "wopr chronicle nameplate",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4274,19 +9141,52 @@
         "png",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "chronicle",
+        "masthead",
+        "nameplate",
+        "newspaper",
+        "png",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0,
       "asset_id": "wopr-chronicle-seal",
       "availability": "available_for_future_use",
       "category": "masthead",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/masthead/wopr-chronicle-seal.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "wopr chronicle seal",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4302,19 +9202,52 @@
         "seal",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "chronicle",
+        "masthead",
+        "newspaper",
+        "png",
+        "seal",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.0,
       "asset_id": "wopr-chronicle-seal-paper-matched",
       "availability": "available_for_future_use",
       "category": "masthead",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/masthead/wopr-chronicle-seal-paper-matched.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "wopr chronicle seal paper matched",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4332,19 +9265,54 @@
         "seal",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "chronicle",
+        "masthead",
+        "matched",
+        "newspaper",
+        "paper",
+        "png",
+        "seal",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 0.1551,
       "asset_id": "wopr-circuit-divider-vertical",
       "availability": "available_for_future_use",
       "category": "ornaments",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        281,
+        1812
+      ],
+      "event_tags": [],
       "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/ornaments/wopr-circuit-divider-vertical.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 20,
       "recommended_use": "Vertical divider for WOPR, Sentinel, evidence-engine, diagnostics, audit, operations, or technical newspaper columns",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4371,19 +9339,63 @@
         "vertical",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "audit",
+        "circuit",
+        "columns",
+        "diagnostics",
+        "divider",
+        "engine",
+        "evidence",
+        "for",
+        "newspaper",
+        "operations",
+        "or",
+        "ornaments",
+        "png",
+        "sentinel",
+        "technical",
+        "vertical",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1491,
       "asset_id": "wopr-daily-audit",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1164,
+        1013
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/operations/wopr-daily-audit.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Yesterday's WOPR audit, decision outcomes, correct and incorrect calls, warning review, calibration, or process-improvement commentary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4414,19 +9426,67 @@
         "wopr",
         "yesterday"
       ],
+      "ticker_tags": [],
       "tone": [
         "cautious"
+      ],
+      "visual_subjects": [
+        "and",
+        "audit",
+        "calibration",
+        "calls",
+        "commentary",
+        "correct",
+        "daily",
+        "decision",
+        "improvement",
+        "incorrect",
+        "newspaper",
+        "operations",
+        "or",
+        "outcomes",
+        "png",
+        "process",
+        "review",
+        "s",
+        "warning",
+        "wopr",
+        "yesterday"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.1611,
       "asset_id": "wopr-evidence-engine-portrait",
       "availability": "available_for_future_use",
       "category": "people",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1283,
+        1105
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/people/wopr-evidence-engine-portrait.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "Non-human committee profile, facts-and-evidence record, model status, research pipeline, or no-opinion evidence summary",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4458,19 +9518,68 @@
         "summary",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "analytical"
+      ],
+      "visual_subjects": [
+        "and",
+        "committee",
+        "engine",
+        "evidence",
+        "facts",
+        "human",
+        "model",
+        "newspaper",
+        "no",
+        "non",
+        "opinion",
+        "or",
+        "people",
+        "pipeline",
+        "png",
+        "portrait",
+        "profile",
+        "record",
+        "research",
+        "status",
+        "summary",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.019,
       "asset_id": "wopr-seal",
       "availability": "available_for_future_use",
       "category": "operations",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        161,
+        158
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "square",
       "path": "/newspaper/operations/wopr-seal.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 55,
       "recommended_use": "wopr seal",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4485,19 +9594,51 @@
         "seal",
         "wopr"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "newspaper",
+        "operations",
+        "png",
+        "seal",
+        "wopr"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5,
       "asset_id": "world-map-vintage",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-12",
+      "dimensions": [
+        219,
+        146
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/world-map-vintage.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "world map vintage",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4513,19 +9654,52 @@
         "vintage",
         "world"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "map",
+        "markets",
+        "newspaper",
+        "png",
+        "vintage",
+        "world"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5024,
       "asset_id": "world-map-vintage-hires",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        1537,
+        1023
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/world-map-vintage-hires.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "world map vintage hires",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4542,19 +9716,53 @@
         "vintage",
         "world"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "hires",
+        "map",
+        "markets",
+        "newspaper",
+        "png",
+        "vintage",
+        "world"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5024,
       "asset_id": "world-map-vintage-hires-paper-matched",
       "availability": "available_for_future_use",
       "category": "markets",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-13",
+      "dimensions": [
+        1537,
+        1023
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/markets/world-map-vintage-hires-paper-matched.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "world map vintage hires paper matched",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4573,19 +9781,55 @@
         "vintage",
         "world"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "hires",
+        "map",
+        "markets",
+        "matched",
+        "newspaper",
+        "paper",
+        "png",
+        "vintage",
+        "world"
       ]
     },
     {
+      "archive_status": "active",
+      "aspect_ratio": 1.5876,
       "asset_id": "world-news-wire",
       "availability": "available_for_future_use",
       "category": "sections",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-15",
+      "dimensions": [
+        1486,
+        936
+      ],
+      "event_tags": [],
       "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
       "orientation": "landscape",
       "path": "/newspaper/sections/world-news-wire.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
       "priority": 70,
       "recommended_use": "World news affecting markets, geopolitical transmission, international trade, overnight wire, or global catalyst",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
       "source": "chronicle_archive",
       "style": [
         "vintage",
@@ -4612,8 +9856,28 @@
         "wire",
         "world"
       ],
+      "ticker_tags": [],
       "tone": [
         "neutral"
+      ],
+      "visual_subjects": [
+        "affecting",
+        "catalyst",
+        "geopolitical",
+        "geopolitics",
+        "global",
+        "international",
+        "markets",
+        "news",
+        "newspaper",
+        "or",
+        "overnight",
+        "png",
+        "sections",
+        "trade",
+        "transmission",
+        "wire",
+        "world"
       ]
     }
   ],
