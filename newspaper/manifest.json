@@ -422,6 +422,86 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "source-verified",
+      "path": "/newspaper/icons/source-verified.png",
+      "category": "icons",
+      "dimensions": [810, 870],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small provenance, verified-source, evidence-confirmed, citation, or data-quality marker",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "risk-shield",
+      "path": "/newspaper/icons/risk-shield.png",
+      "category": "icons",
+      "dimensions": [755, 963],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small safeguard, risk-control, defensive-posture, elevated-risk, or publication-control marker",
+      "recommended_maximum_print_width_inches": 0.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "earnings-bell",
+      "path": "/newspaper/icons/earnings-bell.png",
+      "category": "icons",
+      "dimensions": [928, 742],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small earnings announcement, earnings surprise, reporting-calendar, or corporate-results marker",
+      "recommended_maximum_print_width_inches": 0.48,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "committee-gavel",
+      "path": "/newspaper/icons/committee-gavel.png",
+      "category": "icons",
+      "dimensions": [1111, 846],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Small committee-decision, vote, agenda, governance, or Joshua-direction marker",
+      "recommended_maximum_print_width_inches": 0.5,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "ticker-tape-divider",
+      "path": "/newspaper/ornaments/ticker-tape-divider.png",
+      "category": "ornaments",
+      "dimensions": [2018, 196],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Horizontal divider for market tape, major movers, prices, earnings, securities, or opportunity sections",
+      "recommended_maximum_print_width_inches": 6.75,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "telegraph-wire-divider",
+      "path": "/newspaper/ornaments/telegraph-wire-divider.png",
+      "category": "ornaments",
+      "dimensions": [2106, 130],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Horizontal divider for world news, breaking dispatches, source feeds, publication pipeline, or intelligence-wire sections",
+      "recommended_maximum_print_width_inches": 6.75,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "laurel-star-divider",
+      "path": "/newspaper/ornaments/laurel-star-divider.png",
+      "category": "ornaments",
+      "dimensions": [2051, 143],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Formal horizontal divider for editorial analysis, committee profiles, quotations, closing composition, or major section transitions",
+      "recommended_maximum_print_width_inches": 6.75,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "circuit-flourish-divider",
+      "path": "/newspaper/ornaments/circuit-flourish-divider.png",
+      "category": "ornaments",
+      "dimensions": [2115, 248],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Horizontal divider for WOPR audit, Sentinel, learning, evidence engine, diagnostics, or operations sections",
+      "recommended_maximum_print_width_inches": 6.75,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "committee-deliberation",
       "path": "/newspaper/operations/committee-deliberation.png",
       "category": "operations",
