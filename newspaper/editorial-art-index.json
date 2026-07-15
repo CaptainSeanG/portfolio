@@ -1,0 +1,4623 @@
+{
+  "assets": [
+    {
+      "asset_id": "agriculture-grain",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/agriculture-grain.png",
+      "priority": 70,
+      "recommended_use": "Agriculture, grain commodities, crop conditions, food inflation, farm equipment, or rural-economy commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "agriculture",
+        "commentary",
+        "commodities",
+        "conditions",
+        "crop",
+        "economy",
+        "equipment",
+        "farm",
+        "food",
+        "grain",
+        "inflation",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "rural"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "article-end-fleuron",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/article-end-fleuron.png",
+      "priority": 20,
+      "recommended_use": "Short centered end-of-article mark, column-ending ornament, brief conclusion, quotation ending, or compact section close",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "article",
+        "brief",
+        "centered",
+        "close",
+        "column",
+        "compact",
+        "conclusion",
+        "end",
+        "ending",
+        "fleuron",
+        "mark",
+        "newspaper",
+        "of",
+        "or",
+        "ornament",
+        "ornaments",
+        "png",
+        "quotation",
+        "section",
+        "short"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "banking-institution",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/banking-institution.png",
+      "priority": 70,
+      "recommended_use": "Banks, financial institutions, credit conditions, lending, financial-sector leadership, or systemic-risk commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "banking",
+        "banks",
+        "bear",
+        "bonds",
+        "commentary",
+        "conditions",
+        "credit",
+        "financial",
+        "institution",
+        "institutions",
+        "leadership",
+        "lending",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "sector",
+        "systemic"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "benjamin-graham",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/profiles/benjamin-graham.png",
+      "priority": 55,
+      "recommended_use": "benjamin graham",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "benjamin",
+        "committee",
+        "graham",
+        "newspaper",
+        "png",
+        "profiles"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "benjamin-graham-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/benjamin-graham-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, margin-of-safety analysis, intrinsic value, or valuation-discipline commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "analysis",
+        "benjamin",
+        "commentary",
+        "committee",
+        "discipline",
+        "graham",
+        "intrinsic",
+        "margin",
+        "member",
+        "newspaper",
+        "of",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rotating",
+        "safety",
+        "valuation",
+        "value"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "best-opportunities",
+      "availability": "available_for_future_use",
+      "category": "strip",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/strip/best-opportunities.png",
+      "priority": 20,
+      "recommended_use": "best opportunities",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "best",
+        "newspaper",
+        "opportunities",
+        "png",
+        "strip"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "broken-telegraph",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/icons/broken-telegraph.png",
+      "priority": 20,
+      "recommended_use": "Small unavailable-source, failed-feed, interrupted-ingest, stale-provider, or communications-outage marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "broken",
+        "communications",
+        "failed",
+        "feed",
+        "icons",
+        "ingest",
+        "interrupted",
+        "marker",
+        "newspaper",
+        "or",
+        "outage",
+        "png",
+        "provider",
+        "small",
+        "source",
+        "stale",
+        "telegraph",
+        "unavailable"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "bull-bear",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/bull-bear.png",
+      "priority": 70,
+      "recommended_use": "bull bear",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "bull",
+        "markets",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "positive",
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "bull-bear-market-weather",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/weather/bull-bear-market-weather.png",
+      "priority": 55,
+      "recommended_use": "bull bear market weather",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "bull",
+        "market",
+        "newspaper",
+        "png",
+        "weather"
+      ],
+      "tone": [
+        "positive",
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "callout-corner-ornament",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/ornaments/callout-corner-ornament.png",
+      "priority": 20,
+      "recommended_use": "Rotatable corner ornament for callout boxes, sidebars, operator notes, scenario boards, committee notes, or special notices",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "boards",
+        "boxes",
+        "callout",
+        "committee",
+        "corner",
+        "for",
+        "newspaper",
+        "notes",
+        "notices",
+        "operator",
+        "or",
+        "ornament",
+        "ornaments",
+        "png",
+        "rotatable",
+        "scenario",
+        "sidebars",
+        "special"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "calm-market-skies",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/calm-market-skies.png",
+      "priority": 55,
+      "recommended_use": "Calm, very-low, or low market-weather risk; stable volatility, supportive breadth, or orderly conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "breadth",
+        "calm",
+        "conditions",
+        "low",
+        "market",
+        "newspaper",
+        "or",
+        "orderly",
+        "png",
+        "risk",
+        "skies",
+        "stable",
+        "supportive",
+        "very",
+        "volatility",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "charles-payne-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/charles-payne-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, growth leadership, momentum, individual opportunity, or upside commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bull",
+        "charles",
+        "commentary",
+        "committee",
+        "growth",
+        "individual",
+        "leadership",
+        "member",
+        "momentum",
+        "newspaper",
+        "opportunity",
+        "or",
+        "payne",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rotating",
+        "upside"
+      ],
+      "tone": [
+        "positive"
+      ]
+    },
+    {
+      "asset_id": "charlie-munger",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/profiles/charlie-munger.png",
+      "priority": 55,
+      "recommended_use": "charlie munger",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "charlie",
+        "committee",
+        "munger",
+        "newspaper",
+        "png",
+        "profiles"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "charlie-munger-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/charlie-munger-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, mental-model analysis, probability discipline, incentives, or avoidable-error commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "analysis",
+        "avoidable",
+        "charlie",
+        "commentary",
+        "committee",
+        "discipline",
+        "error",
+        "incentives",
+        "member",
+        "mental",
+        "model",
+        "munger",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "probability",
+        "profile",
+        "rotating"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "circuit-flourish-divider",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/circuit-flourish-divider.png",
+      "priority": 20,
+      "recommended_use": "Horizontal divider for WOPR audit, Sentinel, learning, evidence engine, diagnostics, or operations sections",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "audit",
+        "circuit",
+        "diagnostics",
+        "divider",
+        "engine",
+        "evidence",
+        "flourish",
+        "for",
+        "horizontal",
+        "learning",
+        "newspaper",
+        "operations",
+        "or",
+        "ornaments",
+        "png",
+        "sections",
+        "sentinel",
+        "wopr"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "columbo-evidence-desk",
+      "availability": "available_for_future_use",
+      "category": "investigations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/investigations/columbo-evidence-desk.png",
+      "priority": 70,
+      "recommended_use": "Columbo investigation, unexpected finding, evidence request, source review, or unresolved case summary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "case",
+        "columbo",
+        "desk",
+        "evidence",
+        "finding",
+        "investigation",
+        "investigations",
+        "newspaper",
+        "or",
+        "png",
+        "request",
+        "review",
+        "source",
+        "summary",
+        "unexpected",
+        "unresolved"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "committee-deliberation",
+      "availability": "available",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/operations/committee-deliberation.png",
+      "priority": 55,
+      "recommended_use": "Investment Committee deliberation, voting rounds, advisor debate, agenda review, and committee decisions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "advisor",
+        "agenda",
+        "and",
+        "committee",
+        "debate",
+        "decisions",
+        "deliberation",
+        "investment",
+        "newspaper",
+        "operations",
+        "png",
+        "review",
+        "rounds",
+        "voting"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "committee-gavel",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/icons/committee-gavel.png",
+      "priority": 20,
+      "recommended_use": "Small committee-decision, vote, agenda, governance, or Joshua-direction marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "agenda",
+        "committee",
+        "decision",
+        "direction",
+        "gavel",
+        "governance",
+        "icons",
+        "joshua",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "small",
+        "vote"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "committee-minutes-header",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/committee-minutes-header.png",
+      "priority": 55,
+      "recommended_use": "committee minutes header",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "committee",
+        "editorial",
+        "header",
+        "minutes",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "committee-table-top",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/operations/committee-table-top.png",
+      "priority": 55,
+      "recommended_use": "committee table top",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "committee",
+        "newspaper",
+        "operations",
+        "png",
+        "table",
+        "top"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "confidence-gauge",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/confidence-gauge.png",
+      "priority": 20,
+      "recommended_use": "Small low, medium, or high-confidence marker; evidence strength, forecast uncertainty, model confidence, or editorial qualification",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "confidence",
+        "editorial",
+        "evidence",
+        "forecast",
+        "gauge",
+        "high",
+        "icons",
+        "low",
+        "marker",
+        "medium",
+        "model",
+        "newspaper",
+        "or",
+        "png",
+        "qualification",
+        "small",
+        "strength",
+        "uncertainty"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "container-ship",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/container-ship.png",
+      "priority": 70,
+      "recommended_use": "container ship",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "container",
+        "markets",
+        "newspaper",
+        "png",
+        "ship"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "continued-column-arrow",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/continued-column-arrow.png",
+      "priority": 20,
+      "recommended_use": "Column continuation, story continuation, next-column navigation, overflow marker, or serialized article transition",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "arrow",
+        "article",
+        "column",
+        "continuation",
+        "continued",
+        "marker",
+        "navigation",
+        "newspaper",
+        "next",
+        "or",
+        "ornaments",
+        "overflow",
+        "png",
+        "serialized",
+        "story",
+        "transition"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "corner-ornament",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/corner-ornament.png",
+      "priority": 20,
+      "recommended_use": "corner ornament",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "corner",
+        "newspaper",
+        "ornament",
+        "ornaments",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "correction-proof",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/correction-proof.png",
+      "priority": 20,
+      "recommended_use": "Small correction, errata, revised fact, superseded information, editorial amendment, or updated-record marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "amendment",
+        "correction",
+        "editorial",
+        "errata",
+        "fact",
+        "icons",
+        "information",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "proof",
+        "record",
+        "revised",
+        "small",
+        "superseded",
+        "updated"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "credit-bonds",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/icons/credit-bonds.png",
+      "priority": 20,
+      "recommended_use": "Small bonds, credit spreads, debt markets, fixed income, borrowing conditions, or credit-stress marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "banks",
+        "bonds",
+        "borrowing",
+        "conditions",
+        "credit",
+        "debt",
+        "fixed",
+        "icons",
+        "income",
+        "marker",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "small",
+        "spreads",
+        "stress"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "daily-security-spotlight",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/daily-security-spotlight.png",
+      "priority": 70,
+      "recommended_use": "Daily security spotlight, single-company examination, ticker focus, company-specific evidence, or rotating watch-list profile",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "company",
+        "daily",
+        "evidence",
+        "examination",
+        "focus",
+        "list",
+        "newspaper",
+        "or",
+        "png",
+        "profile",
+        "rotating",
+        "sections",
+        "security",
+        "single",
+        "specific",
+        "spotlight",
+        "ticker",
+        "watch"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "dan-payne-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/people/dan-payne-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, risk controls, position sizing, exit discipline, or downside commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "commentary",
+        "committee",
+        "controls",
+        "dan",
+        "discipline",
+        "downside",
+        "exit",
+        "member",
+        "newspaper",
+        "or",
+        "payne",
+        "people",
+        "png",
+        "portrait",
+        "position",
+        "profile",
+        "risk",
+        "rotating",
+        "sizing"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "data-freshness-clock",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/data-freshness-clock.png",
+      "priority": 20,
+      "recommended_use": "Small fresh, delayed, or stale-data marker; timestamp status, source recency, feed freshness, or snapshot timing",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "clock",
+        "data",
+        "delayed",
+        "feed",
+        "fresh",
+        "freshness",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "recency",
+        "small",
+        "snapshot",
+        "source",
+        "stale",
+        "status",
+        "timestamp",
+        "timing"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "digital-assets-ledger",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/digital-assets-ledger.png",
+      "priority": 70,
+      "recommended_use": "Digital assets, cryptocurrency markets, blockchain infrastructure, distributed ledgers, token flows, or crypto-market commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "assets",
+        "blockchain",
+        "commentary",
+        "crypto",
+        "cryptocurrency",
+        "digital",
+        "distributed",
+        "flows",
+        "infrastructure",
+        "ledger",
+        "ledgers",
+        "market",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "token"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "earnings-bell",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/icons/earnings-bell.png",
+      "priority": 20,
+      "recommended_use": "Small earnings announcement, earnings surprise, reporting-calendar, or corporate-results marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "announcement",
+        "bell",
+        "calendar",
+        "corporate",
+        "earnings",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "reporting",
+        "results",
+        "small",
+        "surprise"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "earnings-calendar",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/sections/earnings-calendar.png",
+      "priority": 70,
+      "recommended_use": "Upcoming earnings date, economic calendar, scheduled catalyst, company watch, or next-week preview",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "calendar",
+        "catalyst",
+        "company",
+        "date",
+        "earnings",
+        "economic",
+        "newspaper",
+        "next",
+        "or",
+        "png",
+        "preview",
+        "scheduled",
+        "sections",
+        "upcoming",
+        "watch",
+        "week"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "economic-calendar",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/icons/economic-calendar.png",
+      "priority": 20,
+      "recommended_use": "Small macroeconomic-calendar, scheduled data release, central-bank event, policy date, or economic-catalyst marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bank",
+        "calendar",
+        "catalyst",
+        "central",
+        "data",
+        "date",
+        "economic",
+        "event",
+        "icons",
+        "macroeconomic",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "policy",
+        "release",
+        "scheduled",
+        "small"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "editorial-pen",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/editorial/editorial-pen.png",
+      "priority": 55,
+      "recommended_use": "editorial pen",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "editorial",
+        "newspaper",
+        "pen",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "editorial-safeguard-ledger",
+      "availability": "available",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/editorial-safeguard-ledger.png",
+      "priority": 55,
+      "recommended_use": "Editorial safeguard, policy, and observation-only ledger sections",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "and",
+        "editorial",
+        "ledger",
+        "newspaper",
+        "observation",
+        "only",
+        "png",
+        "policy",
+        "safeguard",
+        "sections"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "electric-utilities",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/electric-utilities.png",
+      "priority": 70,
+      "recommended_use": "Utilities, electricity demand, power generation, grid infrastructure, defensive sectors, or data-center energy commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "center",
+        "commentary",
+        "data",
+        "defensive",
+        "demand",
+        "electric",
+        "electricity",
+        "energy",
+        "generation",
+        "grid",
+        "infrastructure",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "power",
+        "sectors",
+        "utilities"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "elevated-storm-front",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/elevated-storm-front.png",
+      "priority": 55,
+      "recommended_use": "Elevated, high, severe, or storm market-weather risk; volatility, event risk, or deteriorating conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "conditions",
+        "deteriorating",
+        "elevated",
+        "event",
+        "front",
+        "high",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "severe",
+        "storm",
+        "volatility",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "employment-report",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/employment-report.png",
+      "priority": 70,
+      "recommended_use": "Employment report, payrolls, unemployment, hiring, labor participation, jobless claims, or wage commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "claims",
+        "commentary",
+        "employment",
+        "hiring",
+        "jobless",
+        "labor",
+        "newspaper",
+        "or",
+        "participation",
+        "payrolls",
+        "png",
+        "report",
+        "sections",
+        "unemployment",
+        "wage"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "evidence-thread-board",
+      "availability": "available_for_future_use",
+      "category": "investigations",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/investigations/evidence-thread-board.png",
+      "priority": 70,
+      "recommended_use": "Intelligence gaps, contradictory evidence, source tracing, open questions, or investigation backlog",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "ai",
+        "backlog",
+        "board",
+        "contradictory",
+        "evidence",
+        "gaps",
+        "intelligence",
+        "investigation",
+        "investigations",
+        "newspaper",
+        "open",
+        "or",
+        "png",
+        "questions",
+        "source",
+        "thread",
+        "tracing"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "federal-reserve-decision",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/federal-reserve-decision.png",
+      "priority": 70,
+      "recommended_use": "Federal Reserve decision, central-bank policy, interest-rate announcement, FOMC meeting, or monetary-policy commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "announcement",
+        "bank",
+        "central",
+        "commentary",
+        "decision",
+        "fed",
+        "federal",
+        "fomc",
+        "interest",
+        "meeting",
+        "monetary",
+        "newspaper",
+        "or",
+        "png",
+        "policy",
+        "rate",
+        "reserve",
+        "sections"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "global-dispatch",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/global-dispatch.png",
+      "priority": 20,
+      "recommended_use": "Small global-news, international dispatch, geopolitical event, overseas market, sanctions, trade, or transmission marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "dispatch",
+        "event",
+        "geopolitical",
+        "geopolitics",
+        "global",
+        "icons",
+        "international",
+        "marker",
+        "market",
+        "news",
+        "newspaper",
+        "or",
+        "overseas",
+        "png",
+        "sanctions",
+        "small",
+        "trade",
+        "transmission"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "guarded-crosswinds",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/guarded-crosswinds.png",
+      "priority": 55,
+      "recommended_use": "Guarded or neutral market-weather risk, mixed signals, crosscurrents, or uneven leadership",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "crosscurrents",
+        "crosswinds",
+        "guarded",
+        "leadership",
+        "market",
+        "mixed",
+        "neutral",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "signals",
+        "uneven",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "healthcare-research",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/healthcare-research.png",
+      "priority": 70,
+      "recommended_use": "Healthcare, biotechnology, pharmaceuticals, medical research, defensive-sector rotation, or clinical-catalyst commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "biotechnology",
+        "catalyst",
+        "clinical",
+        "commentary",
+        "defensive",
+        "healthcare",
+        "markets",
+        "medical",
+        "newspaper",
+        "or",
+        "pharmaceuticals",
+        "png",
+        "research",
+        "rotation",
+        "sector"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "howard-marks-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/people/howard-marks-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, risk psychology, market cycles, second-level thinking, or risk-compensation commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "commentary",
+        "committee",
+        "compensation",
+        "cycles",
+        "howard",
+        "level",
+        "market",
+        "marks",
+        "member",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "psychology",
+        "risk",
+        "rotating",
+        "second",
+        "thinking"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "industrial-factory",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/industrial-factory.png",
+      "priority": 70,
+      "recommended_use": "Industrials, manufacturing, machinery, capital expenditure, factory activity, or economic-cycle commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "activity",
+        "capital",
+        "commentary",
+        "cycle",
+        "economic",
+        "expenditure",
+        "factory",
+        "industrial",
+        "industrials",
+        "machinery",
+        "manufacturing",
+        "markets",
+        "newspaper",
+        "or",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "inflation-watch",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/inflation-watch.png",
+      "priority": 70,
+      "recommended_use": "Inflation watch, CPI or PCE release, consumer prices, purchasing power, input costs, or price-pressure commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "commentary",
+        "consumer",
+        "costs",
+        "cpi",
+        "inflation",
+        "input",
+        "newspaper",
+        "or",
+        "pce",
+        "png",
+        "power",
+        "pressure",
+        "price",
+        "prices",
+        "purchasing",
+        "release",
+        "sections",
+        "watch"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "ink-bottle",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/editorial/ink-bottle.png",
+      "priority": 55,
+      "recommended_use": "ink bottle",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bottle",
+        "editorial",
+        "ink",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "intelligence-gaps",
+      "availability": "available_for_future_use",
+      "category": "strip",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/strip/intelligence-gaps.png",
+      "priority": 20,
+      "recommended_use": "intelligence gaps",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "ai",
+        "gaps",
+        "intelligence",
+        "newspaper",
+        "png",
+        "strip"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "joshua-editor-desk",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/joshua-editor-desk.png",
+      "priority": 55,
+      "recommended_use": "joshua editor desk",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "committee",
+        "desk",
+        "editor",
+        "joshua",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "joshua-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/people/joshua-portrait.png",
+      "priority": 55,
+      "recommended_use": "Joshua profile, committee-chair perspective, daily leadership note, or attributed Joshua quotation",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "attributed",
+        "chair",
+        "committee",
+        "daily",
+        "joshua",
+        "leadership",
+        "newspaper",
+        "note",
+        "or",
+        "people",
+        "perspective",
+        "png",
+        "portrait",
+        "profile",
+        "quotation"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "laurel-star-divider",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/laurel-star-divider.png",
+      "priority": 20,
+      "recommended_use": "Formal horizontal divider for editorial analysis, committee profiles, quotations, closing composition, or major section transitions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "analysis",
+        "closing",
+        "committee",
+        "composition",
+        "divider",
+        "editorial",
+        "for",
+        "formal",
+        "horizontal",
+        "laurel",
+        "major",
+        "newspaper",
+        "or",
+        "ornaments",
+        "png",
+        "profiles",
+        "quotations",
+        "section",
+        "star",
+        "transitions"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "learning-heartbeat",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/operations/learning-heartbeat.png",
+      "priority": 55,
+      "recommended_use": "learning heartbeat",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "heartbeat",
+        "learning",
+        "newspaper",
+        "operations",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "liquidity-valve",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/liquidity-valve.png",
+      "priority": 20,
+      "recommended_use": "Small market-liquidity, funding conditions, tightening, restriction, improving flow, or liquidity-risk marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "conditions",
+        "flow",
+        "funding",
+        "icons",
+        "improving",
+        "liquidity",
+        "marker",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "restriction",
+        "risk",
+        "small",
+        "tightening",
+        "valve"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "major-mover-ticker",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/major-mover-ticker.png",
+      "priority": 70,
+      "recommended_use": "Major daily mover, unusual price change, market-tape highlight, gainers and decliners, or catalyst-driven movement",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "and",
+        "catalyst",
+        "change",
+        "daily",
+        "decliners",
+        "driven",
+        "gainers",
+        "highlight",
+        "major",
+        "market",
+        "movement",
+        "mover",
+        "newspaper",
+        "or",
+        "png",
+        "price",
+        "sections",
+        "tape",
+        "ticker",
+        "unusual"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "mark-minervini-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/mark-minervini-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, trend quality, breakout validation, entry timing, or risk-first trade-structure commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "breakout",
+        "commentary",
+        "committee",
+        "entry",
+        "first",
+        "mark",
+        "member",
+        "minervini",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "quality",
+        "risk",
+        "rotating",
+        "structure",
+        "timing",
+        "trade",
+        "trend",
+        "validation"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "market-breadth-board",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/market-breadth-board.png",
+      "priority": 70,
+      "recommended_use": "Market breadth, participation, advancers and decliners, trend confirmation, or divergence commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "advancers",
+        "and",
+        "board",
+        "breadth",
+        "commentary",
+        "confirmation",
+        "decliners",
+        "divergence",
+        "market",
+        "newspaper",
+        "or",
+        "participation",
+        "png",
+        "sections",
+        "trend"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "market-closed",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/market-closed.png",
+      "priority": 20,
+      "recommended_use": "Small market-closed, completed-session, after-hours, holiday closure, or inactive-market status marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "after",
+        "closed",
+        "closure",
+        "completed",
+        "holiday",
+        "hours",
+        "icons",
+        "inactive",
+        "marker",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "session",
+        "small",
+        "status"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "market-floor",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/market-floor.png",
+      "priority": 70,
+      "recommended_use": "market floor",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "floor",
+        "market",
+        "markets",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "market-floor-hires",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/market-floor-hires.png",
+      "priority": 70,
+      "recommended_use": "market floor hires",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "floor",
+        "hires",
+        "market",
+        "markets",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "market-open",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/market-open.png",
+      "priority": 20,
+      "recommended_use": "Small market-open, active-session, opening-bell, regular-hours, or live-market status marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "active",
+        "bell",
+        "hours",
+        "icons",
+        "live",
+        "marker",
+        "market",
+        "newspaper",
+        "open",
+        "opening",
+        "or",
+        "png",
+        "regular",
+        "session",
+        "small",
+        "status"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "market-weather",
+      "availability": "available_for_future_use",
+      "category": "strip",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/strip/market-weather.png",
+      "priority": 20,
+      "recommended_use": "market weather",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "market",
+        "newspaper",
+        "png",
+        "strip",
+        "weather"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "newspaper-aged-edge-leather-v3",
+      "availability": "available_for_future_use",
+      "category": "backgrounds",
+      "lead_eligible": false,
+      "orientation": "portrait",
+      "path": "/newspaper/backgrounds/newspaper-aged-edge-leather-v3.png",
+      "priority": 20,
+      "recommended_use": "newspaper aged edge leather v3",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "aged",
+        "backgrounds",
+        "edge",
+        "leather",
+        "newspaper",
+        "png",
+        "v3"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "newspaper-aged-edge-leather-v4-strong",
+      "availability": "available_for_future_use",
+      "category": "backgrounds",
+      "lead_eligible": false,
+      "orientation": "portrait",
+      "path": "/newspaper/backgrounds/newspaper-aged-edge-leather-v4-strong.png",
+      "priority": 20,
+      "recommended_use": "newspaper aged edge leather v4 strong",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "aged",
+        "backgrounds",
+        "edge",
+        "leather",
+        "newspaper",
+        "png",
+        "strong",
+        "v4"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "newspaper-divider-horizontal",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/newspaper-divider-horizontal.png",
+      "priority": 20,
+      "recommended_use": "newspaper divider horizontal",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "divider",
+        "horizontal",
+        "newspaper",
+        "ornaments",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "newspaper-divider-vertical",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "portrait",
+      "path": "/newspaper/ornaments/newspaper-divider-vertical.png",
+      "priority": 20,
+      "recommended_use": "newspaper divider vertical",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "divider",
+        "newspaper",
+        "ornaments",
+        "png",
+        "vertical"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "newspaper-fold",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/newspaper-fold.png",
+      "priority": 55,
+      "recommended_use": "newspaper fold",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "editorial",
+        "fold",
+        "newspaper",
+        "png"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "newspaper-paper-texture",
+      "availability": "available",
+      "category": "general",
+      "lead_eligible": true,
+      "orientation": "unknown",
+      "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
+      "priority": 55,
+      "recommended_use": "",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "backgrounds",
+        "general",
+        "newspaper",
+        "paper",
+        "png",
+        "texture"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "oil-rig",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/oil-rig.png",
+      "priority": 70,
+      "recommended_use": "oil rig",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "energy",
+        "markets",
+        "newspaper",
+        "oil",
+        "png",
+        "rig"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "peter-lynch-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/peter-lynch-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, understandable business, growth-at-a-reasonable-price, or company-story commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "a",
+        "at",
+        "business",
+        "commentary",
+        "committee",
+        "company",
+        "growth",
+        "lynch",
+        "member",
+        "newspaper",
+        "or",
+        "people",
+        "peter",
+        "png",
+        "portrait",
+        "price",
+        "profile",
+        "reasonable",
+        "rotating",
+        "story",
+        "understandable"
+      ],
+      "tone": [
+        "positive"
+      ]
+    },
+    {
+      "asset_id": "precious-metals-mine",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/precious-metals-mine.png",
+      "priority": 70,
+      "recommended_use": "Gold, silver, precious metals, mining equities, inflation hedges, safe-haven demand, or commodity-cycle commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "commentary",
+        "commodity",
+        "cycle",
+        "demand",
+        "equities",
+        "gold",
+        "haven",
+        "hedges",
+        "inflation",
+        "markets",
+        "metals",
+        "mine",
+        "mining",
+        "newspaper",
+        "or",
+        "png",
+        "precious",
+        "safe",
+        "silver"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "publisher-mark",
+      "availability": "available_for_future_use",
+      "category": "strip",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/strip/publisher-mark.png",
+      "priority": 20,
+      "recommended_use": "publisher mark",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "mark",
+        "newspaper",
+        "png",
+        "publisher",
+        "strip"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "pull-quote-brackets",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/pull-quote-brackets.png",
+      "priority": 20,
+      "recommended_use": "Wide framing ornament for live typeset pull quotes, committee quotations, attributed observations, or prominent editorial excerpts",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "attributed",
+        "brackets",
+        "committee",
+        "editorial",
+        "excerpts",
+        "for",
+        "framing",
+        "live",
+        "newspaper",
+        "observations",
+        "or",
+        "ornament",
+        "ornaments",
+        "png",
+        "prominent",
+        "pull",
+        "quotations",
+        "quote",
+        "quotes",
+        "typeset",
+        "wide"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "question-desk",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/question-desk.png",
+      "priority": 55,
+      "recommended_use": "question desk",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "desk",
+        "editorial",
+        "newspaper",
+        "png",
+        "question"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "questions-for-joshua",
+      "availability": "available_for_future_use",
+      "category": "strip",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/strip/questions-for-joshua.png",
+      "priority": 20,
+      "recommended_use": "questions for joshua",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "for",
+        "joshua",
+        "newspaper",
+        "png",
+        "questions",
+        "strip"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "radar-tower",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/operations/radar-tower.png",
+      "priority": 55,
+      "recommended_use": "radar tower",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "newspaper",
+        "operations",
+        "png",
+        "radar",
+        "tower"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "ray-dalio",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/profiles/ray-dalio.png",
+      "priority": 55,
+      "recommended_use": "ray dalio",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "committee",
+        "dalio",
+        "newspaper",
+        "png",
+        "profiles",
+        "ray"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "ray-dalio-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/people/ray-dalio-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, economic cycles, rates, liquidity, diversification, or macro-balance commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "balance",
+        "bonds",
+        "commentary",
+        "committee",
+        "cycles",
+        "dalio",
+        "diversification",
+        "economic",
+        "fed",
+        "liquidity",
+        "macro",
+        "member",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rates",
+        "ray",
+        "rotating"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "real-estate-property",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/markets/real-estate-property.png",
+      "priority": 70,
+      "recommended_use": "Commercial real estate, residential property, REITs, mortgage-rate sensitivity, construction, or property-cycle commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "commentary",
+        "commercial",
+        "construction",
+        "cycle",
+        "estate",
+        "markets",
+        "mortgage",
+        "newspaper",
+        "or",
+        "png",
+        "property",
+        "rate",
+        "real",
+        "reits",
+        "residential",
+        "sensitivity"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "risk-shield",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "portrait",
+      "path": "/newspaper/icons/risk-shield.png",
+      "priority": 20,
+      "recommended_use": "Small safeguard, risk-control, defensive-posture, elevated-risk, or publication-control marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "control",
+        "defensive",
+        "elevated",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "posture",
+        "publication",
+        "risk",
+        "safeguard",
+        "shield",
+        "small"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "section-rule",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/section-rule.png",
+      "priority": 20,
+      "recommended_use": "section rule",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "newspaper",
+        "ornaments",
+        "png",
+        "rule",
+        "section"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "sector-rotation-compass",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/sector-rotation-compass.png",
+      "priority": 70,
+      "recommended_use": "Sector leadership changes, capital rotation, improving and lagging industries, or market-flow commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "and",
+        "capital",
+        "changes",
+        "commentary",
+        "compass",
+        "flow",
+        "improving",
+        "industries",
+        "lagging",
+        "leadership",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "rotation",
+        "sections",
+        "sector"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "semiconductor-fabrication",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/semiconductor-fabrication.png",
+      "priority": 70,
+      "recommended_use": "Semiconductors, chip fabrication, artificial-intelligence infrastructure, technology leadership, or supply-chain commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "ai",
+        "artificial",
+        "chain",
+        "chip",
+        "commentary",
+        "fabrication",
+        "infrastructure",
+        "intelligence",
+        "leadership",
+        "markets",
+        "newspaper",
+        "or",
+        "png",
+        "semiconductor",
+        "semiconductors",
+        "supply",
+        "technology"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "sentinel-market-observer",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/sentinel-market-observer.png",
+      "priority": 55,
+      "recommended_use": "sentinel market observer",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "committee",
+        "market",
+        "newspaper",
+        "observer",
+        "png",
+        "sentinel"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "sentinel-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/sentinel-portrait.png",
+      "priority": 55,
+      "recommended_use": "Non-human committee profile, infrastructure observation, data freshness, node health, monitoring, or operational-warning commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "commentary",
+        "committee",
+        "data",
+        "freshness",
+        "health",
+        "human",
+        "infrastructure",
+        "monitoring",
+        "newspaper",
+        "node",
+        "non",
+        "observation",
+        "operational",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "sentinel",
+        "warning"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "source-verified",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/source-verified.png",
+      "priority": 20,
+      "recommended_use": "Small provenance, verified-source, evidence-confirmed, citation, or data-quality marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "citation",
+        "confirmed",
+        "data",
+        "evidence",
+        "icons",
+        "marker",
+        "newspaper",
+        "or",
+        "png",
+        "provenance",
+        "quality",
+        "small",
+        "source",
+        "verified"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "stanley-druckenmiller-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/people/stanley-druckenmiller-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, macro trends, capital flows, concentrated conviction, or asymmetric-opportunity commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "asymmetric",
+        "bull",
+        "capital",
+        "commentary",
+        "committee",
+        "concentrated",
+        "conviction",
+        "druckenmiller",
+        "flows",
+        "macro",
+        "member",
+        "newspaper",
+        "opportunity",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "rotating",
+        "stanley",
+        "trends"
+      ],
+      "tone": [
+        "positive"
+      ]
+    },
+    {
+      "asset_id": "stock-ticker",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/operations/stock-ticker.png",
+      "priority": 55,
+      "recommended_use": "stock ticker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "newspaper",
+        "operations",
+        "png",
+        "stock",
+        "ticker"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "storm-meter",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter.png",
+      "priority": 55,
+      "recommended_use": "storm meter",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-01-calm",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-01-calm.png",
+      "priority": 55,
+      "recommended_use": "storm meter 01 calm",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "01",
+        "calm",
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-02-very-low",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-02-very-low.png",
+      "priority": 55,
+      "recommended_use": "storm meter 02 very low",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "02",
+        "editorial",
+        "low",
+        "meter",
+        "newspaper",
+        "png",
+        "storm",
+        "very"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-03-low",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-03-low.png",
+      "priority": 55,
+      "recommended_use": "storm meter 03 low",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "03",
+        "editorial",
+        "low",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-04-guarded",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-04-guarded.png",
+      "priority": 55,
+      "recommended_use": "storm meter 04 guarded",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "04",
+        "editorial",
+        "guarded",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-05-neutral",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-05-neutral.png",
+      "priority": 55,
+      "recommended_use": "storm meter 05 neutral",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "05",
+        "editorial",
+        "meter",
+        "neutral",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-06-elevated",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-06-elevated.png",
+      "priority": 55,
+      "recommended_use": "storm meter 06 elevated",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "06",
+        "editorial",
+        "elevated",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-07-high",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-07-high.png",
+      "priority": 55,
+      "recommended_use": "storm meter 07 high",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "07",
+        "editorial",
+        "high",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-08-severe",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-08-severe.png",
+      "priority": 55,
+      "recommended_use": "storm meter 08 severe",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "08",
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "severe",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "storm-meter-09-storm",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/storm-meter/storm-meter-09-storm.png",
+      "priority": 55,
+      "recommended_use": "storm meter 09 storm",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "09",
+        "editorial",
+        "meter",
+        "newspaper",
+        "png",
+        "storm"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "strip-watch-board",
+      "availability": "available_for_future_use",
+      "category": "strip",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/strip/watch-board.png",
+      "priority": 20,
+      "recommended_use": "watch board",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "board",
+        "newspaper",
+        "png",
+        "strip",
+        "watch"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "telegraph-wire",
+      "availability": "available_for_future_use",
+      "category": "editorial",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial/telegraph-wire.png",
+      "priority": 55,
+      "recommended_use": "telegraph wire",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "editorial",
+        "newspaper",
+        "png",
+        "telegraph",
+        "wire"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "telegraph-wire-divider",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/telegraph-wire-divider.png",
+      "priority": 20,
+      "recommended_use": "Horizontal divider for world news, breaking dispatches, source feeds, publication pipeline, or intelligence-wire sections",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "ai",
+        "breaking",
+        "dispatches",
+        "divider",
+        "feeds",
+        "for",
+        "horizontal",
+        "intelligence",
+        "news",
+        "newspaper",
+        "or",
+        "ornaments",
+        "pipeline",
+        "png",
+        "publication",
+        "sections",
+        "source",
+        "telegraph",
+        "wire",
+        "world"
+      ],
+      "tone": [
+        "urgent"
+      ]
+    },
+    {
+      "asset_id": "ticker-tape-divider",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/ticker-tape-divider.png",
+      "priority": 20,
+      "recommended_use": "Horizontal divider for market tape, major movers, prices, earnings, securities, or opportunity sections",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bull",
+        "divider",
+        "earnings",
+        "for",
+        "horizontal",
+        "inflation",
+        "major",
+        "market",
+        "movers",
+        "newspaper",
+        "opportunity",
+        "or",
+        "ornaments",
+        "png",
+        "prices",
+        "sections",
+        "securities",
+        "tape",
+        "ticker"
+      ],
+      "tone": [
+        "positive",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "treasury-rates-desk",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/treasury-rates-desk.png",
+      "priority": 70,
+      "recommended_use": "Treasury yields, interest rates, bonds, duration, central-bank policy, or rate-sensitive market commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bank",
+        "bonds",
+        "central",
+        "commentary",
+        "desk",
+        "duration",
+        "fed",
+        "interest",
+        "market",
+        "newspaper",
+        "or",
+        "png",
+        "policy",
+        "rate",
+        "rates",
+        "sections",
+        "sensitive",
+        "treasury",
+        "yields"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "uncertain-market-fog",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/uncertain-market-fog.png",
+      "priority": 55,
+      "recommended_use": "Incomplete or stale data, unavailable sources, low confidence, obscured visibility, or unresolved uncertainty",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "confidence",
+        "data",
+        "fog",
+        "incomplete",
+        "low",
+        "market",
+        "newspaper",
+        "obscured",
+        "or",
+        "png",
+        "sources",
+        "stale",
+        "unavailable",
+        "uncertain",
+        "uncertainty",
+        "unresolved",
+        "visibility",
+        "weather"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "vintage-bar-chart",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/vintage-bar-chart.png",
+      "priority": 20,
+      "recommended_use": "vintage bar chart",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bar",
+        "chart",
+        "newspaper",
+        "ornaments",
+        "png",
+        "vintage"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "vintage-line-chart",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/ornaments/vintage-line-chart.png",
+      "priority": 20,
+      "recommended_use": "vintage line chart",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "chart",
+        "line",
+        "newspaper",
+        "ornaments",
+        "png",
+        "vintage"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "volatility-desk",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/volatility-desk.png",
+      "priority": 70,
+      "recommended_use": "Volatility desk, VIX movement, price instability, volatility expansion or contraction, or turbulent-market commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "commentary",
+        "contraction",
+        "desk",
+        "expansion",
+        "instability",
+        "market",
+        "movement",
+        "newspaper",
+        "or",
+        "png",
+        "price",
+        "sections",
+        "turbulent",
+        "vix",
+        "volatility"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "wall-street-silhouette",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/wall-street-silhouette.png",
+      "priority": 70,
+      "recommended_use": "wall street silhouette",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "markets",
+        "newspaper",
+        "png",
+        "silhouette",
+        "street",
+        "wall"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "warning-beacon",
+      "availability": "available_for_future_use",
+      "category": "icons",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/icons/warning-beacon.png",
+      "priority": 20,
+      "recommended_use": "Small elevated-warning, operational concern, unresolved risk, caution, or attention-required marker",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "attention",
+        "beacon",
+        "bear",
+        "caution",
+        "concern",
+        "elevated",
+        "icons",
+        "marker",
+        "newspaper",
+        "operational",
+        "or",
+        "png",
+        "required",
+        "risk",
+        "small",
+        "unresolved",
+        "warning"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "warren-buffett",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/profiles/warren-buffett.png",
+      "priority": 55,
+      "recommended_use": "warren buffett",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "buffett",
+        "committee",
+        "newspaper",
+        "png",
+        "profiles",
+        "warren"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "warren-buffett-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/people/warren-buffett-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, business-quality lens, durable-moat commentary, or attributed committee quotation",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "attributed",
+        "buffett",
+        "business",
+        "commentary",
+        "committee",
+        "durable",
+        "lens",
+        "member",
+        "moat",
+        "newspaper",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "profile",
+        "quality",
+        "quotation",
+        "rotating",
+        "warren"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "watch-board",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/operations/watch-board.png",
+      "priority": 55,
+      "recommended_use": "watch board",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "board",
+        "newspaper",
+        "operations",
+        "png",
+        "watch"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "weather-calm-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/weather/weather-calm-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for calm, low-risk, orderly, stable-volatility, or supportive market-weather conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "calm",
+        "conditions",
+        "for",
+        "icon",
+        "low",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "orderly",
+        "png",
+        "risk",
+        "stable",
+        "supportive",
+        "volatility",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-clearing-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/weather-clearing-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for improving, clearing, stabilizing, falling-risk, or recovering market-weather conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "clearing",
+        "conditions",
+        "falling",
+        "for",
+        "icon",
+        "improving",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "recovering",
+        "risk",
+        "stabilizing",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-data-unavailable-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/weather-data-unavailable-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for unavailable storm data, failed weather feed, missing score, stale risk model, or unclassified conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "conditions",
+        "data",
+        "failed",
+        "feed",
+        "for",
+        "icon",
+        "micro",
+        "missing",
+        "model",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "score",
+        "stale",
+        "storm",
+        "unavailable",
+        "unclassified",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-deteriorating-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/weather-deteriorating-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for deteriorating, darkening, rising-risk, weakening-breadth, or worsening market-weather direction",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "breadth",
+        "darkening",
+        "deteriorating",
+        "direction",
+        "for",
+        "icon",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "rising",
+        "risk",
+        "weakening",
+        "weather",
+        "worsening"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-elevated-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/weather/weather-elevated-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for elevated risk, worsening volatility, material event risk, or stressed market-weather conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "bear",
+        "conditions",
+        "elevated",
+        "event",
+        "for",
+        "icon",
+        "market",
+        "material",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "risk",
+        "stressed",
+        "volatility",
+        "weather",
+        "worsening"
+      ],
+      "tone": [
+        "cautious",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-guarded-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/weather-guarded-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for guarded, neutral, mixed-signal, crosswind, or uneven market-weather conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "conditions",
+        "crosswind",
+        "for",
+        "guarded",
+        "icon",
+        "market",
+        "micro",
+        "mixed",
+        "neutral",
+        "newspaper",
+        "or",
+        "png",
+        "signal",
+        "uneven",
+        "weather"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-low-visibility-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/weather/weather-low-visibility-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for low visibility, incomplete evidence, obscured direction, uncertainty, or low-confidence market weather",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "confidence",
+        "direction",
+        "evidence",
+        "for",
+        "icon",
+        "incomplete",
+        "low",
+        "market",
+        "micro",
+        "newspaper",
+        "obscured",
+        "or",
+        "png",
+        "uncertainty",
+        "visibility",
+        "weather"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weather-severe-micro",
+      "availability": "available_for_future_use",
+      "category": "weather",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/weather/weather-severe-micro.png",
+      "priority": 55,
+      "recommended_use": "Micro-icon for severe, storm-level, crisis, extreme-volatility, or urgent market-weather conditions",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "conditions",
+        "crisis",
+        "extreme",
+        "for",
+        "icon",
+        "level",
+        "market",
+        "micro",
+        "newspaper",
+        "or",
+        "png",
+        "severe",
+        "storm",
+        "urgent",
+        "volatility",
+        "weather"
+      ],
+      "tone": [
+        "cautious",
+        "urgent",
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "weekly-outlook-telescope",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/sections/weekly-outlook-telescope.png",
+      "priority": 70,
+      "recommended_use": "Upcoming-week outlook, scheduled events, expected catalysts, next dates, or forward-looking watch items",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "catalysts",
+        "dates",
+        "events",
+        "expected",
+        "forward",
+        "items",
+        "looking",
+        "newspaper",
+        "next",
+        "or",
+        "outlook",
+        "png",
+        "scheduled",
+        "sections",
+        "telescope",
+        "upcoming",
+        "watch",
+        "week",
+        "weekly"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "william-oneil-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "portrait",
+      "path": "/newspaper/people/william-oneil-portrait.png",
+      "priority": 55,
+      "recommended_use": "Rotating committee-member profile, technical leadership, earnings strength, price-volume action, or institutional-accumulation commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "accumulation",
+        "action",
+        "commentary",
+        "committee",
+        "earnings",
+        "institutional",
+        "leadership",
+        "member",
+        "newspaper",
+        "oneil",
+        "or",
+        "people",
+        "png",
+        "portrait",
+        "price",
+        "profile",
+        "rotating",
+        "strength",
+        "technical",
+        "volume",
+        "william"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "wopr-analysis-machine",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/operations/wopr-analysis-machine.png",
+      "priority": 55,
+      "recommended_use": "wopr analysis machine",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "analysis",
+        "machine",
+        "newspaper",
+        "operations",
+        "png",
+        "wopr"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "wopr-chronicle-nameplate",
+      "availability": "available_for_future_use",
+      "category": "masthead",
+      "lead_eligible": false,
+      "orientation": "landscape",
+      "path": "/newspaper/masthead/wopr-chronicle-nameplate.png",
+      "priority": 20,
+      "recommended_use": "wopr chronicle nameplate",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "chronicle",
+        "masthead",
+        "nameplate",
+        "newspaper",
+        "png",
+        "wopr"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "wopr-chronicle-seal",
+      "availability": "available_for_future_use",
+      "category": "masthead",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/masthead/wopr-chronicle-seal.png",
+      "priority": 20,
+      "recommended_use": "wopr chronicle seal",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "chronicle",
+        "masthead",
+        "newspaper",
+        "png",
+        "seal",
+        "wopr"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "wopr-chronicle-seal-paper-matched",
+      "availability": "available_for_future_use",
+      "category": "masthead",
+      "lead_eligible": false,
+      "orientation": "square",
+      "path": "/newspaper/masthead/wopr-chronicle-seal-paper-matched.png",
+      "priority": 20,
+      "recommended_use": "wopr chronicle seal paper matched",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "chronicle",
+        "masthead",
+        "matched",
+        "newspaper",
+        "paper",
+        "png",
+        "seal",
+        "wopr"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "wopr-circuit-divider-vertical",
+      "availability": "available_for_future_use",
+      "category": "ornaments",
+      "lead_eligible": false,
+      "orientation": "portrait",
+      "path": "/newspaper/ornaments/wopr-circuit-divider-vertical.png",
+      "priority": 20,
+      "recommended_use": "Vertical divider for WOPR, Sentinel, evidence-engine, diagnostics, audit, operations, or technical newspaper columns",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "audit",
+        "circuit",
+        "columns",
+        "diagnostics",
+        "divider",
+        "engine",
+        "evidence",
+        "for",
+        "newspaper",
+        "operations",
+        "or",
+        "ornaments",
+        "png",
+        "sentinel",
+        "technical",
+        "vertical",
+        "wopr"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "wopr-daily-audit",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/operations/wopr-daily-audit.png",
+      "priority": 55,
+      "recommended_use": "Yesterday's WOPR audit, decision outcomes, correct and incorrect calls, warning review, calibration, or process-improvement commentary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "and",
+        "audit",
+        "calibration",
+        "calls",
+        "commentary",
+        "correct",
+        "daily",
+        "decision",
+        "improvement",
+        "incorrect",
+        "newspaper",
+        "operations",
+        "or",
+        "outcomes",
+        "png",
+        "process",
+        "review",
+        "s",
+        "warning",
+        "wopr",
+        "yesterday"
+      ],
+      "tone": [
+        "cautious"
+      ]
+    },
+    {
+      "asset_id": "wopr-evidence-engine-portrait",
+      "availability": "available_for_future_use",
+      "category": "people",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/people/wopr-evidence-engine-portrait.png",
+      "priority": 55,
+      "recommended_use": "Non-human committee profile, facts-and-evidence record, model status, research pipeline, or no-opinion evidence summary",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "and",
+        "committee",
+        "engine",
+        "evidence",
+        "facts",
+        "human",
+        "model",
+        "newspaper",
+        "no",
+        "non",
+        "opinion",
+        "or",
+        "people",
+        "pipeline",
+        "png",
+        "portrait",
+        "profile",
+        "record",
+        "research",
+        "status",
+        "summary",
+        "wopr"
+      ],
+      "tone": [
+        "analytical"
+      ]
+    },
+    {
+      "asset_id": "wopr-seal",
+      "availability": "available_for_future_use",
+      "category": "operations",
+      "lead_eligible": true,
+      "orientation": "square",
+      "path": "/newspaper/operations/wopr-seal.png",
+      "priority": 55,
+      "recommended_use": "wopr seal",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "newspaper",
+        "operations",
+        "png",
+        "seal",
+        "wopr"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "world-map-vintage",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/world-map-vintage.png",
+      "priority": 70,
+      "recommended_use": "world map vintage",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "map",
+        "markets",
+        "newspaper",
+        "png",
+        "vintage",
+        "world"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "world-map-vintage-hires",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/world-map-vintage-hires.png",
+      "priority": 70,
+      "recommended_use": "world map vintage hires",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "hires",
+        "map",
+        "markets",
+        "newspaper",
+        "png",
+        "vintage",
+        "world"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "world-map-vintage-hires-paper-matched",
+      "availability": "available_for_future_use",
+      "category": "markets",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/markets/world-map-vintage-hires-paper-matched.png",
+      "priority": 70,
+      "recommended_use": "world map vintage hires paper matched",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "hires",
+        "map",
+        "markets",
+        "matched",
+        "newspaper",
+        "paper",
+        "png",
+        "vintage",
+        "world"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    },
+    {
+      "asset_id": "world-news-wire",
+      "availability": "available_for_future_use",
+      "category": "sections",
+      "lead_eligible": true,
+      "orientation": "landscape",
+      "path": "/newspaper/sections/world-news-wire.png",
+      "priority": 70,
+      "recommended_use": "World news affecting markets, geopolitical transmission, international trade, overnight wire, or global catalyst",
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "affecting",
+        "catalyst",
+        "geopolitical",
+        "geopolitics",
+        "global",
+        "international",
+        "markets",
+        "news",
+        "newspaper",
+        "or",
+        "overnight",
+        "png",
+        "sections",
+        "trade",
+        "transmission",
+        "wire",
+        "world"
+      ],
+      "tone": [
+        "neutral"
+      ]
+    }
+  ],
+  "generated_from": "manifest.json",
+  "presentation_metadata_not_evidence": true,
+  "schema_version": 1
+}
