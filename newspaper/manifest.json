@@ -182,6 +182,86 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "treasury-rates-desk",
+      "path": "/newspaper/sections/treasury-rates-desk.png",
+      "category": "sections",
+      "dimensions": [1132, 1017],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Treasury yields, interest rates, bonds, duration, central-bank policy, or rate-sensitive market commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "sector-rotation-compass",
+      "path": "/newspaper/sections/sector-rotation-compass.png",
+      "category": "sections",
+      "dimensions": [1137, 1148],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Sector leadership changes, capital rotation, improving and lagging industries, or market-flow commentary",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "market-breadth-board",
+      "path": "/newspaper/sections/market-breadth-board.png",
+      "category": "sections",
+      "dimensions": [1129, 1000],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Market breadth, participation, advancers and decliners, trend confirmation, or divergence commentary",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "weekly-outlook-telescope",
+      "path": "/newspaper/sections/weekly-outlook-telescope.png",
+      "category": "sections",
+      "dimensions": [960, 987],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Upcoming-week outlook, scheduled events, expected catalysts, next dates, or forward-looking watch items",
+      "recommended_maximum_print_width_inches": 1.55,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "calm-market-skies",
+      "path": "/newspaper/weather/calm-market-skies.png",
+      "category": "weather",
+      "dimensions": [1196, 1086],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Calm, very-low, or low market-weather risk; stable volatility, supportive breadth, or orderly conditions",
+      "recommended_maximum_print_width_inches": 1.65,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "guarded-crosswinds",
+      "path": "/newspaper/weather/guarded-crosswinds.png",
+      "category": "weather",
+      "dimensions": [1165, 1135],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Guarded or neutral market-weather risk, mixed signals, crosscurrents, or uneven leadership",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "elevated-storm-front",
+      "path": "/newspaper/weather/elevated-storm-front.png",
+      "category": "weather",
+      "dimensions": [1170, 1206],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Elevated, high, severe, or storm market-weather risk; volatility, event risk, or deteriorating conditions",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "uncertain-market-fog",
+      "path": "/newspaper/weather/uncertain-market-fog.png",
+      "category": "weather",
+      "dimensions": [1117, 1084],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Incomplete or stale data, unavailable sources, low confidence, obscured visibility, or unresolved uncertainty",
+      "recommended_maximum_print_width_inches": 1.6,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "semiconductor-fabrication",
       "path": "/newspaper/markets/semiconductor-fabrication.png",
       "category": "markets",
