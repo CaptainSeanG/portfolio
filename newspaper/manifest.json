@@ -22,6 +22,126 @@
       "editorial_visibility": "available_for_future_use"
     },
     {
+      "id": "charlie-munger-portrait",
+      "path": "/newspaper/people/charlie-munger-portrait.png",
+      "category": "people",
+      "dimensions": [1158, 1345],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, mental-model analysis, probability discipline, incentives, or avoidable-error commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "charles-payne-portrait",
+      "path": "/newspaper/people/charles-payne-portrait.png",
+      "category": "people",
+      "dimensions": [1203, 1159],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, growth leadership, momentum, individual opportunity, or upside commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "dan-payne-portrait",
+      "path": "/newspaper/people/dan-payne-portrait.png",
+      "category": "people",
+      "dimensions": [1092, 1435],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, risk controls, position sizing, exit discipline, or downside commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "benjamin-graham-portrait",
+      "path": "/newspaper/people/benjamin-graham-portrait.png",
+      "category": "people",
+      "dimensions": [972, 1039],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, margin-of-safety analysis, intrinsic value, or valuation-discipline commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "peter-lynch-portrait",
+      "path": "/newspaper/people/peter-lynch-portrait.png",
+      "category": "people",
+      "dimensions": [1036, 1082],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, understandable business, growth-at-a-reasonable-price, or company-story commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "stanley-druckenmiller-portrait",
+      "path": "/newspaper/people/stanley-druckenmiller-portrait.png",
+      "category": "people",
+      "dimensions": [1295, 1114],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, macro trends, capital flows, concentrated conviction, or asymmetric-opportunity commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "ray-dalio-portrait",
+      "path": "/newspaper/people/ray-dalio-portrait.png",
+      "category": "people",
+      "dimensions": [960, 1496],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, economic cycles, rates, liquidity, diversification, or macro-balance commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "howard-marks-portrait",
+      "path": "/newspaper/people/howard-marks-portrait.png",
+      "category": "people",
+      "dimensions": [1061, 1331],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, risk psychology, market cycles, second-level thinking, or risk-compensation commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "william-oneil-portrait",
+      "path": "/newspaper/people/william-oneil-portrait.png",
+      "category": "people",
+      "dimensions": [993, 1460],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, technical leadership, earnings strength, price-volume action, or institutional-accumulation commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "mark-minervini-portrait",
+      "path": "/newspaper/people/mark-minervini-portrait.png",
+      "category": "people",
+      "dimensions": [963, 1040],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Rotating committee-member profile, trend quality, breakout validation, entry timing, or risk-first trade-structure commentary",
+      "recommended_maximum_print_width_inches": 1.35,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "sentinel-portrait",
+      "path": "/newspaper/people/sentinel-portrait.png",
+      "category": "people",
+      "dimensions": [1214, 1110],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Non-human committee profile, infrastructure observation, data freshness, node health, monitoring, or operational-warning commentary",
+      "recommended_maximum_print_width_inches": 1.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
+      "id": "wopr-evidence-engine-portrait",
+      "path": "/newspaper/people/wopr-evidence-engine-portrait.png",
+      "category": "people",
+      "dimensions": [1283, 1105],
+      "background": "transparent RGBA with real alpha",
+      "recommended_use": "Non-human committee profile, facts-and-evidence record, model status, research pipeline, or no-opinion evidence summary",
+      "recommended_maximum_print_width_inches": 1.45,
+      "editorial_visibility": "available_for_future_use"
+    },
+    {
       "id": "columbo-evidence-desk",
       "path": "/newspaper/investigations/columbo-evidence-desk.png",
       "category": "investigations",
