@@ -5130,7 +5130,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-07-16",
+      "creation_date": "2026-07-17",
       "dimensions": [
         600,
         465
@@ -5698,7 +5698,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-07-16",
+      "creation_date": "2026-07-17",
       "dimensions": [
         600,
         465
@@ -8051,7 +8051,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-07-16",
+      "creation_date": "2026-07-17",
       "dimensions": [
         600,
         465
@@ -9000,6 +9000,67 @@
         "watch",
         "week",
         "weekly"
+      ]
+    },
+    {
+      "archive_status": "active",
+      "aspect_ratio": 1.2903,
+      "asset_id": "william-oneil",
+      "availability": "available_for_future_use",
+      "category": "committee",
+      "color_mode": "RGB",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-17",
+      "dimensions": [
+        600,
+        465
+      ],
+      "event_tags": [],
+      "lead_eligible": true,
+      "macro_tags": [],
+      "most_recent_use_date": null,
+      "orientation": "landscape",
+      "path": "/newspaper/committee/profiles/william-oneil.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
+      "priority": 55,
+      "recommended_use": "william oneil",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "committee",
+        "newspaper",
+        "oneil",
+        "png",
+        "profiles",
+        "william"
+      ],
+      "ticker_tags": [],
+      "tone": [
+        "neutral"
+      ],
+      "visual_subjects": [
+        "committee",
+        "newspaper",
+        "oneil",
+        "png",
+        "profiles",
+        "william"
       ]
     },
     {
