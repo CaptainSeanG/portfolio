@@ -5,7 +5,10 @@
       "id": "joshua-portrait",
       "path": "/newspaper/people/joshua-portrait.png",
       "category": "people",
-      "dimensions": [1021, 1411],
+      "dimensions": [
+        1021,
+        1411
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Joshua profile, committee-chair perspective, daily leadership note, or attributed Joshua quotation",
       "recommended_maximum_print_width_inches": 1.35,
@@ -15,7 +18,10 @@
       "id": "warren-buffett-portrait",
       "path": "/newspaper/people/warren-buffett-portrait.png",
       "category": "people",
-      "dimensions": [1175, 1325],
+      "dimensions": [
+        1175,
+        1325
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, business-quality lens, durable-moat commentary, or attributed committee quotation",
       "recommended_maximum_print_width_inches": 1.35,
@@ -25,7 +31,10 @@
       "id": "charlie-munger-portrait",
       "path": "/newspaper/people/charlie-munger-portrait.png",
       "category": "people",
-      "dimensions": [1158, 1345],
+      "dimensions": [
+        1158,
+        1345
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, mental-model analysis, probability discipline, incentives, or avoidable-error commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -35,7 +44,10 @@
       "id": "charles-payne-portrait",
       "path": "/newspaper/people/charles-payne-portrait.png",
       "category": "people",
-      "dimensions": [1203, 1159],
+      "dimensions": [
+        1203,
+        1159
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, growth leadership, momentum, individual opportunity, or upside commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -45,7 +57,10 @@
       "id": "dan-payne-portrait",
       "path": "/newspaper/people/dan-payne-portrait.png",
       "category": "people",
-      "dimensions": [1092, 1435],
+      "dimensions": [
+        1092,
+        1435
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, risk controls, position sizing, exit discipline, or downside commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -55,7 +70,10 @@
       "id": "benjamin-graham-portrait",
       "path": "/newspaper/people/benjamin-graham-portrait.png",
       "category": "people",
-      "dimensions": [972, 1039],
+      "dimensions": [
+        972,
+        1039
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, margin-of-safety analysis, intrinsic value, or valuation-discipline commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -65,7 +83,10 @@
       "id": "peter-lynch-portrait",
       "path": "/newspaper/people/peter-lynch-portrait.png",
       "category": "people",
-      "dimensions": [1036, 1082],
+      "dimensions": [
+        1036,
+        1082
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, understandable business, growth-at-a-reasonable-price, or company-story commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -75,7 +96,10 @@
       "id": "stanley-druckenmiller-portrait",
       "path": "/newspaper/people/stanley-druckenmiller-portrait.png",
       "category": "people",
-      "dimensions": [1295, 1114],
+      "dimensions": [
+        1295,
+        1114
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, macro trends, capital flows, concentrated conviction, or asymmetric-opportunity commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -85,7 +109,10 @@
       "id": "ray-dalio-portrait",
       "path": "/newspaper/people/ray-dalio-portrait.png",
       "category": "people",
-      "dimensions": [960, 1496],
+      "dimensions": [
+        960,
+        1496
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, economic cycles, rates, liquidity, diversification, or macro-balance commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -95,7 +122,10 @@
       "id": "howard-marks-portrait",
       "path": "/newspaper/people/howard-marks-portrait.png",
       "category": "people",
-      "dimensions": [1061, 1331],
+      "dimensions": [
+        1061,
+        1331
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, risk psychology, market cycles, second-level thinking, or risk-compensation commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -105,7 +135,10 @@
       "id": "william-oneil-portrait",
       "path": "/newspaper/people/william-oneil-portrait.png",
       "category": "people",
-      "dimensions": [993, 1460],
+      "dimensions": [
+        993,
+        1460
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, technical leadership, earnings strength, price-volume action, or institutional-accumulation commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -115,7 +148,10 @@
       "id": "mark-minervini-portrait",
       "path": "/newspaper/people/mark-minervini-portrait.png",
       "category": "people",
-      "dimensions": [963, 1040],
+      "dimensions": [
+        963,
+        1040
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotating committee-member profile, trend quality, breakout validation, entry timing, or risk-first trade-structure commentary",
       "recommended_maximum_print_width_inches": 1.35,
@@ -125,7 +161,10 @@
       "id": "sentinel-portrait",
       "path": "/newspaper/people/sentinel-portrait.png",
       "category": "people",
-      "dimensions": [1214, 1110],
+      "dimensions": [
+        1214,
+        1110
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Non-human committee profile, infrastructure observation, data freshness, node health, monitoring, or operational-warning commentary",
       "recommended_maximum_print_width_inches": 1.45,
@@ -135,7 +174,10 @@
       "id": "wopr-evidence-engine-portrait",
       "path": "/newspaper/people/wopr-evidence-engine-portrait.png",
       "category": "people",
-      "dimensions": [1283, 1105],
+      "dimensions": [
+        1283,
+        1105
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Non-human committee profile, facts-and-evidence record, model status, research pipeline, or no-opinion evidence summary",
       "recommended_maximum_print_width_inches": 1.45,
@@ -145,7 +187,10 @@
       "id": "columbo-evidence-desk",
       "path": "/newspaper/investigations/columbo-evidence-desk.png",
       "category": "investigations",
-      "dimensions": [1534, 971],
+      "dimensions": [
+        1534,
+        971
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Columbo investigation, unexpected finding, evidence request, source review, or unresolved case summary",
       "recommended_maximum_print_width_inches": 2.2,
@@ -155,7 +200,10 @@
       "id": "evidence-thread-board",
       "path": "/newspaper/investigations/evidence-thread-board.png",
       "category": "investigations",
-      "dimensions": [1085, 987],
+      "dimensions": [
+        1085,
+        987
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Intelligence gaps, contradictory evidence, source tracing, open questions, or investigation backlog",
       "recommended_maximum_print_width_inches": 1.65,
@@ -165,7 +213,10 @@
       "id": "earnings-calendar",
       "path": "/newspaper/sections/earnings-calendar.png",
       "category": "sections",
-      "dimensions": [1475, 907],
+      "dimensions": [
+        1475,
+        907
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Upcoming earnings date, economic calendar, scheduled catalyst, company watch, or next-week preview",
       "recommended_maximum_print_width_inches": 2.1,
@@ -175,7 +226,10 @@
       "id": "world-news-wire",
       "path": "/newspaper/sections/world-news-wire.png",
       "category": "sections",
-      "dimensions": [1486, 936],
+      "dimensions": [
+        1486,
+        936
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "World news affecting markets, geopolitical transmission, international trade, overnight wire, or global catalyst",
       "recommended_maximum_print_width_inches": 2.1,
@@ -185,7 +239,10 @@
       "id": "treasury-rates-desk",
       "path": "/newspaper/sections/treasury-rates-desk.png",
       "category": "sections",
-      "dimensions": [1132, 1017],
+      "dimensions": [
+        1132,
+        1017
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Treasury yields, interest rates, bonds, duration, central-bank policy, or rate-sensitive market commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -195,7 +252,10 @@
       "id": "sector-rotation-compass",
       "path": "/newspaper/sections/sector-rotation-compass.png",
       "category": "sections",
-      "dimensions": [1137, 1148],
+      "dimensions": [
+        1137,
+        1148
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Sector leadership changes, capital rotation, improving and lagging industries, or market-flow commentary",
       "recommended_maximum_print_width_inches": 1.6,
@@ -205,7 +265,10 @@
       "id": "market-breadth-board",
       "path": "/newspaper/sections/market-breadth-board.png",
       "category": "sections",
-      "dimensions": [1129, 1000],
+      "dimensions": [
+        1129,
+        1000
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Market breadth, participation, advancers and decliners, trend confirmation, or divergence commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -215,7 +278,10 @@
       "id": "weekly-outlook-telescope",
       "path": "/newspaper/sections/weekly-outlook-telescope.png",
       "category": "sections",
-      "dimensions": [960, 987],
+      "dimensions": [
+        960,
+        987
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Upcoming-week outlook, scheduled events, expected catalysts, next dates, or forward-looking watch items",
       "recommended_maximum_print_width_inches": 1.55,
@@ -225,7 +291,10 @@
       "id": "daily-security-spotlight",
       "path": "/newspaper/sections/daily-security-spotlight.png",
       "category": "sections",
-      "dimensions": [1138, 1085],
+      "dimensions": [
+        1138,
+        1085
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Daily security spotlight, single-company examination, ticker focus, company-specific evidence, or rotating watch-list profile",
       "recommended_maximum_print_width_inches": 1.65,
@@ -235,7 +304,10 @@
       "id": "major-mover-ticker",
       "path": "/newspaper/sections/major-mover-ticker.png",
       "category": "sections",
-      "dimensions": [1123, 1194],
+      "dimensions": [
+        1123,
+        1194
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Major daily mover, unusual price change, market-tape highlight, gainers and decliners, or catalyst-driven movement",
       "recommended_maximum_print_width_inches": 1.55,
@@ -245,7 +317,10 @@
       "id": "federal-reserve-decision",
       "path": "/newspaper/sections/federal-reserve-decision.png",
       "category": "sections",
-      "dimensions": [1183, 1083],
+      "dimensions": [
+        1183,
+        1083
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Federal Reserve decision, central-bank policy, interest-rate announcement, FOMC meeting, or monetary-policy commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -255,7 +330,10 @@
       "id": "inflation-watch",
       "path": "/newspaper/sections/inflation-watch.png",
       "category": "sections",
-      "dimensions": [1171, 1124],
+      "dimensions": [
+        1171,
+        1124
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Inflation watch, CPI or PCE release, consumer prices, purchasing power, input costs, or price-pressure commentary",
       "recommended_maximum_print_width_inches": 1.6,
@@ -265,7 +343,10 @@
       "id": "employment-report",
       "path": "/newspaper/sections/employment-report.png",
       "category": "sections",
-      "dimensions": [1093, 1171],
+      "dimensions": [
+        1093,
+        1171
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Employment report, payrolls, unemployment, hiring, labor participation, jobless claims, or wage commentary",
       "recommended_maximum_print_width_inches": 1.55,
@@ -275,7 +356,10 @@
       "id": "volatility-desk",
       "path": "/newspaper/sections/volatility-desk.png",
       "category": "sections",
-      "dimensions": [1149, 1145],
+      "dimensions": [
+        1149,
+        1145
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Volatility desk, VIX movement, price instability, volatility expansion or contraction, or turbulent-market commentary",
       "recommended_maximum_print_width_inches": 1.6,
@@ -285,7 +369,10 @@
       "id": "calm-market-skies",
       "path": "/newspaper/weather/calm-market-skies.png",
       "category": "weather",
-      "dimensions": [1196, 1086],
+      "dimensions": [
+        1196,
+        1086
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Calm, very-low, or low market-weather risk; stable volatility, supportive breadth, or orderly conditions",
       "recommended_maximum_print_width_inches": 1.65,
@@ -295,7 +382,10 @@
       "id": "guarded-crosswinds",
       "path": "/newspaper/weather/guarded-crosswinds.png",
       "category": "weather",
-      "dimensions": [1165, 1135],
+      "dimensions": [
+        1165,
+        1135
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Guarded or neutral market-weather risk, mixed signals, crosscurrents, or uneven leadership",
       "recommended_maximum_print_width_inches": 1.6,
@@ -305,7 +395,10 @@
       "id": "elevated-storm-front",
       "path": "/newspaper/weather/elevated-storm-front.png",
       "category": "weather",
-      "dimensions": [1170, 1206],
+      "dimensions": [
+        1170,
+        1206
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Elevated, high, severe, or storm market-weather risk; volatility, event risk, or deteriorating conditions",
       "recommended_maximum_print_width_inches": 1.6,
@@ -315,7 +408,10 @@
       "id": "uncertain-market-fog",
       "path": "/newspaper/weather/uncertain-market-fog.png",
       "category": "weather",
-      "dimensions": [1117, 1084],
+      "dimensions": [
+        1117,
+        1084
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Incomplete or stale data, unavailable sources, low confidence, obscured visibility, or unresolved uncertainty",
       "recommended_maximum_print_width_inches": 1.6,
@@ -325,7 +421,10 @@
       "id": "digital-assets-ledger",
       "path": "/newspaper/markets/digital-assets-ledger.png",
       "category": "markets",
-      "dimensions": [1187, 1167],
+      "dimensions": [
+        1187,
+        1167
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Digital assets, cryptocurrency markets, blockchain infrastructure, distributed ledgers, token flows, or crypto-market commentary",
       "recommended_maximum_print_width_inches": 1.6,
@@ -335,7 +434,10 @@
       "id": "semiconductor-fabrication",
       "path": "/newspaper/markets/semiconductor-fabrication.png",
       "category": "markets",
-      "dimensions": [1242, 900],
+      "dimensions": [
+        1242,
+        900
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Semiconductors, chip fabrication, artificial-intelligence infrastructure, technology leadership, or supply-chain commentary",
       "recommended_maximum_print_width_inches": 1.7,
@@ -345,7 +447,10 @@
       "id": "banking-institution",
       "path": "/newspaper/markets/banking-institution.png",
       "category": "markets",
-      "dimensions": [1022, 907],
+      "dimensions": [
+        1022,
+        907
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Banks, financial institutions, credit conditions, lending, financial-sector leadership, or systemic-risk commentary",
       "recommended_maximum_print_width_inches": 1.6,
@@ -355,7 +460,10 @@
       "id": "industrial-factory",
       "path": "/newspaper/markets/industrial-factory.png",
       "category": "markets",
-      "dimensions": [1203, 1090],
+      "dimensions": [
+        1203,
+        1090
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Industrials, manufacturing, machinery, capital expenditure, factory activity, or economic-cycle commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -365,7 +473,10 @@
       "id": "agriculture-grain",
       "path": "/newspaper/markets/agriculture-grain.png",
       "category": "markets",
-      "dimensions": [1161, 1063],
+      "dimensions": [
+        1161,
+        1063
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Agriculture, grain commodities, crop conditions, food inflation, farm equipment, or rural-economy commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -375,7 +486,10 @@
       "id": "electric-utilities",
       "path": "/newspaper/markets/electric-utilities.png",
       "category": "markets",
-      "dimensions": [1202, 1026],
+      "dimensions": [
+        1202,
+        1026
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Utilities, electricity demand, power generation, grid infrastructure, defensive sectors, or data-center energy commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -385,7 +499,10 @@
       "id": "healthcare-research",
       "path": "/newspaper/markets/healthcare-research.png",
       "category": "markets",
-      "dimensions": [1154, 1113],
+      "dimensions": [
+        1154,
+        1113
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Healthcare, biotechnology, pharmaceuticals, medical research, defensive-sector rotation, or clinical-catalyst commentary",
       "recommended_maximum_print_width_inches": 1.6,
@@ -395,7 +512,10 @@
       "id": "real-estate-property",
       "path": "/newspaper/markets/real-estate-property.png",
       "category": "markets",
-      "dimensions": [1144, 1067],
+      "dimensions": [
+        1144,
+        1067
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Commercial real estate, residential property, REITs, mortgage-rate sensitivity, construction, or property-cycle commentary",
       "recommended_maximum_print_width_inches": 1.65,
@@ -405,7 +525,10 @@
       "id": "precious-metals-mine",
       "path": "/newspaper/markets/precious-metals-mine.png",
       "category": "markets",
-      "dimensions": [966, 1099],
+      "dimensions": [
+        966,
+        1099
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Gold, silver, precious metals, mining equities, inflation hedges, safe-haven demand, or commodity-cycle commentary",
       "recommended_maximum_print_width_inches": 1.55,
@@ -415,7 +538,10 @@
       "id": "wopr-daily-audit",
       "path": "/newspaper/operations/wopr-daily-audit.png",
       "category": "operations",
-      "dimensions": [1164, 1013],
+      "dimensions": [
+        1164,
+        1013
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Yesterday's WOPR audit, decision outcomes, correct and incorrect calls, warning review, calibration, or process-improvement commentary",
       "recommended_maximum_print_width_inches": 1.7,
@@ -425,7 +551,10 @@
       "id": "source-verified",
       "path": "/newspaper/icons/source-verified.png",
       "category": "icons",
-      "dimensions": [810, 870],
+      "dimensions": [
+        810,
+        870
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small provenance, verified-source, evidence-confirmed, citation, or data-quality marker",
       "recommended_maximum_print_width_inches": 0.45,
@@ -435,7 +564,10 @@
       "id": "risk-shield",
       "path": "/newspaper/icons/risk-shield.png",
       "category": "icons",
-      "dimensions": [755, 963],
+      "dimensions": [
+        755,
+        963
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small safeguard, risk-control, defensive-posture, elevated-risk, or publication-control marker",
       "recommended_maximum_print_width_inches": 0.45,
@@ -445,7 +577,10 @@
       "id": "earnings-bell",
       "path": "/newspaper/icons/earnings-bell.png",
       "category": "icons",
-      "dimensions": [928, 742],
+      "dimensions": [
+        928,
+        742
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small earnings announcement, earnings surprise, reporting-calendar, or corporate-results marker",
       "recommended_maximum_print_width_inches": 0.48,
@@ -455,7 +590,10 @@
       "id": "committee-gavel",
       "path": "/newspaper/icons/committee-gavel.png",
       "category": "icons",
-      "dimensions": [1111, 846],
+      "dimensions": [
+        1111,
+        846
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small committee-decision, vote, agenda, governance, or Joshua-direction marker",
       "recommended_maximum_print_width_inches": 0.5,
@@ -465,7 +603,10 @@
       "id": "ticker-tape-divider",
       "path": "/newspaper/ornaments/ticker-tape-divider.png",
       "category": "ornaments",
-      "dimensions": [2018, 196],
+      "dimensions": [
+        2018,
+        196
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Horizontal divider for market tape, major movers, prices, earnings, securities, or opportunity sections",
       "recommended_maximum_print_width_inches": 6.75,
@@ -475,7 +616,10 @@
       "id": "telegraph-wire-divider",
       "path": "/newspaper/ornaments/telegraph-wire-divider.png",
       "category": "ornaments",
-      "dimensions": [2106, 130],
+      "dimensions": [
+        2106,
+        130
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Horizontal divider for world news, breaking dispatches, source feeds, publication pipeline, or intelligence-wire sections",
       "recommended_maximum_print_width_inches": 6.75,
@@ -485,7 +629,10 @@
       "id": "laurel-star-divider",
       "path": "/newspaper/ornaments/laurel-star-divider.png",
       "category": "ornaments",
-      "dimensions": [2051, 143],
+      "dimensions": [
+        2051,
+        143
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Formal horizontal divider for editorial analysis, committee profiles, quotations, closing composition, or major section transitions",
       "recommended_maximum_print_width_inches": 6.75,
@@ -495,7 +642,10 @@
       "id": "circuit-flourish-divider",
       "path": "/newspaper/ornaments/circuit-flourish-divider.png",
       "category": "ornaments",
-      "dimensions": [2115, 248],
+      "dimensions": [
+        2115,
+        248
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Horizontal divider for WOPR audit, Sentinel, learning, evidence engine, diagnostics, or operations sections",
       "recommended_maximum_print_width_inches": 6.75,
@@ -505,7 +655,10 @@
       "id": "data-freshness-clock",
       "path": "/newspaper/icons/data-freshness-clock.png",
       "category": "icons",
-      "dimensions": [937, 960],
+      "dimensions": [
+        937,
+        960
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small fresh, delayed, or stale-data marker; timestamp status, source recency, feed freshness, or snapshot timing",
       "recommended_maximum_print_width_inches": 0.45,
@@ -515,7 +668,10 @@
       "id": "broken-telegraph",
       "path": "/newspaper/icons/broken-telegraph.png",
       "category": "icons",
-      "dimensions": [1198, 1005],
+      "dimensions": [
+        1198,
+        1005
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small unavailable-source, failed-feed, interrupted-ingest, stale-provider, or communications-outage marker",
       "recommended_maximum_print_width_inches": 0.48,
@@ -525,7 +681,10 @@
       "id": "warning-beacon",
       "path": "/newspaper/icons/warning-beacon.png",
       "category": "icons",
-      "dimensions": [1074, 1090],
+      "dimensions": [
+        1074,
+        1090
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small elevated-warning, operational concern, unresolved risk, caution, or attention-required marker",
       "recommended_maximum_print_width_inches": 0.45,
@@ -535,7 +694,10 @@
       "id": "liquidity-valve",
       "path": "/newspaper/icons/liquidity-valve.png",
       "category": "icons",
-      "dimensions": [1091, 975],
+      "dimensions": [
+        1091,
+        975
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small market-liquidity, funding conditions, tightening, restriction, improving flow, or liquidity-risk marker",
       "recommended_maximum_print_width_inches": 0.48,
@@ -545,7 +707,10 @@
       "id": "credit-bonds",
       "path": "/newspaper/icons/credit-bonds.png",
       "category": "icons",
-      "dimensions": [1136, 798],
+      "dimensions": [
+        1136,
+        798
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small bonds, credit spreads, debt markets, fixed income, borrowing conditions, or credit-stress marker",
       "recommended_maximum_print_width_inches": 0.5,
@@ -555,7 +720,10 @@
       "id": "economic-calendar",
       "path": "/newspaper/icons/economic-calendar.png",
       "category": "icons",
-      "dimensions": [1117, 865],
+      "dimensions": [
+        1117,
+        865
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small macroeconomic-calendar, scheduled data release, central-bank event, policy date, or economic-catalyst marker",
       "recommended_maximum_print_width_inches": 0.5,
@@ -565,7 +733,10 @@
       "id": "article-end-fleuron",
       "path": "/newspaper/ornaments/article-end-fleuron.png",
       "category": "ornaments",
-      "dimensions": [1388, 182],
+      "dimensions": [
+        1388,
+        182
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Short centered end-of-article mark, column-ending ornament, brief conclusion, quotation ending, or compact section close",
       "recommended_maximum_print_width_inches": 1.85,
@@ -575,7 +746,10 @@
       "id": "wopr-circuit-divider-vertical",
       "path": "/newspaper/ornaments/wopr-circuit-divider-vertical.png",
       "category": "ornaments",
-      "dimensions": [281, 1812],
+      "dimensions": [
+        281,
+        1812
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Vertical divider for WOPR, Sentinel, evidence-engine, diagnostics, audit, operations, or technical newspaper columns",
       "recommended_maximum_print_width_inches": 0.2,
@@ -585,7 +759,10 @@
       "id": "market-open",
       "path": "/newspaper/icons/market-open.png",
       "category": "icons",
-      "dimensions": [991, 1095],
+      "dimensions": [
+        991,
+        1095
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small market-open, active-session, opening-bell, regular-hours, or live-market status marker",
       "recommended_maximum_print_width_inches": 0.45,
@@ -595,7 +772,10 @@
       "id": "market-closed",
       "path": "/newspaper/icons/market-closed.png",
       "category": "icons",
-      "dimensions": [1047, 1185],
+      "dimensions": [
+        1047,
+        1185
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small market-closed, completed-session, after-hours, holiday closure, or inactive-market status marker",
       "recommended_maximum_print_width_inches": 0.45,
@@ -605,7 +785,10 @@
       "id": "confidence-gauge",
       "path": "/newspaper/icons/confidence-gauge.png",
       "category": "icons",
-      "dimensions": [1139, 999],
+      "dimensions": [
+        1139,
+        999
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small low, medium, or high-confidence marker; evidence strength, forecast uncertainty, model confidence, or editorial qualification",
       "recommended_maximum_print_width_inches": 0.45,
@@ -615,7 +798,10 @@
       "id": "correction-proof",
       "path": "/newspaper/icons/correction-proof.png",
       "category": "icons",
-      "dimensions": [1091, 1100],
+      "dimensions": [
+        1091,
+        1100
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small correction, errata, revised fact, superseded information, editorial amendment, or updated-record marker",
       "recommended_maximum_print_width_inches": 0.48,
@@ -625,7 +811,10 @@
       "id": "global-dispatch",
       "path": "/newspaper/icons/global-dispatch.png",
       "category": "icons",
-      "dimensions": [880, 876],
+      "dimensions": [
+        880,
+        876
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Small global-news, international dispatch, geopolitical event, overseas market, sanctions, trade, or transmission marker",
       "recommended_maximum_print_width_inches": 0.48,
@@ -635,7 +824,10 @@
       "id": "pull-quote-brackets",
       "path": "/newspaper/ornaments/pull-quote-brackets.png",
       "category": "ornaments",
-      "dimensions": [1920, 174],
+      "dimensions": [
+        1920,
+        174
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Wide framing ornament for live typeset pull quotes, committee quotations, attributed observations, or prominent editorial excerpts",
       "recommended_maximum_print_width_inches": 6.25,
@@ -645,7 +837,10 @@
       "id": "callout-corner-ornament",
       "path": "/newspaper/ornaments/callout-corner-ornament.png",
       "category": "ornaments",
-      "dimensions": [1058, 1062],
+      "dimensions": [
+        1058,
+        1062
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Rotatable corner ornament for callout boxes, sidebars, operator notes, scenario boards, committee notes, or special notices",
       "recommended_maximum_print_width_inches": 0.72,
@@ -655,7 +850,10 @@
       "id": "continued-column-arrow",
       "path": "/newspaper/ornaments/continued-column-arrow.png",
       "category": "ornaments",
-      "dimensions": [1355, 392],
+      "dimensions": [
+        1355,
+        392
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Column continuation, story continuation, next-column navigation, overflow marker, or serialized article transition",
       "recommended_maximum_print_width_inches": 1.2,
@@ -665,7 +863,10 @@
       "id": "weather-calm-micro",
       "path": "/newspaper/weather/weather-calm-micro.png",
       "category": "weather",
-      "dimensions": [1061, 886],
+      "dimensions": [
+        1061,
+        886
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for calm, low-risk, orderly, stable-volatility, or supportive market-weather conditions",
       "recommended_maximum_print_width_inches": 0.35,
@@ -675,7 +876,10 @@
       "id": "weather-guarded-micro",
       "path": "/newspaper/weather/weather-guarded-micro.png",
       "category": "weather",
-      "dimensions": [885, 947],
+      "dimensions": [
+        885,
+        947
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for guarded, neutral, mixed-signal, crosswind, or uneven market-weather conditions",
       "recommended_maximum_print_width_inches": 0.35,
@@ -685,7 +889,10 @@
       "id": "weather-elevated-micro",
       "path": "/newspaper/weather/weather-elevated-micro.png",
       "category": "weather",
-      "dimensions": [873, 1046],
+      "dimensions": [
+        873,
+        1046
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for elevated risk, worsening volatility, material event risk, or stressed market-weather conditions",
       "recommended_maximum_print_width_inches": 0.35,
@@ -695,7 +902,10 @@
       "id": "weather-severe-micro",
       "path": "/newspaper/weather/weather-severe-micro.png",
       "category": "weather",
-      "dimensions": [973, 1071],
+      "dimensions": [
+        973,
+        1071
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for severe, storm-level, crisis, extreme-volatility, or urgent market-weather conditions",
       "recommended_maximum_print_width_inches": 0.35,
@@ -705,7 +915,10 @@
       "id": "weather-clearing-micro",
       "path": "/newspaper/weather/weather-clearing-micro.png",
       "category": "weather",
-      "dimensions": [928, 972],
+      "dimensions": [
+        928,
+        972
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for improving, clearing, stabilizing, falling-risk, or recovering market-weather conditions",
       "recommended_maximum_print_width_inches": 0.35,
@@ -715,7 +928,10 @@
       "id": "weather-deteriorating-micro",
       "path": "/newspaper/weather/weather-deteriorating-micro.png",
       "category": "weather",
-      "dimensions": [1107, 1134],
+      "dimensions": [
+        1107,
+        1134
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for deteriorating, darkening, rising-risk, weakening-breadth, or worsening market-weather direction",
       "recommended_maximum_print_width_inches": 0.35,
@@ -725,7 +941,10 @@
       "id": "weather-low-visibility-micro",
       "path": "/newspaper/weather/weather-low-visibility-micro.png",
       "category": "weather",
-      "dimensions": [777, 943],
+      "dimensions": [
+        777,
+        943
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for low visibility, incomplete evidence, obscured direction, uncertainty, or low-confidence market weather",
       "recommended_maximum_print_width_inches": 0.35,
@@ -735,7 +954,10 @@
       "id": "weather-data-unavailable-micro",
       "path": "/newspaper/weather/weather-data-unavailable-micro.png",
       "category": "weather",
-      "dimensions": [885, 972],
+      "dimensions": [
+        885,
+        972
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Micro-icon for unavailable storm data, failed weather feed, missing score, stale risk model, or unclassified conditions",
       "recommended_maximum_print_width_inches": 0.35,
@@ -745,7 +967,10 @@
       "id": "committee-deliberation",
       "path": "/newspaper/operations/committee-deliberation.png",
       "category": "operations",
-      "dimensions": [1482, 820],
+      "dimensions": [
+        1482,
+        820
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Investment Committee deliberation, voting rounds, advisor debate, agenda review, and committee decisions",
       "recommended_maximum_print_width_inches": 2.4
@@ -754,7 +979,10 @@
       "id": "editorial-safeguard-ledger",
       "path": "/newspaper/editorial/editorial-safeguard-ledger.png",
       "category": "editorial",
-      "dimensions": [1448, 1086],
+      "dimensions": [
+        1448,
+        1086
+      ],
       "background": "transparent RGBA with real alpha",
       "recommended_use": "Editorial safeguard, policy, and observation-only ledger sections",
       "recommended_maximum_print_width_inches": 1.35
@@ -762,12 +990,240 @@
     {
       "id": "newspaper-paper-texture",
       "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
-      "tile_dimensions": [128, 128],
+      "tile_dimensions": [
+        128,
+        128
+      ],
       "deterministic_generation_source": "tools/export_chronicle_design_preview_2.py generate_texture; fixed seed 4071947",
-      "intended_opacity_range_percent": [2, 5],
-      "preview_8_effective_opacity_percent": [5, 7],
+      "intended_opacity_range_percent": [
+        2,
+        5
+      ],
+      "preview_8_effective_opacity_percent": [
+        5,
+        7
+      ],
       "preview_8_compositing": "same deterministic tile layered twice; source tile unchanged",
       "seamless_repeating": true
+    },
+    {
+      "id": "editorial-2026-07-21-d620e738e6f3",
+      "path": "/newspaper/editorial-archive/2026/07/2026-07-21-geopolitical-tensions-heighten-as-earnings-seaso-d620e738e6f3.png",
+      "category": "editorial-archive",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "background": "transparent RGBA",
+      "recommended_use": "Lead illustration commissioned for: Geopolitical Tensions Heighten as Earnings Season Approaches",
+      "recommended_maximum_print_width_inches": 3.25,
+      "editorial_visibility": "available_for_future_use",
+      "editorial_metadata": {
+        "tags": [
+          "0",
+          "06",
+          "07",
+          "2026",
+          "21",
+          "5x11",
+          "8",
+          "94",
+          "a",
+          "aged",
+          "ahead",
+          "ai",
+          "amid",
+          "analytical",
+          "and",
+          "appear",
+          "apple",
+          "approaches",
+          "area",
+          "as",
+          "background",
+          "banks",
+          "bear",
+          "between",
+          "broader",
+          "calm",
+          "cautious",
+          "charcoal",
+          "charts",
+          "closely",
+          "coincides",
+          "commodities",
+          "companies",
+          "compatible",
+          "composition",
+          "conducted",
+          "conflict",
+          "consumer",
+          "contrast",
+          "corporate",
+          "could",
+          "countries",
+          "crop",
+          "crosshatching",
+          "crucial",
+          "date",
+          "deck",
+          "development",
+          "developments",
+          "different",
+          "dimensions",
+          "discretionary",
+          "dynamic",
+          "earnings",
+          "editorial",
+          "elements",
+          "energy",
+          "engaging",
+          "engraved",
+          "escalating",
+          "escalation",
+          "event",
+          "fears",
+          "final",
+          "financial",
+          "for",
+          "front",
+          "generic",
+          "geopolitical",
+          "geopolitics",
+          "gold",
+          "graphs",
+          "hand",
+          "has",
+          "headline",
+          "heighten",
+          "heightened",
+          "id",
+          "illustration",
+          "imagery",
+          "impacting",
+          "in",
+          "inflation",
+          "influencing",
+          "ink",
+          "interplay",
+          "investor",
+          "investors",
+          "iran",
+          "is",
+          "it",
+          "key",
+          "landscape",
+          "lead",
+          "led",
+          "legible",
+          "location",
+          "logos",
+          "macro",
+          "making",
+          "market",
+          "markets",
+          "micron",
+          "military",
+          "monitor",
+          "must",
+          "newspaper",
+          "not",
+          "of",
+          "oil",
+          "old",
+          "on",
+          "or",
+          "orientation",
+          "page",
+          "paper",
+          "pencil",
+          "potentially",
+          "price",
+          "prices",
+          "primary",
+          "principal",
+          "print",
+          "printed",
+          "publication",
+          "raising",
+          "react",
+          "reactions",
+          "regions",
+          "rendered",
+          "report",
+          "reports",
+          "requirements",
+          "restrained",
+          "rigs",
+          "rising",
+          "risk",
+          "risks",
+          "s",
+          "safe",
+          "schedules",
+          "season",
+          "secondary",
+          "sectors",
+          "sentiment",
+          "sepia",
+          "serious",
+          "significantly",
+          "silver",
+          "specific",
+          "states",
+          "stock",
+          "story",
+          "strikes",
+          "style",
+          "subdued",
+          "subject",
+          "subjects",
+          "supporting",
+          "surge",
+          "target",
+          "technology",
+          "tensions",
+          "tesla",
+          "the",
+          "theme",
+          "themes",
+          "this",
+          "to",
+          "today",
+          "tone",
+          "topic",
+          "topics",
+          "u",
+          "united",
+          "urgent",
+          "visual",
+          "visuals",
+          "volatility",
+          "which",
+          "why",
+          "with"
+        ],
+        "tone": "cautious",
+        "orientation": "landscape",
+        "priority": 95,
+        "lead_eligible": true,
+        "source": "commissioned",
+        "commissioned_for": "Geopolitical Tensions Heighten as Earnings Season Approaches",
+        "commissioned_date": "2026-07-21",
+        "creation_date": "2026-07-21",
+        "safe_crop_area": [
+          0.06,
+          0.06,
+          0.94,
+          0.94
+        ],
+        "visual_subjects": [
+          "Oil rigs",
+          "Stock market graphs",
+          "Corporate logos"
+        ],
+        "archive_status": "active"
+      }
     }
   ]
 }
