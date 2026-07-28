@@ -988,6 +988,20 @@
       "recommended_maximum_print_width_inches": 1.35
     },
     {
+      "id": "newspaper-natural-aged-paper",
+      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v1.png",
+      "category": "background",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "color_mode": "RGB",
+      "deterministic_generation_source": "tools/export_chronicle_design_preview_2.py generate_natural_paper; fixed seed 928417",
+      "recommended_use": "Chronicle v8 full-page archival paper surface",
+      "preview_8_compositing": "single continuous full-page surface",
+      "seamless_repeating": false
+    },
+    {
       "id": "newspaper-paper-texture",
       "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
       "tile_dimensions": [
@@ -999,11 +1013,11 @@
         2,
         5
       ],
-      "preview_8_effective_opacity_percent": [
+      "preview_7_effective_opacity_percent": [
         5,
         7
       ],
-      "preview_8_compositing": "same deterministic tile layered twice; source tile unchanged",
+      "preview_8_usage": "not used",
       "seamless_repeating": true
     },
     {
