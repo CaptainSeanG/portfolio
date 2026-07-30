@@ -989,7 +989,7 @@
     },
     {
       "id": "newspaper-natural-aged-paper",
-      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v1.png",
+      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v2.png",
       "category": "background",
       "dimensions": [
         1224,
@@ -997,7 +997,7 @@
       ],
       "color_mode": "RGB",
       "deterministic_generation_source": "tools/export_chronicle_design_preview_2.py generate_natural_paper; fixed seed 928417",
-      "recommended_use": "Chronicle v8 full-page archival paper surface",
+      "recommended_use": "Chronicle v8 full-page low-saturation archival-newsprint surface",
       "preview_8_compositing": "single continuous full-page surface",
       "seamless_repeating": false
     },
