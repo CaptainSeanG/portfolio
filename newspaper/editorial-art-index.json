@@ -6312,11 +6312,11 @@
       ]
     },
     {
-      "archive_status": "active",
+      "archive_status": "supporting_source",
       "aspect_ratio": 0.7727,
       "asset_id": "newspaper-aged-edge-leather-v3",
-      "availability": "available_for_future_use",
-      "category": "backgrounds",
+      "availability": "generator_source_only",
+      "category": "background",
       "color_mode": "RGBA",
       "commissioned_date": null,
       "commodity_tags": [],
@@ -6335,7 +6335,7 @@
       "prior_headlines": [],
       "prior_use_count": 0,
       "priority": 20,
-      "recommended_use": "newspaper aged edge leather v3",
+      "recommended_use": "Deterministic generator source for the canonical v3 paper surface; never used directly",
       "region_tags": [],
       "safe_crop_area": [
         0.06,
@@ -6344,7 +6344,7 @@
         0.94
       ],
       "sector_tags": [],
-      "source": "chronicle_archive",
+      "source": "canonical_paper_generator_input",
       "style": [
         "vintage",
         "engraved",
@@ -6353,11 +6353,23 @@
       ],
       "tags": [
         "aged",
+        "background",
         "backgrounds",
+        "canonical",
+        "deterministic",
+        "directly",
         "edge",
+        "for",
+        "generator",
         "leather",
+        "never",
         "newspaper",
+        "paper",
         "png",
+        "source",
+        "surface",
+        "the",
+        "used",
         "v3"
       ],
       "ticker_tags": [],
@@ -6366,20 +6378,32 @@
       ],
       "visual_subjects": [
         "aged",
+        "background",
         "backgrounds",
+        "canonical",
+        "deterministic",
+        "directly",
         "edge",
+        "for",
+        "generator",
         "leather",
+        "never",
         "newspaper",
+        "paper",
         "png",
+        "source",
+        "surface",
+        "the",
+        "used",
         "v3"
       ]
     },
     {
-      "archive_status": "active",
+      "archive_status": "archived",
       "aspect_ratio": 0.7727,
       "asset_id": "newspaper-aged-edge-leather-v4-strong",
-      "availability": "available_for_future_use",
-      "category": "backgrounds",
+      "availability": "archived_reference",
+      "category": "background",
       "color_mode": "RGBA",
       "commissioned_date": null,
       "commodity_tags": [],
@@ -6398,7 +6422,7 @@
       "prior_headlines": [],
       "prior_use_count": 0,
       "priority": 20,
-      "recommended_use": "newspaper aged edge leather v4 strong",
+      "recommended_use": "Archived experimental Chronicle edge treatment; reference only",
       "region_tags": [],
       "safe_crop_area": [
         0.06,
@@ -6407,7 +6431,7 @@
         0.94
       ],
       "sector_tags": [],
-      "source": "chronicle_archive",
+      "source": "retired_paper_experiment",
       "style": [
         "vintage",
         "engraved",
@@ -6416,12 +6440,19 @@
       ],
       "tags": [
         "aged",
+        "archived",
+        "background",
         "backgrounds",
+        "chronicle",
         "edge",
+        "experimental",
         "leather",
         "newspaper",
+        "only",
         "png",
+        "reference",
         "strong",
+        "treatment",
         "v4"
       ],
       "ticker_tags": [],
@@ -6430,12 +6461,19 @@
       ],
       "visual_subjects": [
         "aged",
+        "archived",
+        "background",
         "backgrounds",
+        "chronicle",
         "edge",
+        "experimental",
         "leather",
         "newspaper",
+        "only",
         "png",
+        "reference",
         "strong",
+        "treatment",
         "v4"
       ]
     },
@@ -6630,14 +6668,14 @@
         1584
       ],
       "event_tags": [],
-      "lead_eligible": true,
+      "lead_eligible": false,
       "macro_tags": [],
       "most_recent_use_date": null,
       "orientation": "portrait",
       "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v3.png",
       "prior_headlines": [],
       "prior_use_count": 0,
-      "priority": 55,
+      "priority": 100,
       "recommended_use": "Chronicle v8 full-page warm archival-newsprint surface calibrated to Joshua Daily Brief 6",
       "region_tags": [],
       "safe_crop_area": [
@@ -6647,7 +6685,7 @@
         0.94
       ],
       "sector_tags": [],
-      "source": "chronicle_archive",
+      "source": "canonical_production_theme",
       "style": [
         "vintage",
         "engraved",
@@ -6708,11 +6746,11 @@
       ]
     },
     {
-      "archive_status": "active",
+      "archive_status": "archived",
       "aspect_ratio": 0.7727,
       "asset_id": "newspaper-natural-aged-paper-v1",
-      "availability": "available_for_future_use",
-      "category": "backgrounds",
+      "availability": "archived_reference",
+      "category": "background",
       "color_mode": "RGB",
       "commissioned_date": null,
       "commodity_tags": [],
@@ -6731,7 +6769,7 @@
       "prior_headlines": [],
       "prior_use_count": 0,
       "priority": 20,
-      "recommended_use": "newspaper natural aged paper v1",
+      "recommended_use": "Archived experimental Chronicle paper surface; reference only",
       "region_tags": [],
       "safe_crop_area": [
         0.06,
@@ -6740,7 +6778,7 @@
         0.94
       ],
       "sector_tags": [],
-      "source": "chronicle_archive",
+      "source": "retired_paper_experiment",
       "style": [
         "vintage",
         "engraved",
@@ -6749,11 +6787,18 @@
       ],
       "tags": [
         "aged",
+        "archived",
+        "background",
         "backgrounds",
+        "chronicle",
+        "experimental",
         "natural",
         "newspaper",
+        "only",
         "paper",
         "png",
+        "reference",
+        "surface",
         "v1"
       ],
       "ticker_tags": [],
@@ -6762,20 +6807,27 @@
       ],
       "visual_subjects": [
         "aged",
+        "archived",
+        "background",
         "backgrounds",
+        "chronicle",
+        "experimental",
         "natural",
         "newspaper",
+        "only",
         "paper",
         "png",
+        "reference",
+        "surface",
         "v1"
       ]
     },
     {
-      "archive_status": "active",
+      "archive_status": "archived",
       "aspect_ratio": 0.7727,
       "asset_id": "newspaper-natural-aged-paper-v2",
-      "availability": "available_for_future_use",
-      "category": "backgrounds",
+      "availability": "archived_reference",
+      "category": "background",
       "color_mode": "RGB",
       "commissioned_date": null,
       "commodity_tags": [],
@@ -6794,7 +6846,7 @@
       "prior_headlines": [],
       "prior_use_count": 0,
       "priority": 20,
-      "recommended_use": "newspaper natural aged paper v2",
+      "recommended_use": "Archived experimental Chronicle paper surface; reference only",
       "region_tags": [],
       "safe_crop_area": [
         0.06,
@@ -6803,7 +6855,7 @@
         0.94
       ],
       "sector_tags": [],
-      "source": "chronicle_archive",
+      "source": "retired_paper_experiment",
       "style": [
         "vintage",
         "engraved",
@@ -6812,11 +6864,18 @@
       ],
       "tags": [
         "aged",
+        "archived",
+        "background",
         "backgrounds",
+        "chronicle",
+        "experimental",
         "natural",
         "newspaper",
+        "only",
         "paper",
         "png",
+        "reference",
+        "surface",
         "v2"
       ],
       "ticker_tags": [],
@@ -6825,20 +6884,27 @@
       ],
       "visual_subjects": [
         "aged",
+        "archived",
+        "background",
         "backgrounds",
+        "chronicle",
+        "experimental",
         "natural",
         "newspaper",
+        "only",
         "paper",
         "png",
+        "reference",
+        "surface",
         "v2"
       ]
     },
     {
-      "archive_status": "active",
+      "archive_status": "archived",
       "aspect_ratio": 1.0,
       "asset_id": "newspaper-paper-texture",
-      "availability": "available",
-      "category": "general",
+      "availability": "archived_reference",
+      "category": "background",
       "color_mode": "RGBA",
       "commissioned_date": null,
       "commodity_tags": [],
@@ -6849,14 +6915,14 @@
         128
       ],
       "event_tags": [],
-      "lead_eligible": true,
+      "lead_eligible": false,
       "macro_tags": [],
       "most_recent_use_date": null,
       "orientation": "unknown",
       "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
       "prior_headlines": [],
       "prior_use_count": 0,
-      "priority": 55,
+      "priority": 20,
       "recommended_use": "",
       "region_tags": [],
       "safe_crop_area": [
@@ -6866,7 +6932,7 @@
         0.94
       ],
       "sector_tags": [],
-      "source": "chronicle_archive",
+      "source": "retired_paper_experiment",
       "style": [
         "vintage",
         "engraved",
@@ -6874,8 +6940,8 @@
         "sepia"
       ],
       "tags": [
+        "background",
         "backgrounds",
-        "general",
         "newspaper",
         "paper",
         "png",
@@ -6886,8 +6952,8 @@
         "neutral"
       ],
       "visual_subjects": [
+        "background",
         "backgrounds",
-        "general",
         "newspaper",
         "paper",
         "png",

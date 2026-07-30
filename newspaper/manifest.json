@@ -999,11 +999,97 @@
       "deterministic_generation_source": "tools/export_chronicle_design_preview_2.py generate_natural_paper; fixed seed 928417",
       "recommended_use": "Chronicle v8 full-page warm archival-newsprint surface calibrated to Joshua Daily Brief 6",
       "preview_8_compositing": "single continuous full-page surface",
-      "seamless_repeating": false
+      "seamless_repeating": false,
+      "production_theme_status": "canonical",
+      "editorial_baseline": "Joshua Daily Brief 6 approved paper surface",
+      "editorial_visibility": "available",
+      "editorial_metadata": {
+        "lead_eligible": false,
+        "archive_status": "active",
+        "priority": 100,
+        "source": "canonical_production_theme"
+      }
+    },
+    {
+      "id": "newspaper-natural-aged-paper-v1",
+      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v1.png",
+      "category": "background",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "color_mode": "RGB",
+      "recommended_use": "Archived experimental Chronicle paper surface; reference only",
+      "production_theme_status": "retired",
+      "editorial_visibility": "archived_reference",
+      "editorial_metadata": {
+        "lead_eligible": false,
+        "archive_status": "archived",
+        "priority": 0,
+        "source": "retired_paper_experiment"
+      }
+    },
+    {
+      "id": "newspaper-natural-aged-paper-v2",
+      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v2.png",
+      "category": "background",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "color_mode": "RGB",
+      "recommended_use": "Archived experimental Chronicle paper surface; reference only",
+      "production_theme_status": "retired",
+      "editorial_visibility": "archived_reference",
+      "editorial_metadata": {
+        "lead_eligible": false,
+        "archive_status": "archived",
+        "priority": 0,
+        "source": "retired_paper_experiment"
+      }
+    },
+    {
+      "id": "newspaper-aged-edge-leather-v3",
+      "path": "/newspaper/backgrounds/newspaper-aged-edge-leather-v3.png",
+      "category": "background",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "color_mode": "RGBA",
+      "recommended_use": "Deterministic generator source for the canonical v3 paper surface; never used directly",
+      "production_theme_status": "generator_source_only",
+      "editorial_visibility": "generator_source_only",
+      "editorial_metadata": {
+        "lead_eligible": false,
+        "archive_status": "supporting_source",
+        "priority": 0,
+        "source": "canonical_paper_generator_input"
+      }
+    },
+    {
+      "id": "newspaper-aged-edge-leather-v4-strong",
+      "path": "/newspaper/backgrounds/newspaper-aged-edge-leather-v4-strong.png",
+      "category": "background",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "color_mode": "RGBA",
+      "recommended_use": "Archived experimental Chronicle edge treatment; reference only",
+      "production_theme_status": "retired",
+      "editorial_visibility": "archived_reference",
+      "editorial_metadata": {
+        "lead_eligible": false,
+        "archive_status": "archived",
+        "priority": 0,
+        "source": "retired_paper_experiment"
+      }
     },
     {
       "id": "newspaper-paper-texture",
       "path": "/newspaper/backgrounds/newspaper-paper-texture.png",
+      "category": "background",
       "tile_dimensions": [
         128,
         128
@@ -1018,7 +1104,15 @@
         7
       ],
       "preview_8_usage": "not used",
-      "seamless_repeating": true
+      "seamless_repeating": true,
+      "production_theme_status": "retired",
+      "editorial_visibility": "archived_reference",
+      "editorial_metadata": {
+        "lead_eligible": false,
+        "archive_status": "archived",
+        "priority": 0,
+        "source": "retired_paper_experiment"
+      }
     },
     {
       "id": "editorial-2026-07-21-d620e738e6f3",
