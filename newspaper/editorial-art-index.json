@@ -6634,11 +6634,11 @@
       "macro_tags": [],
       "most_recent_use_date": null,
       "orientation": "portrait",
-      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v2.png",
+      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v3.png",
       "prior_headlines": [],
       "prior_use_count": 0,
       "priority": 55,
-      "recommended_use": "Chronicle v8 full-page low-saturation archival-newsprint surface",
+      "recommended_use": "Chronicle v8 full-page warm archival-newsprint surface calibrated to Joshua Daily Brief 6",
       "region_tags": [],
       "safe_crop_area": [
         0.06,
@@ -6655,46 +6655,56 @@
         "sepia"
       ],
       "tags": [
+        "6",
         "aged",
         "archival",
         "background",
         "backgrounds",
+        "brief",
+        "calibrated",
         "chronicle",
+        "daily",
         "full",
-        "low",
+        "joshua",
         "natural",
         "newspaper",
         "newsprint",
         "page",
         "paper",
         "png",
-        "saturation",
         "surface",
-        "v2",
-        "v8"
+        "to",
+        "v3",
+        "v8",
+        "warm"
       ],
       "ticker_tags": [],
       "tone": [
         "neutral"
       ],
       "visual_subjects": [
+        "6",
         "aged",
         "archival",
         "background",
         "backgrounds",
+        "brief",
+        "calibrated",
         "chronicle",
+        "daily",
         "full",
-        "low",
+        "joshua",
         "natural",
         "newspaper",
         "newsprint",
         "page",
         "paper",
         "png",
-        "saturation",
         "surface",
-        "v2",
-        "v8"
+        "to",
+        "v3",
+        "v8",
+        "warm"
       ]
     },
     {
@@ -6758,6 +6768,69 @@
         "paper",
         "png",
         "v1"
+      ]
+    },
+    {
+      "archive_status": "active",
+      "aspect_ratio": 0.7727,
+      "asset_id": "newspaper-natural-aged-paper-v2",
+      "availability": "available_for_future_use",
+      "category": "backgrounds",
+      "color_mode": "RGB",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-07-30",
+      "dimensions": [
+        1224,
+        1584
+      ],
+      "event_tags": [],
+      "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
+      "orientation": "portrait",
+      "path": "/newspaper/backgrounds/newspaper-natural-aged-paper-v2.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
+      "priority": 20,
+      "recommended_use": "newspaper natural aged paper v2",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "aged",
+        "backgrounds",
+        "natural",
+        "newspaper",
+        "paper",
+        "png",
+        "v2"
+      ],
+      "ticker_tags": [],
+      "tone": [
+        "neutral"
+      ],
+      "visual_subjects": [
+        "aged",
+        "backgrounds",
+        "natural",
+        "newspaper",
+        "paper",
+        "png",
+        "v2"
       ]
     },
     {
@@ -9874,7 +9947,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-07-28",
+      "creation_date": "2026-07-30",
       "dimensions": [
         600,
         465
@@ -10835,7 +10908,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-07-28",
+      "creation_date": "2026-07-30",
       "dimensions": [
         600,
         465
