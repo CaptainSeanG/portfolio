@@ -1,0 +1,48 @@
+{
+  "aliases": {
+    "daily-briefs/2026-08-07-joshua-daily-brief.pdf": {
+      "brief_id": "2026-08-07-joshua-morning-paper",
+      "canonical_relative_path": "2026-08-07-issue-24-joshua-daily-brief.pdf",
+      "digest": "ca2740c429e0d984f1e7ae31bc0e2e5ee88ae14193e073422b3af7de231171e1",
+      "issue_number": 24,
+      "publication_id": "chronicle-9a5d3296638a8c05ddd6"
+    },
+    "joshua-daily-brief.pdf": {
+      "brief_id": "2026-08-07-joshua-morning-paper",
+      "canonical_relative_path": "2026-08-07-issue-24-joshua-daily-brief.pdf",
+      "digest": "ca2740c429e0d984f1e7ae31bc0e2e5ee88ae14193e073422b3af7de231171e1",
+      "issue_number": 24,
+      "publication_id": "chronicle-9a5d3296638a8c05ddd6"
+    }
+  },
+  "authority": "verified_chronicle_publication_artifact",
+  "current_publication_id": "chronicle-9a5d3296638a8c05ddd6",
+  "reconciliation_events": [
+    {
+      "aliases_before": [
+        {
+          "digest": "3da3a0720b17bf7d802047a166ca907274745b9598cb3531f5bea3da26a6dbc1",
+          "mtime_ns": 1786345015887377121,
+          "path": "joshua-daily-brief.pdf",
+          "size_bytes": 4895402
+        },
+        {
+          "digest": "3da3a0720b17bf7d802047a166ca907274745b9598cb3531f5bea3da26a6dbc1",
+          "mtime_ns": 1786345016174926628,
+          "path": "daily-briefs/2026-08-07-joshua-daily-brief.pdf",
+          "size_bytes": 4895402
+        }
+      ],
+      "brief_id": "2026-08-07-joshua-morning-paper",
+      "canonical_digest": "ca2740c429e0d984f1e7ae31bc0e2e5ee88ae14193e073422b3af7de231171e1",
+      "canonical_relative_path": "2026-08-07-issue-24-joshua-daily-brief.pdf",
+      "incident_commit": "baa2a43938322bf28545d9f68e2a5fc4545fd6bf",
+      "issue_number": 24,
+      "publication_id": "chronicle-9a5d3296638a8c05ddd6",
+      "reason": "one_time_governed_canonical_alias_reconciliation",
+      "reconciled_at": "2026-08-10T15:55:25.547127+00:00",
+      "reconciliation_id": "aug7-issue24-canonical-alias-reconciliation-20260810"
+    }
+  ],
+  "schema_version": 1
+}
