@@ -1,5 +1,7 @@
 {
-  "aliases": {
+  "authority": "verified_chronicle_publication_artifact",
+  "current_publication_id": "chronicle-2e717e9fe4e1a1ea69c1",
+  "immutable_artifacts": {
     "daily-briefs/2026-08-07-joshua-daily-brief.pdf": {
       "brief_id": "2026-08-07-joshua-morning-paper",
       "canonical_relative_path": "2026-08-07-issue-24-joshua-daily-brief.pdf",
@@ -15,13 +17,7 @@
       "publication_id": "chronicle-6fab5f02173f714054c1"
     },
     "daily-briefs/2026-08-14-joshua-daily-brief.pdf": {
-      "brief_id": "2026-08-14-joshua-morning-paper",
-      "canonical_relative_path": "2026-08-14-issue-29-joshua-daily-brief.pdf",
-      "digest": "62c56127a414a328d55bc4eea9a9d6fca815bde9de9c1a86fc6c762ddba8363e",
-      "issue_number": 29,
-      "publication_id": "chronicle-2e717e9fe4e1a1ea69c1"
-    },
-    "joshua-daily-brief.pdf": {
+      "artifact_class": "immutable_dated_artifact",
       "brief_id": "2026-08-14-joshua-morning-paper",
       "canonical_relative_path": "2026-08-14-issue-29-joshua-daily-brief.pdf",
       "digest": "62c56127a414a328d55bc4eea9a9d6fca815bde9de9c1a86fc6c762ddba8363e",
@@ -29,8 +25,16 @@
       "publication_id": "chronicle-2e717e9fe4e1a1ea69c1"
     }
   },
-  "authority": "verified_chronicle_publication_artifact",
-  "current_publication_id": "chronicle-2e717e9fe4e1a1ea69c1",
+  "mutable_aliases": {
+    "joshua-daily-brief.pdf": {
+      "artifact_class": "mutable_current_alias",
+      "brief_id": "2026-08-14-joshua-morning-paper",
+      "canonical_relative_path": "2026-08-14-issue-29-joshua-daily-brief.pdf",
+      "digest": "62c56127a414a328d55bc4eea9a9d6fca815bde9de9c1a86fc6c762ddba8363e",
+      "issue_number": 29,
+      "publication_id": "chronicle-2e717e9fe4e1a1ea69c1"
+    }
+  },
   "reconciliation_events": [
     {
       "aliases_before": [
@@ -56,7 +60,25 @@
       "reason": "one_time_governed_canonical_alias_reconciliation",
       "reconciled_at": "2026-08-10T15:55:25.547127+00:00",
       "reconciliation_id": "aug7-issue24-canonical-alias-reconciliation-20260810"
+    },
+    {
+      "alias_after": {
+        "digest": "62c56127a414a328d55bc4eea9a9d6fca815bde9de9c1a86fc6c762ddba8363e",
+        "path": "joshua-daily-brief.pdf"
+      },
+      "alias_before": {
+        "digest": "b455604a78f4e34563b399686c6f72f6d74134bf04c83c68d37a1250ecd619b9",
+        "mtime_ns": 1786976308403142656,
+        "path": "joshua-daily-brief.pdf",
+        "size_bytes": 4926577
+      },
+      "canonical_digest": "62c56127a414a328d55bc4eea9a9d6fca815bde9de9c1a86fc6c762ddba8363e",
+      "incident_commit": "895dc5ad20b5a5143b2d6cd4ad613c736e0e735a",
+      "publication_id": "chronicle-2e717e9fe4e1a1ea69c1",
+      "reason": "restore_mutable_alias_to_current_verified_publication",
+      "reconciled_at": "2026-08-18T01:05:00Z",
+      "reconciliation_id": "mobile-current-alias-repair-20260818"
     }
   ],
-  "schema_version": 1
+  "schema_version": 2
 }
