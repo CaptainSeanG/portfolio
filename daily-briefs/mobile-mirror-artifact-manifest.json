@@ -52,7 +52,7 @@
       "artifact_class": "immutable_dated_artifact",
       "brief_id": "2026-08-20-joshua-morning-paper",
       "canonical_relative_path": "2026-08-20-issue-33-joshua-daily-brief.pdf",
-      "digest": "66a750d28111684a879a22e8de98210147dc995bd1a2f5b755dbd618c5e760a4",
+      "digest": "da3f2fce4cc8d0f7722c0cd2738152c05d480cca02f2ee58f0e59b932f844737",
       "issue_number": 33,
       "publication_id": "chronicle-d03fa4e2a80e203568c8"
     }
@@ -62,7 +62,7 @@
       "artifact_class": "mutable_current_alias",
       "brief_id": "2026-08-20-joshua-morning-paper",
       "canonical_relative_path": "2026-08-20-issue-33-joshua-daily-brief.pdf",
-      "digest": "66a750d28111684a879a22e8de98210147dc995bd1a2f5b755dbd618c5e760a4",
+      "digest": "da3f2fce4cc8d0f7722c0cd2738152c05d480cca02f2ee58f0e59b932f844737",
       "issue_number": 33,
       "publication_id": "chronicle-d03fa4e2a80e203568c8"
     }
@@ -135,6 +135,31 @@
       "reason": "one_time_governed_canonical_alias_reconciliation",
       "reconciled_at": "2026-08-18T18:00:00Z",
       "reconciliation_id": "issue31-existing-bytes-alias-reconciliation-20260818"
+    },
+    {
+      "aliases_before": [
+        {
+          "digest": "66a750d28111684a879a22e8de98210147dc995bd1a2f5b755dbd618c5e760a4",
+          "mtime_ns": 1787235472493478938,
+          "path": "joshua-daily-brief.pdf",
+          "size_bytes": 4866138
+        },
+        {
+          "digest": "66a750d28111684a879a22e8de98210147dc995bd1a2f5b755dbd618c5e760a4",
+          "mtime_ns": 1787235472501570849,
+          "path": "daily-briefs/2026-08-20-joshua-daily-brief.pdf",
+          "size_bytes": 4866138
+        }
+      ],
+      "brief_id": "2026-08-20-joshua-morning-paper",
+      "canonical_digest": "da3f2fce4cc8d0f7722c0cd2738152c05d480cca02f2ee58f0e59b932f844737",
+      "canonical_relative_path": "2026-08-20-issue-33-joshua-daily-brief.pdf",
+      "incident_commit": "6fdf1ff78b478f999326385597658452298d4b32",
+      "issue_number": 33,
+      "publication_id": "chronicle-d03fa4e2a80e203568c8",
+      "reason": "one_time_governed_canonical_alias_reconciliation",
+      "reconciled_at": "2026-08-20T19:00:00-07:00",
+      "reconciliation_id": "issue33-presentation-alias-repair-20260820"
     }
   ],
   "schema_version": 2
