@@ -3,6 +3,91 @@
     {
       "archive_status": "active",
       "aspect_ratio": 1.5,
+      "asset_id": "2026-07-21-geopolitical-tensions-heighten-as-earnings-seaso-d620e738e6f3-14eeca83e986-transparent",
+      "availability": "available_for_future_use",
+      "category": "editorial-derivatives",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-08-28",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "event_tags": [],
+      "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial-derivatives/2026/08/2026-07-21-geopolitical-tensions-heighten-as-earnings-seaso-d620e738e6f3-14eeca83e986-transparent.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
+      "priority": 20,
+      "recommended_use": "2026 07 21 geopolitical tensions heighten as earnings seaso d620e738e6f3 14eeca83e986 transparent",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "07",
+        "08",
+        "14eeca83e986",
+        "2026",
+        "21",
+        "as",
+        "d620e738e6f3",
+        "derivatives",
+        "earnings",
+        "editorial",
+        "geopolitical",
+        "geopolitics",
+        "heighten",
+        "newspaper",
+        "png",
+        "seaso",
+        "tensions",
+        "transparent"
+      ],
+      "ticker_tags": [],
+      "tone": [
+        "neutral"
+      ],
+      "visual_subjects": [
+        "07",
+        "08",
+        "14eeca83e986",
+        "2026",
+        "21",
+        "as",
+        "d620e738e6f3",
+        "derivatives",
+        "earnings",
+        "editorial",
+        "geopolitical",
+        "geopolitics",
+        "heighten",
+        "newspaper",
+        "png",
+        "seaso",
+        "tensions",
+        "transparent"
+      ]
+    },
+    {
+      "archive_status": "active",
+      "aspect_ratio": 1.5,
       "asset_id": "2026-07-24-market-reacts-to-tesla-s-earnings-miss-amid-risi-ae25b8d948b6-2f419baa97eb-transparent",
       "availability": "available_for_future_use",
       "category": "editorial-derivatives",
@@ -7092,7 +7177,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-08-21",
+      "creation_date": "2026-08-26",
       "dimensions": [
         600,
         465
@@ -7990,7 +8075,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-08-21",
+      "creation_date": "2026-08-28",
       "dimensions": [
         600,
         465
@@ -12258,7 +12343,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-08-21",
+      "creation_date": "2026-08-26",
       "dimensions": [
         600,
         465
@@ -13219,7 +13304,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-08-21",
+      "creation_date": "2026-08-27",
       "dimensions": [
         600,
         465
