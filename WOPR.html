@@ -7,12 +7,12 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-08-31T08:35:58.267852+00:00">
-  <meta name="wopr-paper-ledger-digest" content="9a300f8f5a7ea15fb8285ea824d3b11e5fcfb67de78f1b13ad6ca9b2c8e4195a">
+  <meta name="wopr-generated-at" content="2026-08-31T09:06:11.371981+00:00">
+  <meta name="wopr-paper-ledger-digest" content="1b9a27e9294b5d79d2b826ac5eed3436ba072c45049fff7f79bf3d5fac7446db">
   <meta name="wopr-open-position-count" content="5">
-  <meta name="wopr-waiting-order-count" content="1">
+  <meta name="wopr-waiting-order-count" content="0">
   <meta name="wopr-open-position-identities" content="[{&quot;id&quot;:&quot;364d5f64-fe6f-4792-a9e9-ca545529ac53&quot;,&quot;ticker&quot;:&quot;NVDA&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;876e0fa7-e283-4bff-a029-7effea71baee&quot;,&quot;ticker&quot;:&quot;FDX&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;93e8bc9f-88ae-4b9e-931f-809483800c8c&quot;,&quot;ticker&quot;:&quot;UUUU&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;9e5a75f3-cef6-4934-9d1b-2ef0a3841b8d&quot;,&quot;ticker&quot;:&quot;LTC&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;b7996f92-0c03-4337-9175-91a37c470b79&quot;,&quot;ticker&quot;:&quot;ENB&quot;,&quot;status&quot;:&quot;OPEN&quot;}]">
-  <meta name="wopr-waiting-order-identities" content="[{&quot;id&quot;:&quot;a5824d45-d749-447c-b5cd-0edbce036d4b&quot;,&quot;ticker&quot;:&quot;NVDA&quot;,&quot;status&quot;:&quot;WAITING&quot;}]">
+  <meta name="wopr-waiting-order-identities" content="[]">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -832,7 +832,7 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Aug 31, 1:35 AM</span>
+        <span>Updated Aug 31, 2:06 AM</span>
         <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Aug 31, 12:40 AM. Stale dashboard capture. Read-only; no real trades.</span>
       </div>
       <div class="quick-actions">
@@ -1237,23 +1237,15 @@
     
     
     <details class="card collapsible">
-      <summary class="section-head"><h2>Pending Paper Orders</h2><span class="count">1 buy / 10 sell</span></summary>
+      <summary class="section-head"><h2>Pending Paper Orders</h2><span class="count">0 buy / 10 sell</span></summary>
       <div class="collapsible-body">
       <div class="stack">
         <div class="order-summary">
-          <span><b>1</b> pending buy(s)</span>
+          <span><b>0</b> pending buy(s)</span>
           <span><b>10</b> pending sell/exit trigger(s)</span>
         </div>
         <div class="muted">Pending buys</div>
-        
-      <article class="row-card order ">
-        <div class="row-top">
-          <div><div class="ticker">NVDA</div><div class="muted">Limit buy @ $214.99</div></div>
-          <span class="badge ">81/100</span>
-        </div>
-        <div class="activity">DCA tranche 2/4: buy $25 at $214.99 or better. Fill waits for regular-session confirmation; extended-hours stock fills are disabled.</div>
-      </article>
-    
+        <div class="empty">No pending paper buys.</div>
         <div class="muted">Pending sells / exits</div>
         
       <article class="row-card order sell">
@@ -1353,7 +1345,7 @@
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="gain">+$0.22 (+0.87%)</span>
+          <span class="gain">+$0.27 (+1.06%)</span>
         </div>
       </article>
     
@@ -1375,7 +1367,7 @@
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="gain">+$0.01 (+0.02%)</span>
+          <span class="gain">+$0.03 (+0.14%)</span>
         </div>
       </article>
     
@@ -1454,6 +1446,21 @@
       <article class="row-card canceled">
         <div class="row-top">
           <div>
+            <div class="ticker">NVDA</div>
+            <div class="muted">Aug 31, 1:55 AM - 42.7h</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$214.99</strong></div>
+          <div class="mini">Confidence<strong>81/100</strong></div>
+        </div>
+        <div class="activity"><b>Insufficient supporting evidence</b><br>Data quality gate failed at 25/100.</div>
+      </article>
+    
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
             <div class="ticker">LTC</div>
             <div class="muted">Aug 30, 10:27 PM - 1.0h</div>
           </div>
@@ -1509,21 +1516,6 @@
           <div class="mini">Confidence<strong>80/100</strong></div>
         </div>
         <div class="activity"><b>DCA spacing rule</b><br>Recent DCA tranches averaged -0.24%, so spacing was widened. Later DCA tranche blocked because the existing paper position is not underwater enough t...</div>
-      </article>
-    
-      <article class="row-card canceled">
-        <div class="row-top">
-          <div>
-            <div class="ticker">UUUU</div>
-            <div class="muted">Aug 28, 1:00 PM - 1.9h</div>
-          </div>
-          <span class="badge amber">canceled</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Intended entry<strong>$14.46</strong></div>
-          <div class="mini">Confidence<strong>63/100</strong></div>
-        </div>
-        <div class="activity"><b>Confidence dropped below approval gate</b><br>Confidence dropped from 63/100 to 49/100, below the 72/100 approval gate.</div>
       </article>
     </div>
     </div>
@@ -1650,10 +1642,10 @@
         <span class="metric loss"><small>Avg return</small><b>-0.59%</b></span>
         <span class="metric "><small>Trade reviews</small><b>8</b></span>
         <span class="metric "><small>Upgrade queue</small><b>1</b></span>
-        <span class="metric "><small>Waiting buys</small><b>1</b></span>
+        <span class="metric "><small>Waiting buys</small><b>0</b></span>
         <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
         <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Aug 31, 1:35 AM</b></span>
+        <span class="metric "><small>Last scan</small><b>Aug 31, 1:56 AM</b></span>
       </div>
     </div>
     </details>
@@ -1710,56 +1702,56 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">LINK - Aug 31, 1:35 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LINK - Aug 31, 1:56 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 53/100, required 58/100, data 52/100.</div>
+        <div class="activity"><b></b><br>Confidence 45/100, required 64/100, data 28/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">SOL - Aug 31, 1:35 AM</div></div>
-        </div>
-        <div class="activity"><b></b><br>Confidence 39/100, required 58/100, data 47/100.</div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">BTC - Aug 31, 1:35 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Aug 31, 1:56 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 39/100, required 58/100, data 47/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SUPPRESS</div><div class="muted">ZIM - Aug 31, 1:35 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">BTC - Aug 31, 1:56 AM</div></div>
+        </div>
+        <div class="activity"><b></b><br>Confidence 31/100, required 64/100, data 23/100.</div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Aug 31, 1:56 AM</div></div>
+        </div>
+        <div class="activity"><b></b><br>Confidence 66/100, required 72/100, data 21/100.</div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">REJECT</div><div class="muted">XRAY - Aug 31, 1:56 AM</div></div>
+        </div>
+        <div class="activity"><b></b><br>Confidence 47/100, required 72/100, data 20/100.</div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">SUPPRESS</div><div class="muted">VTRS - Aug 31, 1:56 AM</div></div>
         </div>
         <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">XRAY - Aug 31, 1:35 AM</div></div>
-        </div>
-        <div class="activity"><b></b><br>Confidence 51/100, required 72/100, data 31/100.</div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">SUPPRESS</div><div class="muted">VTRS - Aug 31, 1:35 AM</div></div>
-        </div>
-        <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">VST - Aug 31, 1:35 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">VST - Aug 31, 1:56 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 26/100, required 72/100, data 20/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">UUUU - Aug 31, 1:35 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">UUUU - Aug 31, 1:56 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 56/100, required 72/100, data 39/100.</div>
       </article>
@@ -1794,13 +1786,13 @@
         <strong>normal</strong>
         <h3>Sentinel</h3>
         <p>ONLINE • health 100/100</p>
-        <small>updated 3m ago</small>
+        <small>updated 2m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Scheduler</h3>
-        <p>review_rejected_candidates</p>
+        <p>update_intelligence_gap_backlog</p>
         <small>updated just now</small>
       </article>
     
@@ -1822,34 +1814,34 @@
         <strong>normal</strong>
         <h3>Portfolio Engine</h3>
         <p>MARA</p>
-        <small>updated just now</small>
+        <small>updated 9m ago</small>
       </article>
     
       <article class="annunciator-tile normal">
         <strong>normal</strong>
         <h3>Paper Trader</h3>
-        <p>5 open • 1 waiting</p>
-        <small>updated just now</small>
+        <p>5 open • 0 waiting</p>
+        <small>updated 10m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Notifications</h3>
-        <p>2 queued</p>
-        <small>updated 3h ago</small>
+        <p>3 queued</p>
+        <small>updated 10m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Static Mirror</h3>
         <p>Dashboard snapshot exported</p>
-        <small>updated 55m ago</small>
+        <small>updated 1h ago</small>
       </article>
     
       <article class="annunciator-tile warning">
         <strong>warning</strong>
         <h3>Database Health</h3>
-        <p>12176 MB • WAL present</p>
+        <p>12179 MB • WAL present</p>
         <small>updated just now</small>
       </article>
     </div></div>
@@ -1865,7 +1857,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-08-31T08:35:58.267852+00:00";
+      const currentGeneratedAt = "2026-08-31T09:06:11.371981+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
