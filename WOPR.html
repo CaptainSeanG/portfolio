@@ -7,12 +7,12 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-09-24T11:51:02.779441+00:00">
-  <meta name="wopr-paper-ledger-digest" content="fcb6ffdfdc4c0739674b2e93bc49a7ded4acb3c30c2c732483153f613e94b4f8">
+  <meta name="wopr-generated-at" content="2026-09-24T12:21:28.137890+00:00">
+  <meta name="wopr-paper-ledger-digest" content="5005567ab67f877a5129044023c777762308ce2ecaf0c523cc361cdcc403577f">
   <meta name="wopr-open-position-count" content="2">
-  <meta name="wopr-waiting-order-count" content="1">
+  <meta name="wopr-waiting-order-count" content="0">
   <meta name="wopr-open-position-identities" content="[{&quot;id&quot;:&quot;1bf80b0a-67f8-4667-b2e7-766754cdde6f&quot;,&quot;ticker&quot;:&quot;NVDA&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;ab7ed2e0-f634-43e2-9f3c-00b228563a63&quot;,&quot;ticker&quot;:&quot;LINK&quot;,&quot;status&quot;:&quot;OPEN&quot;}]">
-  <meta name="wopr-waiting-order-identities" content="[{&quot;id&quot;:&quot;9ddf7f8c-e310-40ee-bbc4-ad904c3044f4&quot;,&quot;ticker&quot;:&quot;LINK&quot;,&quot;status&quot;:&quot;WAITING&quot;}]">
+  <meta name="wopr-waiting-order-identities" content="[]">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
     :root {
@@ -832,7 +832,7 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Sep 24, 4:51 AM</span>
+        <span>Updated Sep 24, 5:21 AM</span>
         <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Sep 23, 7:09 PM. Stale dashboard capture. Read-only; no real trades.</span>
       </div>
       <div class="quick-actions">
@@ -1060,23 +1060,15 @@
     
     
     <details class="card collapsible">
-      <summary class="section-head"><h2>Pending Paper Orders</h2><span class="count">1 buy / 4 sell</span></summary>
+      <summary class="section-head"><h2>Pending Paper Orders</h2><span class="count">0 buy / 4 sell</span></summary>
       <div class="collapsible-body">
       <div class="stack">
         <div class="order-summary">
-          <span><b>1</b> pending buy(s)</span>
+          <span><b>0</b> pending buy(s)</span>
           <span><b>4</b> pending sell/exit trigger(s)</span>
         </div>
         <div class="muted">Pending buys</div>
-        
-      <article class="row-card order ">
-        <div class="row-top">
-          <div><div class="ticker">LINK</div><div class="muted">Limit buy @ $12.05</div></div>
-          <span class="badge ">75/100</span>
-        </div>
-        <div class="activity">DCA tranche 2/4: buy $25 at $12.05 or better.</div>
-      </article>
-    
+        <div class="empty">No pending paper buys.</div>
         <div class="muted">Pending sells / exits</div>
         
       <article class="row-card order sell">
@@ -1128,18 +1120,18 @@
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.17 (-0.69%)</span>
+          <span class="loss">-$0.17 (-0.68%)</span>
         </div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">LINK</div><div class="muted">Sep 23, 8:47 AM</div></div>
-          <span class="badge red">OPEN</span>
+          <span class="badge amber">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.01 (-0.04%)</span>
+          <span class="gain">+$0.10 (+0.42%)</span>
         </div>
       </article>
     
@@ -1230,6 +1222,21 @@
         <div class="row-top">
           <div>
             <div class="ticker">LINK</div>
+            <div class="muted">Sep 24, 5:11 AM - 2.8h</div>
+          </div>
+          <span class="badge amber">canceled</span>
+        </div>
+        <div class="mini-grid">
+          <div class="mini">Intended entry<strong>$12.05</strong></div>
+          <div class="mini">Confidence<strong>75/100</strong></div>
+        </div>
+        <div class="activity"><b>DCA spacing rule</b><br>Later DCA tranche blocked because the existing paper position is not underwater enough to average down.</div>
+      </article>
+    
+      <article class="row-card canceled">
+        <div class="row-top">
+          <div>
+            <div class="ticker">LINK</div>
             <div class="muted">Sep 23, 11:51 AM - 18m</div>
           </div>
           <span class="badge amber">canceled</span>
@@ -1284,21 +1291,6 @@
           <div class="mini">Confidence<strong>89/100</strong></div>
         </div>
         <div class="activity"><b>DCA spacing rule</b><br>Later DCA tranche blocked because the existing paper position is not underwater enough to average down.</div>
-      </article>
-    
-      <article class="row-card canceled">
-        <div class="row-top">
-          <div>
-            <div class="ticker">NVDA</div>
-            <div class="muted">Sep 23, 8:53 AM - 32m</div>
-          </div>
-          <span class="badge amber">canceled</span>
-        </div>
-        <div class="mini-grid">
-          <div class="mini">Intended entry<strong>$224.43</strong></div>
-          <div class="mini">Confidence<strong>79/100</strong></div>
-        </div>
-        <div class="activity"><b>Positioning Gate Failed</b><br>Positioning gate failed: 2 positioning signal(s) and 32 row(s) matched NVDA..</div>
       </article>
     </div>
     </div>
@@ -1425,10 +1417,10 @@
         <span class="metric loss"><small>Avg return</small><b>-0.55%</b></span>
         <span class="metric "><small>Trade reviews</small><b>8</b></span>
         <span class="metric "><small>Upgrade queue</small><b>1</b></span>
-        <span class="metric "><small>Waiting buys</small><b>1</b></span>
+        <span class="metric "><small>Waiting buys</small><b>0</b></span>
         <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
         <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Sep 24, 4:30 AM</b></span>
+        <span class="metric "><small>Last scan</small><b>Sep 24, 5:12 AM</b></span>
       </div>
     </div>
     </details>
@@ -1485,58 +1477,58 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">RGTI - Sep 24, 4:51 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">SOL - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 42/100, required 72/100, data 24/100.</div>
+        <div class="activity"><b></b><br>Confidence 54/100, required 58/100, data 56/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">RCL - Sep 24, 4:51 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">LTC - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 24/100, required 72/100, data 20/100.</div>
+        <div class="activity"><b></b><br>Confidence 57/100, required 58/100, data 56/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">QBTS - Sep 24, 4:50 AM</div></div>
+          <div><div class="ticker">SUPPRESS</div><div class="muted">BTC - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 30/100, required 72/100, data 20/100.</div>
+        <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">PLTR - Sep 24, 4:50 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 34/100, required 72/100, data 20/100.</div>
+        <div class="activity"><b></b><br>Confidence 52/100, required 72/100, data 29/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">MU - Sep 24, 4:50 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">XRAY - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 47/100, required 74/100, data 24/100.</div>
+        <div class="activity"><b></b><br>Confidence 51/100, required 72/100, data 31/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">IONQ - Sep 24, 4:50 AM</div></div>
+          <div><div class="ticker">SUPPRESS</div><div class="muted">VTRS - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 46/100, required 72/100, data 30/100.</div>
+        <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">FDX - Sep 24, 4:50 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">VST - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 49/100, required 72/100, data 35/100.</div>
+        <div class="activity"><b></b><br>Confidence 33/100, required 72/100, data 20/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">ENB - Sep 24, 4:50 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">UUUU - Sep 24, 5:12 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>Confidence 37/100, required 72/100, data 26/100.</div>
+        <div class="activity"><b></b><br>Confidence 21/100, required 72/100, data 20/100.</div>
       </article>
     </div></div>
     </details>
@@ -1569,7 +1561,7 @@
         <strong>normal</strong>
         <h3>Sentinel</h3>
         <p>ONLINE • health 100/100</p>
-        <small>updated just now</small>
+        <small>updated 4m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
@@ -1596,35 +1588,35 @@
       <article class="annunciator-tile normal">
         <strong>normal</strong>
         <h3>Portfolio Engine</h3>
-        <p>DELL</p>
-        <small>updated 20m ago</small>
+        <p>FDX</p>
+        <small>updated 8m ago</small>
       </article>
     
       <article class="annunciator-tile normal">
         <strong>normal</strong>
         <h3>Paper Trader</h3>
-        <p>2 open • 1 waiting</p>
-        <small>updated just now</small>
+        <p>2 open • 0 waiting</p>
+        <small>updated 10m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Notifications</h3>
-        <p>1 queued</p>
-        <small>updated 2h ago</small>
+        <p>2 queued</p>
+        <small>updated 10m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Static Mirror</h3>
         <p>Dashboard snapshot exported</p>
-        <small>updated 9h ago</small>
+        <small>updated 10h ago</small>
       </article>
     
       <article class="annunciator-tile warning">
         <strong>warning</strong>
         <h3>Database Health</h3>
-        <p>15774 MB • WAL present</p>
+        <p>15775 MB • WAL present</p>
         <small>updated just now</small>
       </article>
     </div></div>
@@ -1640,7 +1632,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-09-24T11:51:02.779441+00:00";
+      const currentGeneratedAt = "2026-09-24T12:21:28.137890+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
