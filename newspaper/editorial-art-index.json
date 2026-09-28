@@ -9581,6 +9581,95 @@
     },
     {
       "archive_status": "active",
+      "aspect_ratio": 1.5,
+      "asset_id": "editorial-derivatives-2026-07-24-market-reacts-to-tesla-s-earnings-miss-amid-risi-ae25b8d948b6-2f419baa97eb-transparent",
+      "availability": "available_for_future_use",
+      "category": "editorial-derivatives",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-09-28",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "event_tags": [],
+      "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial-derivatives/2026/09/2026-07-24-market-reacts-to-tesla-s-earnings-miss-amid-risi-ae25b8d948b6-2f419baa97eb-transparent.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
+      "priority": 20,
+      "recommended_use": "2026 07 24 market reacts to tesla s earnings miss amid risi ae25b8d948b6 2f419baa97eb transparent",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "07",
+        "09",
+        "2026",
+        "24",
+        "2f419baa97eb",
+        "ae25b8d948b6",
+        "amid",
+        "derivatives",
+        "earnings",
+        "editorial",
+        "market",
+        "miss",
+        "newspaper",
+        "png",
+        "reacts",
+        "risi",
+        "s",
+        "tesla",
+        "to",
+        "transparent"
+      ],
+      "ticker_tags": [],
+      "tone": [
+        "analytical"
+      ],
+      "visual_subjects": [
+        "07",
+        "09",
+        "2026",
+        "24",
+        "2f419baa97eb",
+        "ae25b8d948b6",
+        "amid",
+        "derivatives",
+        "earnings",
+        "editorial",
+        "market",
+        "miss",
+        "newspaper",
+        "png",
+        "reacts",
+        "risi",
+        "s",
+        "tesla",
+        "to",
+        "transparent"
+      ]
+    },
+    {
+      "archive_status": "active",
       "aspect_ratio": 1.1069,
       "asset_id": "editorial-pen",
       "availability": "available_for_future_use",
@@ -12557,7 +12646,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-09-15",
+      "creation_date": "2026-09-25",
       "dimensions": [
         600,
         465
@@ -16500,7 +16589,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-09-16",
+      "creation_date": "2026-09-28",
       "dimensions": [
         600,
         465
