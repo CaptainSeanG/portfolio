@@ -7,11 +7,11 @@
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="pragma" content="no-cache">
   <meta http-equiv="expires" content="0">
-  <meta name="wopr-generated-at" content="2026-10-10T14:16:24.633896+00:00">
-  <meta name="wopr-paper-ledger-digest" content="a25cf69d56a10daec5d99e6d7e33d00c1f4e90ccba279b8e99f085e158f228bf">
+  <meta name="wopr-generated-at" content="2026-10-10T14:46:41.060594+00:00">
+  <meta name="wopr-paper-ledger-digest" content="c031650bf6cc9b5a903a8ce2e2b469ae42b94c6451a1bddd9f1737424d4399da">
   <meta name="wopr-open-position-count" content="3">
   <meta name="wopr-waiting-order-count" content="0">
-  <meta name="wopr-open-position-identities" content="[{&quot;id&quot;:&quot;25380cae-abe3-48e7-b873-b8586ead287b&quot;,&quot;ticker&quot;:&quot;LINK&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;aa8a0f52-ac5d-4820-bdf3-6d7af14291ed&quot;,&quot;ticker&quot;:&quot;LTC&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;add3663b-6a19-4ad3-b6ae-38353b2c94db&quot;,&quot;ticker&quot;:&quot;FDX&quot;,&quot;status&quot;:&quot;OPEN&quot;}]">
+  <meta name="wopr-open-position-identities" content="[{&quot;id&quot;:&quot;aa8a0f52-ac5d-4820-bdf3-6d7af14291ed&quot;,&quot;ticker&quot;:&quot;LTC&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;add3663b-6a19-4ad3-b6ae-38353b2c94db&quot;,&quot;ticker&quot;:&quot;FDX&quot;,&quot;status&quot;:&quot;OPEN&quot;},{&quot;id&quot;:&quot;c4ac6f5c-1fe2-46f3-bf24-42a6b52b9e46&quot;,&quot;ticker&quot;:&quot;LINK&quot;,&quot;status&quot;:&quot;OPEN&quot;}]">
   <meta name="wopr-waiting-order-identities" content="[]">
   <title>W.O.P.R. Mobile Mirror</title>
   <style>
@@ -832,8 +832,8 @@
       </div>
       <div class="status-bar">
         <span><i class="status-dot"></i></span>
-        <span>Updated Oct 10, 7:16 AM</span>
-        <span>Backend canonical paper snapshot. Browser actual-holdings snapshot: Oct 9, 7:20 PM. Stale dashboard capture. Read-only; no real trades.</span>
+        <span>Updated Oct 10, 7:46 AM</span>
+        <span>Backend canonical paper snapshot. Browser dashboard snapshot only supplies non-paper display extras: Oct 9, 7:20 PM. Its stored paper identity no longer matches the current backend ledger. Stale dashboard capture. Read-only; no real trades.</span>
       </div>
       <div class="quick-actions">
         <a class="action-link" href="joshua-daily-brief.pdf" target="_blank" rel="noopener">Open Today's Brief</a>
@@ -845,26 +845,26 @@
       <summary class="section-head account-summary">
         <h2>Paper Account</h2>
         <span class="account-scan">
-          <b>$981.80</b>
-          <em class="loss">-$18.20 (-1.82%)</em>
+          <b>$982.54</b>
+          <em class="loss">-$17.46 (-1.75%)</em>
         </span>
       </summary>
       <div class="collapsible-body">
       <div class="metric-grid">
-        <span class="metric loss"><small>Today&#x27;s Gain/Loss</small><b>-$38.40 (-3.76%)</b></span>
+        <span class="metric gain"><small>Today&#x27;s Gain/Loss</small><b>+$1.35 (+0.13%)</b></span>
         <span class="metric "><small>Starting bankroll</small><b>$1,000.00</b></span>
         <span class="metric "><small>Open invested</small><b>$75.00</b></span>
         <span class="metric "><small>Waiting orders</small><b>$0.00</b></span>
         <span class="metric "><small>Available cash</small><b>$925.00</b></span>
-        <span class="metric gain"><small>Unrealized P/L</small><b>+$0.60</b></span>
-        <span class="metric loss"><small>Total P/L</small><b>-$18.20</b></span>
-        <span class="metric gain"><small>Today realized</small><b>+$1.05</b></span>
-        <span class="metric gain"><small>Current unrealized</small><b>+$0.60</b></span>
-        <span class="metric "><small>Daily P/L method</small><b>previous close</b></span>
-        <span class="metric "><small>Last Updated</small><b>Oct 9, 7:20 PM</b></span>
+        <span class="metric gain"><small>Unrealized P/L</small><b>+$0.01</b></span>
+        <span class="metric loss"><small>Total P/L</small><b>-$17.46</b></span>
+        <span class="metric gain"><small>Today realized</small><b>+$1.34</b></span>
+        <span class="metric gain"><small>Current unrealized</small><b>+$0.01</b></span>
+        <span class="metric "><small>Daily P/L method</small><b>today realized + current unrealized</b></span>
+        <span class="metric "><small>Last Updated</small><b>n/a</b></span>
       </div>
-      <p class="muted">Daily P/L method: previous close. Compared with official close snapshot from 2026-10-08.</p>
-      <p class="muted">Paper account snapshot: Oct 9, 7:20 PM</p>
+      <p class="muted">Today&#x27;s P/L fallback: today realized + current unrealized. Previous close baseline unavailable; using today&#x27;s resolved paper trades plus current unrealized P/L.</p>
+      
     </div>
     </details>
     
@@ -938,14 +938,73 @@
       <div class="open-position-grid">
       <article class="open-position-card">
         <div class="open-position-title">
-          <strong>LTC</strong>
-          <span>LTC Properties, Inc. Common Stock</span>
+          <strong>LINK</strong>
+          <span>Paper position</span>
         </div>
         <div class="open-position-money">
-          <b>$24.76</b>
+          <b>$25.00</b>
+          <small class="gain">
+            <span>Unrealized P/L</span>
+            +$0.00 (+0.00%)
+          </small>
+        </div>
+        
+      <div class="position-status-meter gain">
+        <div class="position-status-labels">
+          <span>Stop $12.69</span>
+          <span>Entry $13.19</span>
+          <span>Target $13.84</span>
+        </div>
+        <div class="position-status-track">
+          <span class="position-status-fill" style="left:50%;width:0.0%"></span>
+          <span class="position-status-entry"></span>
+          <span class="position-status-marker" style="--marker-left:50.0%">
+            <b>$13.19</b>
+          </span>
+        </div>
+        <div class="position-status-footer">
+          <span>$0.50 above stop</span>
+          <b>-3.80% to stop</b>
+        </div>
+      </div>
+    
+        <div class="open-position-meta">
+          <span class="open-position-potential">
+            <small>Potential</small>
+            
+      <span>
+        <b class="loss">▼ -$0.95</b>
+        <b class="gain">▲ +$1.22</b>
+      </span>
+    
+          </span>
+          <span>Shares 1.8955</span>
+          <span>Invested $25.00</span>
+          <span>Current value $25.00</span>
+          <span>Entry $13.19</span>
+          <span>Stop $12.69</span>
+          <span>Target $13.84</span>
+          <span>Now $13.19</span>
+          <span>+4.90% to target</span>
+          <span>-3.80% to stop</span>
+          <span>0d held / 5d max</span>
+          <span>OPEN</span>
+        </div>
+        
+        <p class="open-position-thesis">DCA tranche 1/4: buy $25 at $13.19 or better.</p>
+        <div class="muted">Opened Oct 10, 7:33 AM</div>
+      </article>
+    
+      <article class="open-position-card">
+        <div class="open-position-title">
+          <strong>LTC</strong>
+          <span>Paper position</span>
+        </div>
+        <div class="open-position-money">
+          <b>$24.85</b>
           <small class="loss">
             <span>Unrealized P/L</span>
-            -$0.24 (-0.97%)
+            -$0.15 (-0.60%)
           </small>
         </div>
         
@@ -956,15 +1015,15 @@
           <span>Target $66.82</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:33.896746236707756%;width:16.103253763292244%"></span>
+          <span class="position-status-fill" style="left:39.9%;width:10.1%"></span>
           <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:33.9%">
-            <b>$63.75</b>
+          <span class="position-status-marker" style="--marker-left:39.9%">
+            <b>$63.99</b>
           </span>
         </div>
         <div class="position-status-footer">
-          <span>$1.31 above stop</span>
-          <b>-2.05% to stop</b>
+          <span>$1.54 above stop</span>
+          <b>-2.41% to stop</b>
         </div>
       </div>
     
@@ -980,14 +1039,14 @@
           </span>
           <span>Shares 0.3883</span>
           <span>Invested $25.00</span>
-          <span>Current value $24.76</span>
+          <span>Current value $24.85</span>
           <span>Entry $64.38</span>
           <span>Stop $62.44</span>
           <span>Target $66.82</span>
-          <span>Now $63.75</span>
-          <span>+4.81% to target</span>
-          <span>-2.05% to stop</span>
-          <span>0d held / 5d max</span>
+          <span>Now $63.99</span>
+          <span>+4.43% to target</span>
+          <span>-2.41% to stop</span>
+          <span>1d held / 5d max</span>
           <span>OPEN</span>
         </div>
         
@@ -997,67 +1056,8 @@
     
       <article class="open-position-card">
         <div class="open-position-title">
-          <strong>LINK</strong>
-          <span>Interlink Electronics, Inc. - Common Stock</span>
-        </div>
-        <div class="open-position-money">
-          <b>$25.69</b>
-          <small class="gain">
-            <span>Unrealized P/L</span>
-            +$0.69 (+2.74%)
-          </small>
-        </div>
-        
-      <div class="position-status-meter gain">
-        <div class="position-status-labels">
-          <span>Stop $12.01</span>
-          <span>Entry $12.50</span>
-          <span>Target $13.12</span>
-        </div>
-        <div class="position-status-track">
-          <span class="position-status-fill" style="left:50%;width:27.446620717527523%"></span>
-          <span class="position-status-entry"></span>
-          <span class="position-status-marker" style="--marker-left:77.4%">
-            <b>$12.84</b>
-          </span>
-        </div>
-        <div class="position-status-footer">
-          <span>$0.28 below hopeful exit</span>
-          <b>+2.20% to target</b>
-        </div>
-      </div>
-    
-        <div class="open-position-meta">
-          <span class="open-position-potential">
-            <small>Potential</small>
-            
-      <span>
-        <b class="loss">▼ -$0.98</b>
-        <b class="gain">▲ +$1.25</b>
-      </span>
-    
-          </span>
-          <span>Shares 2.0005</span>
-          <span>Invested $25.00</span>
-          <span>Current value $25.69</span>
-          <span>Entry $12.50</span>
-          <span>Stop $12.01</span>
-          <span>Target $13.12</span>
-          <span>Now $12.84</span>
-          <span>+2.20% to target</span>
-          <span>-6.47% to stop</span>
-          <span>1d held / 5d max</span>
-          <span>OPEN</span>
-        </div>
-        
-        <p class="open-position-thesis">DCA tranche 3/4: buy $25 at $12.54 or better.</p>
-        <div class="muted">Opened Oct 8, 8:26 AM</div>
-      </article>
-    
-      <article class="open-position-card">
-        <div class="open-position-title">
           <strong>FDX</strong>
-          <span>FedEx Corporation Common Stock</span>
+          <span>FedEx</span>
         </div>
         <div class="open-position-money">
           <b>$25.16</b>
@@ -1074,7 +1074,7 @@
           <span>Target $298.56</span>
         </div>
         <div class="position-status-track">
-          <span class="position-status-fill" style="left:50%;width:10.608443170578383%"></span>
+          <span class="position-status-fill" style="left:50%;width:10.6%"></span>
           <span class="position-status-entry"></span>
           <span class="position-status-marker" style="--marker-left:60.6%">
             <b>$291.71</b>
@@ -1148,22 +1148,6 @@
     
       <article class="row-card order sell">
         <div class="row-top">
-          <div><div class="ticker">LINK</div><div class="muted">Target sell @ $13.12</div></div>
-          <span class="badge ">76/100</span>
-        </div>
-        <div class="activity">Paper target exit for LINK. Stop is $12.01.</div>
-      </article>
-    
-      <article class="row-card order stop">
-        <div class="row-top">
-          <div><div class="ticker">LINK</div><div class="muted">Stop sell @ $12.01</div></div>
-          <span class="badge ">76/100</span>
-        </div>
-        <div class="activity">Paper stop exit for LINK. Target is $13.12.</div>
-      </article>
-    
-      <article class="row-card order sell">
-        <div class="row-top">
           <div><div class="ticker">LTC</div><div class="muted">Target sell @ $66.82</div></div>
           <span class="badge amber">65/100</span>
         </div>
@@ -1178,6 +1162,22 @@
         <div class="activity">Paper stop exit for LTC. Target is $66.82.</div>
       </article>
     
+      <article class="row-card order sell">
+        <div class="row-top">
+          <div><div class="ticker">LINK</div><div class="muted">Target sell @ $13.84</div></div>
+          <span class="badge ">76/100</span>
+        </div>
+        <div class="activity">Paper target exit for LINK. Stop is $12.69.</div>
+      </article>
+    
+      <article class="row-card order stop">
+        <div class="row-top">
+          <div><div class="ticker">LINK</div><div class="muted">Stop sell @ $12.69</div></div>
+          <span class="badge ">76/100</span>
+        </div>
+        <div class="activity">Paper stop exit for LINK. Target is $13.84.</div>
+      </article>
+    
       </div>
     </div>
     </details>
@@ -1190,12 +1190,23 @@
       <div class="stack">
       <article class="row-card">
         <div class="row-top">
+          <div><div class="ticker">LINK</div><div class="muted">Oct 10, 7:33 AM</div></div>
+          <span class="badge amber">OPEN</span>
+        </div>
+        <div class="row-money">
+          <b>$25.00</b>
+          <span class="gain">+$0.00 (+0.00%)</span>
+        </div>
+      </article>
+    
+      <article class="row-card">
+        <div class="row-top">
           <div><div class="ticker">LTC</div><div class="muted">Oct 9, 1:54 AM</div></div>
           <span class="badge red">OPEN</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="loss">-$0.26 (-1.05%)</span>
+          <span class="loss">-$0.15 (-0.60%)</span>
         </div>
       </article>
     
@@ -1213,11 +1224,11 @@
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">LINK</div><div class="muted">Oct 8, 8:26 AM</div></div>
-          <span class="badge amber">OPEN</span>
+          <span class="badge ">TARGET HIT</span>
         </div>
         <div class="row-money">
           <b>$25.00</b>
-          <span class="gain">+$1.10 (+4.42%)</span>
+          <span class="gain">+$1.34 (+5.36%)</span>
         </div>
       </article>
     
@@ -1231,21 +1242,21 @@
           <span class="loss">-$1.11 (-4.44%)</span>
         </div>
       </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">LTC</div><div class="muted">Oct 7, 9:46 PM</div></div>
-          <span class="badge red">STOP HIT</span>
-        </div>
-        <div class="row-money">
-          <b>$25.00</b>
-          <span class="loss">-$0.95 (-3.80%)</span>
-        </div>
-      </article>
     </div>
       <div style="height:12px"></div>
       <div class="section-subhead"><h3>Recently Closed</h3><span>6 resolved</span></div>
       <div class="stack">
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">LINK</div><div class="muted">Oct 8, 8:26 AM</div></div>
+          <span class="badge ">TARGET HIT</span>
+        </div>
+        <div class="row-money">
+          <b>$25.00</b>
+          <span class="gain">+$1.34 (+5.36%)</span>
+        </div>
+      </article>
+    
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">LTC</div><div class="muted">Oct 8, 10:19 AM</div></div>
@@ -1276,17 +1287,6 @@
         <div class="row-money">
           <b>$25.00</b>
           <span class="loss">-$1.14 (-4.57%)</span>
-        </div>
-      </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">LINK</div><div class="muted">Oct 8, 5:12 AM</div></div>
-          <span class="badge red">STOP HIT</span>
-        </div>
-        <div class="row-money">
-          <b>$25.00</b>
-          <span class="loss">-$1.11 (-4.44%)</span>
         </div>
       </article>
     </div>
@@ -1483,19 +1483,19 @@
     
     
     <details class="card collapsible">
-      <summary class="section-head"><h2>WOPR Metrics</h2><span class="count">learning on</span></summary>
+      <summary class="section-head"><h2>WOPR Metrics</h2><span class="count">snapshot</span></summary>
       <div class="collapsible-body">
       <div class="metric-grid">
-        <span class="metric "><small>Resolved / target</small><b>128 / 25</b></span>
+        <span class="metric "><small>Resolved / target</small><b>129 / 25</b></span>
         <span class="metric "><small>Open trades</small><b>3</b></span>
-        <span class="metric "><small>Win rate</small><b>40.6%</b></span>
-        <span class="metric loss"><small>Avg return</small><b>-0.59%</b></span>
+        <span class="metric "><small>Win rate</small><b>41.1%</b></span>
+        <span class="metric loss"><small>Avg return</small><b>-0.54%</b></span>
         <span class="metric "><small>Trade reviews</small><b>8</b></span>
         <span class="metric "><small>Upgrade queue</small><b>1</b></span>
         <span class="metric "><small>Waiting buys</small><b>0</b></span>
-        <span class="metric "><small>Live simulations run</small><b>1,735</b></span>
-        <span class="metric "><small>Last simulation run</small><b>Jun 19, 1:05 PM</b></span>
-        <span class="metric "><small>Last scan</small><b>Oct 10, 7:11 AM</b></span>
+        <span class="metric "><small>Live simulations run</small><b>2,519,909</b></span>
+        <span class="metric "><small>Last simulation run</small><b>Jul 29, 11:57 PM</b></span>
+        <span class="metric "><small>Last scan</small><b>Oct 10, 7:33 AM</b></span>
       </div>
     </div>
     </details>
@@ -1504,6 +1504,14 @@
     <details class="card collapsible">
       <summary class="section-head"><h2>Learning Reviews</h2><span class="count">8 latest</span></summary>
       <div class="collapsible-body"><div class="stack">
+      <article class="row-card">
+        <div class="row-top">
+          <div><div class="ticker">LINK</div><div class="muted">Win - Oct 10, 7:31 AM</div></div>
+          <span class="badge ">76/100</span>
+        </div>
+        <div class="activity">LINK win: 5.36% after 2.0 day(s). Target was reached; keep the rule as a positive sample.</div>
+      </article>
+    
       <article class="row-card">
         <div class="row-top">
           <div><div class="ticker">LTC</div><div class="muted">Win - Oct 9, 1:52 AM</div></div>
@@ -1535,14 +1543,6 @@
         </div>
         <div class="activity">LINK overconfident loss: -4.44% after 0.2 day(s). Stop loss hit before the thesis resolved.</div>
       </article>
-    
-      <article class="row-card">
-        <div class="row-top">
-          <div><div class="ticker">LINK</div><div class="muted">Loss - Oct 8, 5:55 AM</div></div>
-          <span class="badge amber">59/100</span>
-        </div>
-        <div class="activity">LINK loss: -4.13% after 1.4 day(s). Stop loss hit before the thesis resolved.</div>
-      </article>
     </div></div>
     </details>
     
@@ -1552,56 +1552,56 @@
       <div class="collapsible-body"><div class="stack">
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">EMAIL</div><div class="muted">* - Oct 10, 7:11 AM</div></div>
+          <div><div class="ticker">BUY</div><div class="muted">LINK - Oct 10, 7:33 AM</div></div>
         </div>
-        <div class="activity"><b></b><br>W.O.P.R. Signal Report</div>
+        <div class="activity"><b></b><br>DCA tranche 1/4: buy $25 at $13.19 or better.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SUPPRESS</div><div class="muted">SOL - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">SUPPRESS</div><div class="muted">SOL - Oct 10, 7:33 AM</div></div>
         </div>
         <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SUPPRESS</div><div class="muted">LTC - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">SUPPRESS</div><div class="muted">LTC - Oct 10, 7:33 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Equivalent trade intent reached its pending-order replacement limit.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SUPPRESS</div><div class="muted">BTC - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">SUPPRESS</div><div class="muted">BTC - Oct 10, 7:33 AM</div></div>
         </div>
         <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">ZIM - Oct 10, 7:33 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 78/100, required 72/100, data 34/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">XRAY - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">XRAY - Oct 10, 7:33 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 29/100, required 72/100, data 20/100.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">SUPPRESS</div><div class="muted">VTRS - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">SUPPRESS</div><div class="muted">VTRS - Oct 10, 7:32 AM</div></div>
         </div>
         <div class="activity"><b></b><br>The canonical matter reviews whether the symbol&#x27;s existing paper risk plan remains justified.</div>
       </article>
     
       <article class="row-card">
         <div class="row-top">
-          <div><div class="ticker">REJECT</div><div class="muted">VST - Oct 10, 7:10 AM</div></div>
+          <div><div class="ticker">REJECT</div><div class="muted">VST - Oct 10, 7:32 AM</div></div>
         </div>
         <div class="activity"><b></b><br>Confidence 41/100, required 72/100, data 26/100.</div>
       </article>
@@ -1636,14 +1636,14 @@
         <strong>normal</strong>
         <h3>Sentinel</h3>
         <p>ONLINE • health 100/100</p>
-        <small>updated 3m ago</small>
+        <small>updated 2m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Scheduler</h3>
-        <p>review_paper_trades</p>
-        <small>updated 6m ago</small>
+        <p>review_rejected_candidates</p>
+        <small>updated 7m ago</small>
       </article>
     
       <article class="annunciator-tile normal">
@@ -1664,34 +1664,34 @@
         <strong>normal</strong>
         <h3>Portfolio Engine</h3>
         <p>DELL</p>
-        <small>updated 5m ago</small>
+        <small>updated 13m ago</small>
       </article>
     
       <article class="annunciator-tile normal">
         <strong>normal</strong>
         <h3>Paper Trader</h3>
         <p>3 open • 0 waiting</p>
-        <small>updated 5m ago</small>
+        <small>updated 13m ago</small>
       </article>
     
       <article class="annunciator-tile normal">
         <strong>normal</strong>
         <h3>Notifications</h3>
         <p>0 queued</p>
-        <small>updated 23h ago</small>
+        <small>updated 13m ago</small>
       </article>
     
       <article class="annunciator-tile caution">
         <strong>caution</strong>
         <h3>Static Mirror</h3>
         <p>Dashboard snapshot exported</p>
-        <small>updated 11h ago</small>
+        <small>updated 12h ago</small>
       </article>
     
       <article class="annunciator-tile warning">
         <strong>warning</strong>
         <h3>Database Health</h3>
-        <p>18266 MB • WAL present</p>
+        <p>18270 MB • WAL present</p>
         <small>updated just now</small>
       </article>
     </div></div>
@@ -1707,7 +1707,7 @@
   <script>
     (() => {
       const refreshMs = 15 * 60 * 1000;
-      const currentGeneratedAt = "2026-10-10T14:16:24.633896+00:00";
+      const currentGeneratedAt = "2026-10-10T14:46:41.060594+00:00";
       const baseUrl = location.origin + location.pathname;
 
       async function checkForUpdate() {
