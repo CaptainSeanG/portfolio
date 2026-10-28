@@ -261,6 +261,91 @@
     },
     {
       "archive_status": "active",
+      "aspect_ratio": 1.5,
+      "asset_id": "2026-07-28-royal-caribbean-beats-earnings-estimates-amid-ge-77d9c81277c5-bb0d28fe4c7d-transparent",
+      "availability": "available_for_future_use",
+      "category": "editorial-derivatives",
+      "color_mode": "RGBA",
+      "commissioned_date": null,
+      "commodity_tags": [],
+      "company_tags": [],
+      "creation_date": "2026-10-28",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "event_tags": [],
+      "lead_eligible": false,
+      "macro_tags": [],
+      "most_recent_use_date": null,
+      "orientation": "landscape",
+      "path": "/newspaper/editorial-derivatives/2026/10/2026-07-28-royal-caribbean-beats-earnings-estimates-amid-ge-77d9c81277c5-bb0d28fe4c7d-transparent.png",
+      "prior_headlines": [],
+      "prior_use_count": 0,
+      "priority": 20,
+      "recommended_use": "2026 07 28 royal caribbean beats earnings estimates amid ge 77d9c81277c5 bb0d28fe4c7d transparent",
+      "region_tags": [],
+      "safe_crop_area": [
+        0.06,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "sector_tags": [],
+      "source": "chronicle_archive",
+      "style": [
+        "vintage",
+        "engraved",
+        "newspaper",
+        "sepia"
+      ],
+      "tags": [
+        "07",
+        "10",
+        "2026",
+        "28",
+        "77d9c81277c5",
+        "amid",
+        "bb0d28fe4c7d",
+        "beats",
+        "caribbean",
+        "derivatives",
+        "earnings",
+        "editorial",
+        "estimates",
+        "ge",
+        "newspaper",
+        "png",
+        "royal",
+        "transparent"
+      ],
+      "ticker_tags": [],
+      "tone": [
+        "neutral"
+      ],
+      "visual_subjects": [
+        "07",
+        "10",
+        "2026",
+        "28",
+        "77d9c81277c5",
+        "amid",
+        "bb0d28fe4c7d",
+        "beats",
+        "caribbean",
+        "derivatives",
+        "earnings",
+        "editorial",
+        "estimates",
+        "ge",
+        "newspaper",
+        "png",
+        "royal",
+        "transparent"
+      ]
+    },
+    {
+      "archive_status": "active",
       "aspect_ratio": 1.0922,
       "asset_id": "agriculture-grain",
       "availability": "available_for_future_use",
@@ -15711,7 +15796,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-10-19",
+      "creation_date": "2026-10-27",
       "dimensions": [
         600,
         465
@@ -18330,7 +18415,7 @@
       "commissioned_date": null,
       "commodity_tags": [],
       "company_tags": [],
-      "creation_date": "2026-10-08",
+      "creation_date": "2026-10-28",
       "dimensions": [
         600,
         465
