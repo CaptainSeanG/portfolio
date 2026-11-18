@@ -1,6 +1,6 @@
 {
   "authority": "verified_chronicle_publication_artifact",
-  "current_publication_id": "chronicle-4f1e8e87ee5ab81554b3",
+  "current_publication_id": "chronicle-6f6420ff0a789eb7c36b",
   "immutable_artifacts": {
     "daily-briefs/2026-08-07-joshua-daily-brief.pdf": {
       "brief_id": "2026-08-07-joshua-morning-paper",
@@ -551,16 +551,24 @@
       "digest": "262fe31876277492bf58785e622d027bc5a2c3f1db16adb8dc2c6b7c77055dd1",
       "issue_number": 95,
       "publication_id": "chronicle-4f1e8e87ee5ab81554b3"
+    },
+    "daily-briefs/2026-11-18-joshua-daily-brief.pdf": {
+      "artifact_class": "immutable_dated_artifact",
+      "brief_id": "2026-11-18-joshua-morning-paper",
+      "canonical_relative_path": "2026-11-18-issue-96-joshua-daily-brief.pdf",
+      "digest": "48163f8faf139dad16ef196baf7afe93d299920ff24c4614f3228277e2107ab6",
+      "issue_number": 96,
+      "publication_id": "chronicle-6f6420ff0a789eb7c36b"
     }
   },
   "mutable_aliases": {
     "joshua-daily-brief.pdf": {
       "artifact_class": "mutable_current_alias",
-      "brief_id": "2026-11-17-joshua-morning-paper",
-      "canonical_relative_path": "2026-11-17-issue-95-joshua-daily-brief.pdf",
-      "digest": "262fe31876277492bf58785e622d027bc5a2c3f1db16adb8dc2c6b7c77055dd1",
-      "issue_number": 95,
-      "publication_id": "chronicle-4f1e8e87ee5ab81554b3"
+      "brief_id": "2026-11-18-joshua-morning-paper",
+      "canonical_relative_path": "2026-11-18-issue-96-joshua-daily-brief.pdf",
+      "digest": "48163f8faf139dad16ef196baf7afe93d299920ff24c4614f3228277e2107ab6",
+      "issue_number": 96,
+      "publication_id": "chronicle-6f6420ff0a789eb7c36b"
     }
   },
   "reconciliation_events": [
